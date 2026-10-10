@@ -1,0 +1,40 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-intro-marker",
+      "title": "Introduce a marker word",
+      "summary": "Teach your dog that a calm 'yes' (or click) always means a reward is coming, before learning new skills.",
+      "derivedFromProtocolId": "proto-marker-charging-dt",
+      "supportingClaimIds": ["claim-dt-marker-001-charge-marker", "claim-dt-pr-003-marker-follow-reward"],
+      "topic": "B.marker_signals",
+      "goodDogModule": "foundation_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": false,
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "lesson-recall-basics",
+      "title": "Build a reliable recall (basics)",
+      "summary": "Start in a secure space, make coming back always worth it, and use a long line before off-lead freedom.",
+      "derivedFromProtocolId": "proto-recall-three-step-dt",
+      "supportingClaimIds": ["claim-dt-recall-001-prerequisite-name", "claim-dt-recall-003-no-punish-late-return"],
+      "topic": "D.recall_emergency_recall",
+      "goodDogModule": "life_skills",
+      "traceabilityStatus": "pending_human_review",
+      "publishedToApp": false,
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "lesson-first-sit",
+      "title": "First sit with a lure",
+      "summary": "Use a treat lure, reward the moment your dog sits, then add the word 'sit' at the right time.",
+      "derivedFromProtocolId": "proto-sit-lure-rspca",
+      "supportingClaimIds": ["claim-rspca-005-sit-lure-timing"],
+      "topic": "D.sit_down_stand",
+      "goodDogModule": "foundation_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": false,
+      "lastReviewed": "2026-10-10"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "id": "meth-positive-reinforcement",
+      "name": "Positive reinforcement (+R)",
+      "description": "Delivering a consequence the dog wants following a desired behaviour to increase future probability of that behaviour.",
+      "topic": "B.operant_conditioning",
+      "imdtAligned": true,
+      "evidenceChannel": "professional_consensus"
+    },
+    {
+      "id": "meth-marker-training",
+      "name": "Marker signal training",
+      "description": "Using a distinct signal (word, click, whistle, or visual) to pinpoint correct behaviour, always followed by reinforcement.",
+      "topic": "B.marker_signals",
+      "imdtAligned": true,
+      "evidenceChannel": "professional_guidance"
+    },
+    {
+      "id": "meth-lure-and-fade",
+      "name": "Lure and fade",
+      "description": "Using food or target to elicit movement into position, then fading the lure as cue and reinforcement structure mature.",
+      "topic": "B.luring_shaping_capturing_chaining",
+      "imdtAligned": true,
+      "evidenceChannel": "professional_guidance"
+    },
+    {
+      "id": "meth-long-line-management",
+      "name": "Long-line training and management",
+      "description": "Using a long line attached to a harness to allow distance while preventing uncontrolled roaming during recall training.",
+      "topic": "C.antecedent_arrangement",
+      "imdtAligned": true,
+      "evidenceChannel": "professional_guidance"
+    }
+  ]
+}

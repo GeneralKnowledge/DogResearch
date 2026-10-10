@@ -1,0 +1,198 @@
+{
+  "protocols": [
+    {
+      "id": "proto-marker-charging-dt",
+      "title": "Charge a marker signal (Dogs Trust pattern)",
+      "intendedOutcome": "Dog shows clear anticipation (orientation toward handler/treats) immediately after marker with no behaviour requirement.",
+      "targetBehaviourIds": ["beh-marker-conditioned-response"],
+      "methodIds": ["meth-marker-training", "meth-positive-reinforcement"],
+      "suitableProfiles": ["puppies", "adult_pet_dogs", "beginner_owners"],
+      "prerequisites": [],
+      "inappropriateWhen": [
+        "Dog is too stressed or fearful to accept food in the current environment",
+        "Dog has medical dietary restrictions without veterinarian-approved alternatives"
+      ],
+      "equipment": ["High-value treats", "Optional clicker or whistle", "Quiet low-distraction space"],
+      "environment": "Indoors or calm area; minimal distractions for initial charging.",
+      "baselineAssessment": "Owner confirms dog will eat offered treats in the training location.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Choose one marker (calm verbal word such as 'yes', clicker, whistle, or visual signal for deaf dogs) and use it consistently in tone and form.",
+          "rewardTiming": "Deliver treat immediately after each marker.",
+          "progressCriteria": "Dog orients toward handler or treats within one second of marker on repeated trials.",
+          "easierIfStruggling": "Use higher-value treats; reduce environmental stimulation; increase distance from distractions.",
+          "failureModes": ["Marker word used in daily speech causing confusion", "Excited marker delivery overstimulates dog"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Repeat marker then treat pairing multiple times in a short session until dog visibly anticipates food after the marker alone.",
+          "rewardTiming": "Treat within 1–2 seconds of marker on every repetition during charging phase.",
+          "progressCriteria": "Anticipatory response to marker without requiring body movement cue.",
+          "easierIfStruggling": "Shorten sessions; pause if dog disengages.",
+          "failureModes": ["Pairing marker with accidental cues", "Gaps between marker and treat too long"]
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Begin teaching new behaviours only after charging criterion met; maintain rule that marker is always followed by reward during learning phase.",
+          "rewardTiming": "Marker marks exact behaviour instant; reward follows immediately.",
+          "progressCriteria": "Stable anticipation across at least two sessions.",
+          "easierIfStruggling": "Re-charge marker in easier environment if anticipation fades.",
+          "failureModes": ["Fading rewards before behaviour learned", "Using marker without following reward"]
+        }
+      ],
+      "reinforcementOptions": ["Food", "Toy play", "Social praise if calm enough not to disrupt learning"],
+      "generalisationMaintenance": "Re-charge briefly after long breaks or highly stressful events if marker value drops.",
+      "welfareMonitoring": ["Dog willing to eat", "Loose body language", "Able to disengage without distress"],
+      "stopConditions": ["Dog refuses food repeatedly", "Signs of fear or shutdown", "Owner frustration rising—pause and simplify"],
+      "safetyPrecautions": ["Do not train on full stomach if dog prone to vomiting with excitement—adjust timing"],
+      "referralRequirements": [],
+      "supportingSourceIds": ["src-dt-introducing-marker", "src-dt-positive-reinforcement"],
+      "supportingClaimIds": ["claim-dt-marker-001-charge-marker", "claim-dt-pr-003-marker-follow-reward", "claim-dt-marker-002-calm-marker-word"],
+      "evidenceConfidence": "high_professional_consensus",
+      "reviewStatus": "auto_accepted_low_risk",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": "Good Dog session rep counts are provisional until in-app testing; sources do not specify universal repetition numbers."
+    },
+    {
+      "id": "proto-recall-three-step-dt",
+      "title": "Recall training — three-step progression (Dogs Trust)",
+      "intendedOutcome": "Dog returns to handler promptly on one recall cue in progressively distracting environments.",
+      "targetBehaviourIds": ["beh-recall-to-handler", "beh-name-orientation"],
+      "methodIds": ["meth-positive-reinforcement", "meth-long-line-management", "meth-marker-training"],
+      "suitableProfiles": ["puppies_from_name_training_ready", "adult_dogs", "most_breeds"],
+      "prerequisites": ["beh-name-orientation"],
+      "inappropriateWhen": [
+        "Dog showing severe fear, aggression, or panic outdoors without qualified behaviour support plan",
+        "Unsafe environment (traffic, unfenced livestock) without long-line or secure area"
+      ],
+      "equipment": ["High-value treats", "Long line attached to harness", "Optional whistle", "Household-agreed recall word and visual cue"],
+      "environment": "Start indoors, garden, or enclosed space; later generalise with long line outdoors.",
+      "baselineAssessment": "Owner can get name response reliably in low distraction settings before adding recall cue.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Establish reliable name response, then introduce one short recall cue (e.g. 'come' or 'here') plus optional open-arms visual signal; ensure all household members use the same cues.",
+          "rewardTiming": "Reward not applicable until recall occurs; during name work reward orientation to name.",
+          "progressCriteria": "Consistent name orientation in low distraction before recall cue added.",
+          "easierIfStruggling": "Return to name-only games; reduce distance and distractions.",
+          "failureModes": ["Repeating recall cue rapidly", "Different cues used by family members"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "In enclosed space, get attention with name, give recall cue, step away; reward generously with praise and treats when dog arrives; use happy voice and welcoming body language even if response is slow.",
+          "rewardTiming": "Reward immediately on arrival; use especially high value rewards after disengaging from interesting stimuli.",
+          "progressCriteria": "Dog willingly approaches from increasing short distances indoors/enclosed garden.",
+          "easierIfStruggling": "Shorten distance; increase treat value; reduce distractions.",
+          "failureModes": ["Ending walk or scolding on return", "Low-value rewards for difficult recalls"]
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Increase distance and distractions gradually; let dog move away before cueing recall; use long line on harness for safety; if ignore occurs stay calm, guide gently with long line without pulling toward you, or collect dog; reward high-value when dog returns without extra guidance.",
+          "rewardTiming": "High-value reward on voluntary return; intermittent rewards after skill stabilises.",
+          "progressCriteria": "Reliable recalls on long line with moderate distractions before off-lead in open spaces.",
+          "easierIfStruggling": "Reduce distraction level; increase distance slowly; use secure fields.",
+          "failureModes": ["Off-lead before ready", "Pulling dog in on line", "Shouting or punishing late return"]
+        }
+      ],
+      "reinforcementOptions": ["Food", "Play", "Access to sniff/explore as life reward after successful recall"],
+      "generalisationMaintenance": "Practice regularly even if dog usually on lead; occasional high-value rewards to maintain motivation.",
+      "welfareMonitoring": ["Stress signs on return", "Avoidance of handler after recall", "Over-arousal preventing settle"],
+      "stopConditions": ["Repeated failure without improvement—refer to qualified trainer/behaviourist", "Dog escaping harness or long line—fix equipment before continuing"],
+      "safetyPrecautions": [
+        "Off-lead in open spaces only when confident recall is reliable",
+        "Collar ID tag and microchip compliance per UK guidance (verify legally current)",
+        "Use harness and long line; do not pull dog toward handler on line"
+      ],
+      "referralRequirements": ["Persistent running away without improvement → qualified trainer or behaviourist (Dogs Trust)"],
+      "supportingSourceIds": ["src-dt-recall-training", "src-dt-escaping-running-away"],
+      "supportingClaimIds": [
+        "claim-dt-recall-001-prerequisite-name",
+        "claim-dt-recall-002-five-second-rule",
+        "claim-dt-recall-003-no-punish-late-return",
+        "claim-dt-recall-004-offlead-criteria",
+        "claim-dt-escape-001-unreliable-recall-management"
+      ],
+      "evidenceConfidence": "high_professional_guidance",
+      "reviewStatus": "requires_human_review",
+      "reviewReason": "Safety-critical real-world recall; off-lead criteria need app-specific measurable thresholds.",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": "Five-second inter-cue interval taken from Dogs Trust; Good Dog should label as source-based guidance not research constant."
+    },
+    {
+      "id": "proto-sit-lure-rspca",
+      "title": "Teach sit with food lure (RSPCA six-step outline)",
+      "intendedOutcome": "Dog sits on verbal cue 'sit' with hindquarters on ground.",
+      "targetBehaviourIds": ["beh-sit-on-cue"],
+      "methodIds": ["meth-lure-and-fade", "meth-positive-reinforcement"],
+      "suitableProfiles": ["puppies", "adult_dogs_new_to_training"],
+      "prerequisites": [],
+      "inappropriateWhen": ["Orthopaedic pain when sitting—seek veterinary assessment first"],
+      "equipment": ["Small tasty treats"],
+      "environment": "Quiet room with minimal distractions initially.",
+      "baselineAssessment": "Dog can stand comfortably and follow food lure with nose.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "With dog standing, hold treat near nose.",
+          "rewardTiming": "No reward until sit occurs in later steps.",
+          "progressCriteria": "Dog tracks treat with nose.",
+          "easierIfStruggling": "Use smellier treat; shorten sessions.",
+          "failureModes": ["Lure held too high causing jump"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Move hand in arc over head so dog follows treat; as head rises, bottom goes to floor; praise and treat the instant sit happens.",
+          "rewardTiming": "Treat immediately on sit.",
+          "progressCriteria": "Bottom contacts floor following lure arc.",
+          "easierIfStruggling": "Smaller arc; reward partial sits only if shaping intentionally.",
+          "failureModes": ["Backing up instead of sitting—train with wall behind"]
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Practice in short regular sessions.",
+          "rewardTiming": "Treat each successful sit during acquisition.",
+          "progressCriteria": "Repeated sits with lure.",
+          "easierIfStruggling": "Fewer reps per session.",
+          "failureModes": ["Sessions too long"]
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Add verbal cue 'sit' as dog moves into sit, not before movement.",
+          "rewardTiming": "Treat on completed sit after cue timed correctly.",
+          "progressCriteria": "Dog sits when lure used with correctly timed verbal cue.",
+          "easierIfStruggling": "Delay adding verbal cue until lure reliable.",
+          "failureModes": ["Cue spoken before movement"]
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Continue short regular practice.",
+          "rewardTiming": "Maintain reinforcement for correct sits.",
+          "progressCriteria": "Sit begins without excessive lure dependence.",
+          "easierIfStruggling": "Fade lure gradually—not specified numerically by RSPCA.",
+          "failureModes": ["Fading lure too fast"]
+        },
+        {
+          "stepNumber": 6,
+          "instruction": "Use an 'okay' or release cue to mark end of exercise.",
+          "rewardTiming": "Optional release reward per owner choice.",
+          "progressCriteria": "Dog waits until release after sit when trained for duration separately.",
+          "easierIfStruggling": "Keep duration short initially.",
+          "failureModes": ["No clear end to exercise"]
+        }
+      ],
+      "reinforcementOptions": ["Food treats", "Praise"],
+      "generalisationMaintenance": "Practice in new rooms and with mild distractions after quiet-room success.",
+      "welfareMonitoring": ["Reluctance to sit", "Pain signs"],
+      "stopConditions": ["Pain or reluctance → veterinary check"],
+      "safetyPrecautions": [],
+      "referralRequirements": [],
+      "supportingSourceIds": ["src-rspca-sit", "src-rspca-dog-training"],
+      "supportingClaimIds": ["claim-rspca-005-sit-lure-timing", "claim-rspca-002-short-sessions"],
+      "evidenceConfidence": "high_professional_guidance",
+      "reviewStatus": "auto_accepted_low_risk",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": "Lure fade criteria are provisional for Good Dog UX."
+    }
+  ]
+}

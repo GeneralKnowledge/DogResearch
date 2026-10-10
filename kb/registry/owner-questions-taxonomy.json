@@ -1,0 +1,51 @@
+{
+  "taxonomyId": "oq-tax-v1",
+  "derivedFromSourceIds": ["src-dt-escaping-running-away", "src-dt-recall-training"],
+  "evidenceChannel": "owner_question_discovery",
+  "notes": "Questions phrased from common owner problems in charity guidance—not proof of best solutions.",
+  "categories": [
+    {
+      "id": "oq-recall",
+      "label": "Recall and off-lead safety",
+      "questions": [
+        {
+          "id": "oq-recall-001",
+          "text": "Why won't my dog come when called?",
+          "subthemes": [
+            "hasn't learned name or recall",
+            "scared by stimuli",
+            "worried about being told off or put back on lead",
+            "over-excited or frustrated",
+            "chasing wildlife",
+            "boredom and exploration"
+          ],
+          "sourceLocator": "src-dt-escaping-running-away"
+        },
+        {
+          "id": "oq-recall-002",
+          "text": "Can my dog ever go off-lead in public?",
+          "subthemes": ["some dogs cannot reliably off-lead", "emergency recall still worth practising"],
+          "sourceLocator": "src-dt-escaping-running-away"
+        }
+      ]
+    },
+    {
+      "id": "oq-training-basics",
+      "label": "Getting started with training",
+      "questions": [
+        {
+          "id": "oq-train-001",
+          "text": "What reward should I use if my dog isn't food motivated outdoors?",
+          "subthemes": ["higher value treats", "toys", "environmental rewards"],
+          "sourceLocator": "src-dt-positive-reinforcement"
+        },
+        {
+          "id": "oq-train-002",
+          "text": "How do I find a safe trainer or class in the UK?",
+          "subthemes": ["ABTC register", "avoid aversive methods"],
+          "sourceLocator": "src-rspca-find-trainer"
+        }
+      ]
+    }
+  ]
+}

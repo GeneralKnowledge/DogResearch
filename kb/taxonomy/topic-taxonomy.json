@@ -1,0 +1,156 @@
+{
+  "id": "tax-good-dog-canine-v1",
+  "title": "Good Dog canine training knowledge taxonomy",
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "A",
+      "code": "behaviour_communication",
+      "title": "Canine behaviour and communication",
+      "subtopics": [
+        "body_language",
+        "stress_fear_arousal",
+        "displacement_behaviours",
+        "dog_dog_communication",
+        "dog_human_communication",
+        "contextual_interpretation",
+        "individual_differences"
+      ]
+    },
+    {
+      "id": "B",
+      "code": "learning_theory",
+      "title": "Learning theory",
+      "subtopics": [
+        "classical_conditioning",
+        "operant_conditioning",
+        "reinforcement_punishment_quadrant",
+        "marker_signals",
+        "clicker_training",
+        "luring_shaping_capturing_chaining",
+        "reinforcement_schedules",
+        "generalisation",
+        "motivation_extinction"
+      ]
+    },
+    {
+      "id": "C",
+      "code": "training_mechanics",
+      "title": "Training mechanics",
+      "subtopics": [
+        "timing_rate_of_reinforcement",
+        "session_planning",
+        "antecedent_arrangement",
+        "distance_duration_distraction",
+        "generalisation_handlers_locations",
+        "fading_prompts_lures",
+        "troubleshooting_learning"
+      ]
+    },
+    {
+      "id": "D",
+      "code": "foundation_behaviours",
+      "title": "Foundation behaviours",
+      "subtopics": [
+        "name_response_attention",
+        "hand_targeting_engagement",
+        "sit_down_stand",
+        "wait_stay_settle",
+        "recall_emergency_recall",
+        "leave_it_drop",
+        "loose_lead_greetings",
+        "cooperative_handling_vet_prep",
+        "toilet_training_manners"
+      ]
+    },
+    {
+      "id": "E",
+      "code": "puppy_adolescent",
+      "title": "Puppy and adolescent development",
+      "subtopics": [
+        "socialisation_exposure",
+        "habituation_confidence",
+        "puppy_biting_chewing_sleep",
+        "fearful_responses_adolescence",
+        "safe_introductions"
+      ]
+    },
+    {
+      "id": "F",
+      "code": "enrichment_welfare",
+      "title": "Enrichment and welfare",
+      "subtopics": [
+        "sniffing_foraging_scent",
+        "physical_activity_rest",
+        "choice_control_safe_spaces",
+        "low_cost_enrichment",
+        "breed_tendencies"
+      ]
+    },
+    {
+      "id": "G",
+      "code": "behaviour_problems",
+      "title": "Common behaviour problems",
+      "subtopics": [
+        "lead_reactivity_barking",
+        "fear_noise_separation",
+        "resource_guarding_chasing",
+        "jumping_mouthing",
+        "destructive_digging_settling",
+        "handling_sensitivity_aggression",
+        "management_referral"
+      ]
+    },
+    {
+      "id": "H",
+      "code": "health_professional_boundaries",
+      "title": "Health and professional boundaries",
+      "subtopics": [
+        "pain_illness_ageing",
+        "veterinary_assessment",
+        "bite_prevention_dog_child",
+        "scope_of_practice_referral",
+        "education_vs_clinical"
+      ]
+    },
+    {
+      "id": "I",
+      "code": "assessment_progression",
+      "title": "Training assessment and progression",
+      "subtopics": [
+        "baseline_measurable_goals",
+        "progression_criteria",
+        "metrics_latency_duration",
+        "setbacks_regression",
+        "owner_adherence",
+        "stop_escalation_criteria"
+      ]
+    },
+    {
+      "id": "J",
+      "code": "special_populations",
+      "title": "Special populations and contexts",
+      "subtopics": [
+        "rescue_rehomed",
+        "older_dogs_disabilities",
+        "limited_training_history",
+        "multi_dog_households",
+        "rural_urban_small_home",
+        "children_other_animals"
+      ]
+    },
+    {
+      "id": "K",
+      "code": "evidence_ethics_regulation",
+      "title": "Evidence, ethics and regulation",
+      "subtopics": [
+        "imdt_ethics",
+        "abtc_standards",
+        "veterinary_welfare_guidance",
+        "training_equipment_welfare",
+        "evidence_gaps_debates",
+        "uk_law_professional"
+      ]
+    }
+  ]
+}

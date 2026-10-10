@@ -1,0 +1,15 @@
+{
+  "relationships": [
+    { "type": "supported_by", "from": "claim-imdt-001-force-free", "to": "src-imdt-code-of-ethics" },
+    { "type": "supported_by", "from": "claim-hiby-001-reward-obedience-correlation", "to": "study-hiby-rooney-bradshaw-2004" },
+    { "type": "evaluated_by", "from": "claim-hiby-001-reward-obedience-correlation", "to": "study-hiby-rooney-bradshaw-2004" },
+    { "type": "contradicts", "from": "claim-imdt-002-no-pp-nr", "to": "claim-hiby-004-punishment-historical" },
+    { "type": "addresses", "from": "proto-recall-three-step-dt", "to": "beh-recall-to-handler" },
+    { "type": "requires", "from": "proto-recall-three-step-dt", "to": "beh-name-orientation" },
+    { "type": "constrained_by", "from": "proto-recall-three-step-dt", "to": "safe-002-recall-management" },
+    { "type": "constrained_by", "from": "proto-recall-three-step-dt", "to": "safe-003-no-punish-return" },
+    { "type": "derived_from", "from": "lesson-recall-basics", "to": "proto-recall-three-step-dt" },
+    { "type": "supported_by", "from": "lesson-intro-marker", "to": "claim-dt-marker-001-charge-marker" },
+    { "type": "references", "from": "disc-001-punishment-efficacy-population", "to": "claim-hiby-003-welfare-conclusion" }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "batchId": "batch-001",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    {
+      "sourceId": "src-imdt-code-of-ethics",
+      "url": "https://www.imdt.uk.com/code-of-ethics",
+      "httpStatus": 200,
+      "contentHash": null,
+      "notes": "Ethics bullets extracted; full HTML not stored."
+    },
+    {
+      "sourceId": "src-abtc-owners",
+      "url": "https://abtc.org.uk/owners/",
+      "httpStatus": 200,
+      "contentHash": null,
+      "notes": "Partial; aversive list deferred."
+    },
+    {
+      "sourceId": "src-dt-positive-reinforcement",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/positive-reinforcement-training-with-rewards",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-dt-introducing-marker",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/introducing-a-marker",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-dt-recall-training",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/recall-training",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-rspca-dog-training",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-rspca-find-trainer",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/trainer",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-rspca-sit",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/sit",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "study-hiby-rooney-bradshaw-2004",
+      "url": "https://doi.org/10.1017/S0962728600026683",
+      "httpStatus": "metadata_only",
+      "notes": "Claims from abstract and discussion excerpts; full text not reproduced."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "disagreements": [
+    {
+      "id": "disc-001-punishment-efficacy-population",
+      "question": "Can punishment-based training be effective, and for whom?",
+      "claimIdsInTension": ["claim-hiby-003-welfare-conclusion", "claim-hiby-004-punishment-historical", "claim-imdt-002-no-pp-nr"],
+      "areasOfAgreement": [
+        "Pet-owner community survey (Hiby 2004) found punishment use associated with more reported problems and not with higher obedience ratings.",
+        "IMDT and ABTC professional standards for Good Dog alignment reject routine aversive training."
+      ],
+      "disagreementSummary": "Authors of Hiby et al. acknowledge historical effective use of punishment in some expert training contexts while recommending reward-based approaches for typical pet owners; IMDT ethics prohibit +/-P and +/-R as training tools for members regardless.",
+      "likelyCauses": [
+        "Different populations (professional working dogs vs pet owners)",
+        "Definitions of punishment and training quality",
+        "Correlational vs experimental evidence",
+        "Ethical vs efficacy framing"
+      ],
+      "goodDogPosition": "Recommend reward-based methods only; preserve scientific nuance in evidence layer, not in owner default protocols.",
+      "researchGaps": ["Modern RCTs and welfare measures for pet dogs under different training regimens", "Longitudinal designs"],
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "disc-002-owner-report-vs-welfare",
+      "question": "Do owner-reported 'fewer behaviour problems' with reward training reflect improved welfare?",
+      "claimIdsInTension": ["claim-dt-pr-001-definition"],
+      "areasOfAgreement": ["Dogs Trust cites owner reports and welfare-oriented reasoning for reward training."],
+      "disagreementSummary": "Charity guidance links reward training to fewer reported problems; Hiby uses problem reports as possible welfare indicators but causality is unproven.",
+      "likelyCauses": ["Self-report bias", "Confounding owner variables"],
+      "goodDogPosition": "Present charity guidance with evidence typing; do not overstate causal welfare claims from surveys alone.",
+      "researchGaps": ["Objective welfare measures paired with training method data"],
+      "lastReviewed": "2026-10-10"
+    }
+  ]
+}

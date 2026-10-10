@@ -1,0 +1,17 @@
+{
+  "description": "Descriptive records of sources or techniques flagged by Good Dog ethics filters—not promoted as app protocols.",
+  "entries": [
+    {
+      "id": "flag-template-dominance-routine",
+      "title": "Routine dominance / alpha discipline narratives",
+      "flagReasons": [
+        "misrepresents_dominance_theory",
+        "coercive_routine_training"
+      ],
+      "goodDogAction": "do_not_recommend",
+      "notes": "Placeholder category for batch 002 when specific public pages are documented with metadata only.",
+      "relatedSafetyRuleIds": ["safe-001-no-aversive-routine"],
+      "lastReviewed": "2026-10-10"
+    }
+  ]
+}
