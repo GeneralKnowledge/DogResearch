@@ -617,6 +617,18 @@
       "publisher": "Association of Pet Behaviour Counsellors"
     },
     {
+      "id": "src-dt-rehoming-hub",
+      "kind": "source",
+      "title": "Rehoming — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/rehoming",
+      "topics": [
+        "J.rescue_rehomed",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_009",
+      "publisher": "Dogs Trust"
+    },
+    {
       "id": "claim-imdt-001-force-free",
       "kind": "claim",
       "title": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may …",
@@ -1520,6 +1532,26 @@
       "sourceId": "src-dt-jumping-up"
     },
     {
+      "id": "claim-kb-gap-rspca-no-noise-page",
+      "kind": "claim",
+      "title": "As of batch 005 retrieval (2026-10-10), no stable RSPCA public URL was found for fireworks/noise desensitisation; KindTr…",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-fireworks-seasonal"
+    },
+    {
+      "id": "claim-kb-monitor-noise-desens-rct",
+      "kind": "claim",
+      "title": "KindTrail monitors peer-reviewed literature for dog/cat noise desensitisation RCTs in pet homes; no new RCT entry added …",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-fireworks-seasonal"
+    },
+    {
       "id": "claim-dt-focus-001-reward-attention",
       "kind": "claim",
       "title": "Dogs Trust focus training rewards the dog for voluntarily looking at the handler, building engagement before adding dist…",
@@ -1640,6 +1672,46 @@
       "sourceId": "study-vieira-castro-2021-protocol"
     },
     {
+      "id": "claim-dt-rehome-001-patience",
+      "kind": "claim",
+      "title": "Dogs Trust rehoming guidance emphasises giving rescue dogs time to settle, avoiding overwhelming new environments, and s…",
+      "topics": [
+        "J.rescue_rehomed"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-rehoming-hub"
+    },
+    {
+      "id": "claim-dt-adolescent-001-regression",
+      "kind": "claim",
+      "title": "Dogs Trust Puppy 101 and adolescent life-stage guidance note that dogs can show renewed fear or testing behaviour during…",
+      "topics": [
+        "E.adolescent_development"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-puppy-training-101"
+    },
+    {
+      "id": "claim-dt-hand-target-001",
+      "kind": "claim",
+      "title": "Dogs Trust focus and target-style training rewards the dog for orienting to the handler's hand, building engagement befo…",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-focus-training"
+    },
+    {
+      "id": "claim-dt-vet-prep-001",
+      "kind": "claim",
+      "title": "KindTrail vet-prep guidance synthesises charity handling advice: pair gentle handling with treats, stop if stress signs …",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "low",
+      "sourceId": "src-dt-rehoming-hub"
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -1652,7 +1724,7 @@
       "id": "proto-recall-three-step-dt",
       "kind": "protocol",
       "title": "Recall training — three-step progression (Dogs Trust)",
-      "reviewStatus": "requires_human_review",
+      "reviewStatus": "reviewed_pilot_export",
       "behaviourIds": [
         "beh-recall-to-handler",
         "beh-name-orientation"
@@ -1734,7 +1806,7 @@
       "id": "proto-recall-emergency-good-dog",
       "kind": "protocol",
       "title": "Emergency recall principles (RSPCA + Dogs Trust synthesis)",
-      "reviewStatus": "requires_human_review",
+      "reviewStatus": "reviewed_pilot_export",
       "behaviourIds": [
         "beh-recall-to-handler"
       ]
@@ -1752,7 +1824,7 @@
       "id": "proto-reactive-walk-management-dt",
       "kind": "protocol",
       "title": "Lead reactivity — in-the-moment management (Dogs Trust)",
-      "reviewStatus": "requires_human_review",
+      "reviewStatus": "reviewed_pilot_export",
       "behaviourIds": [
         "beh-calm-at-trigger-distance"
       ]
@@ -1770,7 +1842,7 @@
       "id": "proto-fireworks-management-dt",
       "kind": "protocol",
       "title": "Fireworks season — management and comfort (Dogs Trust)",
-      "reviewStatus": "requires_human_review",
+      "reviewStatus": "reviewed_pilot_export",
       "behaviourIds": [
         "beh-calm-in-safe-space"
       ]
@@ -1809,6 +1881,33 @@
       "reviewStatus": "requires_human_review",
       "behaviourIds": [
         "beh-sit-on-cue"
+      ]
+    },
+    {
+      "id": "proto-rescue-settling-dt",
+      "kind": "protocol",
+      "title": "Rescue dog — first weeks settling plan",
+      "reviewStatus": "reviewed_pilot_export",
+      "behaviourIds": [
+        "beh-stress-sign-observed"
+      ]
+    },
+    {
+      "id": "proto-adolescent-regression-mgmt",
+      "kind": "protocol",
+      "title": "Adolescent regression — reduce pressure",
+      "reviewStatus": "reviewed_pilot_export",
+      "behaviourIds": [
+        "beh-stress-sign-observed"
+      ]
+    },
+    {
+      "id": "proto-loose-lead-force-free-draft",
+      "kind": "protocol",
+      "title": "Loose-lead walking — reward check-ins (draft, force-free)",
+      "reviewStatus": "requires_human_review",
+      "behaviourIds": [
+        "beh-loose-lead-walk"
       ]
     }
   ]

@@ -76,6 +76,66 @@
       ]
     },
     {
+      "id": "oq-noise-fireworks",
+      "label": "Noise and fireworks",
+      "questions": [
+        {
+          "id": "oq-noise-001",
+          "text": "How can I help my dog during fireworks?",
+          "subthemes": ["safe space", "routine", "masking sounds", "vet if health concerns"],
+          "sourceLocator": "src-dt-fireworks-seasonal",
+          "relatedLessonId": "lesson-fireworks-management"
+        },
+        {
+          "id": "oq-noise-002",
+          "text": "When is noise fear more than I can manage at home?",
+          "subthemes": ["severe panic", "self-injury", "behaviourist/vet plan"],
+          "sourceLocator": "src-dt-fireworks-seasonal",
+          "relatedLessonId": "lesson-fireworks-management"
+        }
+      ]
+    },
+    {
+      "id": "oq-guarding-stealing",
+      "label": "Stealing and guarding",
+      "questions": [
+        {
+          "id": "oq-guard-001",
+          "text": "Why does my dog run away with stolen items?",
+          "subthemes": ["chase game reinforcement", "enrichment", "trade-up"],
+          "sourceLocator": "src-dt-stop-stealing",
+          "relatedLessonId": "lesson-steal-chase"
+        },
+        {
+          "id": "oq-guard-002",
+          "text": "Should I chase my dog to get something back?",
+          "subthemes": ["do not chase", "ignore safe steals until drop", "refer if aggression"],
+          "sourceLocator": "src-dt-stop-stealing",
+          "relatedLessonId": "lesson-steal-chase"
+        }
+      ]
+    },
+    {
+      "id": "oq-jumping-mouthing",
+      "label": "Jumping and mouthing",
+      "questions": [
+        {
+          "id": "oq-jump-001",
+          "text": "How do I stop my dog jumping on visitors?",
+          "subthemes": ["four paws on floor", "everyone consistent", "reward calm"],
+          "sourceLocator": "src-dt-jumping-up",
+          "relatedLessonId": "lesson-jumping-up"
+        },
+        {
+          "id": "oq-mouth-001",
+          "text": "My puppy won't stop mouthing me—what now?",
+          "subthemes": ["meet needs", "redirect to chews", "behaviour support line if injury"],
+          "sourceLocator": "src-dt-mouthing-nipping",
+          "relatedLessonId": "lesson-mouthing-redirect"
+        }
+      ]
+    },
+    {
       "id": "oq-puppy-socialisation",
       "label": "Puppy socialisation",
       "questions": [

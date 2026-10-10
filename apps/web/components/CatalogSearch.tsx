@@ -40,11 +40,21 @@ export function CatalogSearch() {
         <ul>
           {results.map((e) => {
             const isLesson = e.kind === "lesson" && publishedIds.has(e.id);
+            const oq = data.ownerQuestions
+              ?.flatMap((c) => c.questions.map((q) => ({ ...q, cat: c.id })))
+              .find((q) => q.id === e.id);
+            const relatedLesson = (oq as { relatedLessonId?: string } | undefined)
+              ?.relatedLessonId;
             return (
               <li key={`${e.kind}-${e.id}`}>
                 <span className="pill">{e.kind}</span>{" "}
                 {isLesson ? (
                   <Link href={`/learn/lesson/${e.id}`}>{e.title}</Link>
+                ) : relatedLesson && publishedIds.has(relatedLesson) ? (
+                  <>
+                    {e.title}{" "}
+                    <Link href={`/learn/lesson/${relatedLesson}`}>Go to lesson</Link>
+                  </>
                 ) : (
                   <span>{e.title}</span>
                 )}

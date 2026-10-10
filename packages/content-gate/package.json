@@ -5,7 +5,8 @@
   "type": "module",
   "main": "./index.mjs",
   "exports": {
-    ".": "./index.mjs"
+    ".": "./index.mjs",
+    "./good-dog-export.mjs": "./good-dog-export.mjs"
   },
   "dependencies": {
     "@gooddog/kb-core": "0.1.0"

@@ -6,7 +6,10 @@
       "title": "Controlling your dog in public — GOV.UK",
       "publisher": "UK Government (GOV.UK)",
       "sourceType": "legal_guidance",
-      "topics": ["K.uk_law_professional", "H.scope_of_practice_referral"],
+      "topics": [
+        "K.uk_law_professional",
+        "H.scope_of_practice_referral"
+      ],
       "contentClass": "legal_reference",
       "retrievedDate": "2026-10-10",
       "licence": "open_government_licence",
@@ -23,7 +26,9 @@
       "title": "Dangerous Dogs Act 1991",
       "publisher": "UK Legislation",
       "sourceType": "legislation",
-      "topics": ["K.uk_law_professional"],
+      "topics": [
+        "K.uk_law_professional"
+      ],
       "contentClass": "legal_reference",
       "retrievedDate": "2026-10-10",
       "licence": "legislation_open",
@@ -40,11 +45,14 @@
       "title": "BVA policy — Abnormal behaviour",
       "publisher": "British Veterinary Association",
       "sourceType": "professional_standard",
-      "topics": ["H.pain_illness_ageing", "H.scope_of_practice_referral"],
+      "topics": [
+        "H.pain_illness_ageing",
+        "H.scope_of_practice_referral"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
-      "displayEligibility": "paraphrase_ok_pending_legal",
+      "displayEligibility": "paraphrase_ok",
       "reuseNotes": "Paraphrase only.",
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_008",
@@ -57,7 +65,10 @@
       "title": "APBC owner handouts",
       "publisher": "Association of Pet Behaviour Counsellors",
       "sourceType": "professional_guidance",
-      "topics": ["K.abtc_standards", "A.stress_fear_arousal"],
+      "topics": [
+        "K.abtc_standards",
+        "A.stress_fear_arousal"
+      ],
       "contentClass": "owner_education",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -66,7 +77,9 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_008",
       "qualityTier": "high_practical",
-      "issues": ["HTTP 202 in automated fetch; verify in browser"]
+      "issues": [
+        "HTTP 202 in automated fetch; verify in browser"
+      ]
     }
   ],
   "claims": [
@@ -82,7 +95,9 @@
       "confidence": "high",
       "confidenceJustification": "Official GOV.UK overview page.",
       "contradictingClaimIds": [],
-      "limitations": ["Not a substitute for legal advice; local bylaws vary."],
+      "limitations": [
+        "Not a substitute for legal advice; local bylaws vary."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -98,7 +113,9 @@
       "confidence": "high",
       "confidenceJustification": "Primary legislation index.",
       "contradictingClaimIds": [],
-      "limitations": ["Amendments and case law not fully captured."],
+      "limitations": [
+        "Amendments and case law not fully captured."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": false
     },
@@ -130,7 +147,9 @@
       "confidence": "medium",
       "confidenceJustification": "Owners page extracted batch 001; detailed role standards PDFs blocked.",
       "contradictingClaimIds": [],
-      "limitations": ["Await ABTC role standard PDF ingestion."],
+      "limitations": [
+        "Await ABTC role standard PDF ingestion."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -146,7 +165,9 @@
       "confidence": "medium",
       "confidenceJustification": "APBC handout hub registered; individual PDFs not fully extracted.",
       "contradictingClaimIds": [],
-      "limitations": ["Automated fetch returned 202; human verify excerpt."],
+      "limitations": [
+        "Automated fetch returned 202; human verify excerpt."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -162,13 +183,23 @@
       "confidence": "high",
       "confidenceJustification": "Internal monitoring claim.",
       "contradictingClaimIds": [],
-      "limitations": ["Re-run literature scan each batch."],
+      "limitations": [
+        "Re-run literature scan each batch."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": false
     }
   ],
   "relationships": [
-    { "type": "supported_by", "from": "claim-abtc-roles-001-boundaries", "to": "claim-rspca-003-abtc-trainer" },
-    { "type": "supported_by", "from": "claim-apbc-001-growl-not-punish", "to": "safe-005-growl-not-punish" }
+    {
+      "type": "supported_by",
+      "from": "claim-abtc-roles-001-boundaries",
+      "to": "claim-rspca-003-abtc-trainer"
+    },
+    {
+      "type": "supported_by",
+      "from": "claim-apbc-001-growl-not-punish",
+      "to": "safe-005-growl-not-punish"
+    }
   ]
 }

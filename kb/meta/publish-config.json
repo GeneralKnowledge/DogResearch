@@ -6,23 +6,53 @@
     "lesson-down-basics",
     "lesson-name-attention",
     "lesson-settle-mat",
+    "lesson-stay-basics",
     "lesson-leave-it-basics",
     "lesson-rspca-leave",
     "lesson-loose-lead",
     "lesson-puppy-socialisation",
     "lesson-recall-basics",
+    "lesson-emergency-recall",
     "lesson-steal-chase",
     "lesson-jumping-up",
     "lesson-mouthing-redirect",
-    "lesson-read-your-dog-stress"
+    "lesson-read-your-dog-stress",
+    "lesson-fireworks-management",
+    "lesson-reactive-management",
+    "lesson-rescue-settling",
+    "lesson-adolescent-regression"
   ],
-  "excludedLessonIds": ["lesson-reactive-management"],
-  "advisoryLessonIds": ["lesson-puppy-socialisation"],
+  "excludedLessonIds": [],
+  "advisoryLessonIds": [
+    "lesson-puppy-socialisation",
+    "lesson-fireworks-management",
+    "lesson-reactive-management",
+    "lesson-emergency-recall",
+    "lesson-rescue-settling",
+    "lesson-adolescent-regression"
+  ],
+  "advisoryMessages": {
+    "lesson-puppy-socialisation": "Follow your vet's vaccination and socialisation timing for your puppy.",
+    "lesson-fireworks-management": "If your dog panics, injures themselves, or stops eating, contact your vet and seek qualified behaviour support.",
+    "lesson-reactive-management": "Management only—not a treatment plan for aggression. See your vet first; use ABTC-registered help for ongoing reactivity.",
+    "lesson-emergency-recall": "Practice in secure areas on a long line. Do not rely on emergency recall off-lead in public until tier-2 recall metrics are met.",
+    "lesson-rescue-settling": "Rescue dogs may need extra time and professional support—avoid overwhelming new environments.",
+    "lesson-adolescent-regression": "Teenage fear periods vary; reduce pressure and seek help if anxiety persists."
+  },
   "excludeProtocolReviewStatus": ["requires_human_review"],
   "allowProtocolsDespiteReview": [
     "proto-puppy-socialisation-dt",
     "proto-recall-three-step-dt",
     "proto-ddd-progression-skeleton"
   ],
-  "requireDisplayEligibility": ["paraphrase_ok", "paraphrase_ok_pending_legal"]
+  "requireDisplayEligibility": ["paraphrase_ok", "paraphrase_ok_pending_legal"],
+  "managementLessonIds": [
+    "lesson-steal-chase",
+    "lesson-fireworks-management",
+    "lesson-reactive-management",
+    "lesson-rescue-settling",
+    "lesson-adolescent-regression",
+    "lesson-puppy-socialisation"
+  ],
+  "educationOnlyLessonIds": ["lesson-read-your-dog-stress"]
 }

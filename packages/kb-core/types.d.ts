@@ -48,6 +48,10 @@ export interface Protocol {
   supportingClaimIds?: string[];
   referralRequirements?: string[];
   safetyPrecautions?: string[];
+  lastReviewed?: string;
+  goodDogExerciseId?: string;
+  goodDogExportStatus?: string;
+  methodTags?: string[];
 }
 
 export interface Lesson {
@@ -60,6 +64,10 @@ export interface Lesson {
   goodDogModule: string;
   traceabilityStatus: string;
   publishedToApp: boolean;
+  educationOnly?: boolean;
+  lastReviewed?: string;
+  goodDogExerciseId?: string;
+  newExercise?: boolean;
 }
 
 export interface SafetyRule {

@@ -6,11 +6,14 @@
       "title": "How to train your dog to focus on you",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.name_response_attention", "C.session_planning"],
+      "topics": [
+        "D.name_response_attention",
+        "C.session_planning"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
-      "displayEligibility": "paraphrase_ok_pending_legal",
+      "displayEligibility": "paraphrase_ok",
       "reuseNotes": "Paraphrase only.",
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_006",
@@ -47,7 +50,9 @@
       "confidence": "medium",
       "confidenceJustification": "Cross-page synthesis; not single explicit DDD article.",
       "contradictingClaimIds": [],
-      "limitations": ["Human review for app tier thresholds."],
+      "limitations": [
+        "Human review for app tier thresholds."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -73,12 +78,25 @@
       "id": "proto-ddd-progression-skeleton",
       "title": "Distance → duration → distraction (KindTrail skeleton)",
       "intendedOutcome": "Owner increases one difficulty dimension at a time when proofing behaviours.",
-      "targetBehaviourIds": ["beh-sit-on-cue"],
-      "methodIds": ["meth-positive-reinforcement", "meth-create-distance"],
-      "suitableProfiles": ["all_pet_dogs_learning"],
-      "prerequisites": ["beh-sit-on-cue"],
-      "inappropriateWhen": ["Dog showing stress—reduce criteria"],
-      "equipment": ["Treats"],
+      "targetBehaviourIds": [
+        "beh-sit-on-cue"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement",
+        "meth-create-distance"
+      ],
+      "suitableProfiles": [
+        "all_pet_dogs_learning"
+      ],
+      "prerequisites": [
+        "beh-sit-on-cue"
+      ],
+      "inappropriateWhen": [
+        "Dog showing stress—reduce criteria"
+      ],
+      "equipment": [
+        "Treats"
+      ],
       "environment": "Start low distraction.",
       "baselineAssessment": "Behaviour reliable in quiet room.",
       "steps": [
@@ -88,7 +106,9 @@
           "rewardTiming": "Reward in position.",
           "progressCriteria": "Success at new distance with 3 repetitions.",
           "easierIfStruggling": "Reduce distance increment.",
-          "failureModes": ["Adding distance and duration together"]
+          "failureModes": [
+            "Adding distance and duration together"
+          ]
         },
         {
           "stepNumber": 2,
@@ -96,17 +116,32 @@
           "rewardTiming": "High-value rewards for first successes with distraction.",
           "progressCriteria": "Behaviour holds with one new distraction type.",
           "easierIfStruggling": "Return to previous D or D level.",
-          "failureModes": ["Multiple new distractions at once"]
+          "failureModes": [
+            "Multiple new distractions at once"
+          ]
         }
       ],
-      "reinforcementOptions": ["Food", "Praise"],
+      "reinforcementOptions": [
+        "Food",
+        "Praise"
+      ],
       "generalisationMaintenance": "Cycle through DDD for each new skill.",
-      "welfareMonitoring": ["Stress signs per claim-bc-stress-002-body-language-list"],
-      "stopConditions": ["Persistent failure—reduce criteria or refer"],
+      "welfareMonitoring": [
+        "Stress signs per claim-bc-stress-002-body-language-list"
+      ],
+      "stopConditions": [
+        "Persistent failure—reduce criteria or refer"
+      ],
       "safetyPrecautions": [],
       "referralRequirements": [],
-      "supportingSourceIds": ["src-dt-focus-training", "src-bluecross-stress-dogs"],
-      "supportingClaimIds": ["claim-dt-ddd-001-order-charity", "claim-bc-stress-002-body-language-list"],
+      "supportingSourceIds": [
+        "src-dt-focus-training",
+        "src-bluecross-stress-dogs"
+      ],
+      "supportingClaimIds": [
+        "claim-dt-ddd-001-order-charity",
+        "claim-bc-stress-002-body-language-list"
+      ],
       "evidenceConfidence": "medium_professional_guidance",
       "reviewStatus": "requires_human_review",
       "reviewReason": "Synthesised DDD skeleton; tier numbers need validation.",
@@ -128,7 +163,9 @@
       "title": "Read stress signals",
       "summary": "Notice lip licks, yawning, and turning away—pause and help your dog feel safe.",
       "derivedFromProtocolId": "proto-ddd-progression-skeleton",
-      "supportingClaimIds": ["claim-bc-stress-002-body-language-list"],
+      "supportingClaimIds": [
+        "claim-bc-stress-002-body-language-list"
+      ],
       "topic": "A.stress_fear_arousal",
       "goodDogModule": "foundation_skills",
       "traceabilityStatus": "complete",

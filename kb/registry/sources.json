@@ -72,7 +72,7 @@
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
       "issues": [],
-      "displayEligibility": "paraphrase_ok_pending_legal"
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-introducing-marker",
@@ -96,7 +96,7 @@
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
       "issues": [],
-      "displayEligibility": "paraphrase_ok_pending_legal"
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-recall-training",
@@ -120,7 +120,7 @@
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
       "issues": [],
-      "displayEligibility": "paraphrase_ok_pending_legal"
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-name-training",
@@ -142,7 +142,7 @@
       "extractionStatus": "registered_batch_001",
       "qualityTier": "high_practical",
       "issues": [],
-      "displayEligibility": "paraphrase_ok_pending_legal"
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-escaping-running-away",
@@ -165,7 +165,7 @@
       "extractionStatus": "partial_batch_001",
       "qualityTier": "high_practical",
       "issues": [],
-      "displayEligibility": "paraphrase_ok_pending_legal"
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-rspca-dog-training",
@@ -188,7 +188,7 @@
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
       "issues": [],
-      "displayEligibility": "paraphrase_ok_pending_legal"
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-rspca-find-trainer",
@@ -211,7 +211,7 @@
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
       "issues": [],
-      "displayEligibility": "paraphrase_ok_pending_legal"
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-rspca-sit",
@@ -234,7 +234,7 @@
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
       "issues": [],
-      "displayEligibility": "paraphrase_ok_pending_legal"
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "study-hiby-rooney-bradshaw-2004",

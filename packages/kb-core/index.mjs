@@ -62,3 +62,17 @@ export function loadPublishConfig() {
 export function loadAssessmentMetrics() {
   return /** @type {import('./types.d.ts').AssessmentMetric[]} */ (loadMetricsFromScripts());
 }
+
+/** @returns {Record<string, unknown>} */
+export function loadGoodDogCrosswalk() {
+  return JSON.parse(
+    readFileSync(join(repoRoot, "kb/meta/good-dog-exercise-crosswalk.json"), "utf8")
+  );
+}
+
+/** @returns {Record<string, unknown>} */
+export function loadGoodDogFieldDefaults() {
+  return JSON.parse(
+    readFileSync(join(repoRoot, "kb/meta/good-dog-field-defaults.json"), "utf8")
+  );
+}

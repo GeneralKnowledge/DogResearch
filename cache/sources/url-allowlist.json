@@ -1,0 +1,10 @@
+{
+  "hosts": [
+    "abtc.org.uk",
+    "bluecross.org.uk",
+    "doi.org",
+    "apbc.org.uk",
+    "cambridge.org"
+  ],
+  "notes": "Hosts allowed to fail HEAD/403 in strict check; document in batch manifests."
+}

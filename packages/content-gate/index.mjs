@@ -9,6 +9,8 @@ import {
   getRepoRoot
 } from "@gooddog/kb-core";
 
+const OFF_LEAD_RE = /\boff[- ]?lead\b/gi;
+
 /**
  * @param {import('@gooddog/kb-core/types').Protocol} protocol
  * @param {ReturnType<typeof loadPublishConfig>} config
@@ -25,10 +27,6 @@ export function isProtocolPublishable(protocol, config) {
   return true;
 }
 
-/**
- * @param {import('@gooddog/kb-core/types').Lesson} lesson
- * @param {ReturnType<typeof loadPublishConfig>} config
- */
 /**
  * @param {import('@gooddog/kb-core/types').Source} source
  * @param {ReturnType<typeof loadPublishConfig>} config
@@ -54,6 +52,72 @@ export function isOffLeadUnlocked(metricProgress) {
 /** Enforces safe-002: no off-lead promotion until tier-2 recall metrics met. */
 export function blocksOffLeadPromotion(metricProgress) {
   return !isOffLeadUnlocked(metricProgress);
+}
+
+/**
+ * @param {import('@gooddog/kb-core/types').Protocol} protocol
+ * @param {boolean} applySafe002
+ */
+export function sanitizeProtocolForExport(protocol, applySafe002 = true) {
+  const steps = (protocol.steps ?? []).map((step) => {
+    let instruction = step.instruction;
+    let progressCriteria = step.progressCriteria;
+    if (applySafe002) {
+      instruction = instruction.replace(
+        OFF_LEAD_RE,
+        "off-lead (only after tier-2 long-line recall—see progression tiers)"
+      );
+      if (progressCriteria) {
+        progressCriteria = progressCriteria.replace(
+          OFF_LEAD_RE,
+          "long-line recall criteria met first"
+        );
+      }
+    }
+    return { ...step, instruction, progressCriteria };
+  });
+
+  let safetyPrecautions = [...(protocol.safetyPrecautions ?? [])];
+  if (applySafe002) {
+    safetyPrecautions = safetyPrecautions.map((p) =>
+      typeof p === "string"
+        ? p.replace(
+            OFF_LEAD_RE,
+            "off-lead only after tier-2 long-line recall metrics"
+          )
+        : p
+    );
+  }
+
+  return {
+    id: protocol.id,
+    title: protocol.title,
+    intendedOutcome: protocol.intendedOutcome,
+    steps,
+    reviewStatus: protocol.reviewStatus,
+    referralRequirements: protocol.referralRequirements ?? [],
+    safetyPrecautions,
+    safe002Sanitized: applySafe002
+  };
+}
+
+/**
+ * @param {string} lessonId
+ * @param {ReturnType<typeof loadPublishConfig>} config
+ */
+function getAdvisoryForLesson(lessonId, config) {
+  const messages = config.advisoryMessages ?? {};
+  const message = messages[lessonId];
+  const flagged = config.advisoryLessonIds?.includes(lessonId) ?? false;
+  if (!message && !flagged) {
+    return { advisory: false, advisoryMessage: null };
+  }
+  return {
+    advisory: true,
+    advisoryMessage:
+      message ??
+      "This lesson includes health or behaviour topics—follow professional guidance when unsure."
+  };
 }
 
 export function isLessonInPilot(lesson, config) {
@@ -120,15 +184,17 @@ export function buildPublishableBundle(previewMode = false) {
       continue;
     }
 
+    const advisoryMeta = getAdvisoryForLesson(lessonId, config);
     lessons.push({
       ...bundle,
-      advisory: config.advisoryLessonIds?.includes(lessonId) ?? false
+      ...advisoryMeta
     });
   }
 
   const modules = groupByModule(lessons.map((l) => l.lesson));
   const assessmentMetrics = loadAssessmentMetrics();
   const catalogSearch = loadCatalogSearchIndex();
+  const ownerQuestions = loadOwnerQuestions();
   const professionalRoleClaims = registry.claims
     .filter((c) =>
       ["claim-abtc-roles-001-boundaries", "claim-rspca-003-abtc-trainer", "claim-bva-001-pain-behaviour"].includes(
@@ -140,6 +206,8 @@ export function buildPublishableBundle(previewMode = false) {
       statement: c.statement,
       topic: c.topic
     }));
+
+  const cpdPaths = buildCpdPaths(registry);
 
   return {
     generatedAt: new Date().toISOString(),
@@ -167,28 +235,43 @@ export function buildPublishableBundle(previewMode = false) {
     professionalRoles: professionalRoleClaims,
     assessmentMetrics,
     catalogSearch,
+    cpdPaths,
     modules,
-    lessons: lessons.map((entry) => ({
-      lesson: entry.lesson,
-      protocol: sanitizeProtocol(entry.protocol),
-      claims: entry.claims.map((c) => ({
-        id: c.id,
-        statement: c.statement,
-        confidence: c.confidence,
-        sourceId: c.supportingSourceId ?? c.studyId
-      })),
-      sources: entry.sources
-        .filter((s) => isSourceDisplayEligible(s, config))
-        .map((s) => ({
-          id: s.id,
-          title: s.title,
-          url: s.canonicalUrl,
-          publisher: s.publisher,
-          displayEligibility: s.displayEligibility ?? "paraphrase_ok_pending_legal"
+    lessons: lessons.map((entry) => {
+      const recallRelated =
+        entry.lesson.id.includes("recall") ||
+        entry.protocol.id.includes("recall");
+      const applySafe002 = recallRelated;
+      return {
+        lesson: {
+          id: entry.lesson.id,
+          title: entry.lesson.title,
+          summary: entry.lesson.summary,
+          topic: entry.lesson.topic,
+          goodDogModule: entry.lesson.goodDogModule,
+          educationOnly: entry.lesson.educationOnly === true
+        },
+        protocol: sanitizeProtocolForExport(entry.protocol, applySafe002),
+        claims: entry.claims.map((c) => ({
+          id: c.id,
+          statement: c.statement,
+          confidence: c.confidence,
+          sourceId: c.supportingSourceId ?? c.studyId
         })),
-      advisory: entry.advisory
-    })),
-    ownerQuestions: loadOwnerQuestions(),
+        sources: entry.sources
+          .filter((s) => isSourceDisplayEligible(s, config))
+          .map((s) => ({
+            id: s.id,
+            title: s.title,
+            url: s.canonicalUrl,
+            publisher: s.publisher,
+            displayEligibility: s.displayEligibility ?? "paraphrase_ok_pending_legal"
+          })),
+        advisory: entry.advisory,
+        advisoryMessage: entry.advisoryMessage
+      };
+    }),
+    ownerQuestions,
     skipped
   };
 }
@@ -219,19 +302,6 @@ function groupByModule(lessonList) {
   return Object.values(map).filter((m) => m.lessonIds.length > 0);
 }
 
-/** @param {import('@gooddog/kb-core/types').Protocol} protocol */
-function sanitizeProtocol(protocol) {
-  return {
-    id: protocol.id,
-    title: protocol.title,
-    intendedOutcome: protocol.intendedOutcome,
-    steps: protocol.steps,
-    reviewStatus: protocol.reviewStatus,
-    referralRequirements: protocol.referralRequirements ?? [],
-    safetyPrecautions: protocol.safetyPrecautions ?? []
-  };
-}
-
 /** @param {import('@gooddog/kb-core/types').MergedRegistry} registry */
 function buildReferrals(registry) {
   const abtcClaim = registry.claims.find((c) => c.id === "claim-rspca-003-abtc-trainer");
@@ -256,24 +326,68 @@ function buildReferrals(registry) {
   };
 }
 
-/** @param {string} text */
-function loadCatalogSearchIndex() {
+function buildCpdPaths(registry) {
   try {
     const raw = JSON.parse(
-      readFileSync(join(getRepoRoot(), "kb/index/catalog.json"), "utf8")
+      readFileSync(join(getRepoRoot(), "kb/index/evidence-index.json"), "utf8")
     );
-    return (raw.searchableEntries ?? []).map((e) => ({
-      id: e.id,
-      kind: e.kind,
-      title: e.title,
-      topics: e.topics ?? [],
-      module: e.goodDogModule ?? null
-    }));
+    const paths = [];
+    for (const [topic, bucket] of Object.entries(raw.byTopic ?? {})) {
+      const claimIds = [
+        ...(bucket.professional ?? []),
+        ...(bucket.scientific ?? [])
+      ].slice(0, 8);
+      if (!claimIds.length) continue;
+      paths.push({
+        topic,
+        claimIds,
+        claims: claimIds
+          .map((id) => registry.claims.find((c) => c.id === id))
+          .filter(Boolean)
+          .map((c) => ({ id: c.id, statement: c.statement }))
+      });
+    }
+    return paths.sort((a, b) => b.claims.length - a.claims.length).slice(0, 12);
   } catch {
     return [];
   }
 }
 
+function loadCatalogSearchIndex() {
+  const entries = [];
+  try {
+    const raw = JSON.parse(
+      readFileSync(join(getRepoRoot(), "kb/index/catalog.json"), "utf8")
+    );
+    for (const e of raw.searchableEntries ?? []) {
+      entries.push({
+        id: e.id,
+        kind: e.kind,
+        title: e.title,
+        topics: e.topics ?? [],
+        module: e.goodDogModule ?? null
+      });
+    }
+  } catch {
+    /* catalog optional at export time */
+  }
+
+  for (const cat of loadOwnerQuestions()) {
+    for (const q of cat.questions ?? []) {
+      entries.push({
+        id: q.id,
+        kind: "owner_question",
+        title: q.text,
+        topics: [cat.id],
+        module: null
+      });
+    }
+  }
+
+  return entries;
+}
+
+/** @param {string} text */
 export function violatesNoAversiveRule(text) {
   const blocked = [
     /\bshock collar\b/i,

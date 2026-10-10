@@ -1,0 +1,81 @@
+{
+  "byLearningObjectiveId": {
+    "reward-marker": {
+      "category": "engagement",
+      "difficulty": 1,
+      "estimatedMinutes": 3,
+      "lifeStages": ["young_puppy", "older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "everyday_foundations"
+    },
+    "name-response": {
+      "category": "engagement",
+      "difficulty": 1,
+      "estimatedMinutes": 3,
+      "lifeStages": ["young_puppy", "older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "everyday_foundations"
+    },
+    "sit": {
+      "category": "manners",
+      "difficulty": 1,
+      "estimatedMinutes": 3,
+      "lifeStages": ["young_puppy", "older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "everyday_foundations"
+    },
+    "down": {
+      "category": "manners",
+      "difficulty": 1,
+      "estimatedMinutes": 3,
+      "lifeStages": ["young_puppy", "older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "everyday_foundations"
+    },
+    "mat-settle": {
+      "category": "calm",
+      "difficulty": 1,
+      "estimatedMinutes": 4,
+      "lifeStages": ["young_puppy", "older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "calm_confidence"
+    },
+    "wait": {
+      "category": "manners",
+      "difficulty": 1,
+      "estimatedMinutes": 3,
+      "lifeStages": ["young_puppy", "older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "life_at_home"
+    },
+    "leave-it": {
+      "category": "manners",
+      "difficulty": 1,
+      "estimatedMinutes": 3,
+      "lifeStages": ["young_puppy", "older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "everyday_foundations"
+    },
+    "lead-walking": {
+      "category": "walking",
+      "difficulty": 2,
+      "estimatedMinutes": 4,
+      "lifeStages": ["older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "walking_together"
+    },
+    "recall": {
+      "category": "recall",
+      "difficulty": 2,
+      "estimatedMinutes": 4,
+      "lifeStages": ["young_puppy", "older_puppy", "adolescent", "adult", "senior"],
+      "topicGroup": "coming_back"
+    },
+    "greetings": {
+      "category": "manners",
+      "difficulty": 2,
+      "estimatedMinutes": 4,
+      "lifeStages": ["adolescent", "adult", "senior"],
+      "topicGroup": "life_at_home"
+    },
+    "puppy-mouthing": {
+      "category": "puppy",
+      "difficulty": 1,
+      "estimatedMinutes": 3,
+      "lifeStages": ["young_puppy", "older_puppy"],
+      "topicGroup": "puppy_life"
+    }
+  }
+}

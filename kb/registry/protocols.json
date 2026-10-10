@@ -114,8 +114,8 @@
         "claim-dt-escape-001-unreliable-recall-management"
       ],
       "evidenceConfidence": "high_professional_guidance",
-      "reviewStatus": "requires_human_review",
-      "reviewReason": "Safety-critical real-world recall; off-lead criteria need app-specific measurable thresholds.",
+      "reviewStatus": "reviewed_pilot_export",
+      "reviewReason": "Pilot export approved with assessment-metrics.json and safe-002 sanitization (review-001 resolved).",
       "lastVerified": "2026-10-10",
       "appProgressionNotes": "Five-second inter-cue interval taken from Dogs Trust; Good Dog should label as source-based guidance not research constant."
     },

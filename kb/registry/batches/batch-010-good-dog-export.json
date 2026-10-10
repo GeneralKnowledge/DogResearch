@@ -1,0 +1,56 @@
+{
+  "protocols": [
+    {
+      "id": "proto-loose-lead-force-free-draft",
+      "title": "Loose-lead walking — reward check-ins (draft, force-free)",
+      "intendedOutcome": "Dog chooses proximity and soft lead through reinforcement of check-ins and slack-lead moments, without relying on forward motion as the primary consequence for tight lead.",
+      "targetBehaviourIds": ["beh-loose-lead-walk"],
+      "methodIds": ["meth-positive-reinforcement"],
+      "suitableProfiles": ["most_pet_dogs"],
+      "prerequisites": ["Comfort with harness and light lead indoors"],
+      "inappropriateWhen": ["Pain or lameness—vet check first"],
+      "equipment": ["Comfortable flat harness", "Standard lead"],
+      "environment": "Quiet indoor or low-distraction outdoor space.",
+      "baselineAssessment": "Dog accepts harness and short indoor lead walking.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Walk indoors or in a quiet area; mark and reward any moment the lead is soft while your dog is near you.",
+          "rewardTiming": "Reward at your side when the lead is slack.",
+          "progressCriteria": "Several soft-lead moments per minute in a quiet space.",
+          "easierIfStruggling": "Higher-value rewards; shorter distance; stationary rewards for proximity.",
+          "failureModes": ["Practising in high distraction before basics are solid"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "When your dog checks in or the lead loosens, reward generously; if the lead tightens, pause politely and wait for slack without jerking.",
+          "rewardTiming": "Reward check-ins and slack before moving on.",
+          "progressCriteria": "Dog offers more frequent check-ins and soft lead in low distraction.",
+          "easierIfStruggling": "Stop sooner; end session after a few successes.",
+          "failureModes": ["Pulling handler forward to create slack", "Using aversive equipment"]
+        }
+      ],
+      "safetyPrecautions": [
+        "Do not use equipment designed to cause pain or fear.",
+        "Seek local reward-based help if walks feel unsafe."
+      ],
+      "supportingSourceIds": ["src-dt-loose-lead"],
+      "supportingClaimIds": ["claim-dt-ll-001-stop-when-tight"],
+      "reviewStatus": "requires_human_review",
+      "reviewReason": "Draft alternative for Good Dog P1-1 method review; not for blind sync over ex-lead-loose.",
+      "lastReviewed": "2026-10-10"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "alternative_to",
+      "from": "proto-loose-lead-force-free-draft",
+      "to": "proto-loose-lead-dt"
+    },
+    {
+      "type": "constrained_by",
+      "from": "proto-loose-lead-force-free-draft",
+      "to": "safe-008-abtc-aversive-ban"
+    }
+  ]
+}
