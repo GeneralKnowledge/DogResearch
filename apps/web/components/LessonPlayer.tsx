@@ -7,7 +7,13 @@ import { isOffLeadUnlocked } from "@/lib/progression";
 
 type Tab = "steps" | "evidence";
 
-export function LessonPlayer({ entry }: { entry: PublishableLesson }) {
+export function LessonPlayer({
+  entry,
+  homeworkMode = false
+}: {
+  entry: PublishableLesson;
+  homeworkMode?: boolean;
+}) {
   const [tab, setTab] = useState<Tab>("steps");
   const [tick, setTick] = useState(0);
   const { lesson, protocol, claims, sources, advisory, advisoryMessage } = entry;
@@ -27,6 +33,13 @@ export function LessonPlayer({ entry }: { entry: PublishableLesson }) {
 
   return (
     <div>
+      {homeworkMode ? (
+        <p className="card" style={{ background: "#f0f7ff", borderColor: "#c5d9f0" }}>
+          <strong>Assigned practice.</strong> Work through the steps below and mark each one when
+          you have practised it. Progress stays on this device.
+        </p>
+      ) : null}
+
       {advisory ? (
         <p className="card" style={{ background: "#fff8f0", borderColor: "#e8c9a8" }}>
           <strong>Advisory:</strong>{" "}

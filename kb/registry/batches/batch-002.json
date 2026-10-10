@@ -907,6 +907,16 @@
             "Big emotional greetings",
             "Punishment for destruction"
           ]
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If the dog panics, stops coping, or already shows separation anxiety, stop lengthening absences. Arrange care so they are not left beyond what they can manage, and contact a vet or behaviour professional. This plan is prevention only—not a treatment programme.",
+          "rewardTiming": "No extra absences while distressed.",
+          "progressCriteria": "Owner can state the difference between short prevention practice and a clinical separation plan.",
+          "easierIfStruggling": "Use a sitter or company instead of practising departures.",
+          "failureModes": [
+            "Repeating absences that the dog cannot cope with"
+          ]
         }
       ],
       "reinforcementOptions": [
@@ -934,13 +944,14 @@
       "supportingClaimIds": [
         "claim-dt-alone-001-gradual",
         "claim-dt-alone-002-no-tell-off",
+        "claim-dt-alone-003-four-hours",
         "claim-dt-sa-001-avoid-alone"
       ],
       "evidenceConfidence": "high_professional_guidance",
-      "reviewStatus": "requires_human_review",
-      "reviewReason": "Separation-related; must not replace clinical behaviour modification plans.",
+      "reviewStatus": "reviewed_pilot_export",
+      "reviewReason": "Prevention export only. Clinical separation anxiety stays referral-only via claim-dt-sa-001 and step 3.",
       "lastVerified": "2026-10-10",
-      "appProgressionNotes": null
+      "appProgressionNotes": "KindTrail and Good Dog management module. Do not present as a separation-anxiety treatment plan."
     }
   ],
   "behaviours": [

@@ -1,0 +1,19 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-alone-prevention",
+      "title": "Practise short times alone",
+      "summary": "Build brief separations with a food toy and calm returns. This is prevention for dogs who cope—not a treatment plan for separation anxiety.",
+      "derivedFromProtocolId": "proto-alone-prevention-dt",
+      "supportingClaimIds": [
+        "claim-dt-alone-001-gradual",
+        "claim-dt-sa-001-avoid-alone"
+      ],
+      "topic": "G.fear_noise_separation",
+      "goodDogModule": "life_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "lastReviewed": "2026-10-10"
+    }
+  ]
+}

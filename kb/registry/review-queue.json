@@ -49,9 +49,9 @@
       "id": "review-006",
       "entityType": "protocol",
       "entityId": "proto-alone-prevention-dt",
-      "reason": "Separation content must stay distinct from clinical separation anxiety treatment.",
+      "reason": "Prevention lesson exported with an advisory. Clinical separation anxiety stays referral-only: stop absences beyond coping and use a vet or behaviour professional (claim-dt-sa-001).",
       "priority": "high",
-      "status": "open",
+      "status": "resolved",
       "created": "2026-10-10"
     },
     {

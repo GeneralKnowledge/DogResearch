@@ -22,3 +22,12 @@ export function saveStep(lessonId: string, stepNumber: number, done: boolean) {
 export function isStepDone(lessonId: string, stepNumber: number): boolean {
   return loadProgress()[`${lessonId}:step:${stepNumber}`] === true;
 }
+
+export function countDoneSteps(lessonId: string, stepCount: number): number {
+  const all = loadProgress();
+  let done = 0;
+  for (let step = 1; step <= stepCount; step += 1) {
+    if (all[`${lessonId}:step:${step}`] === true) done += 1;
+  }
+  return done;
+}
