@@ -10,7 +10,8 @@ const ALLOWLIST = [
   "abtc.org.uk",
   "bluecross.org.uk",
   "rspca.org.uk/adviceandwelfare/pets/dogs/training/fireworks",
-  "apbc.org.uk"
+  "apbc.org.uk",
+  "doi.org"
 ];
 
 const { sources } = loadMergedRegistry();
