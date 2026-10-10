@@ -1,0 +1,11 @@
+{
+  "name": "good-dog-knowledge-base",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Research knowledge base for Good Dog (UK, reward-based, IMDT-aligned)",
+  "type": "module",
+  "scripts": {
+    "qa": "node scripts/qa-check.mjs",
+    "catalog": "node scripts/build-catalog.mjs"
+  }
+}

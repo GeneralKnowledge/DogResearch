@@ -1,0 +1,49 @@
+{
+  "reviewItems": [
+    {
+      "id": "review-001",
+      "entityType": "protocol",
+      "entityId": "proto-recall-three-step-dt",
+      "reason": "Safety-critical; needs measurable Good Dog progression thresholds and legal ID tag verification.",
+      "priority": "high",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-002",
+      "entityType": "claim",
+      "entityId": "claim-dt-recall-005-uk-id-law",
+      "reason": "Legal claim requires cross-check against current official UK legislation.",
+      "priority": "medium",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-003",
+      "entityType": "source",
+      "entityId": "src-abtc-owners",
+      "reason": "Extract full ABTC aversive equipment list from Ethical Dog Training leaflet.",
+      "priority": "medium",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-004",
+      "entityType": "safety_rule",
+      "entityId": "safe-005-growl-not-punish",
+      "reason": "Needs supporting claim extraction from APBC/RSPCA/FABC sources in batch 002.",
+      "priority": "high",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-005",
+      "entityType": "study",
+      "entityId": "study-hiby-rooney-bradshaw-2004",
+      "reason": "Add newer systematic reviews on aversive vs reward methods for synthesis update.",
+      "priority": "low",
+      "status": "open",
+      "created": "2026-10-10"
+    }
+  ]
+}

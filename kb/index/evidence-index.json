@@ -1,0 +1,122 @@
+{
+  "taxonomyId": "tax-good-dog-canine-v1",
+  "byTopic": {
+    "K.imdt_ethics": {
+      "scientific": [],
+      "professional": [
+        "claim-imdt-001-force-free",
+        "claim-imdt-002-no-pp-nr"
+      ],
+      "disputes": []
+    },
+    "H.scope_of_practice_referral": {
+      "scientific": [],
+      "professional": [
+        "claim-imdt-003-referral"
+      ],
+      "disputes": []
+    },
+    "K.abtc_standards": {
+      "scientific": [],
+      "professional": [
+        "claim-abtc-001-unregulated",
+        "claim-abtc-002-science-based",
+        "claim-rspca-003-abtc-trainer"
+      ],
+      "disputes": []
+    },
+    "K.training_equipment_welfare": {
+      "scientific": [],
+      "professional": [
+        "claim-abtc-003-no-aversives",
+        "claim-rspca-004-avoid-aversive-classes"
+      ],
+      "disputes": []
+    },
+    "B.operant_conditioning": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-pr-001-definition",
+        "claim-rspca-001-all-reward-based"
+      ],
+      "disputes": []
+    },
+    "C.timing_rate_of_reinforcement": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-pr-002-continuous-reinforcement-new-skill"
+      ],
+      "disputes": []
+    },
+    "B.marker_signals": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-pr-003-marker-follow-reward",
+        "claim-dt-marker-001-charge-marker",
+        "claim-dt-marker-002-calm-marker-word"
+      ],
+      "disputes": []
+    },
+    "C.troubleshooting_learning": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-pr-004-unintentional-reinforcement"
+      ],
+      "disputes": []
+    },
+    "D.recall_emergency_recall": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-recall-001-prerequisite-name",
+        "claim-dt-recall-002-five-second-rule",
+        "claim-dt-recall-003-no-punish-late-return",
+        "claim-dt-recall-004-offlead-criteria"
+      ],
+      "disputes": []
+    },
+    "K.uk_law_professional": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-recall-005-uk-id-law"
+      ],
+      "disputes": []
+    },
+    "C.session_planning": {
+      "scientific": [],
+      "professional": [
+        "claim-rspca-002-short-sessions"
+      ],
+      "disputes": []
+    },
+    "D.sit_down_stand": {
+      "scientific": [],
+      "professional": [
+        "claim-rspca-005-sit-lure-timing"
+      ],
+      "disputes": []
+    },
+    "K.evidence_gaps_debates": {
+      "scientific": [
+        "claim-hiby-001-reward-obedience-correlation",
+        "claim-hiby-003-welfare-conclusion",
+        "claim-hiby-004-punishment-historical"
+      ],
+      "professional": [],
+      "disputes": []
+    },
+    "G.behaviour_problems": {
+      "scientific": [
+        "claim-hiby-002-punishment-problems-correlation"
+      ],
+      "professional": [],
+      "disputes": []
+    },
+    "G.management_referral": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-escape-001-unreliable-recall-management"
+      ],
+      "disputes": []
+    }
+  }
+}

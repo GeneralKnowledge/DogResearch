@@ -1,0 +1,29 @@
+{
+  "behaviours": [
+    {
+      "id": "beh-recall-to-handler",
+      "name": "Recall to handler on cue",
+      "observableCriteria": "Dog orientates to handler and travels to within arm's reach (or defined app distance) after a single recall cue in the current environment.",
+      "topic": "D.recall_emergency_recall"
+    },
+    {
+      "id": "beh-name-orientation",
+      "name": "Orient to handler on name",
+      "observableCriteria": "Dog turns head or body to look at handler within 2 seconds of name spoken once at conversational volume.",
+      "topic": "D.name_response_attention",
+      "note": "App may define latency thresholds provisionally; not universal from sources."
+    },
+    {
+      "id": "beh-sit-on-cue",
+      "name": "Sit on verbal cue",
+      "observableCriteria": "Dog places hindquarters on ground and holds sit until release cue or next instruction.",
+      "topic": "D.sit_down_stand"
+    },
+    {
+      "id": "beh-marker-conditioned-response",
+      "name": "Conditioned emotional response to marker",
+      "observableCriteria": "Dog shows anticipatory orientation (e.g. looks at handler or treats) immediately after marker with no behaviour requirement yet.",
+      "topic": "B.marker_signals"
+    }
+  ]
+}

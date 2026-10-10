@@ -1,0 +1,55 @@
+{
+  "safetyRules": [
+    {
+      "id": "safe-001-no-aversive-routine",
+      "title": "Do not recommend pain, fear or coercion as routine training",
+      "rule": "Good Dog must not present pain, intimidation, choke chains, shouting, hitting, or aversive equipment as standard training solutions.",
+      "rationaleClaimIds": ["claim-imdt-001-force-free", "claim-imdt-002-no-pp-nr", "claim-rspca-004-avoid-aversive-classes", "claim-abtc-003-no-aversives"],
+      "action": "filter_out_or_flag_sources",
+      "severity": "critical",
+      "referralText": "Direct owner to reward-based professional (ABTC/IMDT-aligned) if current trainer uses aversives.",
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "safe-002-recall-management",
+      "title": "Manage recall failure with lines and secure areas",
+      "rule": "Until recall is reliable, keep the dog on a long line or lead; off-lead only in secure areas or when confidence in recall is established.",
+      "rationaleClaimIds": ["claim-dt-recall-004-offlead-criteria", "claim-dt-escape-001-unreliable-recall-management"],
+      "action": "block_off_lead_progression_in_app",
+      "severity": "critical",
+      "referralText": "If recall does not improve, refer to qualified trainer or behaviourist.",
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "safe-003-no-punish-return",
+      "title": "Never punish a dog for coming back late",
+      "rule": "After recall, even if slow, use positive reinforcement; avoid anger, shouting, or ending fun as punishment for late return.",
+      "rationaleClaimIds": ["claim-dt-recall-003-no-punish-late-return"],
+      "action": "embed_in_recall_lessons",
+      "severity": "high",
+      "referralText": null,
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "safe-004-scope-referral",
+      "title": "Refer beyond training education scope",
+      "rule": "Aggression, severe fear, sudden unexplained behaviour change, or suspected pain/illness require veterinary and/or clinical behaviour referral—not generic app protocols alone.",
+      "rationaleClaimIds": ["claim-imdt-003-referral"],
+      "action": "show_referral_cta",
+      "severity": "critical",
+      "referralText": "Contact veterinarian for medical causes; seek ABTC-registered Clinical Animal Behaviourist or Veterinary Behaviourist for clinical behaviour treatment.",
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "safe-005-growl-not-punish",
+      "title": "Do not punish warning signals without addressing cause",
+      "rule": "Do not train owners to suppress growling or other warnings without addressing underlying fear, pain, or conflict; prioritise management and professional support.",
+      "rationaleClaimIds": [],
+      "action": "human_review_required",
+      "severity": "critical",
+      "referralText": "Qualified behaviourist; veterinary pain assessment.",
+      "notes": "Rule derived from Good Dog ethics spec; link to APBC/RSPCA resources in batch 002.",
+      "lastReviewed": "2026-10-10"
+    }
+  ]
+}

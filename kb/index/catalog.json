@@ -1,0 +1,442 @@
+{
+  "generatedAt": "2026-10-10",
+  "searchableEntries": [
+    {
+      "id": "src-imdt-code-of-ethics",
+      "kind": "source",
+      "title": "IMDT Code of Ethics",
+      "url": "https://www.imdt.uk.com/code-of-ethics",
+      "topics": [
+        "K.imdt_ethics",
+        "K.evidence_gaps_debates"
+      ],
+      "extractionStatus": "extracted_batch_001",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-abtc-owners",
+      "kind": "source",
+      "title": "Owners — ABTC",
+      "url": "https://abtc.org.uk/owners/",
+      "topics": [
+        "K.abtc_standards",
+        "H.scope_of_practice_referral",
+        "K.training_equipment_welfare"
+      ],
+      "extractionStatus": "partial_batch_001",
+      "publisher": "Animal Behaviour and Training Council (ABTC)"
+    },
+    {
+      "id": "src-dt-positive-reinforcement",
+      "kind": "source",
+      "title": "Positive reinforcement – training with rewards",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/positive-reinforcement-training-with-rewards",
+      "topics": [
+        "B.operant_conditioning",
+        "C.timing_rate_of_reinforcement",
+        "C.troubleshooting_learning"
+      ],
+      "extractionStatus": "extracted_batch_001",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-introducing-marker",
+      "kind": "source",
+      "title": "How to introduce a marker to your dog training",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/introducing-a-marker",
+      "topics": [
+        "B.marker_signals",
+        "B.clicker_training",
+        "C.timing_rate_of_reinforcement"
+      ],
+      "extractionStatus": "extracted_batch_001",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-recall-training",
+      "kind": "source",
+      "title": "How to train your dog to come back when called",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/recall-training",
+      "topics": [
+        "D.recall_emergency_recall",
+        "C.distance_duration_distraction",
+        "G.management_referral"
+      ],
+      "extractionStatus": "extracted_batch_001",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-name-training",
+      "kind": "source",
+      "title": "How to teach your dog their name",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/name-training",
+      "topics": [
+        "D.name_response_attention"
+      ],
+      "extractionStatus": "registered_batch_001",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-escaping-running-away",
+      "kind": "source",
+      "title": "Why Dogs Escape and How to Prevent It",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/escaping-and-running-away",
+      "topics": [
+        "D.recall_emergency_recall",
+        "G.management_referral"
+      ],
+      "extractionStatus": "partial_batch_001",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-rspca-dog-training",
+      "kind": "source",
+      "title": "Dog training — RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training",
+      "topics": [
+        "C.session_planning",
+        "K.abtc_standards"
+      ],
+      "extractionStatus": "extracted_batch_001",
+      "publisher": "RSPCA"
+    },
+    {
+      "id": "src-rspca-find-trainer",
+      "kind": "source",
+      "title": "How To Find the Right Dog Trainer — RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/trainer",
+      "topics": [
+        "K.abtc_standards",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_001",
+      "publisher": "RSPCA"
+    },
+    {
+      "id": "src-rspca-sit",
+      "kind": "source",
+      "title": "How to train a dog to sit — RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/sit",
+      "topics": [
+        "D.sit_down_stand",
+        "B.luring_shaping_capturing_chaining"
+      ],
+      "extractionStatus": "extracted_batch_001",
+      "publisher": "RSPCA"
+    },
+    {
+      "id": "study-hiby-rooney-bradshaw-2004",
+      "kind": "source",
+      "title": "Dog training methods: their use, effectiveness and interaction with behaviour and welfare",
+      "url": "https://doi.org/10.1017/S0962728600026683",
+      "topics": [
+        "B.operant_conditioning",
+        "K.evidence_gaps_debates",
+        "G.behaviour_problems"
+      ],
+      "extractionStatus": "abstract_extracted_batch_001",
+      "publisher": "Animal Welfare (Universities Federation for Animal Welfare)"
+    },
+    {
+      "id": "claim-imdt-001-force-free",
+      "kind": "claim",
+      "title": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may …",
+      "topics": [
+        "K.imdt_ethics",
+        "imdt_code"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-code-of-ethics"
+    },
+    {
+      "id": "claim-imdt-002-no-pp-nr",
+      "kind": "claim",
+      "title": "IMDT members agree to avoid positive punishment and negative reinforcement as tools for training dogs.",
+      "topics": [
+        "K.imdt_ethics",
+        "imdt_code",
+        "B.reinforcement_punishment_quadrant"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-code-of-ethics"
+    },
+    {
+      "id": "claim-imdt-003-referral",
+      "kind": "claim",
+      "title": "IMDT members agree to work within professional limits and refer owners to a suitable professional when needs exceed thos…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-code-of-ethics"
+    },
+    {
+      "id": "claim-abtc-001-unregulated",
+      "kind": "claim",
+      "title": "In the UK, animal trainers, training instructors and behaviourists are not regulated by government; anyone may use those…",
+      "topics": [
+        "K.abtc_standards"
+      ],
+      "confidence": "high",
+      "sourceId": "src-abtc-owners"
+    },
+    {
+      "id": "claim-abtc-002-science-based",
+      "kind": "claim",
+      "title": "ABTC requires registered trainers, instructors and behaviourists to use science-based methods and keep up to date with r…",
+      "topics": [
+        "K.abtc_standards"
+      ],
+      "confidence": "high",
+      "sourceId": "src-abtc-owners"
+    },
+    {
+      "id": "claim-abtc-003-no-aversives",
+      "kind": "claim",
+      "title": "ABTC states it does not agree with aversives being used to train animals and publishes an indicative list of aversive eq…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-abtc-owners"
+    },
+    {
+      "id": "claim-dt-pr-001-definition",
+      "kind": "claim",
+      "title": "Positive reinforcement training means giving the dog something they want when they behave in a way the owner likes, maki…",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-positive-reinforcement"
+    },
+    {
+      "id": "claim-dt-pr-002-continuous-reinforcement-new-skill",
+      "kind": "claim",
+      "title": "When starting a new skill, Dogs Trust advises rewarding the dog every time they are successful; reward type and schedule…",
+      "topics": [
+        "C.timing_rate_of_reinforcement"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-positive-reinforcement"
+    },
+    {
+      "id": "claim-dt-pr-003-marker-follow-reward",
+      "kind": "claim",
+      "title": "A marker signal must always be followed by a reward so the dog can be confident they got the behaviour right.",
+      "topics": [
+        "B.marker_signals"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-positive-reinforcement"
+    },
+    {
+      "id": "claim-dt-pr-004-unintentional-reinforcement",
+      "kind": "claim",
+      "title": "Undesired behaviour may increase if the dog receives attention, eye contact or interaction as a consequence—even when th…",
+      "topics": [
+        "C.troubleshooting_learning"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-positive-reinforcement"
+    },
+    {
+      "id": "claim-dt-marker-001-charge-marker",
+      "kind": "claim",
+      "title": "Before training new behaviours, the dog should learn that the marker predicts a reward via repeated marker-then-treat pa…",
+      "topics": [
+        "B.marker_signals"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-introducing-marker"
+    },
+    {
+      "id": "claim-dt-marker-002-calm-marker-word",
+      "kind": "claim",
+      "title": "Dogs Trust advises saying a verbal marker as calmly as possible because excited delivery can excite, confuse or distract…",
+      "topics": [
+        "B.marker_signals"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-introducing-marker"
+    },
+    {
+      "id": "claim-dt-recall-001-prerequisite-name",
+      "kind": "claim",
+      "title": "Dogs Trust advises teaching reliable name response before adding a formal recall cue.",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-recall-training"
+    },
+    {
+      "id": "claim-dt-recall-002-five-second-rule",
+      "kind": "claim",
+      "title": "Dogs Trust advises giving the dog at least five seconds to respond to a recall cue before calling again, and not repeati…",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-recall-training"
+    },
+    {
+      "id": "claim-dt-recall-003-no-punish-late-return",
+      "kind": "claim",
+      "title": "If a dog ignores recall during training, Dogs Trust advises staying calm because anger or shouting can reduce willingnes…",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-recall-training"
+    },
+    {
+      "id": "claim-dt-recall-004-offlead-criteria",
+      "kind": "claim",
+      "title": "Dogs Trust advises off-lead exercise in open spaces only when the owner is confident the dog will come back when called.",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-recall-training"
+    },
+    {
+      "id": "claim-dt-recall-005-uk-id-law",
+      "kind": "claim",
+      "title": "Dogs Trust states that in the UK dogs in public should wear a collar and ID tag and have up-to-date microchip details, a…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-recall-training"
+    },
+    {
+      "id": "claim-rspca-001-all-reward-based",
+      "kind": "claim",
+      "title": "RSPCA states all dog training should be reward based, using food, toys or praise when the dog shows desired behaviour.",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-dog-training"
+    },
+    {
+      "id": "claim-rspca-002-short-sessions",
+      "kind": "claim",
+      "title": "RSPCA recommends breaking training into short but regular sessions and starting new tricks in a quiet room with minimal …",
+      "topics": [
+        "C.session_planning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-dog-training"
+    },
+    {
+      "id": "claim-rspca-003-abtc-trainer",
+      "kind": "claim",
+      "title": "RSPCA recommends looking for ABTC-registered animal training instructors for ethical training that meets welfare needs.",
+      "topics": [
+        "K.abtc_standards"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-find-trainer"
+    },
+    {
+      "id": "claim-rspca-004-avoid-aversive-classes",
+      "kind": "claim",
+      "title": "RSPCA advises owners not to join classes if techniques rely on fear, pain, choke chains, shouting or hitting.",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-find-trainer"
+    },
+    {
+      "id": "claim-rspca-005-sit-lure-timing",
+      "kind": "claim",
+      "title": "RSPCA advises adding the verbal cue 'sit' only as the dog moves into sit, not before, to avoid associating the word with…",
+      "topics": [
+        "D.sit_down_stand"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-sit"
+    },
+    {
+      "id": "claim-hiby-001-reward-obedience-correlation",
+      "kind": "claim",
+      "title": "In a 2004 owner survey (n=364), owner-rated obedience across eight tasks correlated positively with the number of tasks …",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "medium",
+      "sourceId": "study-hiby-rooney-bradshaw-2004"
+    },
+    {
+      "id": "claim-hiby-002-punishment-problems-correlation",
+      "kind": "claim",
+      "title": "In Hiby et al. (2004), the number of owner-reported problem behaviours correlated with the number of tasks trained using…",
+      "topics": [
+        "G.behaviour_problems"
+      ],
+      "confidence": "medium",
+      "sourceId": "study-hiby-rooney-bradshaw-2004"
+    },
+    {
+      "id": "claim-hiby-003-welfare-conclusion",
+      "kind": "claim",
+      "title": "Hiby et al. (2004) conclude that punishment may represent a welfare concern without concurrent benefits in obedience wit…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "medium",
+      "sourceId": "study-hiby-rooney-bradshaw-2004"
+    },
+    {
+      "id": "claim-hiby-004-punishment-historical",
+      "kind": "claim",
+      "title": "Hiby et al. (2004) note that although their survey did not support punishment-based methods for pet owners, they are not…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "medium",
+      "sourceId": "study-hiby-rooney-bradshaw-2004"
+    },
+    {
+      "id": "claim-dt-escape-001-unreliable-recall-management",
+      "kind": "claim",
+      "title": "If a dog does not always come when called, Dogs Trust advises keeping them on a long line or lead rather than relying on…",
+      "topics": [
+        "G.management_referral"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-escaping-running-away"
+    },
+    {
+      "id": "proto-marker-charging-dt",
+      "kind": "protocol",
+      "title": "Charge a marker signal (Dogs Trust pattern)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-marker-conditioned-response"
+      ]
+    },
+    {
+      "id": "proto-recall-three-step-dt",
+      "kind": "protocol",
+      "title": "Recall training — three-step progression (Dogs Trust)",
+      "reviewStatus": "requires_human_review",
+      "behaviourIds": [
+        "beh-recall-to-handler",
+        "beh-name-orientation"
+      ]
+    },
+    {
+      "id": "proto-sit-lure-rspca",
+      "kind": "protocol",
+      "title": "Teach sit with food lure (RSPCA six-step outline)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-sit-on-cue"
+      ]
+    }
+  ]
+}
