@@ -21,10 +21,10 @@
     {
       "id": "review-003",
       "entityType": "source",
-      "entityId": "src-abtc-owners",
-      "reason": "Extract full ABTC aversive equipment list from Ethical Dog Training leaflet.",
-      "priority": "medium",
-      "status": "open",
+      "entityId": "src-abtc-aversives-list-2024",
+      "reason": "Core ABTC aversive list extracted in batch 002; optional item-level claim expansion.",
+      "priority": "low",
+      "status": "partially_resolved",
       "created": "2026-10-10"
     },
     {

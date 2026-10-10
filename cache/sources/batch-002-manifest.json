@@ -1,0 +1,20 @@
+{
+  "batchId": "batch-002",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    { "sourceId": "src-dt-leave-training", "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/leave-training", "httpStatus": 200 },
+    { "sourceId": "src-dt-stay-training", "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/stay-training", "httpStatus": 200 },
+    { "sourceId": "src-dt-loose-lead", "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/walking-nicely-training", "httpStatus": 200 },
+    { "sourceId": "src-dt-time-alone", "url": "https://www.dogstrust.org.uk/dog-advice/training/home/time-alone", "httpStatus": 200 },
+    { "sourceId": "src-dt-separation-anxiety", "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/separation-anxiety", "httpStatus": 200 },
+    { "sourceId": "src-dt-finding-behaviour-support", "url": "https://www.dogstrust.org.uk/dog-advice/understanding-your-dog/finding-behaviour-and-training-support", "httpStatus": 200 },
+    { "sourceId": "src-rspca-children-dogs", "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/company/children", "httpStatus": 200 },
+    { "sourceId": "src-pdsa-five-activities", "url": "https://www.pdsa.org.uk/what-we-do/blog/five-activities-to-keep-your-dog-busy", "httpStatus": 200 },
+    { "sourceId": "src-pdsa-stress-dogs", "url": "https://www.pdsa.org.uk/what-we-do/blog/tips-to-identify-and-prevent-stress-in-dogs", "httpStatus": 200 },
+    { "sourceId": "src-bluecross-stress-dogs", "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/stress-in-dogs", "httpStatus": 200 },
+    { "sourceId": "src-bluecross-children-dog-safe", "url": "https://www.bluecross.org.uk/advice/dog/keeping-your-family-dog-and-visiting-children-safe", "httpStatus": 200 },
+    { "sourceId": "src-abtc-ethical-leaflet-2021", "url": "https://abtc.org.uk/wp-content/uploads/2021/01/Ethical-Dog-Training-leaflet-January-21.pdf", "httpStatus": 200 },
+    { "sourceId": "src-abtc-aversives-list-2024", "url": "https://abtc.org.uk/wp-content/uploads/2024/12/Aversives-June-2024.pdf", "httpStatus": 200 },
+    { "sourceId": "study-vieira-de-castro-2020", "url": "https://doi.org/10.1371/journal.pone.0225023", "httpStatus": 200 }
+  ]
+}

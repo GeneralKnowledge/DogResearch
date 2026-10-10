@@ -29,4 +29,8 @@ npm run qa        # integrity checks (provenance, IDs, protocol structure)
 
 ## Batch status
 
-**Batch 001** established architecture + foundational UK ethics/charity sources + Hiby et al. (2004) abstract-level claims. Continue with batch 002 per gap analysis.
+**Batch 001** — architecture, IMDT/ABTC/Dogs Trust/RSPCA core, Hiby et al. (2004).
+
+**Batch 002** — foundation skills (leave, loose lead, alone-time prevention), PDSA/Blue Cross welfare, ABTC aversive list, Vieira de Castro et al. (2020). Incremental data lives in `kb/registry/batches/` and merges at QA time.
+
+See `reports/batch-002-report.md` for coverage and batch 003 priorities.

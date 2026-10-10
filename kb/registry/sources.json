@@ -35,9 +35,9 @@
       "licence": "unknown_web_content",
       "reuseNotes": "Paraphrase and cite URL; ABTC aversive equipment list referenced but not fully extracted in batch 001.",
       "accessRestrictions": "public_web",
-      "extractionStatus": "partial_batch_001",
+      "extractionStatus": "extracted_batch_002",
       "qualityTier": "foundational_ethics",
-      "issues": ["aversive_equipment_list_not_yet_itemised"]
+      "issues": []
     },
     {
       "id": "src-dt-positive-reinforcement",

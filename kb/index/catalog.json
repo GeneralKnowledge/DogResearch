@@ -23,7 +23,7 @@
         "H.scope_of_practice_referral",
         "K.training_equipment_welfare"
       ],
-      "extractionStatus": "partial_batch_001",
+      "extractionStatus": "extracted_batch_002",
       "publisher": "Animal Behaviour and Training Council (ABTC)"
     },
     {
@@ -136,6 +136,173 @@
       ],
       "extractionStatus": "abstract_extracted_batch_001",
       "publisher": "Animal Welfare (Universities Federation for Animal Welfare)"
+    },
+    {
+      "id": "src-dt-leave-training",
+      "kind": "source",
+      "title": "How to train your dog to leave it",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/leave-training",
+      "topics": [
+        "D.leave_it_drop",
+        "C.troubleshooting_learning"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-stay-training",
+      "kind": "source",
+      "title": "How to train your dog to stay",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/stay-training",
+      "topics": [
+        "D.wait_stay_settle",
+        "C.distance_duration_distraction"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-loose-lead",
+      "kind": "source",
+      "title": "Teach your dog to walk nicely on a lead",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/walking-nicely-training",
+      "topics": [
+        "D.loose_lead_greetings",
+        "K.training_equipment_welfare"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-time-alone",
+      "kind": "source",
+      "title": "Helping your dog get used to spending time alone",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/home/time-alone",
+      "topics": [
+        "G.fear_noise_separation",
+        "E.socialisation_exposure"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-separation-anxiety",
+      "kind": "source",
+      "title": "Separation anxiety in dogs: signs and support",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/separation-anxiety",
+      "topics": [
+        "G.fear_noise_separation",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-finding-behaviour-support",
+      "kind": "source",
+      "title": "Find dog behaviour and training support",
+      "url": "https://www.dogstrust.org.uk/dog-advice/understanding-your-dog/finding-behaviour-and-training-support",
+      "topics": [
+        "H.scope_of_practice_referral",
+        "H.veterinary_assessment"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-rspca-children-dogs",
+      "kind": "source",
+      "title": "Children and dogs — RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/company/children",
+      "topics": [
+        "H.bite_prevention_dog_child",
+        "J.children_other_animals"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "RSPCA"
+    },
+    {
+      "id": "src-pdsa-five-activities",
+      "kind": "source",
+      "title": "Five activities to keep your dog busy — PDSA",
+      "url": "https://www.pdsa.org.uk/what-we-do/blog/five-activities-to-keep-your-dog-busy",
+      "topics": [
+        "F.sniffing_foraging_scent",
+        "F.low_cost_enrichment"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "PDSA"
+    },
+    {
+      "id": "src-pdsa-stress-dogs",
+      "kind": "source",
+      "title": "Tips to identify and prevent stress in dogs — PDSA",
+      "url": "https://www.pdsa.org.uk/what-we-do/blog/tips-to-identify-and-prevent-stress-in-dogs",
+      "topics": [
+        "A.stress_fear_arousal",
+        "F.physical_activity_rest"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "PDSA"
+    },
+    {
+      "id": "src-bluecross-stress-dogs",
+      "kind": "source",
+      "title": "Signs of stress in dogs — Blue Cross",
+      "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/stress-in-dogs",
+      "topics": [
+        "A.stress_fear_arousal",
+        "A.body_language"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "Blue Cross"
+    },
+    {
+      "id": "src-bluecross-children-dog-safe",
+      "kind": "source",
+      "title": "Keeping your family dog and visiting children safe — Blue Cross",
+      "url": "https://www.bluecross.org.uk/advice/dog/keeping-your-family-dog-and-visiting-children-safe",
+      "topics": [
+        "H.bite_prevention_dog_child",
+        "A.body_language"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "Blue Cross"
+    },
+    {
+      "id": "src-abtc-ethical-leaflet-2021",
+      "kind": "source",
+      "title": "Ethical Dog Training leaflet",
+      "url": "https://abtc.org.uk/wp-content/uploads/2021/01/Ethical-Dog-Training-leaflet-January-21.pdf",
+      "topics": [
+        "K.abtc_standards",
+        "K.training_equipment_welfare"
+      ],
+      "extractionStatus": "partial_batch_002",
+      "publisher": "ABTC"
+    },
+    {
+      "id": "src-abtc-aversives-list-2024",
+      "kind": "source",
+      "title": "ABTC indicative list of aversive methods and equipment (June 2024)",
+      "url": "https://abtc.org.uk/wp-content/uploads/2024/12/Aversives-June-2024.pdf",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "ABTC"
+    },
+    {
+      "id": "study-vieira-de-castro-2020",
+      "kind": "source",
+      "title": "Does training method matter? Evidence for the negative impact of aversive-based methods on companion dog welfare",
+      "url": "https://doi.org/10.1371/journal.pone.0225023",
+      "topics": [
+        "K.evidence_gaps_debates",
+        "B.operant_conditioning"
+      ],
+      "extractionStatus": "extracted_batch_002",
+      "publisher": "PLOS ONE"
     },
     {
       "id": "claim-imdt-001-force-free",
@@ -411,6 +578,216 @@
       "sourceId": "src-dt-escaping-running-away"
     },
     {
+      "id": "claim-dt-leave-001-fair-trade",
+      "kind": "claim",
+      "title": "Dogs Trust recommends swapping items a dog should not have for something better ('fair trade') so the dog willingly rele…",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-leave-training"
+    },
+    {
+      "id": "claim-dt-leave-002-look-away",
+      "kind": "claim",
+      "title": "To teach 'leave it', Dogs Trust advises waiting for the dog to look or move away from a low-value item, then marking and…",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-leave-training"
+    },
+    {
+      "id": "claim-dt-stay-001-return-to-reward",
+      "kind": "claim",
+      "title": "Dogs Trust advises always returning to the dog before rewarding a stay, and rewarding while the dog is still in position…",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-stay-training"
+    },
+    {
+      "id": "claim-dt-stay-002-variable-duration",
+      "kind": "claim",
+      "title": "After a dog can stay ~10 seconds, Dogs Trust recommends unpredictable stay durations before reward so the dog cannot ant…",
+      "topics": [
+        "C.distance_duration_distraction"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-stay-training"
+    },
+    {
+      "id": "claim-dt-ll-001-stop-when-tight",
+      "kind": "claim",
+      "title": "Dogs Trust teaches that when the lead tightens, the handler stops walking and does not move forward until the lead is sl…",
+      "topics": [
+        "D.loose_lead_greetings"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-loose-lead"
+    },
+    {
+      "id": "claim-dt-ll-002-no-aversive-kit",
+      "kind": "claim",
+      "title": "Dogs Trust states that equipment promising to 'cure' pulling by causing pain or discomfort in sensitive areas is unneces…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-loose-lead"
+    },
+    {
+      "id": "claim-dt-alone-001-gradual",
+      "kind": "claim",
+      "title": "Dogs Trust advises building time apart very gradually, pairing alone time with positive experiences such as long-lasting…",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-time-alone"
+    },
+    {
+      "id": "claim-dt-alone-002-no-tell-off",
+      "kind": "claim",
+      "title": "Dogs Trust states that telling a dog off for separation-related destruction or toileting is likely to worsen anxiety bec…",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-time-alone"
+    },
+    {
+      "id": "claim-dt-alone-003-four-hours",
+      "kind": "claim",
+      "title": "Dogs Trust advises avoiding leaving an adult dog alone for more than four hours, and building up more slowly if separati…",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-time-alone"
+    },
+    {
+      "id": "claim-dt-sa-001-avoid-alone",
+      "kind": "claim",
+      "title": "For dogs showing separation anxiety, Dogs Trust advises avoiding leaving them alone (or longer than they can cope) becau…",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-separation-anxiety"
+    },
+    {
+      "id": "claim-dt-support-001-vet-first",
+      "kind": "claim",
+      "title": "Dogs Trust states the first step when behaviour concerns arise is to speak to a vet, who can examine the dog and refer t…",
+      "topics": [
+        "H.veterinary_assessment"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-finding-behaviour-support"
+    },
+    {
+      "id": "claim-rspca-child-001-supervise",
+      "kind": "claim",
+      "title": "RSPCA advises never leaving a child alone in the same room as a dog, even the family dog.",
+      "topics": [
+        "H.bite_prevention_dog_child"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-children-dogs"
+    },
+    {
+      "id": "claim-rspca-child-002-do-not-disturb",
+      "kind": "claim",
+      "title": "RSPCA advises teaching children not to approach dogs when the dog is eating, sleeping, unwell, injured, tired, or near v…",
+      "topics": [
+        "H.bite_prevention_dog_child"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-children-dogs"
+    },
+    {
+      "id": "claim-bc-stress-001-no-punish-defensive",
+      "kind": "claim",
+      "title": "Blue Cross advises not punishing dogs showing defensive behaviours such as growling, because punishment may suppress war…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-stress-dogs"
+    },
+    {
+      "id": "claim-bc-child-001-remove-on-stress",
+      "kind": "claim",
+      "title": "Blue Cross advises removing the dog from a worrying situation when stress signs appear (e.g. lip lick, growl, moving awa…",
+      "topics": [
+        "H.bite_prevention_dog_child"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-children-dog-safe"
+    },
+    {
+      "id": "claim-pdsa-enrich-001-food-allowance",
+      "kind": "claim",
+      "title": "PDSA advises deducting food used in enrichment activities from the dog's daily ration to avoid weight gain.",
+      "topics": [
+        "F.sniffing_foraging_scent"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-five-activities"
+    },
+    {
+      "id": "claim-pdsa-enrich-002-balance-rest",
+      "kind": "claim",
+      "title": "PDSA states mental stimulation and enrichment should be balanced with adequate rest and downtime for dogs.",
+      "topics": [
+        "F.physical_activity_rest"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-stress-dogs"
+    },
+    {
+      "id": "claim-abtc-aversive-001-shock-choke-prong",
+      "kind": "claim",
+      "title": "ABTC's June 2024 indicative list includes electric/shock collars, choke chains/collars, and prong/pinch collars as avers…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-abtc-aversives-list-2024"
+    },
+    {
+      "id": "claim-abtc-aversive-002-alpha-roll",
+      "kind": "claim",
+      "title": "ABTC's indicative aversive methods list includes 'alpha roll'/pinning, hitting, hard lead jerks, and kneeing the dog as …",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-abtc-aversives-list-2024"
+    },
+    {
+      "id": "claim-vcastro-001-stress-behaviours",
+      "kind": "claim",
+      "title": "Vieira de Castro et al. (2020) report dogs from schools using high proportions of aversive-based methods showed more str…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "medium",
+      "sourceId": "study-vieira-de-castro-2020"
+    },
+    {
+      "id": "claim-vcastro-002-cortisol-cognitive-bias",
+      "kind": "claim",
+      "title": "Vieira de Castro et al. (2020) report dogs from highly aversive-based schools had higher post-training cortisol increase…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "medium",
+      "sourceId": "study-vieira-de-castro-2020"
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -436,6 +813,33 @@
       "reviewStatus": "auto_accepted_low_risk",
       "behaviourIds": [
         "beh-sit-on-cue"
+      ]
+    },
+    {
+      "id": "proto-leave-it-dt",
+      "kind": "protocol",
+      "title": "Leave it — look away progression (Dogs Trust)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-leave-item"
+      ]
+    },
+    {
+      "id": "proto-loose-lead-dt",
+      "kind": "protocol",
+      "title": "Loose-lead walking — stop-start method (Dogs Trust)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-loose-lead-walk"
+      ]
+    },
+    {
+      "id": "proto-alone-prevention-dt",
+      "kind": "protocol",
+      "title": "Alone-time preparation (puppy/adult prevention — Dogs Trust)",
+      "reviewStatus": "requires_human_review",
+      "behaviourIds": [
+        "beh-settle-alone"
       ]
     }
   ]

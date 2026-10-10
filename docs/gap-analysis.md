@@ -1,26 +1,26 @@
-# Gap analysis (batch 001 baseline)
+# Gap analysis (updated after batch 002)
 
 ## Coverage by taxonomy category
 
 | Category | Batch 001 status | Priority next sources |
 |----------|------------------|------------------------|
-| A Behaviour & communication | Minimal | Blue Cross body language; IMDT canine body language course materials (public pages) |
+| A Behaviour & communication | Blue Cross stress/warning signs (claims) | Full body language taxonomy; displacement behaviours |
 | B Learning theory | Marker + +R claims | APBC/FABC learning theory sheets; open-access reviews on operant conditioning in dogs |
 | C Training mechanics | Session timing, DDD partial | Dogs Trust focus/lead walking; systematic DDD progression sources |
-| D Foundation behaviours | Sit, recall, name refs | Leave it, drop, stay, loose lead — Dogs Trust + RSPCA guides |
+| D Foundation behaviours | Sit, recall, leave, loose lead; stay extracted | Down, drop, emergency recall, settle — Dogs Trust + RSPCA |
 | E Puppy/adolescent | Registered only | Dogs Trust puppy 101; Blue Cross puppy socialisation |
-| F Enrichment | None | PDSA enrichment; RSPCA enrichment |
-| G Behaviour problems | Recall/escape only | Separation anxiety (DT), reactivity — charity + referral paths |
-| H Health & boundaries | Referral ethics | BVA/RCVS behaviour-vet guidance; pain-behaviour links |
+| F Enrichment | PDSA claims (food allowance, rest) | More RSPCA/DT enrichment protocols |
+| G Behaviour problems | Separation management + referral | Lead reactivity, noise phobia — APBC/FABC sheets |
+| H Health & boundaries | Vet-first, child supervision | CFSG dog-child; BVA/RCVS pain-behaviour |
 | I Assessment | None | Define Good Dog metrics provisionally with human review |
 | J Special populations | None | Rescue-specific charities; multi-dog management |
 | K Ethics/regulation | IMDT, ABTC, Hiby | UK law (Microchipping, Dangerous Dogs Act summaries — official); ABTC aversive leaflet full extract |
 
 ## Source registry gaps
 
-- **Blue Cross, PDSA**: registered in mission but not yet ingested (batch 002).
+- **Blue Cross, PDSA**: initial ingestion complete (batch 002); not exhaustive.
 - **ABTC role standards PDFs**: not downloaded; practitioner category claims pending.
-- **Peer-reviewed corpus**: single 2004 survey; need Fernandes et al., Vieira de Castro etc. in later batches.
+- **Peer-reviewed corpus**: Hiby 2004 + Vieira de Castro 2020; add systematic reviews next.
 - **Community corpora**: intentionally deferred until foundational layer stable.
 
 ## Evidence gaps (research)
