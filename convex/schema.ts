@@ -10,5 +10,13 @@ export default defineSchema({
     updatedAt: v.number()
   })
     .index("by_user_and_lesson", ["anonymousUserId", "lessonId"])
+    .index("by_user", ["anonymousUserId"]),
+  metricProgress: defineTable({
+    anonymousUserId: v.string(),
+    metricId: v.string(),
+    completed: v.boolean(),
+    updatedAt: v.number()
+  })
     .index("by_user", ["anonymousUserId"])
+    .index("by_user_and_metric", ["anonymousUserId", "metricId"])
 });

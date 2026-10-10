@@ -6,7 +6,10 @@
       "title": "Understanding reactive dogs",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["G.lead_reactivity_barking", "H.scope_of_practice_referral"],
+      "topics": [
+        "G.lead_reactivity_barking",
+        "H.scope_of_practice_referral"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -14,7 +17,10 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_004",
       "qualityTier": "high_practical",
-      "issues": ["complex_behaviour_pathway_requires_human_review"]
+      "issues": [
+        "complex_behaviour_pathway_requires_human_review"
+      ],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-puppy-socialisation",
@@ -22,7 +28,10 @@
       "title": "Introducing your puppy to the world around them",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["E.socialisation_exposure", "E.habituation_confidence"],
+      "topics": [
+        "E.socialisation_exposure",
+        "E.habituation_confidence"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -30,7 +39,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_004",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-puppy-training-101",
@@ -38,7 +48,10 @@
       "title": "Puppy 101 — training basics hub",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["E.socialisation_exposure", "D.sit_down_stand"],
+      "topics": [
+        "E.socialisation_exposure",
+        "D.sit_down_stand"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -46,7 +59,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_004",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-rspca-leave-training",
@@ -54,7 +68,9 @@
       "title": "How to train your dog to leave something alone — RSPCA",
       "publisher": "RSPCA",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.leave_it_drop"],
+      "topics": [
+        "D.leave_it_drop"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -62,12 +78,17 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_004",
       "qualityTier": "high_practical",
-      "issues": ["no_dedicated_rspca_drop_page"]
+      "issues": [
+        "no_dedicated_rspca_drop_page"
+      ],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "study-verbeek-2024-hdb-scoping",
       "canonicalUrl": "https://doi.org/10.3390/ani14131985",
-      "alternateUrls": ["https://www.mdpi.com/2076-2615/14/13/1985"],
+      "alternateUrls": [
+        "https://www.mdpi.com/2076-2615/14/13/1985"
+      ],
       "title": "The Welfare of Dogs as an Aspect of the Human–Dog Bond: A Scoping Review",
       "authors": [
         "Peter Verbeek",
@@ -77,7 +98,10 @@
       ],
       "publisher": "Animals (MDPI)",
       "sourceType": "peer_reviewed_journal",
-      "topics": ["K.evidence_gaps_debates", "H.scope_of_practice_referral"],
+      "topics": [
+        "K.evidence_gaps_debates",
+        "H.scope_of_practice_referral"
+      ],
       "contentClass": "scoping_review",
       "publishedDate": "2024-07-01",
       "retrievedDate": "2026-10-10",
@@ -86,7 +110,10 @@
       "accessRestrictions": "open_access",
       "extractionStatus": "extracted_batch_004",
       "qualityTier": "synthesis_review",
-      "issues": ["WEIRD_societies_bias_noted_by_authors"]
+      "issues": [
+        "WEIRD_societies_bias_noted_by_authors"
+      ],
+      "displayEligibility": "research_only"
     },
     {
       "id": "study-counterconditioning-review-2024",
@@ -95,7 +122,10 @@
       "authors": [],
       "publisher": "Applied Animal Behaviour Science",
       "sourceType": "peer_reviewed_journal",
-      "topics": ["G.lead_reactivity_barking", "K.evidence_gaps_debates"],
+      "topics": [
+        "G.lead_reactivity_barking",
+        "K.evidence_gaps_debates"
+      ],
       "contentClass": "systematic_review",
       "publishedDate": "2024",
       "retrievedDate": "2026-10-10",
@@ -104,7 +134,10 @@
       "accessRestrictions": "paywall_possible",
       "extractionStatus": "abstract_extracted_batch_004",
       "qualityTier": "synthesis_review",
-      "issues": ["heterogeneous_intervention_definitions"]
+      "issues": [
+        "heterogeneous_intervention_definitions"
+      ],
+      "displayEligibility": "research_only"
     }
   ],
   "studies": [
@@ -127,7 +160,9 @@
       "studyDesign": "scoping_review",
       "population": "human_dog_bond_literature_2012_2023",
       "sampleSize": 706,
-      "primaryOutcomes": ["mapping_dog_welfare_themes_in_hdb_research"],
+      "primaryOutcomes": [
+        "mapping_dog_welfare_themes_in_hdb_research"
+      ],
       "limitations": [
         "Majority of studies from WEIRD societies.",
         "Scoping review not pooled meta-analysis of training methods."
@@ -145,7 +180,9 @@
       "studyDesign": "systematic_review_prisma",
       "population": "companion_dog_behaviour_modification_studies",
       "sampleSize": 14,
-      "primaryOutcomes": ["counterconditioning_outcomes_by_behaviour_type"],
+      "primaryOutcomes": [
+        "counterconditioning_outcomes_by_behaviour_type"
+      ],
       "limitations": [
         "Small heterogeneous primary studies.",
         "Expert-led interventions limit owner self-serve generalisation."
@@ -198,7 +235,9 @@
       "confidence": "high",
       "confidenceJustification": "Step-by-step management guidance.",
       "contradictingClaimIds": [],
-      "limitations": ["Management not full behaviour modification plan."],
+      "limitations": [
+        "Management not full behaviour modification plan."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -230,7 +269,9 @@
       "confidence": "medium",
       "confidenceJustification": "Charity education statement; cite as management heuristic not primary physiology claim.",
       "contradictingClaimIds": [],
-      "limitations": ["Individual variation; not a controlled study in this source."],
+      "limitations": [
+        "Individual variation; not a controlled study in this source."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -262,7 +303,9 @@
       "confidence": "high",
       "confidenceJustification": "Detailed RSPCA training steps.",
       "contradictingClaimIds": [],
-      "limitations": ["Teaches disengagement from hand-held item; not mouth 'drop' cue alone."],
+      "limitations": [
+        "Teaches disengagement from hand-held item; not mouth 'drop' cue alone."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -294,7 +337,9 @@
       "confidence": "high",
       "confidenceJustification": "HTTP 404 on candidate drop URLs; training hub link crawl.",
       "contradictingClaimIds": [],
-      "limitations": ["RSPCA site structure may change."],
+      "limitations": [
+        "RSPCA site structure may change."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": false
     },
@@ -326,7 +371,9 @@
       "confidence": "high",
       "confidenceJustification": "Explicit health/socialisation balance guidance.",
       "contradictingClaimIds": [],
-      "limitations": ["Follow individual vet protocol on timing."],
+      "limitations": [
+        "Follow individual vet protocol on timing."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -375,7 +422,9 @@
       "confidence": "medium",
       "confidenceJustification": "Scoping review mapping literature, not new RCT data.",
       "contradictingClaimIds": [],
-      "limitations": ["Does not replace method-specific meta-analysis."],
+      "limitations": [
+        "Does not replace method-specific meta-analysis."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -409,7 +458,9 @@
       "confidence": "medium",
       "confidenceJustification": "Small-n systematic review; abstract-level KB entry.",
       "contradictingClaimIds": [],
-      "limitations": ["Not owner self-serve protocol validation."],
+      "limitations": [
+        "Not owner self-serve protocol validation."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     }
@@ -419,12 +470,23 @@
       "id": "proto-leave-rspca-fist",
       "title": "Leave — fist closed progression (RSPCA)",
       "intendedOutcome": "Dog disengages from presented item on gentle 'leave' cue.",
-      "targetBehaviourIds": ["beh-leave-item"],
-      "methodIds": ["meth-positive-reinforcement"],
-      "suitableProfiles": ["puppies", "adult_pet_dogs"],
+      "targetBehaviourIds": [
+        "beh-leave-item"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement"
+      ],
+      "suitableProfiles": [
+        "puppies",
+        "adult_pet_dogs"
+      ],
       "prerequisites": [],
-      "inappropriateWhen": ["Resource guarding with bite risk—refer to behaviourist"],
-      "equipment": ["Small treats"],
+      "inappropriateWhen": [
+        "Resource guarding with bite risk—refer to behaviourist"
+      ],
+      "equipment": [
+        "Small treats"
+      ],
       "environment": "Quiet room.",
       "baselineAssessment": "Dog accepts treats from handler.",
       "steps": [
@@ -434,7 +496,9 @@
           "rewardTiming": "No reward until dog backs off.",
           "progressCriteria": "Dog learns closed fist does not release on mouthing.",
           "easierIfStruggling": "Use lower-value treat in fist; higher-value reward when opening hand.",
-          "failureModes": ["Opening fist while dog is mouthing"]
+          "failureModes": [
+            "Opening fist while dog is mouthing"
+          ]
         },
         {
           "stepNumber": 2,
@@ -442,7 +506,9 @@
           "rewardTiming": "Treat the moment of disengagement.",
           "progressCriteria": "Consistent back-off before treat release.",
           "easierIfStruggling": "Wait for larger gap if needed.",
-          "failureModes": ["Rewarding while nose still on fist"]
+          "failureModes": [
+            "Rewarding while nose still on fist"
+          ]
         },
         {
           "stepNumber": 3,
@@ -450,16 +516,31 @@
           "rewardTiming": "Treat from other hand after successful leave.",
           "progressCriteria": "Leaves visible palm item on cue.",
           "easierIfStruggling": "Close hand if dog moves toward palm treat.",
-          "failureModes": ["Harsh tone on cue"]
+          "failureModes": [
+            "Harsh tone on cue"
+          ]
         }
       ],
-      "reinforcementOptions": ["Food", "Praise"],
+      "reinforcementOptions": [
+        "Food",
+        "Praise"
+      ],
       "generalisationMaintenance": "Practice with safe household items before real hazards.",
-      "welfareMonitoring": ["Escalation to snapping over items"],
-      "stopConditions": ["Aggressive resource guarding—professional support"],
-      "safetyPrecautions": ["Pair with fair-trade if item already in mouth (see Dogs Trust leave guidance)"],
-      "referralRequirements": ["Persistent failure—ABTC-registered trainer"],
-      "supportingSourceIds": ["src-rspca-leave-training"],
+      "welfareMonitoring": [
+        "Escalation to snapping over items"
+      ],
+      "stopConditions": [
+        "Aggressive resource guarding—professional support"
+      ],
+      "safetyPrecautions": [
+        "Pair with fair-trade if item already in mouth (see Dogs Trust leave guidance)"
+      ],
+      "referralRequirements": [
+        "Persistent failure—ABTC-registered trainer"
+      ],
+      "supportingSourceIds": [
+        "src-rspca-leave-training"
+      ],
       "supportingClaimIds": [
         "claim-rspca-leave-001-back-off-rewarded",
         "claim-rspca-leave-002-gentle-cue-tone"
@@ -473,15 +554,27 @@
       "id": "proto-reactive-walk-management-dt",
       "title": "Lead reactivity — in-the-moment management (Dogs Trust)",
       "intendedOutcome": "Handler prevents escalation and rewards calm disengagement at safe distance from triggers.",
-      "targetBehaviourIds": ["beh-calm-at-trigger-distance"],
-      "methodIds": ["meth-positive-reinforcement", "meth-create-distance", "meth-long-line-management"],
-      "suitableProfiles": ["reactive_pet_dogs_pending_assessment"],
+      "targetBehaviourIds": [
+        "beh-calm-at-trigger-distance"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement",
+        "meth-create-distance",
+        "meth-long-line-management"
+      ],
+      "suitableProfiles": [
+        "reactive_pet_dogs_pending_assessment"
+      ],
       "prerequisites": [],
       "inappropriateWhen": [
         "Biting or severe aggression without professional plan",
         "Unmanaged off-lead in trigger-rich areas"
       ],
-      "equipment": ["Secure harness", "Standard or long line", "High-value treats or toy"],
+      "equipment": [
+        "Secure harness",
+        "Standard or long line",
+        "High-value treats or toy"
+      ],
       "environment": "Start on quiet routes; avoid peak dog traffic initially.",
       "baselineAssessment": "Vet check completed for pain/medical contributors.",
       "steps": [
@@ -491,7 +584,9 @@
           "rewardTiming": "Optional calm praise for successful avoidance.",
           "progressCriteria": "Fewer full-threshold reactions on familiar route.",
           "easierIfStruggling": "Increase distance further; shorten walks.",
-          "failureModes": ["Forcing close passes to 'socialise'"]
+          "failureModes": [
+            "Forcing close passes to 'socialise'"
+          ]
         },
         {
           "stepNumber": 2,
@@ -499,7 +594,10 @@
           "rewardTiming": "Reward at first relaxed body language after distance increase.",
           "progressCriteria": "Dog accepts rewards and can orient to handler at sub-threshold distances.",
           "easierIfStruggling": "U-turn earlier; use higher-value rewards.",
-          "failureModes": ["Verbal reprimands", "Tight lead corrections"]
+          "failureModes": [
+            "Verbal reprimands",
+            "Tight lead corrections"
+          ]
         },
         {
           "stepNumber": 3,
@@ -507,19 +605,37 @@
           "rewardTiming": "N/A—planning step.",
           "progressCriteria": "Owner has referral contact and adjusted walk plan.",
           "easierIfStruggling": "Temporary walk suspension with enrichment at home.",
-          "failureModes": ["Repeating same trigger density daily"]
+          "failureModes": [
+            "Repeating same trigger density daily"
+          ]
         }
       ],
-      "reinforcementOptions": ["Food", "Praise", "Toy", "Moving away from trigger"],
+      "reinforcementOptions": [
+        "Food",
+        "Praise",
+        "Toy",
+        "Moving away from trigger"
+      ],
       "generalisationMaintenance": "Management remains until trained replacement behaviours are proofed with professional plan.",
-      "welfareMonitoring": ["Rising frequency/intensity of reactions", "Inability to eat on walks"],
-      "stopConditions": ["Bites or imminent bite risk—management only with behaviourist/vet"],
-      "safetyPrecautions": ["safe-004-scope-referral", "safe-001-no-aversive-routine"],
+      "welfareMonitoring": [
+        "Rising frequency/intensity of reactions",
+        "Inability to eat on walks"
+      ],
+      "stopConditions": [
+        "Bites or imminent bite risk—management only with behaviourist/vet"
+      ],
+      "safetyPrecautions": [
+        "safe-004-scope-referral",
+        "safe-001-no-aversive-routine"
+      ],
       "referralRequirements": [
         "ABTC Clinical Animal Behaviourist or Veterinary Behaviourist for treatment plans",
         "Dogs Trust Behaviour Support Line for triage"
       ],
-      "supportingSourceIds": ["src-dt-reactive-dog", "src-dt-finding-behaviour-support"],
+      "supportingSourceIds": [
+        "src-dt-reactive-dog",
+        "src-dt-finding-behaviour-support"
+      ],
       "supportingClaimIds": [
         "claim-dt-reactive-002-vet-check-first",
         "claim-dt-reactive-003-create-distance-reward",
@@ -528,8 +644,8 @@
         "claim-dt-reactive-006-behaviour-support-referral"
       ],
       "evidenceConfidence": "high_professional_guidance",
-      "reviewStatus": "requires_human_review",
-      "reviewReason": "Management-only protocol; clinical reactivity treatment out of app scope.",
+      "reviewStatus": "reviewed_pilot_export",
+      "reviewReason": "Management-only pilot export; review-009 resolved with advisory CTAs.",
       "lastVerified": "2026-10-10",
       "appProgressionNotes": "Good Dog should surface referral CTAs, not promise cure via management alone."
     },
@@ -537,12 +653,23 @@
       "id": "proto-puppy-socialisation-dt",
       "title": "Puppy socialisation — positive exposure checklist (Dogs Trust)",
       "intendedOutcome": "Puppy forms positive associations with everyday people, animals, sounds, surfaces and objects during the early socialisation window.",
-      "targetBehaviourIds": ["beh-confident-novelty-exposure"],
-      "methodIds": ["meth-positive-reinforcement"],
-      "suitableProfiles": ["puppies_under_5_months"],
+      "targetBehaviourIds": [
+        "beh-confident-novelty-exposure"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement"
+      ],
+      "suitableProfiles": [
+        "puppies_under_5_months"
+      ],
       "prerequisites": [],
-      "inappropriateWhen": ["Puppy showing sustained fear—pause and seek professional guidance"],
-      "equipment": ["Treats/toys", "Carrier or sling pre-vaccination"],
+      "inappropriateWhen": [
+        "Puppy showing sustained fear—pause and seek professional guidance"
+      ],
+      "equipment": [
+        "Treats/toys",
+        "Carrier or sling pre-vaccination"
+      ],
       "environment": "Home first; public ground only after vet clearance.",
       "baselineAssessment": "Puppy relaxed in home environment.",
       "steps": [
@@ -552,7 +679,9 @@
           "rewardTiming": "Treat/play while puppy remains relaxed.",
           "progressCriteria": "Puppy accepts novel home stimuli without fleeing.",
           "easierIfStruggling": "Increase distance; reduce duration; split stimuli.",
-          "failureModes": ["Flooding or forcing contact"]
+          "failureModes": [
+            "Flooding or forcing contact"
+          ]
         },
         {
           "stepNumber": 2,
@@ -560,7 +689,9 @@
           "rewardTiming": "Reward calm body language only.",
           "progressCriteria": "Calm observation at sub-threshold distances.",
           "easierIfStruggling": "Shorter outings; quieter locations.",
-          "failureModes": ["Ground contact before vet approval"]
+          "failureModes": [
+            "Ground contact before vet approval"
+          ]
         },
         {
           "stepNumber": 3,
@@ -568,16 +699,33 @@
           "rewardTiming": "High-value rewards for calm choices.",
           "progressCriteria": "Growing confidence across checklist categories without shutdown.",
           "easierIfStruggling": "Return to earlier step; consult vet/trainer.",
-          "failureModes": ["Quantity-over-quality socialisation"]
+          "failureModes": [
+            "Quantity-over-quality socialisation"
+          ]
         }
       ],
-      "reinforcementOptions": ["Food", "Play", "Praise"],
+      "reinforcementOptions": [
+        "Food",
+        "Play",
+        "Praise"
+      ],
       "generalisationMaintenance": "Continue novel experiences through adolescence at sub-threshold levels.",
-      "welfareMonitoring": ["Hiding, freezing, excessive arousal"],
-      "stopConditions": ["Persistent fear—professional help"],
-      "safetyPrecautions": ["Follow vet vaccination and parasite advice"],
-      "referralRequirements": ["Puppy class with reward-based ABTC instructor optional"],
-      "supportingSourceIds": ["src-dt-puppy-socialisation", "src-dt-puppy-training-101"],
+      "welfareMonitoring": [
+        "Hiding, freezing, excessive arousal"
+      ],
+      "stopConditions": [
+        "Persistent fear—professional help"
+      ],
+      "safetyPrecautions": [
+        "Follow vet vaccination and parasite advice"
+      ],
+      "referralRequirements": [
+        "Puppy class with reward-based ABTC instructor optional"
+      ],
+      "supportingSourceIds": [
+        "src-dt-puppy-socialisation",
+        "src-dt-puppy-training-101"
+      ],
       "supportingClaimIds": [
         "claim-dt-pupsoc-001-critical-window",
         "claim-dt-pupsoc-002-vaccination-before-ground",
@@ -611,11 +759,13 @@
       "title": "Help your reactive dog on walks",
       "summary": "Create distance, keep the lead relaxed, reward calm—and get vet and behaviour support when needed.",
       "derivedFromProtocolId": "proto-reactive-walk-management-dt",
-      "supportingClaimIds": ["claim-dt-reactive-003-create-distance-reward"],
+      "supportingClaimIds": [
+        "claim-dt-reactive-003-create-distance-reward"
+      ],
       "topic": "G.lead_reactivity_barking",
       "goodDogModule": "behaviour_support",
       "traceabilityStatus": "complete",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10"
     },
     {
@@ -623,7 +773,9 @@
       "title": "Socialise your puppy safely",
       "summary": "Go at your puppy's pace, keep experiences positive, and follow your vet's guidance before walks on the ground.",
       "derivedFromProtocolId": "proto-puppy-socialisation-dt",
-      "supportingClaimIds": ["claim-dt-pupsoc-003-stop-if-worried"],
+      "supportingClaimIds": [
+        "claim-dt-pupsoc-003-stop-if-worried"
+      ],
       "topic": "E.socialisation_exposure",
       "goodDogModule": "puppy",
       "traceabilityStatus": "complete",
@@ -635,7 +787,9 @@
       "title": "Teach leave (RSPCA method)",
       "summary": "Reward your dog for backing away from something so leaving it feels safe and worthwhile.",
       "derivedFromProtocolId": "proto-leave-rspca-fist",
-      "supportingClaimIds": ["claim-rspca-leave-001-back-off-rewarded"],
+      "supportingClaimIds": [
+        "claim-rspca-leave-001-back-off-rewarded"
+      ],
       "topic": "D.leave_it_drop",
       "goodDogModule": "foundation_skills",
       "traceabilityStatus": "complete",
@@ -644,35 +798,6 @@
     }
   ],
   "disagreements": [],
-  "reviewItems": [
-    {
-      "id": "review-009",
-      "entityType": "protocol",
-      "entityId": "proto-reactive-walk-management-dt",
-      "reason": "Management-only; confirm app copy and referral CTAs before publishing.",
-      "priority": "high",
-      "status": "open",
-      "created": "2026-10-10"
-    },
-    {
-      "id": "review-010",
-      "entityType": "protocol",
-      "entityId": "proto-puppy-socialisation-dt",
-      "reason": "Vaccination timing must remain vet-specific; avoid hard-coded age rules in app.",
-      "priority": "medium",
-      "status": "open",
-      "created": "2026-10-10"
-    },
-    {
-      "id": "review-011",
-      "entityType": "source",
-      "entityId": "src-abtc-role-standards-pdf",
-      "reason": "ABTC role standard PDFs blocked by Cloudflare in agent environment; register when downloadable.",
-      "priority": "low",
-      "status": "open",
-      "created": "2026-10-10"
-    }
-  ],
   "relationships": [
     {
       "type": "complements",

@@ -6,11 +6,14 @@
       "title": "Helping your dog cope with fireworks",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["G.fear_noise_separation", "F.physical_activity_rest"],
+      "topics": [
+        "G.fear_noise_separation",
+        "F.physical_activity_rest"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
-      "displayEligibility": "paraphrase_ok_pending_legal",
+      "displayEligibility": "paraphrase_ok",
       "reuseNotes": "Paraphrase only; Sound Blanket is optional tool mention.",
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_005",
@@ -23,11 +26,14 @@
       "title": "Mouthing, nipping and puppy biting",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["G.jumping_mouthing", "E.puppy_biting_chewing_sleep"],
+      "topics": [
+        "G.jumping_mouthing",
+        "E.puppy_biting_chewing_sleep"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
-      "displayEligibility": "paraphrase_ok_pending_legal",
+      "displayEligibility": "paraphrase_ok",
       "reuseNotes": "Paraphrase only.",
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_005",
@@ -40,16 +46,21 @@
       "title": "How to stop your dog stealing",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["G.resource_guarding_chasing", "F.low_cost_enrichment"],
+      "topics": [
+        "G.resource_guarding_chasing",
+        "F.low_cost_enrichment"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
-      "displayEligibility": "paraphrase_ok_pending_legal",
+      "displayEligibility": "paraphrase_ok",
       "reuseNotes": "Management for steal-and-chase; not clinical resource-guarding treatment.",
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_005",
       "qualityTier": "high_practical",
-      "issues": ["stealing_chase_not_full_guarding_protocol"]
+      "issues": [
+        "stealing_chase_not_full_guarding_protocol"
+      ]
     },
     {
       "id": "src-dt-jumping-up",
@@ -57,11 +68,13 @@
       "title": "Stop your dog jumping up at people",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["G.jumping_mouthing"],
+      "topics": [
+        "G.jumping_mouthing"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
-      "displayEligibility": "paraphrase_ok_pending_legal",
+      "displayEligibility": "paraphrase_ok",
       "reuseNotes": "Paraphrase only.",
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_005",
@@ -98,7 +111,9 @@
       "confidence": "high",
       "confidenceJustification": "Management guidance.",
       "contradictingClaimIds": [],
-      "limitations": ["Severe phobia may need behaviourist/vet plan."],
+      "limitations": [
+        "Severe phobia may need behaviourist/vet plan."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -178,7 +193,9 @@
       "confidence": "high",
       "confidenceJustification": "Step guidance.",
       "contradictingClaimIds": [],
-      "limitations": ["Not for dogs showing aggression over items—refer out."],
+      "limitations": [
+        "Not for dogs showing aggression over items—refer out."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -229,6 +246,38 @@
       "limitations": [],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-kb-gap-rspca-no-noise-page",
+      "statement": "As of batch 005 retrieval (2026-10-10), no stable RSPCA public URL was found for fireworks/noise desensitisation; KindTrail uses Dogs Trust seasonal fireworks guidance and defers clinical noise phobia plans to referral.",
+      "topic": "G.fear_noise_separation",
+      "supportingSourceId": "src-dt-fireworks-seasonal",
+      "locator": "KB audit batch 005",
+      "excerptOrParaphrase": "RSPCA noise page gap documented.",
+      "evidenceType": "kb_audit",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Fetch audit recorded in batch manifest.",
+      "contradictingClaimIds": [],
+      "limitations": ["Re-check RSPCA index periodically."],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": false
+    },
+    {
+      "id": "claim-kb-monitor-noise-desens-rct",
+      "statement": "KindTrail monitors peer-reviewed literature for dog/cat noise desensitisation RCTs in pet homes; no new RCT entry added in batch 005—management guidance only in product until evidence review.",
+      "topic": "K.evidence_gaps_debates",
+      "supportingSourceId": "src-dt-fireworks-seasonal",
+      "locator": "Evidence monitoring batch 005",
+      "excerptOrParaphrase": "Noise RCT monitor placeholder.",
+      "evidenceType": "kb_audit",
+      "evidenceChannel": "scientific_literature",
+      "confidence": "medium",
+      "confidenceJustification": "Monitoring claim; not outcome evidence.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": false
     }
   ],
   "protocols": [
@@ -236,12 +285,25 @@
       "id": "proto-fireworks-management-dt",
       "title": "Fireworks season — management and comfort (Dogs Trust)",
       "intendedOutcome": "Dog has a predictable safe setup and owner recognises stress signs during fireworks.",
-      "targetBehaviourIds": ["beh-calm-in-safe-space"],
-      "methodIds": ["meth-positive-reinforcement", "meth-create-distance"],
-      "suitableProfiles": ["noise_sensitive_dogs"],
+      "targetBehaviourIds": [
+        "beh-calm-in-safe-space"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement",
+        "meth-create-distance"
+      ],
+      "suitableProfiles": [
+        "noise_sensitive_dogs"
+      ],
       "prerequisites": [],
-      "inappropriateWhen": ["Severe panic with self-injury—vet/behaviourist plan required"],
-      "equipment": ["Safe room", "Optional calm sound source", "Treats if dog will eat"],
+      "inappropriateWhen": [
+        "Severe panic with self-injury—vet/behaviourist plan required"
+      ],
+      "equipment": [
+        "Safe room",
+        "Optional calm sound source",
+        "Treats if dog will eat"
+      ],
       "environment": "Home; reduce exposure to outdoor noise where possible.",
       "baselineAssessment": "Note current stress signs during noise.",
       "steps": [
@@ -251,7 +313,9 @@
           "rewardTiming": "Reward calm resting if dog accepts food.",
           "progressCriteria": "Dog uses safe area during low noise practice.",
           "easierIfStruggling": "Add masking sounds before events if dog tolerates.",
-          "failureModes": ["Forcing dog out of hiding"]
+          "failureModes": [
+            "Forcing dog out of hiding"
+          ]
         },
         {
           "stepNumber": 2,
@@ -259,20 +323,39 @@
           "rewardTiming": "Calm moments reinforced.",
           "progressCriteria": "Owner can list dog's signs and respond with comfort/management.",
           "easierIfStruggling": "Vet check if signs may be medical.",
-          "failureModes": ["Scolding fearful behaviour"]
+          "failureModes": [
+            "Scolding fearful behaviour"
+          ]
         }
       ],
-      "reinforcementOptions": ["Calm praise", "Food if appetite present"],
+      "reinforcementOptions": [
+        "Calm praise",
+        "Food if appetite present"
+      ],
       "generalisationMaintenance": "Practice safe-space setup before peak season.",
-      "welfareMonitoring": ["Escape attempts", "Injury risk"],
-      "stopConditions": ["Worsening panic—professional desensitisation plan"],
-      "safetyPrecautions": ["safe-004-scope-referral"],
-      "referralRequirements": ["ABTC behaviourist for severe noise phobia"],
-      "supportingSourceIds": ["src-dt-fireworks-seasonal"],
-      "supportingClaimIds": ["claim-dt-fireworks-001-signs", "claim-dt-fireworks-002-safe-space"],
+      "welfareMonitoring": [
+        "Escape attempts",
+        "Injury risk"
+      ],
+      "stopConditions": [
+        "Worsening panic—professional desensitisation plan"
+      ],
+      "safetyPrecautions": [
+        "safe-004-scope-referral"
+      ],
+      "referralRequirements": [
+        "ABTC behaviourist for severe noise phobia"
+      ],
+      "supportingSourceIds": [
+        "src-dt-fireworks-seasonal"
+      ],
+      "supportingClaimIds": [
+        "claim-dt-fireworks-001-signs",
+        "claim-dt-fireworks-002-safe-space"
+      ],
       "evidenceConfidence": "high_professional_guidance",
-      "reviewStatus": "requires_human_review",
-      "reviewReason": "Noise phobia overlaps clinical treatment; management-only in app.",
+      "reviewStatus": "reviewed_pilot_export",
+      "reviewReason": "Management-only pilot export; review-012 resolved.",
       "lastVerified": "2026-10-10",
       "appProgressionNotes": null
     },
@@ -280,12 +363,24 @@
       "id": "proto-steal-chase-management-dt",
       "title": "Steal-and-chase — stop rewarding the game (Dogs Trust)",
       "intendedOutcome": "Dog learns stealing items does not start chase or tug games with the owner.",
-      "targetBehaviourIds": ["beh-drop-stolen-item"],
-      "methodIds": ["meth-positive-reinforcement"],
-      "suitableProfiles": ["playful_stealers_without_aggression"],
+      "targetBehaviourIds": [
+        "beh-drop-stolen-item"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement"
+      ],
+      "suitableProfiles": [
+        "playful_stealers_without_aggression"
+      ],
       "prerequisites": [],
-      "inappropriateWhen": ["Growling/snapping over items—behaviourist referral"],
-      "equipment": ["Toys", "Chews", "Swap treats"],
+      "inappropriateWhen": [
+        "Growling/snapping over items—behaviourist referral"
+      ],
+      "equipment": [
+        "Toys",
+        "Chews",
+        "Swap treats"
+      ],
       "environment": "Home.",
       "baselineAssessment": "Dog steals items for chase/tug.",
       "steps": [
@@ -295,7 +390,10 @@
           "rewardTiming": "Redirect to toy/chew after drop.",
           "progressCriteria": "Dog drops without chase starting.",
           "easierIfStruggling": "Management: remove tempting items from reach.",
-          "failureModes": ["Chasing", "Tug on stolen item"]
+          "failureModes": [
+            "Chasing",
+            "Tug on stolen item"
+          ]
         },
         {
           "stepNumber": 2,
@@ -303,16 +401,32 @@
           "rewardTiming": "Reward appropriate play.",
           "progressCriteria": "Reduced stealing frequency over weeks.",
           "easierIfStruggling": "Expect temporary increase when ignoring (extinction burst).",
-          "failureModes": ["Grabbing item immediately—shows owner 'values' it"]
+          "failureModes": [
+            "Grabbing item immediately—shows owner 'values' it"
+          ]
         }
       ],
-      "reinforcementOptions": ["Toys", "Chews", "Training games"],
+      "reinforcementOptions": [
+        "Toys",
+        "Chews",
+        "Training games"
+      ],
       "generalisationMaintenance": "Consistent no-chase rule for all family members.",
-      "welfareMonitoring": ["Escalation to guarding/aggression"],
-      "stopConditions": ["Aggression over resources—refer out"],
-      "safetyPrecautions": ["safe-007-no-confrontational-guarding"],
-      "referralRequirements": ["Qualified behaviourist if aggression present"],
-      "supportingSourceIds": ["src-dt-stop-stealing"],
+      "welfareMonitoring": [
+        "Escalation to guarding/aggression"
+      ],
+      "stopConditions": [
+        "Aggression over resources—refer out"
+      ],
+      "safetyPrecautions": [
+        "safe-007-no-confrontational-guarding"
+      ],
+      "referralRequirements": [
+        "Qualified behaviourist if aggression present"
+      ],
+      "supportingSourceIds": [
+        "src-dt-stop-stealing"
+      ],
       "supportingClaimIds": [
         "claim-dt-steal-001-no-chase-game",
         "claim-dt-steal-002-ignore-drop",
@@ -327,12 +441,23 @@
       "id": "proto-jumping-four-paws-dt",
       "title": "Four paws on the floor greetings (Dogs Trust)",
       "intendedOutcome": "Dog greets people with all four paws on the ground.",
-      "targetBehaviourIds": ["beh-four-paws-greeting"],
-      "methodIds": ["meth-positive-reinforcement"],
-      "suitableProfiles": ["puppies", "adult_jumpers"],
+      "targetBehaviourIds": [
+        "beh-four-paws-greeting"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement"
+      ],
+      "suitableProfiles": [
+        "puppies",
+        "adult_jumpers"
+      ],
       "prerequisites": [],
-      "inappropriateWhen": ["Fearful greeting avoidance—assess separately"],
-      "equipment": ["Treats"],
+      "inappropriateWhen": [
+        "Fearful greeting avoidance—assess separately"
+      ],
+      "equipment": [
+        "Treats"
+      ],
       "environment": "Home then controlled greetings.",
       "baselineAssessment": "Dog jumps for visitor attention.",
       "steps": [
@@ -342,7 +467,9 @@
           "rewardTiming": "Treat/praise only for paws down.",
           "progressCriteria": "Dog offers paws-down before jump completes.",
           "easierIfStruggling": "Practice with familiar calm person first.",
-          "failureModes": ["Petting while jumping"]
+          "failureModes": [
+            "Petting while jumping"
+          ]
         },
         {
           "stepNumber": 2,
@@ -350,17 +477,27 @@
           "rewardTiming": "High-value rewards for first calm greeting.",
           "progressCriteria": "Calm greetings with regular visitors.",
           "easierIfStruggling": "Lead or behind gate for management during learning.",
-          "failureModes": ["Inconsistent rules between family members"]
+          "failureModes": [
+            "Inconsistent rules between family members"
+          ]
         }
       ],
-      "reinforcementOptions": ["Food", "Calm attention"],
+      "reinforcementOptions": [
+        "Food",
+        "Calm attention"
+      ],
       "generalisationMaintenance": "Brief visitor coaching script.",
       "welfareMonitoring": [],
       "stopConditions": [],
       "safetyPrecautions": [],
       "referralRequirements": [],
-      "supportingSourceIds": ["src-dt-jumping-up"],
-      "supportingClaimIds": ["claim-dt-jump-001-four-paws", "claim-dt-jump-002-no-reward-jump"],
+      "supportingSourceIds": [
+        "src-dt-jumping-up"
+      ],
+      "supportingClaimIds": [
+        "claim-dt-jump-001-four-paws",
+        "claim-dt-jump-002-no-reward-jump"
+      ],
       "evidenceConfidence": "high_professional_guidance",
       "reviewStatus": "auto_accepted_low_risk",
       "lastVerified": "2026-10-10",
@@ -370,12 +507,24 @@
       "id": "proto-mouthing-redirect-dt",
       "title": "Mouthing — redirect and needs check (Dogs Trust)",
       "intendedOutcome": "Owner reduces mouthing by meeting needs and redirecting to appropriate items.",
-      "targetBehaviourIds": ["beh-mouth-on-toy-not-hands"],
-      "methodIds": ["meth-positive-reinforcement"],
-      "suitableProfiles": ["puppies", "mouthy_adults"],
+      "targetBehaviourIds": [
+        "beh-mouth-on-toy-not-hands"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement"
+      ],
+      "suitableProfiles": [
+        "puppies",
+        "mouthy_adults"
+      ],
       "prerequisites": [],
-      "inappropriateWhen": ["Skin-breaking bites—refer immediately"],
-      "equipment": ["Chews", "Toys"],
+      "inappropriateWhen": [
+        "Skin-breaking bites—refer immediately"
+      ],
+      "equipment": [
+        "Chews",
+        "Toys"
+      ],
       "environment": "Home.",
       "baselineAssessment": "Dog mouths hands or clothing in play.",
       "steps": [
@@ -385,7 +534,9 @@
           "rewardTiming": "N/A—management.",
           "progressCriteria": "Owner completes needs checklist.",
           "easierIfStruggling": "Vet check if pain suspected.",
-          "failureModes": ["Only punishing mouthing"]
+          "failureModes": [
+            "Only punishing mouthing"
+          ]
         },
         {
           "stepNumber": 2,
@@ -393,17 +544,37 @@
           "rewardTiming": "When dog chews toy instead of hands.",
           "progressCriteria": "Dog accepts redirect within 3 attempts.",
           "easierIfStruggling": "Shorter play sessions.",
-          "failureModes": ["Rough hand play encouraging mouthing"]
+          "failureModes": [
+            "Rough hand play encouraging mouthing"
+          ]
         }
       ],
-      "reinforcementOptions": ["Chews", "Toys"],
+      "reinforcementOptions": [
+        "Chews",
+        "Toys"
+      ],
       "generalisationMaintenance": "Consistent rules for all family.",
-      "welfareMonitoring": ["Injury", "Escalation to biting"],
-      "stopConditions": ["Injury—Behaviour Support Line / vet"],
-      "safetyPrecautions": ["safe-004-scope-referral"],
-      "referralRequirements": ["Dogs Trust Behaviour Support Line if injury"],
-      "supportingSourceIds": ["src-dt-mouthing-nipping"],
-      "supportingClaimIds": ["claim-dt-mouth-001-needs", "claim-dt-mouth-002-redirect", "claim-dt-mouth-003-refer-bite"],
+      "welfareMonitoring": [
+        "Injury",
+        "Escalation to biting"
+      ],
+      "stopConditions": [
+        "Injury—Behaviour Support Line / vet"
+      ],
+      "safetyPrecautions": [
+        "safe-004-scope-referral"
+      ],
+      "referralRequirements": [
+        "Dogs Trust Behaviour Support Line if injury"
+      ],
+      "supportingSourceIds": [
+        "src-dt-mouthing-nipping"
+      ],
+      "supportingClaimIds": [
+        "claim-dt-mouth-001-needs",
+        "claim-dt-mouth-002-redirect",
+        "claim-dt-mouth-003-refer-bite"
+      ],
       "evidenceConfidence": "high_professional_guidance",
       "reviewStatus": "auto_accepted_low_risk",
       "lastVerified": "2026-10-10",
@@ -442,11 +613,13 @@
       "title": "Help your dog through fireworks",
       "summary": "Create a safe space, stay calm, and watch for stress signs—get professional help for severe fear.",
       "derivedFromProtocolId": "proto-fireworks-management-dt",
-      "supportingClaimIds": ["claim-dt-fireworks-002-safe-space"],
+      "supportingClaimIds": [
+        "claim-dt-fireworks-002-safe-space"
+      ],
       "topic": "G.fear_noise_separation",
       "goodDogModule": "behaviour_support",
       "traceabilityStatus": "complete",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10"
     },
     {
@@ -454,7 +627,9 @@
       "title": "Stop the steal-and-chase game",
       "summary": "Do not chase stolen items; wait for a drop and redirect to proper toys and chews.",
       "derivedFromProtocolId": "proto-steal-chase-management-dt",
-      "supportingClaimIds": ["claim-dt-steal-001-no-chase-game"],
+      "supportingClaimIds": [
+        "claim-dt-steal-001-no-chase-game"
+      ],
       "topic": "G.resource_guarding_chasing",
       "goodDogModule": "behaviour_support",
       "traceabilityStatus": "complete",
@@ -466,7 +641,9 @@
       "title": "Four paws on the floor",
       "summary": "Teach everyone to reward calm greetings, not jumping.",
       "derivedFromProtocolId": "proto-jumping-four-paws-dt",
-      "supportingClaimIds": ["claim-dt-jump-002-no-reward-jump"],
+      "supportingClaimIds": [
+        "claim-dt-jump-002-no-reward-jump"
+      ],
       "topic": "G.jumping_mouthing",
       "goodDogModule": "foundation_skills",
       "traceabilityStatus": "complete",
@@ -478,7 +655,10 @@
       "title": "Redirect mouthing and nipping",
       "summary": "Meet your dog's needs, redirect to chews, and call for help if bites break skin.",
       "derivedFromProtocolId": "proto-mouthing-redirect-dt",
-      "supportingClaimIds": ["claim-dt-mouth-002-redirect", "claim-dt-mouth-003-refer-bite"],
+      "supportingClaimIds": [
+        "claim-dt-mouth-002-redirect",
+        "claim-dt-mouth-003-refer-bite"
+      ],
       "topic": "G.jumping_mouthing",
       "goodDogModule": "puppy",
       "traceabilityStatus": "complete",
@@ -503,19 +683,16 @@
       "lastReviewed": "2026-10-10"
     }
   ],
-  "reviewItems": [
-    {
-      "id": "review-012",
-      "entityType": "protocol",
-      "entityId": "proto-fireworks-management-dt",
-      "reason": "Management-only; confirm copy for severe phobia referral.",
-      "priority": "medium",
-      "status": "open",
-      "created": "2026-10-10"
-    }
-  ],
   "relationships": [
-    { "type": "derived_from", "from": "lesson-steal-chase", "to": "proto-steal-chase-management-dt" },
-    { "type": "supported_by", "from": "safe-007-no-confrontational-guarding", "to": "claim-dt-steal-002-ignore-drop" }
+    {
+      "type": "derived_from",
+      "from": "lesson-steal-chase",
+      "to": "proto-steal-chase-management-dt"
+    },
+    {
+      "type": "supported_by",
+      "from": "safe-007-no-confrontational-guarding",
+      "to": "claim-dt-steal-002-ignore-drop"
+    }
   ]
 }

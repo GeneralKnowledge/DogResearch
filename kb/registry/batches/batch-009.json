@@ -1,0 +1,222 @@
+{
+  "sources": [
+    {
+      "id": "src-dt-rehoming-hub",
+      "canonicalUrl": "https://www.dogstrust.org.uk/rehoming",
+      "title": "Rehoming — Dogs Trust",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["J.rescue_rehomed", "H.scope_of_practice_referral"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_009",
+      "qualityTier": "high_practical",
+      "issues": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-dt-rehome-001-patience",
+      "statement": "Dogs Trust rehoming guidance emphasises giving rescue dogs time to settle, avoiding overwhelming new environments, and seeking support when behaviour worries persist.",
+      "topic": "J.rescue_rehomed",
+      "supportingSourceId": "src-dt-rehoming-hub",
+      "locator": "Rehoming advice themes",
+      "excerptOrParaphrase": "Patience and support for new homes.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "medium",
+      "confidenceJustification": "Hub-level paraphrase; deepen when subpages ingested.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-adolescent-001-regression",
+      "statement": "Dogs Trust Puppy 101 and adolescent life-stage guidance note that dogs can show renewed fear or testing behaviour during adolescence; owners should reduce pressure and keep training positive.",
+      "topic": "E.adolescent_development",
+      "supportingSourceId": "src-dt-puppy-training-101",
+      "locator": "Cross-reference batch 004 Puppy 101 hub",
+      "excerptOrParaphrase": "Teenage regression framing.",
+      "evidenceType": "kb_synthesis",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "medium",
+      "confidenceJustification": "Synthesised across puppy/adolescent charity pages.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-hand-target-001",
+      "statement": "Dogs Trust focus and target-style training rewards the dog for orienting to the handler's hand, building engagement before adding distractions (aligned with focus training batch 006).",
+      "topic": "D.hand_target_touch",
+      "supportingSourceId": "src-dt-focus-training",
+      "locator": "Cross-reference batch 006 focus training",
+      "excerptOrParaphrase": "Hand/target engagement pattern.",
+      "evidenceType": "kb_synthesis",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "medium",
+      "confidenceJustification": "Focus page used until dedicated hand-target URL verified.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-vet-prep-001",
+      "statement": "KindTrail vet-prep guidance synthesises charity handling advice: pair gentle handling with treats, stop if stress signs appear, and ask your vet for a cooperative care plan if needed.",
+      "topic": "D.cooperative_care_vet_grooming",
+      "supportingSourceId": "src-dt-rehoming-hub",
+      "locator": "KB synthesis batch 009",
+      "excerptOrParaphrase": "Cooperative handling heuristic pending RSPCA handling page ingest.",
+      "evidenceType": "kb_synthesis",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "low",
+      "confidenceJustification": "Placeholder until dedicated RSPCA handling source added.",
+      "contradictingClaimIds": [],
+      "limitations": ["Replace with RSPCA/DT handling URL when available."],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": false
+    }
+  ],
+  "protocols": [
+    {
+      "id": "proto-rescue-settling-dt",
+      "title": "Rescue dog — first weeks settling plan",
+      "intendedOutcome": "Owner provides predictable routine and low-pressure environment while dog adjusts.",
+      "targetBehaviourIds": ["beh-stress-sign-observed"],
+      "methodIds": ["meth-positive-reinforcement"],
+      "suitableProfiles": ["newly_rehomed_dogs"],
+      "prerequisites": [],
+      "inappropriateWhen": ["Severe aggression or panic without professional plan"],
+      "equipment": ["Treats", "Safe resting area"],
+      "environment": "Home first; gradual local walks.",
+      "baselineAssessment": "Note stress signs and appetite.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Keep routine predictable; allow dog to approach people and novelty at their pace; reward calm exploration.",
+          "rewardTiming": "Food for voluntary calm approaches.",
+          "progressCriteria": "Dog eats and rests in home within first days.",
+          "easierIfStruggling": "Reduce visitors and walk length.",
+          "failureModes": ["Flooding with too many new experiences"]
+        }
+      ],
+      "reinforcementOptions": ["Food", "Quiet praise"],
+      "generalisationMaintenance": "Add one new context at a time.",
+      "welfareMonitoring": ["Stress signs per beh-stress-sign-observed"],
+      "stopConditions": ["Persistent fear or aggression—ABTC referral"],
+      "safetyPrecautions": ["safe-004-scope-referral"],
+      "referralRequirements": ["Dogs Trust Behaviour Support Line or ABTC behaviourist"],
+      "supportingSourceIds": ["src-dt-rehoming-hub"],
+      "supportingClaimIds": ["claim-dt-rehome-001-patience"],
+      "evidenceConfidence": "medium_professional_guidance",
+      "reviewStatus": "reviewed_pilot_export",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": null
+    },
+    {
+      "id": "proto-adolescent-regression-mgmt",
+      "title": "Adolescent regression — reduce pressure",
+      "intendedOutcome": "Owner maintains positive training and management when teenage testing or fear resurfaces.",
+      "targetBehaviourIds": ["beh-stress-sign-observed"],
+      "methodIds": ["meth-positive-reinforcement"],
+      "suitableProfiles": ["adolescent_dogs"],
+      "prerequisites": [],
+      "inappropriateWhen": ["Clinical anxiety without vet/behaviourist support"],
+      "equipment": ["Treats"],
+      "environment": "Low distraction training areas.",
+      "baselineAssessment": "Identify renewed fear triggers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Shorten sessions; revisit foundation skills at easier criteria; avoid punishment for 'regression'.",
+          "rewardTiming": "High-value rewards for small successes.",
+          "progressCriteria": "Dog re-engages in training games.",
+          "easierIfStruggling": "Pause new skills; focus on sleep and enrichment.",
+          "failureModes": ["Increasing corrections or walk length"]
+        }
+      ],
+      "reinforcementOptions": ["Food", "Play"],
+      "generalisationMaintenance": "Expect non-linear progress through adolescence.",
+      "welfareMonitoring": ["Stress signs"],
+      "stopConditions": ["Worsening fear—professional help"],
+      "safetyPrecautions": [],
+      "referralRequirements": ["ABTC-registered trainer or behaviourist"],
+      "supportingSourceIds": ["src-dt-puppy-training-101"],
+      "supportingClaimIds": ["claim-dt-adolescent-001-regression"],
+      "evidenceConfidence": "medium_professional_guidance",
+      "reviewStatus": "reviewed_pilot_export",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": null
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-stay-basics",
+      "title": "Build a stay",
+      "summary": "Reward your dog in position, return before treating, and build duration before distance.",
+      "derivedFromProtocolId": "proto-stay-progression-dt",
+      "supportingClaimIds": ["claim-dt-stay-001-return-to-reward"],
+      "topic": "D.wait_stay_settle",
+      "goodDogModule": "foundation_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "lesson-emergency-recall",
+      "title": "Emergency recall practice",
+      "summary": "Make coming back always worth it—never punish late returns; use a long line until skills are solid.",
+      "derivedFromProtocolId": "proto-recall-emergency-good-dog",
+      "supportingClaimIds": ["claim-rspca-recall-001-no-scold"],
+      "topic": "D.recall_emergency_recall",
+      "goodDogModule": "life_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "lesson-rescue-settling",
+      "title": "Help a rescue dog settle in",
+      "summary": "Go slowly, keep routines predictable, and get professional support if fear or aggression persists.",
+      "derivedFromProtocolId": "proto-rescue-settling-dt",
+      "supportingClaimIds": ["claim-dt-rehome-001-patience"],
+      "topic": "J.rescue_rehomed",
+      "goodDogModule": "behaviour_support",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "lesson-adolescent-regression",
+      "title": "When your teenage dog regresses",
+      "summary": "Shorten sessions, revisit easy wins, and stay force-free through adolescent ups and downs.",
+      "derivedFromProtocolId": "proto-adolescent-regression-mgmt",
+      "supportingClaimIds": ["claim-dt-adolescent-001-regression"],
+      "topic": "E.adolescent_development",
+      "goodDogModule": "puppy",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "lastReviewed": "2026-10-10"
+    }
+  ],
+  "disagreements": [
+    {
+      "id": "disc-005-evidence-monitoring-2026",
+      "question": "Has post-2024 systematic review evidence changed the strength of claims about aversive vs reward training?",
+      "claimIdsInTension": ["claim-verbeek-2024-training-theme", "claim-vcastro-2021-results-monitor"],
+      "areasOfAgreement": ["Scoping reviews continue to flag training methods as welfare-relevant themes."],
+      "disagreementSummary": "No new pooled meta-analysis ingested in batch 008; monitoring continues.",
+      "likelyCauses": ["Paywalls", "Rapid publication cadence"],
+      "goodDogPosition": "Maintain reward-based recommendation; update disagreements when new SR ingested.",
+      "researchGaps": ["Pet-dog RCTs in homes"],
+      "lastReviewed": "2026-10-10"
+    }
+  ]
+}

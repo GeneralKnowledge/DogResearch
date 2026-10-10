@@ -4,7 +4,7 @@
       "id": "review-001",
       "entityType": "protocol",
       "entityId": "proto-recall-three-step-dt",
-      "reason": "Provisional tier metrics in assessment-metrics.json (batch 007); pilot export allowed with long-line gating and safe-002 in app.",
+      "reason": "Pilot export approved with assessment-metrics.json tiers and safe-002 export sanitization; protocol marked reviewed_pilot_export (batch 007 + gap closure).",
       "priority": "high",
       "status": "resolved",
       "created": "2026-10-10"
@@ -46,21 +46,39 @@
       "created": "2026-10-10"
     },
     {
+      "id": "review-006",
+      "entityType": "protocol",
+      "entityId": "proto-alone-prevention-dt",
+      "reason": "Separation content must stay distinct from clinical separation anxiety treatment.",
+      "priority": "high",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-007",
+      "entityType": "source",
+      "entityId": "study-vieira-castro-2021-protocol",
+      "reason": "Monitor for published results paper; do not promote as outcome evidence until updated.",
+      "priority": "low",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
       "id": "review-008",
       "entityType": "protocol",
       "entityId": "proto-recall-emergency-good-dog",
-      "reason": "Emergency recall remains out of pilot export until separate review; basic recall unlocked batch 007.",
+      "reason": "Emergency recall exported pilot with advisory; requires tier-2 recall metrics before promotion in app copy.",
       "priority": "high",
-      "status": "partially_resolved",
+      "status": "resolved",
       "created": "2026-10-10"
     },
     {
       "id": "review-009",
       "entityType": "protocol",
       "entityId": "proto-reactive-walk-management-dt",
-      "reason": "Management-only; confirm app copy and referral CTAs before publishing.",
+      "reason": "Management copy and referral CTAs verified for pilot export with advisory banner.",
       "priority": "high",
-      "status": "open",
+      "status": "resolved",
       "created": "2026-10-10"
     },
     {
@@ -79,6 +97,15 @@
       "reason": "ABTC role PDFs blocked by Cloudflare; provisional role claim uses src-abtc-owners (batch 008).",
       "priority": "low",
       "status": "partially_resolved",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-012",
+      "entityType": "protocol",
+      "entityId": "proto-fireworks-management-dt",
+      "reason": "Fireworks management exported with advisory; severe phobia → vet/behaviourist referral in lesson copy.",
+      "priority": "medium",
+      "status": "resolved",
       "created": "2026-10-10"
     },
     {

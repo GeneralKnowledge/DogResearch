@@ -6,7 +6,10 @@
       "title": "How to train your dog to leave it",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.leave_it_drop", "C.troubleshooting_learning"],
+      "topics": [
+        "D.leave_it_drop",
+        "C.troubleshooting_learning"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -14,7 +17,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-stay-training",
@@ -22,7 +26,10 @@
       "title": "How to train your dog to stay",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.wait_stay_settle", "C.distance_duration_distraction"],
+      "topics": [
+        "D.wait_stay_settle",
+        "C.distance_duration_distraction"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -30,7 +37,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-loose-lead",
@@ -38,7 +46,10 @@
       "title": "Teach your dog to walk nicely on a lead",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.loose_lead_greetings", "K.training_equipment_welfare"],
+      "topics": [
+        "D.loose_lead_greetings",
+        "K.training_equipment_welfare"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -46,7 +57,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-time-alone",
@@ -54,7 +66,10 @@
       "title": "Helping your dog get used to spending time alone",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["G.fear_noise_separation", "E.socialisation_exposure"],
+      "topics": [
+        "G.fear_noise_separation",
+        "E.socialisation_exposure"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -62,7 +77,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-separation-anxiety",
@@ -70,7 +86,10 @@
       "title": "Separation anxiety in dogs: signs and support",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["G.fear_noise_separation", "H.scope_of_practice_referral"],
+      "topics": [
+        "G.fear_noise_separation",
+        "H.scope_of_practice_referral"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -78,7 +97,10 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": ["clinical_pathway_requires_human_review"]
+      "issues": [
+        "clinical_pathway_requires_human_review"
+      ],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-dt-finding-behaviour-support",
@@ -86,7 +108,10 @@
       "title": "Find dog behaviour and training support",
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["H.scope_of_practice_referral", "H.veterinary_assessment"],
+      "topics": [
+        "H.scope_of_practice_referral",
+        "H.veterinary_assessment"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -94,7 +119,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-rspca-children-dogs",
@@ -102,7 +128,10 @@
       "title": "Children and dogs — RSPCA",
       "publisher": "RSPCA",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["H.bite_prevention_dog_child", "J.children_other_animals"],
+      "topics": [
+        "H.bite_prevention_dog_child",
+        "J.children_other_animals"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -110,7 +139,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-pdsa-five-activities",
@@ -118,7 +148,10 @@
       "title": "Five activities to keep your dog busy — PDSA",
       "publisher": "PDSA",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["F.sniffing_foraging_scent", "F.low_cost_enrichment"],
+      "topics": [
+        "F.sniffing_foraging_scent",
+        "F.low_cost_enrichment"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -126,7 +159,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-pdsa-stress-dogs",
@@ -134,7 +168,10 @@
       "title": "Tips to identify and prevent stress in dogs — PDSA",
       "publisher": "PDSA",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["A.stress_fear_arousal", "F.physical_activity_rest"],
+      "topics": [
+        "A.stress_fear_arousal",
+        "F.physical_activity_rest"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -142,7 +179,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-bluecross-stress-dogs",
@@ -150,7 +188,10 @@
       "title": "Signs of stress in dogs — Blue Cross",
       "publisher": "Blue Cross",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["A.stress_fear_arousal", "A.body_language"],
+      "topics": [
+        "A.stress_fear_arousal",
+        "A.body_language"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -158,7 +199,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-bluecross-children-dog-safe",
@@ -166,7 +208,10 @@
       "title": "Keeping your family dog and visiting children safe — Blue Cross",
       "publisher": "Blue Cross",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["H.bite_prevention_dog_child", "A.body_language"],
+      "topics": [
+        "H.bite_prevention_dog_child",
+        "A.body_language"
+      ],
       "contentClass": "professional_guidance",
       "retrievedDate": "2026-10-10",
       "licence": "unknown_web_content",
@@ -174,7 +219,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok"
     },
     {
       "id": "src-abtc-ethical-leaflet-2021",
@@ -182,7 +228,10 @@
       "title": "Ethical Dog Training leaflet",
       "publisher": "ABTC",
       "sourceType": "professional_standard",
-      "topics": ["K.abtc_standards", "K.training_equipment_welfare"],
+      "topics": [
+        "K.abtc_standards",
+        "K.training_equipment_welfare"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": "2021-01-01",
       "retrievedDate": "2026-10-10",
@@ -191,7 +240,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "partial_batch_002",
       "qualityTier": "foundational_ethics",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-abtc-aversives-list-2024",
@@ -199,7 +249,9 @@
       "title": "ABTC indicative list of aversive methods and equipment (June 2024)",
       "publisher": "ABTC",
       "sourceType": "professional_standard",
-      "topics": ["K.training_equipment_welfare"],
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": "2024-06-01",
       "retrievedDate": "2026-10-10",
@@ -208,12 +260,15 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "foundational_ethics",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "study-vieira-de-castro-2020",
       "canonicalUrl": "https://doi.org/10.1371/journal.pone.0225023",
-      "alternateUrls": ["https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225023"],
+      "alternateUrls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225023"
+      ],
       "title": "Does training method matter? Evidence for the negative impact of aversive-based methods on companion dog welfare",
       "authors": [
         "Ana Catarina Vieira de Castro",
@@ -225,7 +280,10 @@
       ],
       "publisher": "PLOS ONE",
       "sourceType": "peer_reviewed_journal",
-      "topics": ["K.evidence_gaps_debates", "B.operant_conditioning"],
+      "topics": [
+        "K.evidence_gaps_debates",
+        "B.operant_conditioning"
+      ],
       "contentClass": "primary_research",
       "publishedDate": "2020-12-16",
       "retrievedDate": "2026-10-10",
@@ -234,7 +292,10 @@
       "accessRestrictions": "open_access",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "foundational_research",
-      "issues": ["observational_training_school_comparison"]
+      "issues": [
+        "observational_training_school_comparison"
+      ],
+      "displayEligibility": "research_only"
     }
   ],
   "studies": [
@@ -332,7 +393,9 @@
       "confidence": "high",
       "confidenceJustification": "Explicit progression guidance.",
       "contradictingClaimIds": [],
-      "limitations": ["Ten-second benchmark is charity-specific, not universal research threshold."],
+      "limitations": [
+        "Ten-second benchmark is charity-specific, not universal research threshold."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -380,7 +443,9 @@
       "confidence": "high",
       "confidenceJustification": "Standard prevention guidance.",
       "contradictingClaimIds": [],
-      "limitations": ["Prevention focus; not treatment for established separation anxiety."],
+      "limitations": [
+        "Prevention focus; not treatment for established separation anxiety."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -412,7 +477,9 @@
       "confidence": "medium",
       "confidenceJustification": "Common UK charity heuristic; individual dogs vary; not a statutory limit.",
       "contradictingClaimIds": [],
-      "limitations": ["Not applicable uniformly to all ages or individual needs."],
+      "limitations": [
+        "Not applicable uniformly to all ages or individual needs."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -428,7 +495,9 @@
       "confidence": "high",
       "confidenceJustification": "Standard clinical management advice from major UK charity.",
       "contradictingClaimIds": [],
-      "limitations": ["Requires alternative care arrangements; app must signpost professional help."],
+      "limitations": [
+        "Requires alternative care arrangements; app must signpost professional help."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -556,7 +625,9 @@
       "confidence": "high",
       "confidenceJustification": "Published ABTC list.",
       "contradictingClaimIds": [],
-      "limitations": ["List stated as non-exhaustive."],
+      "limitations": [
+        "List stated as non-exhaustive."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -590,7 +661,9 @@
       "confidence": "medium",
       "confidenceJustification": "Peer-reviewed observational study; not RCT.",
       "contradictingClaimIds": [],
-      "limitations": ["School self-selection; country/context specific."],
+      "limitations": [
+        "School self-selection; country/context specific."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     },
@@ -607,7 +680,9 @@
       "confidence": "medium",
       "confidenceJustification": "Multimodal welfare measures; observational design.",
       "contradictingClaimIds": [],
-      "limitations": ["Mixed-method schools partially overlapped on some measures."],
+      "limitations": [
+        "Mixed-method schools partially overlapped on some measures."
+      ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
     }
@@ -617,12 +692,27 @@
       "id": "proto-leave-it-dt",
       "title": "Leave it — look away progression (Dogs Trust)",
       "intendedOutcome": "Dog orientates away from presented item on 'leave' cue without taking it.",
-      "targetBehaviourIds": ["beh-leave-item"],
-      "methodIds": ["meth-marker-training", "meth-positive-reinforcement"],
-      "suitableProfiles": ["puppies", "adult_pet_dogs"],
-      "prerequisites": ["beh-marker-conditioned-response"],
-      "inappropriateWhen": ["Resource guarding with aggression history without behaviourist plan"],
-      "equipment": ["High-value treats", "Low-value decoy items"],
+      "targetBehaviourIds": [
+        "beh-leave-item"
+      ],
+      "methodIds": [
+        "meth-marker-training",
+        "meth-positive-reinforcement"
+      ],
+      "suitableProfiles": [
+        "puppies",
+        "adult_pet_dogs"
+      ],
+      "prerequisites": [
+        "beh-marker-conditioned-response"
+      ],
+      "inappropriateWhen": [
+        "Resource guarding with aggression history without behaviourist plan"
+      ],
+      "equipment": [
+        "High-value treats",
+        "Low-value decoy items"
+      ],
       "environment": "Quiet area initially.",
       "baselineAssessment": "Dog accepts treats from handler.",
       "steps": [
@@ -632,7 +722,9 @@
           "rewardTiming": "Mark at look-away; treat immediately.",
           "progressCriteria": "Reliable look-away before cue added.",
           "easierIfStruggling": "Use more boring decoy item; higher-value reward.",
-          "failureModes": ["Dog grabs item—prevent access, reset"]
+          "failureModes": [
+            "Dog grabs item—prevent access, reset"
+          ]
         },
         {
           "stepNumber": 2,
@@ -640,7 +732,9 @@
           "rewardTiming": "On successful leave response.",
           "progressCriteria": "Dog looks away on cue before item reachable.",
           "easierIfStruggling": "Increase distance to item.",
-          "failureModes": ["Repeating cue without success"]
+          "failureModes": [
+            "Repeating cue without success"
+          ]
         },
         {
           "stepNumber": 3,
@@ -648,17 +742,35 @@
           "rewardTiming": "Maintain high-value reward for difficult leaves.",
           "progressCriteria": "Success in moderate distraction environments.",
           "easierIfStruggling": "Return to earlier step per Dogs Trust guidance.",
-          "failureModes": ["Progressing value or distraction too fast"]
+          "failureModes": [
+            "Progressing value or distraction too fast"
+          ]
         }
       ],
-      "reinforcementOptions": ["Food", "Fair trade swap if item already taken"],
+      "reinforcementOptions": [
+        "Food",
+        "Fair trade swap if item already taken"
+      ],
       "generalisationMaintenance": "Periodic reinforcement for real-world hazards.",
-      "welfareMonitoring": ["No escalation to snapping over items"],
-      "stopConditions": ["Guarded resource with aggression—refer to behaviourist"],
-      "safetyPrecautions": ["Use fair trade instead of force-taking items from mouth"],
-      "referralRequirements": ["Persistent failure to leave—training classes or behaviourist"],
-      "supportingSourceIds": ["src-dt-leave-training"],
-      "supportingClaimIds": ["claim-dt-leave-001-fair-trade", "claim-dt-leave-002-look-away"],
+      "welfareMonitoring": [
+        "No escalation to snapping over items"
+      ],
+      "stopConditions": [
+        "Guarded resource with aggression—refer to behaviourist"
+      ],
+      "safetyPrecautions": [
+        "Use fair trade instead of force-taking items from mouth"
+      ],
+      "referralRequirements": [
+        "Persistent failure to leave—training classes or behaviourist"
+      ],
+      "supportingSourceIds": [
+        "src-dt-leave-training"
+      ],
+      "supportingClaimIds": [
+        "claim-dt-leave-001-fair-trade",
+        "claim-dt-leave-002-look-away"
+      ],
       "evidenceConfidence": "high_professional_guidance",
       "reviewStatus": "auto_accepted_low_risk",
       "lastVerified": "2026-10-10",
@@ -668,12 +780,23 @@
       "id": "proto-loose-lead-dt",
       "title": "Loose-lead walking — stop-start method (Dogs Trust)",
       "intendedOutcome": "Dog walks with slack lead; forward motion contingent on loose lead.",
-      "targetBehaviourIds": ["beh-loose-lead-walk"],
-      "methodIds": ["meth-positive-reinforcement"],
-      "suitableProfiles": ["most_pet_dogs"],
+      "targetBehaviourIds": [
+        "beh-loose-lead-walk"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement"
+      ],
+      "suitableProfiles": [
+        "most_pet_dogs"
+      ],
       "prerequisites": [],
-      "inappropriateWhen": ["Pain or lameness—vet check first"],
-      "equipment": ["Comfortable flat harness or collar", "Standard lead"],
+      "inappropriateWhen": [
+        "Pain or lameness—vet check first"
+      ],
+      "equipment": [
+        "Comfortable flat harness or collar",
+        "Standard lead"
+      ],
       "environment": "Start at home/garden; generalise outdoors.",
       "baselineAssessment": "Dog accepts harness/collar positively.",
       "steps": [
@@ -683,7 +806,9 @@
           "rewardTiming": "Reward at handler side.",
           "progressCriteria": "Dog chooses proximity without pulling.",
           "easierIfStruggling": "Higher-value rewards; quieter location.",
-          "failureModes": ["Starting outdoors with high distractions"]
+          "failureModes": [
+            "Starting outdoors with high distractions"
+          ]
         },
         {
           "stepNumber": 2,
@@ -691,7 +816,11 @@
           "rewardTiming": "Forward motion is reinforcer; optional treats at side.",
           "progressCriteria": "Dog orients back and loosens lead to restart walk.",
           "easierIfStruggling": "Walk opposite direction briefly to regain focus.",
-          "failureModes": ["Jerking lead", "Verbal reprimands", "Single step forward while pulling"]
+          "failureModes": [
+            "Jerking lead",
+            "Verbal reprimands",
+            "Single step forward while pulling"
+          ]
         },
         {
           "stepNumber": 3,
@@ -699,17 +828,34 @@
           "rewardTiming": "Intermittent treats as skill stabilises.",
           "progressCriteria": "Slack lead maintained with moderate distractions.",
           "easierIfStruggling": "Reduce distractions; shorten sessions.",
-          "failureModes": ["Inconsistent stop-start under time pressure"]
+          "failureModes": [
+            "Inconsistent stop-start under time pressure"
+          ]
         }
       ],
-      "reinforcementOptions": ["Forward motion", "Food at heel", "Praise"],
+      "reinforcementOptions": [
+        "Forward motion",
+        "Food at heel",
+        "Praise"
+      ],
       "generalisationMaintenance": "Consistent stop-start on every walk during learning.",
-      "welfareMonitoring": ["Stress signs on walks"],
-      "stopConditions": ["Equipment causing pain—change equipment"],
-      "safetyPrecautions": ["Do not use pain-based anti-pull devices per Dogs Trust and ABTC lists"],
+      "welfareMonitoring": [
+        "Stress signs on walks"
+      ],
+      "stopConditions": [
+        "Equipment causing pain—change equipment"
+      ],
+      "safetyPrecautions": [
+        "Do not use pain-based anti-pull devices per Dogs Trust and ABTC lists"
+      ],
       "referralRequirements": [],
-      "supportingSourceIds": ["src-dt-loose-lead"],
-      "supportingClaimIds": ["claim-dt-ll-001-stop-when-tight", "claim-dt-ll-002-no-aversive-kit"],
+      "supportingSourceIds": [
+        "src-dt-loose-lead"
+      ],
+      "supportingClaimIds": [
+        "claim-dt-ll-001-stop-when-tight",
+        "claim-dt-ll-002-no-aversive-kit"
+      ],
       "evidenceConfidence": "high_professional_guidance",
       "reviewStatus": "auto_accepted_low_risk",
       "lastVerified": "2026-10-10",
@@ -719,14 +865,25 @@
       "id": "proto-alone-prevention-dt",
       "title": "Alone-time preparation (puppy/adult prevention — Dogs Trust)",
       "intendedOutcome": "Dog remains relaxed during brief separations with positive alone-time associations.",
-      "targetBehaviourIds": ["beh-settle-alone"],
-      "methodIds": ["meth-positive-reinforcement"],
-      "suitableProfiles": ["puppies", "dogs_without_clinical_separation_anxiety"],
+      "targetBehaviourIds": [
+        "beh-settle-alone"
+      ],
+      "methodIds": [
+        "meth-positive-reinforcement"
+      ],
+      "suitableProfiles": [
+        "puppies",
+        "dogs_without_clinical_separation_anxiety"
+      ],
       "prerequisites": [],
       "inappropriateWhen": [
         "Established separation anxiety with panic—use management + professional support (see src-dt-separation-anxiety)"
       ],
-      "equipment": ["Baby gate", "Long-lasting food toy", "Comfortable bed/den"],
+      "equipment": [
+        "Baby gate",
+        "Long-lasting food toy",
+        "Comfortable bed/den"
+      ],
       "environment": "Home; start with handler still in house.",
       "baselineAssessment": "Dog eats food toys calmly in handler presence.",
       "steps": [
@@ -736,7 +893,9 @@
           "rewardTiming": "Calm behaviour reinforced with continued positive alone activity.",
           "progressCriteria": "No stress signs (panting, pacing, vocalising) for brief period.",
           "easierIfStruggling": "Stay closer to gate; shorten duration.",
-          "failureModes": ["Increasing duration despite stress signs"]
+          "failureModes": [
+            "Increasing duration despite stress signs"
+          ]
         },
         {
           "stepNumber": 2,
@@ -744,17 +903,39 @@
           "rewardTiming": "Calm on return rewarded; no fuss on departure/arrival.",
           "progressCriteria": "Short absences tolerated without stress signs.",
           "easierIfStruggling": "Reduce seconds away; use dog sitter instead of stretching duration if anxiety present.",
-          "failureModes": ["Big emotional greetings", "Punishment for destruction"]
+          "failureModes": [
+            "Big emotional greetings",
+            "Punishment for destruction"
+          ]
         }
       ],
-      "reinforcementOptions": ["Food toys", "Chews", "Calm praise"],
+      "reinforcementOptions": [
+        "Food toys",
+        "Chews",
+        "Calm praise"
+      ],
       "generalisationMaintenance": "Routine alone practice below dog threshold.",
-      "welfareMonitoring": ["Stress signs listed by Dogs Trust—regress if seen"],
-      "stopConditions": ["Any panic or injury risk—stop absences beyond threshold; contact behaviourist/vet"],
-      "safetyPrecautions": ["Do not leave beyond four-hour charity heuristic if avoidable"],
-      "referralRequirements": ["Separation anxiety signs → Dogs Trust Behaviour Support Line / vet / behaviourist"],
-      "supportingSourceIds": ["src-dt-time-alone", "src-dt-separation-anxiety"],
-      "supportingClaimIds": ["claim-dt-alone-001-gradual", "claim-dt-alone-002-no-tell-off", "claim-dt-sa-001-avoid-alone"],
+      "welfareMonitoring": [
+        "Stress signs listed by Dogs Trust—regress if seen"
+      ],
+      "stopConditions": [
+        "Any panic or injury risk—stop absences beyond threshold; contact behaviourist/vet"
+      ],
+      "safetyPrecautions": [
+        "Do not leave beyond four-hour charity heuristic if avoidable"
+      ],
+      "referralRequirements": [
+        "Separation anxiety signs → Dogs Trust Behaviour Support Line / vet / behaviourist"
+      ],
+      "supportingSourceIds": [
+        "src-dt-time-alone",
+        "src-dt-separation-anxiety"
+      ],
+      "supportingClaimIds": [
+        "claim-dt-alone-001-gradual",
+        "claim-dt-alone-002-no-tell-off",
+        "claim-dt-sa-001-avoid-alone"
+      ],
       "evidenceConfidence": "high_professional_guidance",
       "reviewStatus": "requires_human_review",
       "reviewReason": "Separation-related; must not replace clinical behaviour modification plans.",
@@ -788,7 +969,9 @@
       "title": "Leave it — foundations",
       "summary": "Teach your dog to look away from tempting items and wait for a better reward.",
       "derivedFromProtocolId": "proto-leave-it-dt",
-      "supportingClaimIds": ["claim-dt-leave-002-look-away"],
+      "supportingClaimIds": [
+        "claim-dt-leave-002-look-away"
+      ],
       "topic": "D.leave_it_drop",
       "goodDogModule": "life_skills",
       "traceabilityStatus": "complete",
@@ -800,7 +983,9 @@
       "title": "Stop when the lead tightens",
       "summary": "Help your dog learn that a loose lead keeps the walk moving.",
       "derivedFromProtocolId": "proto-loose-lead-dt",
-      "supportingClaimIds": ["claim-dt-ll-001-stop-when-tight"],
+      "supportingClaimIds": [
+        "claim-dt-ll-001-stop-when-tight"
+      ],
       "topic": "D.loose_lead_greetings",
       "goodDogModule": "life_skills",
       "traceabilityStatus": "complete",
@@ -813,7 +998,10 @@
       "id": "safe-006-child-supervision",
       "title": "Always supervise children and dogs",
       "rule": "Never leave a child alone with a dog; teach do-not-disturb contexts and gentle interaction.",
-      "rationaleClaimIds": ["claim-rspca-child-001-supervise", "claim-rspca-child-002-do-not-disturb"],
+      "rationaleClaimIds": [
+        "claim-rspca-child-001-supervise",
+        "claim-rspca-child-002-do-not-disturb"
+      ],
       "action": "embed_in_family_safety_lessons",
       "severity": "critical",
       "referralText": null,
@@ -823,7 +1011,10 @@
       "id": "safe-007-no-punish-growling",
       "title": "Do not punish warning signals",
       "rule": "Do not punish growling or other warnings; remove dog from trigger and seek vet/behaviourist support.",
-      "rationaleClaimIds": ["claim-bc-stress-001-no-punish-defensive", "claim-bc-child-001-remove-on-stress"],
+      "rationaleClaimIds": [
+        "claim-bc-stress-001-no-punish-defensive",
+        "claim-bc-child-001-remove-on-stress"
+      ],
       "action": "filter_and_refer",
       "severity": "critical",
       "referralText": "Veterinary assessment and accredited animal behaviourist.",
@@ -833,7 +1024,10 @@
       "id": "safe-008-abtc-aversive-ban",
       "title": "Do not recommend ABTC-listed aversive tools or methods",
       "rule": "Good Dog must not recommend equipment or methods on ABTC indicative aversive lists (e.g. shock, choke, prong, alpha roll).",
-      "rationaleClaimIds": ["claim-abtc-aversive-001-shock-choke-prong", "claim-abtc-aversive-002-alpha-roll"],
+      "rationaleClaimIds": [
+        "claim-abtc-aversive-001-shock-choke-prong",
+        "claim-abtc-aversive-002-alpha-roll"
+      ],
       "action": "filter_out_or_flag_sources",
       "severity": "critical",
       "referralText": null,
@@ -844,32 +1038,41 @@
     {
       "id": "disc-003-mixed-methods-welfare",
       "question": "Do low-proportion aversive methods in mixed training schools harm welfare outside training?",
-      "claimIdsInTension": ["claim-vcastro-001-stress-behaviours", "claim-vcastro-002-cortisol-cognitive-bias"],
+      "claimIdsInTension": [
+        "claim-vcastro-001-stress-behaviours",
+        "claim-vcastro-002-cortisol-cognitive-bias"
+      ],
       "areasOfAgreement": [
         "Highly aversive school group showed worse stress, cortisol and cognitive bias than reward schools.",
         "Mixed group showed more stress behaviours during training than reward group."
       ],
       "disagreementSummary": "Mixed and highly aversive groups did not differ on all measures (cognitive bias/cortisol in some comparisons); interpretation of 'low proportion' aversive use remains nuanced.",
-      "likelyCauses": ["Different welfare metrics sensitivity", "School labelling vs actual practice"],
+      "likelyCauses": [
+        "Different welfare metrics sensitivity",
+        "School labelling vs actual practice"
+      ],
       "goodDogPosition": "Recommend reward-based training only; cite mixed-group stress behaviour finding without endorsing mixed methods.",
-      "researchGaps": ["Dose-response of aversive tools within otherwise reward-based plans"],
+      "researchGaps": [
+        "Dose-response of aversive tools within otherwise reward-based plans"
+      ],
       "lastReviewed": "2026-10-10"
     }
   ],
-  "reviewItems": [
-    {
-      "id": "review-006",
-      "entityType": "protocol",
-      "entityId": "proto-alone-prevention-dt",
-      "reason": "Separation content must stay distinct from clinical separation anxiety treatment.",
-      "priority": "high",
-      "status": "open",
-      "created": "2026-10-10"
-    }
-  ],
   "relationships": [
-    { "type": "supported_by", "from": "claim-vcastro-001-stress-behaviours", "to": "study-vieira-de-castro-2020" },
-    { "type": "constrained_by", "from": "proto-loose-lead-dt", "to": "safe-008-abtc-aversive-ban" },
-    { "type": "derived_from", "from": "lesson-loose-lead", "to": "proto-loose-lead-dt" }
+    {
+      "type": "supported_by",
+      "from": "claim-vcastro-001-stress-behaviours",
+      "to": "study-vieira-de-castro-2020"
+    },
+    {
+      "type": "constrained_by",
+      "from": "proto-loose-lead-dt",
+      "to": "safe-008-abtc-aversive-ban"
+    },
+    {
+      "type": "derived_from",
+      "from": "lesson-loose-lead",
+      "to": "proto-loose-lead-dt"
+    }
   ]
 }

@@ -10,7 +10,7 @@ type Tab = "steps" | "evidence";
 export function LessonPlayer({ entry }: { entry: PublishableLesson }) {
   const [tab, setTab] = useState<Tab>("steps");
   const [tick, setTick] = useState(0);
-  const { lesson, protocol, claims, sources, advisory } = entry;
+  const { lesson, protocol, claims, sources, advisory, advisoryMessage } = entry;
   const educationOnly = (lesson as { educationOnly?: boolean }).educationOnly === true;
   const showOffLeadGate =
     lesson.id === "lesson-recall-basics" || protocol.id === "proto-recall-three-step-dt";
@@ -29,8 +29,9 @@ export function LessonPlayer({ entry }: { entry: PublishableLesson }) {
     <div>
       {advisory ? (
         <p className="card" style={{ background: "#fff8f0", borderColor: "#e8c9a8" }}>
-          <strong>Advisory:</strong> This lesson includes health timing (e.g. vaccinations).
-          Always follow your vet&apos;s guidance for your puppy.
+          <strong>Advisory:</strong>{" "}
+          {advisoryMessage ??
+            "This lesson includes health or behaviour topics—follow professional guidance when unsure."}
         </p>
       ) : null}
 

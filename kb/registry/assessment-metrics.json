@@ -7,7 +7,7 @@
       "tier": 1,
       "observableCriteria": "Dog orients to handler within 2 seconds of name spoken once at conversational volume.",
       "progressionGate": null,
-      "supportingClaimIds": [],
+      "supportingClaimIds": ["claim-dt-name-001-check-in"],
       "supportingProtocolIds": ["proto-name-attention-dt"],
       "goodDogModule": "foundation_skills",
       "lastReviewed": "2026-10-10"

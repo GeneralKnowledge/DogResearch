@@ -59,3 +59,50 @@ export const setStep = mutation({
     return null;
   }
 });
+
+export const listMetricsForUser = query({
+  args: { anonymousUserId: v.string() },
+  returns: v.array(
+    v.object({
+      metricId: v.string(),
+      completed: v.boolean()
+    })
+  ),
+  handler: async (ctx, args) => {
+    const rows = await ctx.db
+      .query("metricProgress")
+      .withIndex("by_user", (q) => q.eq("anonymousUserId", args.anonymousUserId))
+      .collect();
+    return rows.map((r) => ({ metricId: r.metricId, completed: r.completed }));
+  }
+});
+
+export const setMetric = mutation({
+  args: {
+    anonymousUserId: v.string(),
+    metricId: v.string(),
+    completed: v.boolean()
+  },
+  returns: v.null(),
+  handler: async (ctx, args) => {
+    const existing = await ctx.db
+      .query("metricProgress")
+      .withIndex("by_user_and_metric", (q) =>
+        q.eq("anonymousUserId", args.anonymousUserId).eq("metricId", args.metricId)
+      )
+      .unique();
+
+    const updatedAt = Date.now();
+    if (existing) {
+      await ctx.db.patch(existing._id, { completed: args.completed, updatedAt });
+    } else {
+      await ctx.db.insert("metricProgress", {
+        anonymousUserId: args.anonymousUserId,
+        metricId: args.metricId,
+        completed: args.completed,
+        updatedAt
+      });
+    }
+    return null;
+  }
+});

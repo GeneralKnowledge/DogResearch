@@ -124,6 +124,7 @@
       ],
       "professional": [
         "claim-kb-gap-rspca-no-drop-page",
+        "claim-kb-monitor-noise-desens-rct",
         "claim-vcastro-2021-results-monitor"
       ],
       "disputes": []
@@ -185,7 +186,8 @@
         "claim-dt-alone-003-four-hours",
         "claim-dt-sa-001-avoid-alone",
         "claim-dt-fireworks-001-signs",
-        "claim-dt-fireworks-002-safe-space"
+        "claim-dt-fireworks-002-safe-space",
+        "claim-kb-gap-rspca-no-noise-page"
       ],
       "disputes": []
     },
@@ -318,6 +320,34 @@
       "scientific": [],
       "professional": [
         "claim-bva-001-pain-behaviour"
+      ],
+      "disputes": []
+    },
+    "J.rescue_rehomed": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-rehome-001-patience"
+      ],
+      "disputes": []
+    },
+    "E.adolescent_development": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-adolescent-001-regression"
+      ],
+      "disputes": []
+    },
+    "D.hand_target_touch": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-hand-target-001"
+      ],
+      "disputes": []
+    },
+    "D.cooperative_care_vet_grooming": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-vet-prep-001"
       ],
       "disputes": []
     }

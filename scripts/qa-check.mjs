@@ -116,6 +116,13 @@ const entityIds = new Set([
   ...metricIds
 ]);
 
+const seenReview = new Set();
+for (const item of reviewItems) {
+  const rid = item.id;
+  if (seenReview.has(rid)) errors.push(`Duplicate review queue id: ${rid}`);
+  seenReview.add(rid);
+}
+
 for (const r of relationships) {
   if (!entityIds.has(r.from)) warnings.push(`Relationship from unknown id: ${r.from}`);
   if (!entityIds.has(r.to) && !sourceIds.has(r.to) && !studyIds.has(r.to) && !safetyIds.has(r.to)) {

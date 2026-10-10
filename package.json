@@ -14,7 +14,10 @@
     "url-check": "node scripts/url-live-check.mjs",
     "export": "node scripts/export-publishable.mjs",
     "test:gate": "node packages/content-gate/test.mjs",
+    "test:export": "node scripts/export-snapshot.test.mjs",
+    "url-check:strict": "node scripts/url-check-strict.mjs",
+    "lint": "npm run qa && npm run test:gate && npm run test:export",
     "dev:web": "npm run export && npm run dev -w @gooddog/web",
-    "build:app": "npm run qa && npm run catalog && npm run export && npm run test:gate && npm run build -w @gooddog/web"
+    "build:app": "npm run qa && npm run catalog && npm run export && npm run test:gate && npm run test:export && npm run build -w @gooddog/web"
   }
 }
