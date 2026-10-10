@@ -16,10 +16,11 @@
     "export:good-dog": "node scripts/export-good-dog-domain.mjs",
     "test:gate": "node packages/content-gate/test.mjs",
     "test:good-dog-crosswalk": "node packages/content-gate/good-dog-crosswalk.test.mjs",
+    "test:good-dog-guides": "node packages/content-gate/good-dog-guides.test.mjs",
     "test:export": "node scripts/export-snapshot.test.mjs",
     "url-check:strict": "node scripts/url-check-strict.mjs",
-    "lint": "npm run qa && npm run test:gate && npm run test:export && npm run test:good-dog-crosswalk",
-    "build:kb": "npm run qa && npm run catalog && npm run export:good-dog && npm run test:gate && npm run test:good-dog-crosswalk",
+    "lint": "npm run qa && npm run test:gate && npm run test:export && npm run test:good-dog-crosswalk && npm run test:good-dog-guides",
+    "build:kb": "npm run qa && npm run catalog && npm run export:good-dog && npm run test:gate && npm run test:good-dog-crosswalk && npm run test:good-dog-guides",
     "dev:web": "npm run export && npm run dev -w @gooddog/web",
     "build:app": "npm run qa && npm run catalog && npm run export && npm run test:gate && npm run test:export && npm run build -w @gooddog/web"
   }

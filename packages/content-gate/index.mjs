@@ -303,7 +303,7 @@ function groupByModule(lessonList) {
 }
 
 /** @param {import('@gooddog/kb-core/types').MergedRegistry} registry */
-function buildReferrals(registry) {
+export function buildReferrals(registry) {
   const abtcClaim = registry.claims.find((c) => c.id === "claim-rspca-003-abtc-trainer");
   const vetClaim = registry.claims.find((c) => c.id === "claim-dt-reactive-002-vet-check-first");
   return {

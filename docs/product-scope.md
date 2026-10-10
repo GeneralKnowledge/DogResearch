@@ -14,7 +14,7 @@ Good Dog integrations must preserve the chain documented in [`architecture.md`](
 
 `lesson` → `protocol` / `claim` → `source` or `study`
 
-Each exported exercise includes a `provenance` block from the domain export (`protocolId`, `claimIds`, `sourceIds`, `reviewStatus`, `lastVerified`).
+Each exported exercise and guide includes a `provenance` block (`protocolId`, `claimIds`, `sourceIds`, `reviewStatus`, `lastVerified`).
 
 ## Legal display
 

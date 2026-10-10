@@ -5,6 +5,11 @@
 import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { getLessonBundle } from "@gooddog/kb-core";
+import {
+  buildGoodDogGuidesExport,
+  isSourceGoodDogDisplayEligible
+} from "@gooddog/content-gate/good-dog-export.mjs";
 import { loadMergedRegistry, loadAssessmentMetrics } from "./load-registry.mjs";
 
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -173,6 +178,25 @@ for (const lessonId of publishConfig.pilotLessonIds ?? []) {
   if (mapping.newExercise !== true && !/^ex-/.test(mapping.goodDogExerciseId ?? "")) {
     errors.push(
       `Crosswalk for ${lessonId} must have goodDogExerciseId /^ex-/ or newExercise: true`
+    );
+  }
+}
+
+const guidesExport = buildGoodDogGuidesExport();
+const exportedGuideIds = new Set(guidesExport.guides.map((guide) => guide.lessonId));
+for (const lessonId of [...managementIds, ...educationIds]) {
+  const bundle = getLessonBundle(lessonId);
+  const sources = bundle?.sources ?? [];
+  const paraphraseOk =
+    sources.length > 0 && sources.every((source) => isSourceGoodDogDisplayEligible(source));
+  if (paraphraseOk && !exportedGuideIds.has(lessonId)) {
+    errors.push(
+      `Guide lesson ${lessonId} has paraphrase_ok sources but is missing from good-dog-guides export`
+    );
+  }
+  if (!paraphraseOk && exportedGuideIds.has(lessonId)) {
+    errors.push(
+      `Guide lesson ${lessonId} is in good-dog-guides export without paraphrase_ok sources`
     );
   }
 }

@@ -10,7 +10,7 @@ This repo holds the **research knowledge base**, export pipelines, and an option
 npm install
 npm run catalog   # rebuild kb/index/catalog.json and evidence-index.json
 npm run qa        # integrity checks (provenance, IDs, Good Dog crosswalk)
-npm run export:good-dog   # dist/good-dog-domain.json + good-dog-safety.json
+npm run export:good-dog   # dist/good-dog-domain.json, safety, guides, referrals, ask-patterns
 npm run build:kb  # CI: qa → catalog → export:good-dog → tests
 npm run export    # KindTrail publishable.json (optional preview)
 npm run dev:web   # Next.js preview UI (port 3000)
@@ -24,10 +24,13 @@ Good Dog is the **production app**. Sync content from this repo without a second
 
 On every successful `main` / `cursor/**` push, the **kb-export** workflow uploads:
 
-- `dist/good-dog-domain.json`
-- `dist/good-dog-safety.json`
+- `dist/good-dog-domain.json` — skill exercises (`steps_only` plus optional `glossaryTermIds`, `topicGroup`, `purposeOneLine`)
+- `dist/good-dog-safety.json` — safety rules, assessment metrics with `goodDogInferenceHints`, recall gate
+- `dist/good-dog-guides.json` — management and education guides (owner markdown, provenance, Ask keywords)
+- `dist/good-dog-referrals.json` — same referral cards as the KindTrail preview (`title`, `body`, `url`) plus `rationaleClaimIds`
+- `dist/good-dog-ask-patterns.json` — aversive patterns, escalate-question patterns, owner-question crosswalk
 
-Download the `good-dog-kb-dist` artifact from GitHub Actions. Each file includes `schemaVersion` / `exportSchemaVersion` and `generatedAt`.
+Download the `good-dog-kb-dist` artifact from GitHub Actions. The workflow uploads every file above. Each file includes `schemaVersion` (`exportSchemaVersion` in `kb/meta/schema-version.json`, currently 1.1.0) and `generatedAt`.
 
 ### 2. Git submodule or copy
 
@@ -50,7 +53,12 @@ No API keys or Convex env vars are required for static JSON imports.
 
 - Use `exercises[]` for mappable skill content with full `provenance`.
 - Respect `held[]` — do **not** overwrite `ex-lead-loose` until `goodDogExportStatus` is lifted (see [docs/good-dog-integration.md](docs/good-dog-integration.md)).
-- Treat `draftExercises[]` and `managementModules[]` / `educationOnly[]` separately from core `ExerciseContent`.
+- Treat `draftExercises[]` separately from core `ExerciseContent`.
+- **Guides** (`good-dog-guides.json`) are the consumer for `managementModules` and `educationOnly` lessons. Render `ownerBodyMarkdown` in Good Dog Learn; do not rebuild those lessons in KindTrail.
+- **Referrals** (`good-dog-referrals.json`) are the consumer for help CTAs. `vetFirst` has no URL.
+- **Ask** (`good-dog-ask-patterns.json`) links owner questions to a `guideLessonId` or a `goodDogHelpId`. Escalate patterns point at `safe-*` rules and, where relevant, a guide.
+- When `contentCompleteness` is `steps_only`, merge `glossaryTermIds`, `topicGroup`, and `purposeOneLine` only into empty Good Dog fields. An empty `glossaryTermIds` array means “no KB suggestion” and must not clear glossary terms already on the exercise.
+- `assessmentMetrics[].goodDogInferenceHints` lists `exerciseIds` and `learningObjectiveIds` that count toward that metric, including held and draft crosswalk ids that share the objective.
 - Refresh [packages/content-gate/tests/fixtures/good-dog-exercise-ids.json](packages/content-gate/tests/fixtures/good-dog-exercise-ids.json) when Good Dog adds exercises: `node scripts/vendor-good-dog-exercise-ids.mjs`.
 
 ### Legal display
