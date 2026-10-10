@@ -13,36 +13,36 @@
       "id": "review-002",
       "entityType": "claim",
       "entityId": "claim-dt-recall-005-uk-id-law",
-      "reason": "Legal claim requires cross-check against current official UK legislation.",
-      "priority": "medium",
-      "status": "open",
+      "reason": "Verified against GOV.UK microchipping guidance and Control of Dogs Order 1992 (batch 003).",
+      "priority": "low",
+      "status": "resolved",
       "created": "2026-10-10"
     },
     {
       "id": "review-003",
       "entityType": "source",
-      "entityId": "src-abtc-owners",
-      "reason": "Extract full ABTC aversive equipment list from Ethical Dog Training leaflet.",
-      "priority": "medium",
-      "status": "open",
+      "entityId": "src-abtc-aversives-list-2024",
+      "reason": "Core ABTC aversive list extracted in batch 002; optional item-level claim expansion.",
+      "priority": "low",
+      "status": "partially_resolved",
       "created": "2026-10-10"
     },
     {
       "id": "review-004",
       "entityType": "safety_rule",
       "entityId": "safe-005-growl-not-punish",
-      "reason": "Needs supporting claim extraction from APBC/RSPCA/FABC sources in batch 002.",
-      "priority": "high",
-      "status": "open",
+      "reason": "Partially supported via Blue Cross + Dogs Trust reactive no-scold guidance (batch 004); APBC handouts still blocked.",
+      "priority": "medium",
+      "status": "partially_resolved",
       "created": "2026-10-10"
     },
     {
       "id": "review-005",
       "entityType": "study",
       "entityId": "study-hiby-rooney-bradshaw-2004",
-      "reason": "Add newer systematic reviews on aversive vs reward methods for synthesis update.",
+      "reason": "Updated with Verbeek 2024 scoping review and 2024 counterconditioning systematic review (batch 004).",
       "priority": "low",
-      "status": "open",
+      "status": "partially_resolved",
       "created": "2026-10-10"
     }
   ]

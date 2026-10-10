@@ -12,7 +12,8 @@
     "H.scope_of_practice_referral": {
       "scientific": [],
       "professional": [
-        "claim-imdt-003-referral"
+        "claim-imdt-003-referral",
+        "claim-dt-reactive-006-behaviour-support-referral"
       ],
       "disputes": []
     },
@@ -29,7 +30,10 @@
       "scientific": [],
       "professional": [
         "claim-abtc-003-no-aversives",
-        "claim-rspca-004-avoid-aversive-classes"
+        "claim-rspca-004-avoid-aversive-classes",
+        "claim-dt-ll-002-no-aversive-kit",
+        "claim-abtc-aversive-001-shock-choke-prong",
+        "claim-abtc-aversive-002-alpha-roll"
       ],
       "disputes": []
     },
@@ -70,14 +74,19 @@
         "claim-dt-recall-001-prerequisite-name",
         "claim-dt-recall-002-five-second-rule",
         "claim-dt-recall-003-no-punish-late-return",
-        "claim-dt-recall-004-offlead-criteria"
+        "claim-dt-recall-004-offlead-criteria",
+        "claim-rspca-recall-001-no-scold",
+        "claim-rspca-recall-002-not-only-lead"
       ],
       "disputes": []
     },
     "K.uk_law_professional": {
       "scientific": [],
       "professional": [
-        "claim-dt-recall-005-uk-id-law"
+        "claim-dt-recall-005-uk-id-law",
+        "claim-govuk-001-microchip-8weeks",
+        "claim-govuk-002-collar-tag-public",
+        "claim-cdo1992-001-collar-highway"
       ],
       "disputes": []
     },
@@ -91,7 +100,8 @@
     "D.sit_down_stand": {
       "scientific": [],
       "professional": [
-        "claim-rspca-005-sit-lure-timing"
+        "claim-rspca-005-sit-lure-timing",
+        "claim-dt-down-001-no-force"
       ],
       "disputes": []
     },
@@ -99,9 +109,18 @@
       "scientific": [
         "claim-hiby-001-reward-obedience-correlation",
         "claim-hiby-003-welfare-conclusion",
-        "claim-hiby-004-punishment-historical"
+        "claim-hiby-004-punishment-historical",
+        "claim-vcastro-001-stress-behaviours",
+        "claim-vcastro-002-cortisol-cognitive-bias",
+        "claim-review-2017-aversive-correlation",
+        "claim-blackwell-2021-pessimism",
+        "claim-vcastro-2021-protocol-only",
+        "claim-verbeek-2024-training-theme",
+        "claim-verbeek-2024-weird-limit"
       ],
-      "professional": [],
+      "professional": [
+        "claim-kb-gap-rspca-no-drop-page"
+      ],
       "disputes": []
     },
     "G.behaviour_problems": {
@@ -115,6 +134,126 @@
       "scientific": [],
       "professional": [
         "claim-dt-escape-001-unreliable-recall-management"
+      ],
+      "disputes": []
+    },
+    "D.leave_it_drop": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-leave-001-fair-trade",
+        "claim-dt-leave-002-look-away",
+        "claim-rspca-leave-001-back-off-rewarded",
+        "claim-rspca-leave-002-gentle-cue-tone"
+      ],
+      "disputes": []
+    },
+    "D.wait_stay_settle": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-stay-001-return-to-reward",
+        "claim-dt-settle-001-self-directed",
+        "claim-dt-settle-002-reward-relaxed",
+        "claim-rspca-stay-001-reward-in-position"
+      ],
+      "disputes": []
+    },
+    "C.distance_duration_distraction": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-stay-002-variable-duration"
+      ],
+      "disputes": []
+    },
+    "D.loose_lead_greetings": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-ll-001-stop-when-tight"
+      ],
+      "disputes": []
+    },
+    "G.fear_noise_separation": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-alone-001-gradual",
+        "claim-dt-alone-002-no-tell-off",
+        "claim-dt-alone-003-four-hours",
+        "claim-dt-sa-001-avoid-alone"
+      ],
+      "disputes": []
+    },
+    "H.veterinary_assessment": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-support-001-vet-first",
+        "claim-dt-reactive-002-vet-check-first"
+      ],
+      "disputes": []
+    },
+    "H.bite_prevention_dog_child": {
+      "scientific": [],
+      "professional": [
+        "claim-rspca-child-001-supervise",
+        "claim-rspca-child-002-do-not-disturb",
+        "claim-bc-child-001-remove-on-stress",
+        "claim-cfsg-001-dog-safety-code"
+      ],
+      "disputes": []
+    },
+    "A.stress_fear_arousal": {
+      "scientific": [],
+      "professional": [
+        "claim-bc-stress-001-no-punish-defensive",
+        "claim-dt-reactive-005-stress-recovery-window"
+      ],
+      "disputes": []
+    },
+    "F.sniffing_foraging_scent": {
+      "scientific": [],
+      "professional": [
+        "claim-pdsa-enrich-001-food-allowance"
+      ],
+      "disputes": []
+    },
+    "F.physical_activity_rest": {
+      "scientific": [],
+      "professional": [
+        "claim-pdsa-enrich-002-balance-rest"
+      ],
+      "disputes": []
+    },
+    "B.luring_shaping_capturing_chaining": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-down-002-shaping"
+      ],
+      "disputes": []
+    },
+    "D.name_response_attention": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-name-001-check-in",
+        "claim-dt-name-002-no-repeat-name"
+      ],
+      "disputes": []
+    },
+    "G.lead_reactivity_barking": {
+      "scientific": [
+        "claim-cc-review-2024-positive-outcomes"
+      ],
+      "professional": [
+        "claim-dt-reactive-001-not-always-aggressive",
+        "claim-dt-reactive-003-create-distance-reward",
+        "claim-dt-reactive-004-relaxed-lead"
+      ],
+      "disputes": []
+    },
+    "E.socialisation_exposure": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-pupsoc-001-critical-window",
+        "claim-dt-pupsoc-002-vaccination-before-ground",
+        "claim-dt-pupsoc-003-stop-if-worried",
+        "claim-dt-pup101-001-individual-pace"
       ],
       "disputes": []
     }

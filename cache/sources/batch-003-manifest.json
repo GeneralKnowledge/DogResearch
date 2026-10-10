@@ -1,0 +1,18 @@
+{
+  "batchId": "batch-003",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    { "sourceId": "src-dt-lie-down", "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/lie-down-training", "httpStatus": 200 },
+    { "sourceId": "src-dt-settle-training", "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/settle-training", "httpStatus": 200 },
+    { "sourceId": "src-dt-name-training-full", "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/name-training", "httpStatus": 200 },
+    { "sourceId": "src-rspca-lie-down", "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/liedown", "httpStatus": 200 },
+    { "sourceId": "src-rspca-stay", "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/stay", "httpStatus": 200 },
+    { "sourceId": "src-rspca-recall", "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/come", "httpStatus": 200 },
+    { "sourceId": "src-govuk-microchip", "url": "https://www.gov.uk/get-your-dog-cat-microchipped", "httpStatus": 200 },
+    { "sourceId": "src-cdo-1992", "url": "https://www.legislation.gov.uk/uksi/1992/901/made", "httpStatus": 200 },
+    { "sourceId": "src-cfsg-dog-safety", "url": "https://www.cfsg.org.uk/dog-safety/", "httpStatus": 200 },
+    { "sourceId": "study-guilherme-fernandes-2017-review", "url": "https://doi.org/10.1016/j.applanim.2017.07.001", "httpStatus": "metadata" },
+    { "sourceId": "study-blackwell-casey-2021", "url": "https://doi.org/10.1038/s41598-021-97743-0", "httpStatus": 200 },
+    { "sourceId": "study-vieira-castro-2021-protocol", "url": "https://doi.org/10.1371/journal.pone.0247321", "httpStatus": 200, "notes": "Protocol only" }
+  ]
+}

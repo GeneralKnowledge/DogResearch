@@ -31,6 +31,22 @@
       "topic": "C.antecedent_arrangement",
       "imdtAligned": true,
       "evidenceChannel": "professional_guidance"
+    },
+    {
+      "id": "meth-create-distance",
+      "name": "Create distance from triggers",
+      "description": "Increasing space between the dog and a trigger until the dog can relax, then reinforcing calm or disengagement.",
+      "topic": "C.antecedent_arrangement",
+      "imdtAligned": true,
+      "evidenceChannel": "professional_guidance"
+    },
+    {
+      "id": "meth-counter-conditioning",
+      "name": "Counter-conditioning (clinical context)",
+      "description": "Pairing sub-threshold exposure to triggers with positive outcomes to change emotional response; typically planned by qualified behaviourists.",
+      "topic": "B.classical_conditioning",
+      "imdtAligned": true,
+      "evidenceChannel": "scientific_research"
     }
   ]
 }

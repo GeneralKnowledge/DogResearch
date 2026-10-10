@@ -1,22 +1,19 @@
 #!/usr/bin/env node
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readFileSync } from "node:fs";
+import { loadMergedRegistry } from "./load-registry.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const registry = join(root, "kb/registry");
 const indexDir = join(root, "kb/index");
-
-function load(name) {
-  return JSON.parse(readFileSync(join(registry, name), "utf8"));
-}
 
 mkdirSync(indexDir, { recursive: true });
 
-const sources = load("sources.json").sources;
-const claims = load("claims.json").claims;
-const protocols = load("protocols.json").protocols;
-const taxonomy = JSON.parse(readFileSync(join(root, "kb/taxonomy/topic-taxonomy.json"), "utf8"));
+const { sources, claims, protocols } = loadMergedRegistry();
+const taxonomy = JSON.parse(
+  readFileSync(join(root, "kb/taxonomy/topic-taxonomy.json"), "utf8")
+);
 
 const catalog = {
   generatedAt: new Date().toISOString().slice(0, 10),

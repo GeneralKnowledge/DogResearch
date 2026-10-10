@@ -44,11 +44,15 @@
       "id": "safe-005-growl-not-punish",
       "title": "Do not punish warning signals without addressing cause",
       "rule": "Do not train owners to suppress growling or other warnings without addressing underlying fear, pain, or conflict; prioritise management and professional support.",
-      "rationaleClaimIds": [],
-      "action": "human_review_required",
+      "rationaleClaimIds": [
+        "claim-bc-stress-001-no-punish-defensive",
+        "claim-bc-child-001-remove-on-stress",
+        "claim-dt-reactive-003-create-distance-reward"
+      ],
+      "action": "filter_and_refer",
       "severity": "critical",
       "referralText": "Qualified behaviourist; veterinary pain assessment.",
-      "notes": "Rule derived from Good Dog ethics spec; link to APBC/RSPCA resources in batch 002.",
+      "notes": "Overlaps safe-007; kept for ethics-spec traceability.",
       "lastReviewed": "2026-10-10"
     }
   ]

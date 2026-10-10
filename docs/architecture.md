@@ -14,7 +14,8 @@ This repository holds a **structured, auditable research library** for the Good 
 | Path | Purpose |
 |------|---------|
 | `kb/taxonomy/topic-taxonomy.json` | Hierarchical subject taxonomy (A–K) |
-| `kb/registry/*.json` | Entity stores (sources, claims, protocols, …) |
+| `kb/registry/*.json` | Core entity stores (batch 001 baseline) |
+| `kb/registry/batches/batch-NNN.json` | Incremental extractions merged at QA/catalog time |
 | `kb/registry/relationships.json` | Typed edges between entity IDs |
 | `kb/index/catalog.json` | Search-oriented aggregate (generated) |
 | `kb/index/evidence-index.json` | Claims grouped by topic and evidence type |
