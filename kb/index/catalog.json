@@ -305,6 +305,141 @@
       "publisher": "PLOS ONE"
     },
     {
+      "id": "src-dt-lie-down",
+      "kind": "source",
+      "title": "How to train your dog to lie down",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/lie-down-training",
+      "topics": [
+        "D.sit_down_stand",
+        "B.luring_shaping_capturing_chaining"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-settle-training",
+      "kind": "source",
+      "title": "How to train your dog to be calm, relax and settle",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/settle-training",
+      "topics": [
+        "D.wait_stay_settle",
+        "F.physical_activity_rest"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-name-training-full",
+      "kind": "source",
+      "title": "How to teach your dog their name (full extraction)",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/name-training",
+      "topics": [
+        "D.name_response_attention"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-rspca-lie-down",
+      "kind": "source",
+      "title": "How to train your dog to lie down — RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/liedown",
+      "topics": [
+        "D.sit_down_stand"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "RSPCA"
+    },
+    {
+      "id": "src-rspca-stay",
+      "kind": "source",
+      "title": "How to train a dog to stay — RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/stay",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "RSPCA"
+    },
+    {
+      "id": "src-rspca-recall",
+      "kind": "source",
+      "title": "How to train your dog to come when called — RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/come",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "RSPCA"
+    },
+    {
+      "id": "src-govuk-microchip",
+      "kind": "source",
+      "title": "Get your dog or cat microchipped — GOV.UK",
+      "url": "https://www.gov.uk/get-your-dog-cat-microchipped",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "UK Government (GOV.UK)"
+    },
+    {
+      "id": "src-cdo-1992",
+      "kind": "source",
+      "title": "The Control of Dogs Order 1992",
+      "url": "https://www.legislation.gov.uk/uksi/1992/901/made",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "UK Legislation (legislation.gov.uk)"
+    },
+    {
+      "id": "src-cfsg-dog-safety",
+      "kind": "source",
+      "title": "Dog Safety — CFSG",
+      "url": "https://www.cfsg.org.uk/dog-safety/",
+      "topics": [
+        "H.bite_prevention_dog_child"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "Canine and Feline Sector Group (CFSG)"
+    },
+    {
+      "id": "study-guilherme-fernandes-2017-review",
+      "kind": "source",
+      "title": "Do aversive-based training methods actually compromise dog welfare?: A literature review",
+      "url": "https://doi.org/10.1016/j.applanim.2017.07.001",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "extractionStatus": "abstract_extracted_batch_003",
+      "publisher": "Applied Animal Behaviour Science"
+    },
+    {
+      "id": "study-blackwell-casey-2021",
+      "kind": "source",
+      "title": "Dogs are more pessimistic if their owners use two or more aversive training methods",
+      "url": "https://doi.org/10.1038/s41598-021-97743-0",
+      "topics": [
+        "K.evidence_gaps_debates",
+        "B.operant_conditioning"
+      ],
+      "extractionStatus": "extracted_batch_003",
+      "publisher": "Scientific Reports"
+    },
+    {
+      "id": "study-vieira-castro-2021-protocol",
+      "kind": "source",
+      "title": "Improving dog training methods: Efficacy and efficiency of reward and mixed training methods (study protocol)",
+      "url": "https://doi.org/10.1371/journal.pone.0247321",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "extractionStatus": "protocol_only_batch_003",
+      "publisher": "PLOS ONE"
+    },
+    {
       "id": "claim-imdt-001-force-free",
       "kind": "claim",
       "title": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may …",
@@ -474,7 +609,7 @@
       "topics": [
         "K.uk_law_professional"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "sourceId": "src-dt-recall-training"
     },
     {
@@ -788,6 +923,166 @@
       "sourceId": "study-vieira-de-castro-2020"
     },
     {
+      "id": "claim-dt-down-001-no-force",
+      "kind": "claim",
+      "title": "Dogs Trust instructs owners never to push a dog's back down to force a down; use luring/shaping and reward instead.",
+      "topics": [
+        "D.sit_down_stand"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-lie-down"
+    },
+    {
+      "id": "claim-dt-down-002-shaping",
+      "kind": "claim",
+      "title": "If a dog does not fully lie down initially, Dogs Trust advises marking and rewarding incremental movements toward the fl…",
+      "topics": [
+        "B.luring_shaping_capturing_chaining"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-lie-down"
+    },
+    {
+      "id": "claim-dt-settle-001-self-directed",
+      "kind": "claim",
+      "title": "Dogs Trust settle training aims for the dog to choose calm, relaxed behaviour without the owner repeatedly instructing t…",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-settle-training"
+    },
+    {
+      "id": "claim-dt-settle-002-reward-relaxed",
+      "kind": "claim",
+      "title": "Dogs Trust advises progressively rewarding more relaxed behaviours (lying down, sighing, weight shift, head rest) during…",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-settle-training"
+    },
+    {
+      "id": "claim-dt-name-001-check-in",
+      "kind": "claim",
+      "title": "Dogs Trust recommends rewarding every glance the dog gives the handler during early focus training before adding the nam…",
+      "topics": [
+        "D.name_response_attention"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-name-training-full"
+    },
+    {
+      "id": "claim-dt-name-002-no-repeat-name",
+      "kind": "claim",
+      "title": "Dogs Trust advises not repeating the dog's name rapidly if they fail to respond, to avoid teaching the dog to ignore it.",
+      "topics": [
+        "D.name_response_attention"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-name-training-full"
+    },
+    {
+      "id": "claim-rspca-recall-001-no-scold",
+      "kind": "claim",
+      "title": "RSPCA advises only calling the dog when the owner will praise them, and not calling then telling them off, which reduces…",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-recall"
+    },
+    {
+      "id": "claim-rspca-recall-002-not-only-lead",
+      "kind": "claim",
+      "title": "RSPCA warns against using recall only to put the dog back on lead, because the dog may learn to avoid coming back.",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-recall"
+    },
+    {
+      "id": "claim-rspca-stay-001-reward-in-position",
+      "kind": "claim",
+      "title": "RSPCA advises rewarding the dog while they remain in the down/stay position, not after they have got up.",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-stay"
+    },
+    {
+      "id": "claim-govuk-001-microchip-8weeks",
+      "kind": "claim",
+      "title": "GOV.UK states all dogs in the UK must be microchipped and registered on an approved database by 8 weeks old.",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-govuk-microchip"
+    },
+    {
+      "id": "claim-govuk-002-collar-tag-public",
+      "kind": "claim",
+      "title": "GOV.UK states that if you have a dog, it must still wear a collar and tag with your name and address when in a public pl…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-govuk-microchip"
+    },
+    {
+      "id": "claim-cdo1992-001-collar-highway",
+      "kind": "claim",
+      "title": "The Control of Dogs Order 1992 requires every dog in a highway or place of public resort to wear a collar with the owner…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-cdo-1992"
+    },
+    {
+      "id": "claim-cfsg-001-dog-safety-code",
+      "kind": "claim",
+      "title": "CFSG Dog Safety Code advises: Be Alert (supervise children and dogs, never leave them alone together), Be Aware (recogni…",
+      "topics": [
+        "H.bite_prevention_dog_child"
+      ],
+      "confidence": "high",
+      "sourceId": "src-cfsg-dog-safety"
+    },
+    {
+      "id": "claim-review-2017-aversive-correlation",
+      "kind": "claim",
+      "title": "Guilherme-Fernandes et al. (2017) literature review reports that published studies generally suggest aversive-based trai…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "medium",
+      "sourceId": "study-guilherme-fernandes-2017-review"
+    },
+    {
+      "id": "claim-blackwell-2021-pessimism",
+      "kind": "claim",
+      "title": "Blackwell et al. (2021) report dogs whose owners used two or more aversive-based techniques were slower to approach ambi…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "medium",
+      "sourceId": "study-blackwell-casey-2021"
+    },
+    {
+      "id": "claim-vcastro-2021-protocol-only",
+      "kind": "claim",
+      "title": "Vieira de Castro et al. (2021) PLOS ONE publication describes a planned military/police dog trial comparing reward-only …",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "high",
+      "sourceId": "study-vieira-castro-2021-protocol"
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -840,6 +1135,51 @@
       "reviewStatus": "requires_human_review",
       "behaviourIds": [
         "beh-settle-alone"
+      ]
+    },
+    {
+      "id": "proto-down-lure-dt",
+      "kind": "protocol",
+      "title": "Lie down with lure and shaping (Dogs Trust)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-down-on-cue"
+      ]
+    },
+    {
+      "id": "proto-settle-mat-dt",
+      "kind": "protocol",
+      "title": "Settle on mat (Dogs Trust relaxation training)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-settle-on-mat"
+      ]
+    },
+    {
+      "id": "proto-name-attention-dt",
+      "kind": "protocol",
+      "title": "Name response and attention (Dogs Trust)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-name-orientation"
+      ]
+    },
+    {
+      "id": "proto-stay-progression-dt",
+      "kind": "protocol",
+      "title": "Stay — duration, distance and distraction (Dogs Trust)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-stay-in-position"
+      ]
+    },
+    {
+      "id": "proto-recall-emergency-good-dog",
+      "kind": "protocol",
+      "title": "Emergency recall principles (RSPCA + Dogs Trust synthesis)",
+      "reviewStatus": "requires_human_review",
+      "behaviourIds": [
+        "beh-recall-to-handler"
       ]
     }
   ]

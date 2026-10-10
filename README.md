@@ -31,6 +31,8 @@ npm run qa        # integrity checks (provenance, IDs, protocol structure)
 
 **Batch 001** — architecture, IMDT/ABTC/Dogs Trust/RSPCA core, Hiby et al. (2004).
 
-**Batch 002** — foundation skills (leave, loose lead, alone-time prevention), PDSA/Blue Cross welfare, ABTC aversive list, Vieira de Castro et al. (2020). Incremental data lives in `kb/registry/batches/` and merges at QA time.
+**Batch 002** — leave, loose lead, alone-time prevention, PDSA/Blue Cross, ABTC aversives, Vieira de Castro (2020).
 
-See `reports/batch-002-report.md` for coverage and batch 003 priorities.
+**Batch 003** — down/settle/name/stay/recall refinements, GOV.UK + CDO 1992, CFSG, Guilherme-Fernandes (2017) review, Blackwell (2021) judgement bias.
+
+Incremental batches live in `kb/registry/batches/` and merge at QA time. Latest report: `reports/batch-003-report.md`.

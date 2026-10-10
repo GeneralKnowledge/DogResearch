@@ -269,12 +269,12 @@
       "excerptOrParaphrase": "Collar, ID tag, microchip compliance referenced as UK law.",
       "evidenceType": "professional_guidance",
       "evidenceChannel": "practical_professional_guidance",
-      "confidence": "medium",
-      "confidenceJustification": "Charity summary of legal requirement; needs cross-check against current official legislation in batch 002.",
+      "confidence": "high",
+      "confidenceJustification": "Charity summary aligns with GOV.UK and Control of Dogs Order 1992; see claim-govuk-002 and claim-cdo1992-001 in batch 003.",
       "contradictingClaimIds": [],
-      "limitations": ["Requires verification against current UK statute and devolved rules."],
+      "limitations": ["Devolved rules for cats/microchip differ; this claim concerns dogs in public."],
       "lastReviewed": "2026-10-10",
-      "goodDogRecommendationEligible": false
+      "goodDogRecommendationEligible": true
     },
     {
       "id": "claim-rspca-001-all-reward-based",

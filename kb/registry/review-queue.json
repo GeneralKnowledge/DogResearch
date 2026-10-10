@@ -13,9 +13,9 @@
       "id": "review-002",
       "entityType": "claim",
       "entityId": "claim-dt-recall-005-uk-id-law",
-      "reason": "Legal claim requires cross-check against current official UK legislation.",
-      "priority": "medium",
-      "status": "open",
+      "reason": "Verified against GOV.UK microchipping guidance and Control of Dogs Order 1992 (batch 003).",
+      "priority": "low",
+      "status": "resolved",
       "created": "2026-10-10"
     },
     {
