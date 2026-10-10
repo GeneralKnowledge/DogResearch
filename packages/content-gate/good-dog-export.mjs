@@ -493,6 +493,36 @@ const GUIDE_ASK_KEYWORDS = {
     "nail clipping",
     "touch and treat",
     "examination"
+  ],
+  "lesson-how-dogs-learn": [
+    "how dogs learn",
+    "rewards",
+    "treats",
+    "marker",
+    "clicker",
+    "positive reinforcement",
+    "why does my dog",
+    "reward timing"
+  ],
+  "lesson-equipment-and-law": [
+    "harness",
+    "collar",
+    "id tag",
+    "microchip",
+    "prong collar",
+    "choke chain",
+    "shock collar",
+    "e-collar",
+    "head collar",
+    "equipment"
+  ],
+  "lesson-plan-and-measure": [
+    "training plan",
+    "session length",
+    "how long to train",
+    "training diary",
+    "progress",
+    "how often"
   ]
 };
 

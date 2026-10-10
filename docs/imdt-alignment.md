@@ -23,24 +23,37 @@ KindTrail is independent and not affiliated with IMDT. The export carries that d
 | Down | covered | `lesson-down-basics` |
 | Recall | covered | `lesson-recall-basics` |
 | Loose lead walking | covered | `lesson-loose-lead` |
+| Nose to hand touch | covered | `lesson-hand-touch` |
+| Twist/spin | covered | `lesson-spin-trick` |
+| Retrieve | partial | `lesson-drop-it-swap` (the drop and swap part only) |
 | Mat target | partial | `lesson-settle-mat` (settle, not targeting) |
-| Nose to hand touch | claims only | `claim-dt-target-002-touch-steps` |
-| Muzzle training | researched, held | `lesson-muzzle-training` (needs human review) |
-| Emergency stop, Send around, Middle, Chin rest, Twist/spin, Retrieve | gap | nearest lessons noted in the JSON |
+| Chin rest | research only | one US organisation source; not shown as a lesson |
+| Emergency stop | research only | one non-UK source; not shown as a lesson |
+| Middle | research only | one commercial source; not shown as a lesson |
+| Send around | gap | no usable source found |
+| Muzzle training | researched, held | `lesson-muzzle-training` (needs human review, review-016) |
+
+`research_only` means the source is registered and fetched but cannot feed owner text (single non-UK or commercial source). QA fails if a `research_only` exercise lists a lesson, or if a protocol cites a `research_only` source.
 
 ## Coverage against the Q&A knowledge areas (marks out of 50)
 
-Operant conditioning (16) and classical conditioning (16) carry most marks. The registry now has definitions from NPSA plus Dogs Trust marker and reward claims, but no owner lesson. This is the biggest content gap if the aim is depth on theory.
+Operant conditioning (16) and classical conditioning (16) carry most marks. `lesson-how-dogs-learn` now covers rewards, timing, markers and raising difficulty in plain words. Habituation, counter-conditioning and the formal terms stay in the evidence layer, so stage 1 is still marked partial.
 
-## Guardrails
+## Stage notes after batch 013
+
+- Stage 9 (kind methods, equipment and the law): `lesson-equipment-and-law` covers harness basics and a neutral advisory. Shock-collar status is time-sensitive and held as a documented gap (review-020): the 2023 regulations on legislation.gov.uk are an unmade draft, Wales has banned them since 2010, and a Defra written answer of 27 May 2026 says a consultation is coming.
+- Stage 10 (plan and measure): `lesson-plan-and-measure` covers short sessions, a simple diary and a schedule. Session-length advice differs between sources (`disc-007-session-length`, review-023).
+
+## ## Guardrails
 
 - IMDT sources are `paraphrase_ok_pending_legal`, so they cannot feed owner lessons or guides. `review-017` tracks legal confirmation before any public claim that the path "follows" IMDT.
 - `lesson-muzzle-training` is `requires_human_review` and not exported (`review-016`).
 - QA fails if a pilot lesson is missing from every stage, or a stage references an unknown lesson or claim.
 
-## Suggested next steps (not done)
+## Suggested next steps
 
-1. Owner explainer lesson on rewards and associations (operant and classical), from Dogs Trust positive-reinforcement pages.
-2. Hand-touch lesson (claims already in registry).
-3. Human review of the muzzle protocol, then add to the pilot list.
-4. Plan-and-measure lesson tied to `assessment-metrics.json`.
+1. Human review of the muzzle protocol, then add it to the pilot list (review-016).
+2. Human wording review of the batch 013 low-risk protocols (review-018).
+3. Re-check the UK shock-collar position before the equipment lesson is relied on (review-020).
+4. Find UK charity or professional-body sources for chin rest, emergency stop, middle, send around and full retrieve (review-022).
+5. Legal confirmation for IMDT sources before any public claim that the path follows IMDT (review-017).

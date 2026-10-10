@@ -111,6 +111,30 @@
       "newExercise": false
     },
     {
+      "lessonId": "lesson-hand-touch",
+      "protocolId": "proto-hand-touch-dt",
+      "goodDogExerciseId": "ex-kb-hand-touch",
+      "learningObjectiveId": "hand-target",
+      "prerequisiteIds": ["ex-reward-marker"],
+      "newExercise": true
+    },
+    {
+      "lessonId": "lesson-drop-it-swap",
+      "protocolId": "proto-drop-fair-trade-dt",
+      "goodDogExerciseId": "ex-kb-drop-it-swap",
+      "learningObjectiveId": "leave-it",
+      "prerequisiteIds": ["ex-leave-it-easy"],
+      "newExercise": true
+    },
+    {
+      "lessonId": "lesson-spin-trick",
+      "protocolId": "proto-spin-lure-bc",
+      "goodDogExerciseId": "ex-kb-spin-trick",
+      "learningObjectiveId": "trick-training",
+      "prerequisiteIds": ["ex-reward-marker"],
+      "newExercise": true
+    },
+    {
       "protocolId": "proto-loose-lead-force-free-draft",
       "goodDogExerciseId": "ex-kb-loose-lead-check-in-draft",
       "learningObjectiveId": "lead-walking",

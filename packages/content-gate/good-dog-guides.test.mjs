@@ -12,7 +12,10 @@ import {
 
 const EXPECTED_GUIDE_IDS = [
   "lesson-adolescent-regression",
+  "lesson-equipment-and-law",
   "lesson-fireworks-management",
+  "lesson-how-dogs-learn",
+  "lesson-plan-and-measure",
   "lesson-puppy-socialisation",
   "lesson-reactive-management",
   "lesson-read-your-dog-stress",
@@ -22,7 +25,11 @@ const EXPECTED_GUIDE_IDS = [
 ];
 
 const guides = buildGoodDogGuidesExport();
-assert.equal(guides.guides.length, 8, "guides export includes 8 entries (7 original + vet handling)");
+assert.equal(
+  guides.guides.length,
+  11,
+  "guides export includes 11 entries (7 original, vet handling, and 3 crash-course explainers)"
+);
 assert.deepEqual(
   guides.guides.map((guide) => guide.lessonId).sort(),
   EXPECTED_GUIDE_IDS

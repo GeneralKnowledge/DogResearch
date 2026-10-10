@@ -1,0 +1,31 @@
+{
+  "batchId": "batch-013",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    { "sourceId": "src-dt-positive-reinforcement", "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/positive-reinforcement-training-with-rewards", "httpStatus": 200, "method": "full page fetch (existing source, new claim pr-005)" },
+    { "sourceId": "src-dt-introducing-marker", "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/introducing-a-marker", "httpStatus": 200, "method": "full page fetch (existing source, re-read)" },
+    { "sourceId": "src-dt-leave-training", "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/leave-training", "httpStatus": 200, "method": "full page fetch (existing source, new claim leave-003)" },
+    { "sourceId": "src-pdsa-reward-based-training", "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/reward-based-training", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-bc-dog-puppy-training", "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/dog-and-puppy-training", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-bc-teach-spin", "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/how-to-teach-your-dog-to-spin", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-dt-harness-training", "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/harness-training", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-rspca-prong-collars", "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/prongcollars", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-dog-ownership-guide", "url": "https://www.rspca.org.uk/documents/d/rspca/dogsowner", "httpStatus": 200, "method": "full document fetch" },
+    { "sourceId": "src-bva-shock-collars", "url": "https://www.bva.co.uk/take-action/our-policies/electric-shock-collars-and-training-aids/", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-leg-ecollars-draft-2023", "url": "https://www.legislation.gov.uk/ukdsi/2023/9780348247305", "httpStatus": 200, "method": "full page fetch; page is labelled draft legislation" },
+    { "sourceId": "src-hansard-ecollars-2026", "url": "https://www.theyworkforyou.com/wrans/?id=2026-05-14.1201.h", "httpStatus": null, "method": "direct fetch timed out twice; full written answer text read from search results" },
+    { "sourceId": "src-rspca-brighton-treats-markers", "url": "https://rspca-brighton.org.uk/training-with-treats-markers/", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-battersea-drop-it", "url": "https://www.battersea.org.uk/pet-advice/dog-advice/teaching-your-dog-drop-it", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-akc-chin-rest", "url": "https://www.akc.org/expert-advice/training/teach-dog-chin-rest/", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-akc-fetch", "url": "https://www.akc.org/learn/akc-training/how-to-teach-a-dog-to-fetch-or-retrieve/", "httpStatus": 200, "method": "full page text saved from search" },
+    { "sourceId": "src-mcconnell-emergency-stop", "url": "https://www.patriciamcconnell.com/theotherendoftheleash/teaching-the-emergency-stop-or-flying-lie-down/", "httpStatus": 200, "method": "full page text saved from search" },
+    { "sourceId": "src-coa-middle", "url": "https://companyofanimals.com/uk/how-to-teach-your-dog-middle/", "httpStatus": 200, "method": "full page fetch" }
+  ],
+  "notes": [
+    "The Electronic Collars (England) Regulations 2023 on legislation.gov.uk are a draft that was never made (Defra withdrew them in February 2024). They were NOT treated as law in force.",
+    "A Defra written answer of 27 May 2026 says Defra will consult on whether to ban electric shock collars later in this Parliament.",
+    "The RSPCA prong-collar page's shock-collar legal-status section is out of date and was not used.",
+    "Pages seen only as search snippets and not fetched or registered: VCA drop-it, VIN chin rest, Denise Fenzi retrieve, askavet head-collar guide, dogstrust.ie resource-guarding page, NPSA training-records page.",
+    "No source was found for IMDT's 'Send around' exercise."
+  ]
+}

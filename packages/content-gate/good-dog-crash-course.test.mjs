@@ -45,6 +45,26 @@ for (const row of course.practicalExercises) {
   if (row.status === "covered") assert.ok(row.lessons.length > 0, row.imdtExercise);
   if (row.status === "held_for_review") assert.ok(row.heldLessonIds.length > 0, row.imdtExercise);
   if (row.status === "gap") assert.equal(row.lessons.length, 0, row.imdtExercise);
+  if (row.status === "research_only") assert.equal(row.lessons.length, 0, row.imdtExercise);
+}
+const exerciseStatus = Object.fromEntries(
+  course.practicalExercises.map((row) => [row.imdtExercise, row.status])
+);
+assert.equal(exerciseStatus["Nose to hand touch"], "covered");
+assert.equal(exerciseStatus["Twist/spin"], "covered");
+assert.equal(exerciseStatus["Retrieve"], "partial");
+for (const name of ["Emergency stop", "Middle", "Chin rest"]) {
+  assert.equal(exerciseStatus[name], "research_only", name);
+}
+assert.equal(exerciseStatus["Send around"], "gap");
+
+for (const lessonId of [
+  "lesson-how-dogs-learn",
+  "lesson-equipment-and-law",
+  "lesson-plan-and-measure"
+]) {
+  assert.ok(pathIds.has(lessonId), `${lessonId} on path`);
+  assert.ok(exportedGuideIds.has(lessonId), `${lessonId} exported as guide`);
 }
 
 assert.equal(course.theoryAreas.reduce((sum, area) => sum + area.marks, 0), 50);

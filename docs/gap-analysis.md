@@ -45,3 +45,13 @@
 - IMDT-aligned crash course map added (`kb/meta/crash-course.json`, `docs/imdt-alignment.md`): 10 stages, 12 assessed exercises, 6 Q&A areas.
 - Biggest remaining gaps vs IMDT outline: owner lesson on operant/classical conditioning, hand touch, emergency stop, chin rest, retrieve, plan-and-measure.
 - Muzzle training researched (Dogs Trust, Blue Cross, PDSA) but gated for human review.
+
+## Batch 013 notes
+
+- Gap research against the crash course. Every source was fetched and read before use; search summaries were not trusted (one summary claimed shock-collar regulations were law; the fetched page shows an unmade draft).
+- Filled: how dogs learn, hand touch, drop it and swap, spin, equipment and the law, plan and measure. Six new owner lessons, three of them education only. Guides export grows from 8 to 11.
+- Not filled: chin rest, emergency stop and middle are `research_only` (single non-UK or commercial source). Send around has no source. Retrieve is partial. Muzzle stays held (review-016).
+- New `research_only` display eligibility is honoured by `tag-display-eligibility.mjs` and enforced by QA.
+- Battersea drop-it page is corroboration only (`paraphrase_ok_pending_legal`, review-019).
+- The RSPCA prong-collar page contains dated legal wording that was not used as a claim (review-021).
+- New review items 018 to 023.

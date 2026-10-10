@@ -74,6 +74,10 @@ for (const p of protocols) {
   if (!p.supportingSourceIds?.length) errors.push(`Protocol ${p.id} missing supportingSourceIds`);
   for (const sid of p.supportingSourceIds ?? []) {
     if (!sourceIds.has(sid)) errors.push(`Protocol ${p.id} unknown source ${sid}`);
+    const source = sources.find((s) => s.id === sid);
+    if (source?.displayEligibility === "research_only") {
+      errors.push(`Protocol ${p.id} cites research_only source ${sid}`);
+    }
   }
   for (const cid of p.supportingClaimIds ?? []) {
     if (!claimIds.has(cid)) errors.push(`Protocol ${p.id} unknown claim ${cid}`);
@@ -214,7 +218,14 @@ for (const mapping of crosswalk.mappings ?? []) {
 const crashCourse = loadCrashCourse();
 const lessonIdSet = new Set(lessons.map((l) => l.id));
 const COVERAGE = new Set(["covered", "partial", "evidence_only", "gap"]);
-const EXERCISE_STATUS = new Set(["covered", "partial", "claims_only", "held_for_review", "gap"]);
+const EXERCISE_STATUS = new Set([
+  "covered",
+  "partial",
+  "claims_only",
+  "research_only",
+  "held_for_review",
+  "gap"
+]);
 const partIds = new Set((crashCourse.parts ?? []).map((part) => part.id));
 const stagedLessonIds = new Set();
 const seenStage = new Set();
@@ -242,6 +253,9 @@ for (const stage of crashCourse.stages ?? []) {
 for (const row of crashCourse.practicalExercises ?? []) {
   if (!EXERCISE_STATUS.has(row.status)) {
     errors.push(`Crash-course exercise ${row.imdtExercise} invalid status ${row.status}`);
+  }
+  if (row.status === "research_only" && row.lessonIds?.length) {
+    errors.push(`Crash-course exercise ${row.imdtExercise} is research_only but lists lessons`);
   }
   for (const lessonId of [...(row.lessonIds ?? []), ...(row.nearestLessonIds ?? [])]) {
     if (!lessonIdSet.has(lessonId)) {

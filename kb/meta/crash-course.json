@@ -34,16 +34,18 @@
       "title": "How dogs learn",
       "aim": "Understand that dogs repeat what pays off and link events that happen together, so you can train with rewards on purpose.",
       "imdtTopics": ["how dogs learn", "operant conditioning", "classical conditioning", "motivation and reinforcement"],
-      "lessonIds": ["lesson-intro-marker"],
+      "lessonIds": ["lesson-intro-marker", "lesson-how-dogs-learn"],
       "claimIds": [
         "claim-dt-pr-001-definition",
         "claim-dt-marker-001-charge-marker",
+        "claim-bc-train-001-learn-by-association",
+        "claim-pdsa-rbt-001-timing-half-second",
         "claim-npsa-learn-001-classical",
         "claim-npsa-learn-002-operant"
       ],
       "coverage": "partial",
       "gaps": [
-        "No owner-facing explainer of operant versus classical conditioning; the evidence layer has claims but no lesson."
+        "Taught in plain language (rewards, markers, associations, accidental rewards). Habituation, counter-conditioning and the formal operant and classical terms stay in the evidence layer, not an owner lesson."
       ]
     },
     {
@@ -93,11 +95,13 @@
         "lesson-first-sit",
         "lesson-down-basics",
         "lesson-settle-mat",
-        "lesson-stay-basics"
+        "lesson-stay-basics",
+        "lesson-hand-touch",
+        "lesson-spin-trick"
       ],
-      "claimIds": ["claim-dt-target-002-touch-steps"],
+      "claimIds": ["claim-dt-target-002-touch-steps", "claim-bc-spin-001-lure-circle"],
       "coverage": "partial",
-      "gaps": ["Hand touch has claims but no lesson yet."]
+      "gaps": ["Targeting a mat, send around and middle are not covered; middle has only a commercial source."]
     },
     {
       "id": "stage-recall-and-lead",
@@ -122,9 +126,10 @@
         "lesson-leave-it-basics",
         "lesson-rspca-leave",
         "lesson-jumping-up",
-        "lesson-steal-chase"
+        "lesson-steal-chase",
+        "lesson-drop-it-swap"
       ],
-      "claimIds": [],
+      "claimIds": ["claim-dt-leave-003-fair-trade-steps"],
       "coverage": "covered",
       "gaps": []
     },
@@ -140,7 +145,7 @@
       "coverage": "partial",
       "gaps": [
         "Muzzle training is researched but held for human review before owner export.",
-        "Chin rest is not covered."
+        "Chin rest has only a US organisation source (research only), so there is no owner lesson."
       ]
     },
     {
@@ -166,15 +171,21 @@
       "title": "Kind methods, equipment and the law",
       "aim": "Choose kind trainers and equipment, and know the basic UK legal duties.",
       "imdtTopics": ["equipment", "dog law", "code of ethics"],
-      "lessonIds": [],
+      "lessonIds": ["lesson-equipment-and-law"],
       "claimIds": [
         "claim-imdt-001-force-free",
+        "claim-pdsa-rbt-003-no-punishment",
         "claim-pdsa-muzzle-001-never-punish-never-alone",
-        "claim-dt-recall-005-uk-id-law"
+        "claim-dt-recall-005-uk-id-law",
+        "claim-dog-002-collar-tag-microchip",
+        "claim-rspca-prong-001-harm-and-ineffective",
+        "claim-bva-ecollar-001-uk-status",
+        "claim-hansard-ecollar-001-consult-2026"
       ],
-      "coverage": "evidence_only",
+      "coverage": "partial",
       "gaps": [
-        "Covered by claims, the ethics page and referral cards, but there is no owner lesson."
+        "The lesson covers collar and ID tag, harness fit and avoiding pain-based gear. Head collars, long lines and retractable leads are not covered, and the dog-control and breed-type laws are in claims only.",
+        "Shock-collar rules are time-sensitive: the 2023 England regulations were draft only and never made, and Defra said in May 2026 it will consult later in this Parliament (review-020)."
       ]
     },
     {
@@ -184,29 +195,29 @@
       "title": "Plan and measure your training",
       "aim": "Pick one small goal, record how it goes, and move on only when the last step is solid.",
       "imdtTopics": ["building a one-to-one consultation", "planning sessions", "measuring progress"],
-      "lessonIds": [],
-      "claimIds": [],
-      "coverage": "evidence_only",
+      "lessonIds": ["lesson-plan-and-measure"],
+      "claimIds": ["claim-bc-train-003-short-sessions-places", "claim-rspca-brighton-001-diary-and-schedule"],
+      "coverage": "partial",
       "gaps": [
-        "Assessment metrics exist for the app but there is no owner lesson on goal setting or progress notes."
+        "Session length guidance differs (Blue Cross 2 to 5 minutes, one RSPCA branch 5 to 15 minutes; disc-007). The diary advice comes from a single branch page, and the app's assessment metrics are not yet tied into the lesson."
       ]
     }
   ],
   "practicalExercises": [
-    { "imdtExercise": "Emergency stop", "status": "gap", "lessonIds": [], "nearestLessonIds": ["lesson-emergency-recall"], "claimIds": [] },
+    { "imdtExercise": "Emergency stop", "status": "research_only", "lessonIds": [], "nearestLessonIds": ["lesson-emergency-recall"], "claimIds": ["claim-mcconnell-stop-001-steps"] },
     { "imdtExercise": "Mat target", "status": "partial", "lessonIds": ["lesson-settle-mat"], "nearestLessonIds": [], "claimIds": [] },
     { "imdtExercise": "Send around", "status": "gap", "lessonIds": [], "nearestLessonIds": [], "claimIds": [] },
     { "imdtExercise": "Down", "status": "covered", "lessonIds": ["lesson-down-basics"], "nearestLessonIds": [], "claimIds": [] },
-    { "imdtExercise": "Middle", "status": "gap", "lessonIds": [], "nearestLessonIds": [], "claimIds": [] },
-    { "imdtExercise": "Chin rest", "status": "gap", "lessonIds": [], "nearestLessonIds": ["lesson-vet-handling-prep"], "claimIds": [] },
+    { "imdtExercise": "Middle", "status": "research_only", "lessonIds": [], "nearestLessonIds": [], "claimIds": ["claim-coa-middle-001-steps"] },
+    { "imdtExercise": "Chin rest", "status": "research_only", "lessonIds": [], "nearestLessonIds": ["lesson-vet-handling-prep"], "claimIds": ["claim-akc-chin-001-steps"] },
     {
       "imdtExercise": "Nose to hand touch",
-      "status": "claims_only",
-      "lessonIds": [],
+      "status": "covered",
+      "lessonIds": ["lesson-hand-touch"],
       "nearestLessonIds": [],
       "claimIds": ["claim-dt-target-002-touch-steps", "claim-dt-target-003-frustration-signs"]
     },
-    { "imdtExercise": "Twist/spin", "status": "gap", "lessonIds": [], "nearestLessonIds": [], "claimIds": [] },
+    { "imdtExercise": "Twist/spin", "status": "covered", "lessonIds": ["lesson-spin-trick"], "nearestLessonIds": [], "claimIds": ["claim-bc-spin-001-lure-circle"] },
     { "imdtExercise": "Recall", "status": "covered", "lessonIds": ["lesson-recall-basics"], "nearestLessonIds": [], "claimIds": [] },
     { "imdtExercise": "Loose lead walking", "status": "covered", "lessonIds": ["lesson-loose-lead"], "nearestLessonIds": [], "claimIds": [] },
     {
@@ -216,7 +227,7 @@
       "nearestLessonIds": [],
       "claimIds": ["claim-dt-muzzle-002-steps"]
     },
-    { "imdtExercise": "Retrieve", "status": "gap", "lessonIds": [], "nearestLessonIds": ["lesson-steal-chase"], "claimIds": [] }
+    { "imdtExercise": "Retrieve", "status": "partial", "lessonIds": ["lesson-drop-it-swap"], "nearestLessonIds": ["lesson-steal-chase"], "claimIds": ["claim-dt-leave-003-fair-trade-steps", "claim-akc-fetch-001-hold-then-fetch"] }
   ],
   "theoryAreas": [
     { "area": "Operant conditioning", "marks": 16, "claimTopics": ["B.operant_conditioning", "B.marker_signals", "B.luring_shaping_capturing_chaining"] },
