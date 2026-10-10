@@ -8,6 +8,8 @@ A short, ordered path for owners (10 stages in 3 parts) whose structure follows 
 
 KindTrail is independent and not affiliated with IMDT. The export carries that disclaimer, and owner-facing stage titles do not name IMDT.
 
+The teaching order — prerequisites, gates, and situation branches — is planned in [`learning-curriculum.md`](learning-curriculum.md). This file stays the coverage checklist.
+
 ## How the parts map
 
 | Part | Stages | IMDT analogue |
