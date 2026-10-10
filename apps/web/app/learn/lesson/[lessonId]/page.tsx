@@ -4,11 +4,14 @@ import { getLessonById, getPublishable } from "@/lib/publishable";
 import { LessonPlayer } from "@/components/LessonPlayer";
 
 export default async function LessonPage({
-  params
+  params,
+  searchParams
 }: {
   params: Promise<{ lessonId: string }>;
+  searchParams: Promise<{ homework?: string }>;
 }) {
   const { lessonId } = await params;
+  const { homework } = await searchParams;
   const entry = getLessonById(lessonId);
   if (!entry) notFound();
 
@@ -23,7 +26,7 @@ export default async function LessonPage({
       </p>
       <h1>{entry.lesson.title}</h1>
       <p className="muted">{entry.lesson.summary}</p>
-      <LessonPlayer entry={entry} />
+      <LessonPlayer entry={entry} homeworkMode={homework === "1"} />
     </>
   );
 }

@@ -9,6 +9,8 @@
     { "type": "constrained_by", "from": "proto-recall-three-step-dt", "to": "safe-002-recall-management" },
     { "type": "constrained_by", "from": "proto-recall-three-step-dt", "to": "safe-003-no-punish-return" },
     { "type": "derived_from", "from": "lesson-recall-basics", "to": "proto-recall-three-step-dt" },
+    { "type": "derived_from", "from": "lesson-alone-prevention", "to": "proto-alone-prevention-dt" },
+    { "type": "constrained_by", "from": "proto-alone-prevention-dt", "to": "claim-dt-sa-001-avoid-alone" },
     { "type": "supported_by", "from": "lesson-intro-marker", "to": "claim-dt-marker-001-charge-marker" },
     { "type": "references", "from": "disc-001-punishment-efficacy-population", "to": "claim-hiby-003-welfare-conclusion" }
   ]

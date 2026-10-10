@@ -1761,7 +1761,7 @@
       "id": "proto-alone-prevention-dt",
       "kind": "protocol",
       "title": "Alone-time preparation (puppy/adult prevention — Dogs Trust)",
-      "reviewStatus": "requires_human_review",
+      "reviewStatus": "reviewed_pilot_export",
       "behaviourIds": [
         "beh-settle-alone"
       ]
@@ -1909,6 +1909,195 @@
       "behaviourIds": [
         "beh-loose-lead-walk"
       ]
+    },
+    {
+      "id": "lesson-intro-marker",
+      "kind": "lesson",
+      "title": "Introduce a marker word",
+      "topics": [
+        "B.marker_signals"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-recall-basics",
+      "kind": "lesson",
+      "title": "Build a reliable recall (basics)",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-first-sit",
+      "kind": "lesson",
+      "title": "First sit with a lure",
+      "topics": [
+        "D.sit_down_stand"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-leave-it-basics",
+      "kind": "lesson",
+      "title": "Leave it — foundations",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-loose-lead",
+      "kind": "lesson",
+      "title": "Stop when the lead tightens",
+      "topics": [
+        "D.loose_lead_greetings"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-name-attention",
+      "kind": "lesson",
+      "title": "Build name response",
+      "topics": [
+        "D.name_response_attention"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-down-basics",
+      "kind": "lesson",
+      "title": "Teach down without forcing",
+      "topics": [
+        "D.sit_down_stand"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-settle-mat",
+      "kind": "lesson",
+      "title": "Settle on a mat",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-reactive-management",
+      "kind": "lesson",
+      "title": "Help your reactive dog on walks",
+      "topics": [
+        "G.lead_reactivity_barking"
+      ],
+      "goodDogModule": "behaviour_support"
+    },
+    {
+      "id": "lesson-puppy-socialisation",
+      "kind": "lesson",
+      "title": "Socialise your puppy safely",
+      "topics": [
+        "E.socialisation_exposure"
+      ],
+      "goodDogModule": "puppy"
+    },
+    {
+      "id": "lesson-rspca-leave",
+      "kind": "lesson",
+      "title": "Teach leave (RSPCA method)",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-fireworks-management",
+      "kind": "lesson",
+      "title": "Help your dog through fireworks",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "goodDogModule": "behaviour_support"
+    },
+    {
+      "id": "lesson-steal-chase",
+      "kind": "lesson",
+      "title": "Stop the steal-and-chase game",
+      "topics": [
+        "G.resource_guarding_chasing"
+      ],
+      "goodDogModule": "behaviour_support"
+    },
+    {
+      "id": "lesson-jumping-up",
+      "kind": "lesson",
+      "title": "Four paws on the floor",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-mouthing-redirect",
+      "kind": "lesson",
+      "title": "Redirect mouthing and nipping",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "goodDogModule": "puppy"
+    },
+    {
+      "id": "lesson-read-your-dog-stress",
+      "kind": "lesson",
+      "title": "Read stress signals",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-stay-basics",
+      "kind": "lesson",
+      "title": "Build a stay",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-emergency-recall",
+      "kind": "lesson",
+      "title": "Emergency recall practice",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-rescue-settling",
+      "kind": "lesson",
+      "title": "Help a rescue dog settle in",
+      "topics": [
+        "J.rescue_rehomed"
+      ],
+      "goodDogModule": "behaviour_support"
+    },
+    {
+      "id": "lesson-adolescent-regression",
+      "kind": "lesson",
+      "title": "When your teenage dog regresses",
+      "topics": [
+        "E.adolescent_development"
+      ],
+      "goodDogModule": "puppy"
+    },
+    {
+      "id": "lesson-alone-prevention",
+      "kind": "lesson",
+      "title": "Practise short times alone",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "goodDogModule": "life_skills"
     }
   ]
 }

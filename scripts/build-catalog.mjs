@@ -10,7 +10,7 @@ const indexDir = join(root, "kb/index");
 
 mkdirSync(indexDir, { recursive: true });
 
-const { sources, claims, protocols } = loadMergedRegistry();
+const { sources, claims, protocols, lessons } = loadMergedRegistry();
 const taxonomy = JSON.parse(
   readFileSync(join(root, "kb/taxonomy/topic-taxonomy.json"), "utf8")
 );
@@ -41,6 +41,13 @@ const catalog = {
       title: p.title,
       reviewStatus: p.reviewStatus,
       behaviourIds: p.targetBehaviourIds
+    })),
+    ...lessons.map((l) => ({
+      id: l.id,
+      kind: "lesson",
+      title: l.title,
+      topics: [l.topic],
+      goodDogModule: l.goodDogModule
     }))
   ]
 };

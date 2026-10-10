@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { getPublishable } from "@/lib/publishable";
 import { CatalogSearch } from "@/components/CatalogSearch";
+import { LessonLinks } from "@/components/LessonLinks";
 import { ProgressionTiers } from "@/components/ProgressionTiers";
 
 export default function LearnIndexPage() {
@@ -15,23 +15,21 @@ export default function LearnIndexPage() {
       {data.modules.map((mod) => (
         <section key={mod.id} className="card">
           <h2>{mod.title}</h2>
-          <ul>
-            {mod.lessonIds.map((id) => {
+          <LessonLinks
+            lessons={mod.lessonIds.flatMap((id) => {
               const lesson = data.lessons.find((l) => l.lesson.id === id);
-              if (!lesson) return null;
-              return (
-                <li key={id}>
-                  <Link href={`/learn/lesson/${id}`}>{lesson.lesson.title}</Link>
-                  {lesson.advisory ? (
-                    <>
-                      {" "}
-                      <span className="pill pill-warn">Advisory</span>
-                    </>
-                  ) : null}
-                </li>
-              );
+              if (!lesson) return [];
+              return [
+                {
+                  id,
+                  title: lesson.lesson.title,
+                  advisory: lesson.advisory,
+                  stepCount: lesson.protocol.steps?.length ?? 0,
+                  variant: "list" as const
+                }
+              ];
             })}
-          </ul>
+          />
         </section>
       ))}
     </>
