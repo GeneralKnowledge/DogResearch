@@ -1,0 +1,16 @@
+{
+  "batchId": "batch-011",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    { "sourceId": "src-dt-target-training", "url": "https://www.dogstrust.org.uk/dog-advice/training/tips-tricks/target-training", "httpStatus": 200 },
+    { "sourceId": "src-dt-how-to-handle", "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/at-home/how-to-handle-your-dog", "httpStatus": 200 },
+    { "sourceId": "src-dt-happy-vet-visits", "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/vet-visit/happy-vet-visits-for-your-dog", "httpStatus": 200 },
+    { "sourceId": "src-bluecross-stress-dogs", "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/stress-in-dogs", "httpStatus": 200, "note": "re-fetched; new claims only" },
+    { "sourceId": "src-pdsa-stress-dogs", "url": "https://www.pdsa.org.uk/what-we-do/blog/tips-to-identify-and-prevent-stress-in-dogs", "httpStatus": 200, "note": "re-fetched; new claims only" }
+  ],
+  "notes": [
+    "All five pages were fetched in full before claims were written.",
+    "Guessed Dogs Trust / RSPCA body-language, house-training and enrichment URLs returned 404 and were not registered.",
+    "An RSPCA branch handling PDF and Best Friends Animal Society page were seen in search results only and are not registered."
+  ]
+}

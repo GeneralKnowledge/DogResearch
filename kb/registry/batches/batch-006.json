@@ -51,7 +51,8 @@
       "confidenceJustification": "Cross-page synthesis; not single explicit DDD article.",
       "contradictingClaimIds": [],
       "limitations": [
-        "Human review for app tier thresholds."
+        "Human review for app tier thresholds.",
+        "See disc-006: Dogs Trust stay and target-training pages build duration before distance or distraction, which differs from the distance-first order synthesised here."
       ],
       "lastReviewed": "2026-10-10",
       "goodDogRecommendationEligible": true
@@ -162,9 +163,11 @@
       "id": "lesson-read-your-dog-stress",
       "title": "Read stress signals",
       "summary": "Notice lip licks, yawning, and turning away—pause and help your dog feel safe.",
-      "derivedFromProtocolId": "proto-ddd-progression-skeleton",
+      "derivedFromProtocolId": "proto-recognise-stress-signals",
       "supportingClaimIds": [
-        "claim-bc-stress-002-body-language-list"
+        "claim-bc-stress-002-body-language-list",
+        "claim-bc-stress-003-subtle-and-obvious-signs",
+        "claim-pdsa-stress-001-whole-dog-and-context"
       ],
       "topic": "A.stress_fear_arousal",
       "goodDogModule": "foundation_skills",

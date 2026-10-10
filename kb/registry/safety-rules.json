@@ -47,7 +47,9 @@
       "rationaleClaimIds": [
         "claim-bc-stress-001-no-punish-defensive",
         "claim-bc-child-001-remove-on-stress",
-        "claim-dt-reactive-003-create-distance-reward"
+        "claim-dt-reactive-003-create-distance-reward",
+        "claim-bc-stress-004-defensive-escalation-health",
+        "claim-dt-vet-003-speak-up-for-growl"
       ],
       "action": "filter_and_refer",
       "severity": "critical",

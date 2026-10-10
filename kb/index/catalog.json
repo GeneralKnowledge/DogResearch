@@ -629,6 +629,41 @@
       "publisher": "Dogs Trust"
     },
     {
+      "id": "src-dt-target-training",
+      "kind": "source",
+      "title": "Train your dog to touch a target — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/tips-tricks/target-training",
+      "topics": [
+        "D.hand_target_touch",
+        "C.distance_duration_distraction"
+      ],
+      "extractionStatus": "extracted_batch_011",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-how-to-handle",
+      "kind": "source",
+      "title": "How to handle your dog — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/at-home/how-to-handle-your-dog",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_011",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-happy-vet-visits",
+      "kind": "source",
+      "title": "How to have a happy vet visit with your dog — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/vet-visit/happy-vet-visits-for-your-dog",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "extractionStatus": "extracted_batch_011",
+      "publisher": "Dogs Trust"
+    },
+    {
       "id": "claim-imdt-001-force-free",
       "kind": "claim",
       "title": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may …",
@@ -1712,6 +1747,136 @@
       "sourceId": "src-dt-rehoming-hub"
     },
     {
+      "id": "claim-dt-target-002-touch-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches a hand target by rubbing food on the hand, marking and rewarding nose contact, adding a 'Touch' cue o…",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-target-training"
+    },
+    {
+      "id": "claim-dt-target-003-frustration-signs",
+      "kind": "claim",
+      "title": "Dogs Trust advises that mouthing, pawing or barking at the handler during target training may mean the dog is confused o…",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-target-training"
+    },
+    {
+      "id": "claim-dt-handle-001-gradual-relaxed",
+      "kind": "claim",
+      "title": "Dogs Trust advises introducing handling gradually in short, frequent sessions in a quiet familiar place, only when owner…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-how-to-handle"
+    },
+    {
+      "id": "claim-dt-handle-002-treat-same-order-generalise",
+      "kind": "claim",
+      "title": "Dogs Trust advises giving a treat just after touching each body part, handling in the same order each time so the dog ca…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-how-to-handle"
+    },
+    {
+      "id": "claim-dt-handle-003-pain-vet-first",
+      "kind": "claim",
+      "title": "Dogs Trust advises that a dog with an established fear of handling, or who shows signs of aggression when handled, shoul…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-how-to-handle"
+    },
+    {
+      "id": "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+      "kind": "claim",
+      "title": "Dogs Trust recommends 'touch and treat' practice at home before vet visits: touch a comfortable area for no more than th…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-happy-vet-visits"
+    },
+    {
+      "id": "claim-dt-vet-003-speak-up-for-growl",
+      "kind": "claim",
+      "title": "Dogs Trust advises owners to speak up for their dog at the vet: if the dog tenses or growls, politely but firmly ask the…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-happy-vet-visits"
+    },
+    {
+      "id": "claim-dt-vet-004-happy-visits-waiting-room",
+      "kind": "claim",
+      "title": "Dogs Trust suggests dropping in at the vet clinic for treats and a fuss when no procedure is needed (if the dog enjoys i…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-happy-vet-visits"
+    },
+    {
+      "id": "claim-bc-stress-003-subtle-and-obvious-signs",
+      "kind": "claim",
+      "title": "Blue Cross lists subtle stress signs as yawning when not tired, panting with a curled tongue tip, pacing, lip licking, p…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-stress-dogs"
+    },
+    {
+      "id": "claim-bc-stress-004-defensive-escalation-health",
+      "kind": "claim",
+      "title": "Blue Cross notes that dogs usually show earlier signs of stress before defensive behaviours such as stiffening and stari…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-stress-dogs"
+    },
+    {
+      "id": "claim-bc-stress-005-help-calm-dog",
+      "kind": "claim",
+      "title": "Blue Cross suggests helping a stressed dog by removing it from the stressful situation or giving it a quiet separate spa…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-stress-dogs"
+    },
+    {
+      "id": "claim-pdsa-stress-001-whole-dog-and-context",
+      "kind": "claim",
+      "title": "PDSA advises reading a dog's body language as a whole, together with the situation, rather than relying on one sign; str…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-stress-dogs"
+    },
+    {
+      "id": "claim-pdsa-stress-002-prevention-and-patterns",
+      "kind": "claim",
+      "title": "PDSA advises noticing patterns in when stress occurs (at home, on walks, around other dogs, when left alone), contacting…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-stress-dogs"
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -1908,6 +2073,24 @@
       "reviewStatus": "requires_human_review",
       "behaviourIds": [
         "beh-loose-lead-walk"
+      ]
+    },
+    {
+      "id": "proto-recognise-stress-signals",
+      "kind": "protocol",
+      "title": "Recognise and respond to stress signals",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-stress-sign-observed"
+      ]
+    },
+    {
+      "id": "proto-handling-vet-prep-dt",
+      "kind": "protocol",
+      "title": "Get your dog comfortable with handling and vet visits",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-stress-sign-observed"
       ]
     }
   ]

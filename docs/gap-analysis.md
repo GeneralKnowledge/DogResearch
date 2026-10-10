@@ -4,10 +4,10 @@
 
 | Category | Status | Priority next |
 |----------|--------|----------------|
-| A Behaviour & communication | Stress lesson + behaviours partial | Displacement depth, PDSA walk stress |
+| A Behaviour & communication | Stress lesson rebuilt on Blue Cross + PDSA (batch 011) | Displacement depth, PDSA walk stress |
 | B Learning theory | Marker + CC registered | APBC/FABC sheets |
 | C Training mechanics | DDD skeleton (review-013 open) | Charity stay/generalisation pages |
-| D Foundation behaviours | Sit/down/stay/recall/emergency/leave | Dedicated hand-target & RSPCA handling URLs |
+| D Foundation behaviours | Sit/down/stay/recall/emergency/leave | RSPCA handling URL (Dogs Trust target + handling ingested in batch 011) |
 | E Puppy/adolescent | Socialisation + adolescent lesson | Blue Cross puppy (403) |
 | F Enrichment | Steal/enrichment claims | More protocols |
 | G Behaviour problems | Reactive + steal/fireworks exported (advisory) | Clinical noise plans referral-only |
@@ -34,3 +34,8 @@
 - review-006 alone protocol, review-010 puppy, review-013 DDD still open.
 - Trainer auth (Phase 2 full) not implemented.
 - Strict url-check allowlist maintenance.
+
+## Batch 011 notes
+
+- disc-006: the synthesised DDD order (distance first) conflicts with Dogs Trust stay and target pages (duration first). review-013 stays open.
+- Vet/handling education lesson added; hand-target claims added without a new exercise.

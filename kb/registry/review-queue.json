@@ -31,7 +31,7 @@
       "id": "review-004",
       "entityType": "safety_rule",
       "entityId": "safe-005-growl-not-punish",
-      "reason": "APBC handout hub registered (batch 008); claim-apbc-001 plus Blue Cross/Dogs Trust reactive guidance.",
+      "reason": "APBC handout hub registered (batch 008); claim-apbc-001 plus Blue Cross/Dogs Trust reactive guidance. Batch 011 adds claim-bc-stress-004 and claim-dt-vet-003 (growl at the vet) as further rationale.",
       "priority": "medium",
       "status": "partially_resolved",
       "created": "2026-10-10"
@@ -112,9 +112,27 @@
       "id": "review-013",
       "entityType": "protocol",
       "entityId": "proto-ddd-progression-skeleton",
-      "reason": "Synthesised DDD; validate against DT stay/recall pages.",
-      "priority": "low",
+      "reason": "Synthesised DDD; validate against DT stay/recall pages. Batch 011: DT stay and target-training pages build duration before distance, contradicting the distance-first synthesis (disc-006); still allowlisted for pilot export but no exported lesson is now derived from it for stress education.",
+      "priority": "medium",
       "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-014",
+      "entityType": "lesson",
+      "entityId": "lesson-read-your-dog-stress",
+      "reason": "Batch 011: lesson was derived from the DDD protocol but described stress signals; re-pointed to proto-recognise-stress-signals built from Blue Cross and PDSA pages fetched in full.",
+      "priority": "high",
+      "status": "resolved",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-015",
+      "entityType": "claim",
+      "entityId": "claim-dt-vet-prep-001",
+      "reason": "Batch 011: placeholder vet-prep and hand-target synthesis claims now have primary-source companions (claim-dt-vet-002, claim-dt-handle-001/002/003, claim-dt-target-002/003). Originals kept for traceability; human review of the new education lesson wording still pending.",
+      "priority": "low",
+      "status": "partially_resolved",
       "created": "2026-10-10"
     }
   ]

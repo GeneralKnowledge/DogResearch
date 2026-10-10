@@ -6,7 +6,8 @@ import {
   buildGoodDogDomainExport,
   buildGoodDogGuidesExport,
   buildGoodDogReferralsExport,
-  buildGoodDogSafetyExport
+  buildGoodDogSafetyExport,
+  toOwnerVoice
 } from "./good-dog-export.mjs";
 
 const EXPECTED_GUIDE_IDS = [
@@ -16,11 +17,12 @@ const EXPECTED_GUIDE_IDS = [
   "lesson-reactive-management",
   "lesson-read-your-dog-stress",
   "lesson-rescue-settling",
-  "lesson-steal-chase"
+  "lesson-steal-chase",
+  "lesson-vet-handling-prep"
 ];
 
 const guides = buildGoodDogGuidesExport();
-assert.equal(guides.guides.length, 7, "guides export includes 7 entries");
+assert.equal(guides.guides.length, 8, "guides export includes 8 entries (7 original + vet handling)");
 assert.deepEqual(
   guides.guides.map((guide) => guide.lessonId).sort(),
   EXPECTED_GUIDE_IDS
@@ -51,8 +53,27 @@ for (const guide of guides.guides) {
 const steal = guides.guides.find((guide) => guide.lessonId === "lesson-steal-chase");
 assert.match(steal.ownerBodyMarkdown, /When your dog picks up/);
 const stress = guides.guides.find((guide) => guide.lessonId === "lesson-read-your-dog-stress");
-assert.match(stress.ownerBodyMarkdown, /stress signals/);
-assert.match(stress.ownerBodyMarkdown, /previous distance or duration/);
+assert.match(stress.ownerBodyMarkdown, /whale eye/i);
+assert.match(stress.ownerBodyMarkdown, /as a whole, together with the situation/i);
+assert.equal(/Qualified behaviourist; veterinary/.test(stress.ownerBodyMarkdown), false);
+assert.equal(
+  /distance or duration|distraction/i.test(stress.ownerBodyMarkdown),
+  false,
+  "stress guide must not teach distance/duration/distraction progression"
+);
+assert.equal(stress.protocolId, "proto-recognise-stress-signals");
+const vet = guides.guides.find((guide) => guide.lessonId === "lesson-vet-handling-prep");
+assert.match(vet.ownerBodyMarkdown, /three seconds/i);
+
+for (const guide of guides.guides) {
+  assert.equal(
+    /\b(a|an|the|your|this|that) your dog\b/i.test(guide.ownerBodyMarkdown),
+    false,
+    `${guide.lessonId} has a doubled determiner before "your dog"`
+  );
+}
+assert.equal(toOwnerVoice("Reward a dog for sitting."), "Reward a dog for sitting.");
+assert.equal(toOwnerVoice("Dog should sit."), "Your dog should sit.");
 
 assert.ok(
   guides.excluded.every((row) => row.reason === "source_not_paraphrase_ok" || row.reason === "missing_bundle"),

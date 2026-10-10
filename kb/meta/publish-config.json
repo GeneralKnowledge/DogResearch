@@ -20,7 +20,8 @@
     "lesson-fireworks-management",
     "lesson-reactive-management",
     "lesson-rescue-settling",
-    "lesson-adolescent-regression"
+    "lesson-adolescent-regression",
+    "lesson-vet-handling-prep"
   ],
   "excludedLessonIds": [],
   "advisoryLessonIds": [
@@ -29,9 +30,11 @@
     "lesson-reactive-management",
     "lesson-emergency-recall",
     "lesson-rescue-settling",
-    "lesson-adolescent-regression"
+    "lesson-adolescent-regression",
+    "lesson-vet-handling-prep"
   ],
   "advisoryMessages": {
+    "lesson-vet-handling-prep": "If your dog growls, snaps or avoids being handled, see your vet first to rule out pain, then ask for an accredited behaviourist.",
     "lesson-puppy-socialisation": "Follow your vet's vaccination and socialisation timing for your puppy.",
     "lesson-fireworks-management": "If your dog panics, injures themselves, or stops eating, contact your vet and seek qualified behaviour support.",
     "lesson-reactive-management": "Management only—not a treatment plan for aggression. See your vet first; use ABTC-registered help for ongoing reactivity.",
@@ -54,5 +57,5 @@
     "lesson-adolescent-regression",
     "lesson-puppy-socialisation"
   ],
-  "educationOnlyLessonIds": ["lesson-read-your-dog-stress"]
+  "educationOnlyLessonIds": ["lesson-read-your-dog-stress", "lesson-vet-handling-prep"]
 }

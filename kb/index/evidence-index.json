@@ -14,7 +14,8 @@
       "professional": [
         "claim-imdt-003-referral",
         "claim-dt-reactive-006-behaviour-support-referral",
-        "claim-dt-mouth-003-refer-bite"
+        "claim-dt-mouth-003-refer-bite",
+        "claim-dt-handle-003-pain-vet-first"
       ],
       "disputes": []
     },
@@ -215,7 +216,13 @@
         "claim-bc-stress-001-no-punish-defensive",
         "claim-dt-reactive-005-stress-recovery-window",
         "claim-bc-stress-002-body-language-list",
-        "claim-apbc-001-growl-not-punish"
+        "claim-apbc-001-growl-not-punish",
+        "claim-dt-vet-003-speak-up-for-growl",
+        "claim-bc-stress-003-subtle-and-obvious-signs",
+        "claim-bc-stress-004-defensive-escalation-health",
+        "claim-bc-stress-005-help-calm-dog",
+        "claim-pdsa-stress-001-whole-dog-and-context",
+        "claim-pdsa-stress-002-prevention-and-patterns"
       ],
       "disputes": []
     },
@@ -340,14 +347,20 @@
     "D.hand_target_touch": {
       "scientific": [],
       "professional": [
-        "claim-dt-hand-target-001"
+        "claim-dt-hand-target-001",
+        "claim-dt-target-002-touch-steps",
+        "claim-dt-target-003-frustration-signs"
       ],
       "disputes": []
     },
     "D.cooperative_care_vet_grooming": {
       "scientific": [],
       "professional": [
-        "claim-dt-vet-prep-001"
+        "claim-dt-vet-prep-001",
+        "claim-dt-handle-001-gradual-relaxed",
+        "claim-dt-handle-002-treat-same-order-generalise",
+        "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+        "claim-dt-vet-004-happy-visits-waiting-room"
       ],
       "disputes": []
     }

@@ -479,7 +479,19 @@ const GUIDE_ASK_KEYWORDS = {
     "yawning",
     "body language",
     "anxious",
-    "turning away"
+    "turning away",
+    "whale eye",
+    "tucked tail",
+    "panting"
+  ],
+  "lesson-vet-handling-prep": [
+    "vet visit",
+    "scared of the vet",
+    "grooming",
+    "handling",
+    "nail clipping",
+    "touch and treat",
+    "examination"
   ]
 };
 
@@ -571,6 +583,8 @@ const OWNER_SAFETY_LINES = {
     "If training uses pain, fear, or equipment such as a choke or prong, switch to a reward-based professional.",
   "safe-004-scope-referral":
     "See your vet if pain or illness might be involved, and an ABTC-registered clinical behaviourist for aggression or severe fear.",
+  "safe-005-growl-not-punish":
+    "Never tell your dog off for growling. It is a warning, so give them space and ask your vet and a qualified behaviourist for help.",
   "safe-007-no-confrontational-guarding":
     "If your dog growls or snaps over food or items, stop and ask an ABTC clinical animal behaviourist for help."
 };
@@ -581,8 +595,10 @@ const OWNER_SAFETY_LINES = {
  */
 export function toOwnerVoice(text) {
   let out = text.replace(/\b([Dd])og\b/g, (full, letter, offset, source) => {
-    const before = source.slice(Math.max(0, offset - 6), offset);
-    if (/\byour\s$/i.test(before)) return full;
+    const before = source.slice(Math.max(0, offset - 8), offset);
+    if (/\b(your|a|an|the|this|that|each|every|any|another|one|other|their|my|our|his|her|its|whole)\s$/i.test(before)) {
+      return full;
+    }
     return letter === "D" ? "Your dog" : "your dog";
   });
   out = out
@@ -642,7 +658,7 @@ export function buildOwnerBodyMarkdown({ lesson, protocol, advisoryMessage, safe
   /** @type {string[]} */
   const parts = [];
   if (lesson.summary?.trim()) parts.push(lesson.summary.trim(), "");
-  if (lesson.educationOnly) {
+  if (lesson.educationOnly && !/^A\.stress/.test(lesson.topic ?? "")) {
     parts.push(
       "If you notice stress signals, pause and make the exercise easier instead of pushing on.",
       ""
@@ -818,7 +834,11 @@ const ESCALATE_QUESTION_PATTERNS = [
   {
     id: "escalate-punish-warning",
     safetyRuleIds: ["safe-005-growl-not-punish", "safe-007-no-punish-growling"],
-    guideLessonIds: ["lesson-read-your-dog-stress", "lesson-reactive-management"],
+    guideLessonIds: [
+      "lesson-read-your-dog-stress",
+      "lesson-reactive-management",
+      "lesson-vet-handling-prep"
+    ],
     keywords: ["growl", "punish growl", "snarl", "warning signal"],
     pattern: "\\b(growl\\w*|snarl\\w*|warning signal)\\b",
     flags: "i"
