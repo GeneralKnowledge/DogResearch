@@ -31,7 +31,7 @@
       "id": "review-004",
       "entityType": "safety_rule",
       "entityId": "safe-005-growl-not-punish",
-      "reason": "APBC handout hub registered (batch 008); claim-apbc-001 plus Blue Cross/Dogs Trust reactive guidance.",
+      "reason": "APBC handout hub registered (batch 008); claim-apbc-001 plus Blue Cross/Dogs Trust reactive guidance. Batch 011 adds claim-bc-stress-004 and claim-dt-vet-003 (growl at the vet) as further rationale.",
       "priority": "medium",
       "status": "partially_resolved",
       "created": "2026-10-10"
@@ -112,7 +112,97 @@
       "id": "review-013",
       "entityType": "protocol",
       "entityId": "proto-ddd-progression-skeleton",
-      "reason": "Synthesised DDD; validate against DT stay/recall pages.",
+      "reason": "Synthesised DDD; validate against DT stay/recall pages. Batch 011: DT stay and target-training pages build duration before distance, contradicting the distance-first synthesis (disc-006); still allowlisted for pilot export but no exported lesson is now derived from it for stress education.",
+      "priority": "medium",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-014",
+      "entityType": "lesson",
+      "entityId": "lesson-read-your-dog-stress",
+      "reason": "Batch 011: lesson was derived from the DDD protocol but described stress signals; re-pointed to proto-recognise-stress-signals built from Blue Cross and PDSA pages fetched in full.",
+      "priority": "high",
+      "status": "resolved",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-015",
+      "entityType": "claim",
+      "entityId": "claim-dt-vet-prep-001",
+      "reason": "Batch 011: placeholder vet-prep and hand-target synthesis claims now have primary-source companions (claim-dt-vet-002, claim-dt-handle-001/002/003, claim-dt-target-002/003). Originals kept for traceability; human review of the new education lesson wording still pending.",
+      "priority": "low",
+      "status": "partially_resolved",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-016",
+      "entityType": "protocol",
+      "entityId": "proto-muzzle-training-dt",
+      "reason": "Muzzle training is safety-adjacent (aggression, pain, breathing in flat-faced breeds). Three consistent charity sources, but gated as requires_human_review and not allowlisted, so lesson-muzzle-training is not exported.",
+      "priority": "high",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-017",
+      "entityType": "source",
+      "entityId": "src-imdt-assessment-qa-pdf",
+      "reason": "IMDT public outlines (batch 012) are used only as a structural coverage checklist in kb/meta/crash-course.json and are pending_legal. Confirm with IMDT before any public wording that says the path 'follows' their curriculum.",
+      "priority": "medium",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-018",
+      "entityType": "protocol",
+      "entityId": "proto-reward-use-fundamentals",
+      "reason": "Batch 013 owner lessons (how dogs learn, hand touch, drop it, spin, equipment and law, plan and measure) are marked auto_accepted_low_risk from UK charity sources and have not had human wording review.",
+      "priority": "medium",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-019",
+      "entityType": "source",
+      "entityId": "src-battersea-drop-it",
+      "reason": "Battersea is not in the paraphrase_ok publisher list in scripts/tag-display-eligibility.mjs. Its drop-it page corroborates Dogs Trust fair trade but is not used in owner lessons until the publisher is cleared.",
+      "priority": "low",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-020",
+      "entityType": "claim",
+      "entityId": "claim-hansard-ecollar-001-consult-2026",
+      "reason": "Shock-collar status in England is time-sensitive. The 2023 England regulations were draft only and never made; a Defra written answer of 27 May 2026 says a consultation on a ban will come later in this Parliament. The Hansard page fetch timed out, so wording came from search-result text. Re-check against Defra and GOV.UK before any owner-facing legal wording, and re-check periodically.",
+      "priority": "high",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-021",
+      "entityType": "source",
+      "entityId": "src-rspca-prong-collars",
+      "reason": "RSPCA prong-collar page still says shock collars are legal in England without restriction and cites a 4 September 2023 campaign deadline. Prong-collar welfare claims were used; the legal-status text was not (claim-kb-gap-rspca-prong-ecollar-status-dated).",
+      "priority": "low",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-022",
+      "entityType": "source",
+      "entityId": "src-akc-chin-rest",
+      "reason": "Chin rest, retrieve, emergency stop and middle have only US, single-author or commercial sources (AKC, McConnell blog, Company of Animals). They are research_only and stay as gaps until a UK charity or professional-body page is found.",
+      "priority": "medium",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-023",
+      "entityType": "claim",
+      "entityId": "claim-rspca-brighton-001-diary-and-schedule",
+      "reason": "Session length differs between Blue Cross (2 to 5 minutes) and one RSPCA branch (5 to 15 minutes); see disc-007. The diary suggestion rests on a single branch page.",
       "priority": "low",
       "status": "open",
       "created": "2026-10-10"

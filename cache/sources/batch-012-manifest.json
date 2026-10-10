@@ -1,0 +1,20 @@
+{
+  "batchId": "batch-012",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    { "sourceId": "src-imdt-how-to-become", "url": "https://www.imdt.uk.com/how-to-become-a-dog-trainer/", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-imdt-career-course", "url": "https://www.imdt.uk.com/england/2-day-career-as-a-dog-trainer-course/", "httpStatus": 200, "method": "full page text via search" },
+    { "sourceId": "src-imdt-practical-instructor-course", "url": "https://www.imdt.uk.com/england/4-day-practical-instructor-course/", "httpStatus": 200, "method": "full page text via search" },
+    { "sourceId": "src-imdt-assessment-practical-pdf", "url": "https://www.imdt.uk.com/uploads/78934304-guidelines--practicaldogtrainingsession-v26.1.pdf", "httpStatus": 200, "method": "PDF downloaded and text extracted" },
+    { "sourceId": "src-imdt-assessment-qa-pdf", "url": "https://www.imdt.uk.com/uploads/74046577-guidelinesquestionandanswer-v26.1.pdf", "httpStatus": 200, "method": "PDF downloaded and text extracted" },
+    { "sourceId": "src-npsa-animal-learning", "url": "https://www.npsa.gov.uk/building-protection/search-screening/introduction-animal-learning-working-dog-users", "httpStatus": 200, "method": "full page text via search" },
+    { "sourceId": "src-dt-muzzle-training", "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/muzzle-training", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-bc-muzzle-training", "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/dogs-and-muzzle-training", "httpStatus": 200, "method": "full page fetch" },
+    { "sourceId": "src-pdsa-muzzle-training", "url": "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/other-veterinary-advice/how-to-muzzle-train-your-dog", "httpStatus": 200, "method": "full page fetch" }
+  ],
+  "notes": [
+    "IMDT pages describe course and assessment structure only; the course content itself is not public and was not sought.",
+    "IMDT 1-day Canine Body Language, Perfect Puppy, Recall Masterclass and Loose Lead Masterclass pages were seen in search results but are not registered (snippet-level only).",
+    "IMDT Level 3 correspondence outline was seen only on imdt.co.za; not registered."
+  ]
+}

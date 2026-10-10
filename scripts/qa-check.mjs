@@ -5,7 +5,7 @@
 import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { getLessonBundle } from "@gooddog/kb-core";
+import { getLessonBundle, loadCrashCourse } from "@gooddog/kb-core";
 import {
   buildGoodDogGuidesExport,
   isSourceGoodDogDisplayEligible
@@ -74,6 +74,10 @@ for (const p of protocols) {
   if (!p.supportingSourceIds?.length) errors.push(`Protocol ${p.id} missing supportingSourceIds`);
   for (const sid of p.supportingSourceIds ?? []) {
     if (!sourceIds.has(sid)) errors.push(`Protocol ${p.id} unknown source ${sid}`);
+    const source = sources.find((s) => s.id === sid);
+    if (source?.displayEligibility === "research_only") {
+      errors.push(`Protocol ${p.id} cites research_only source ${sid}`);
+    }
   }
   for (const cid of p.supportingClaimIds ?? []) {
     if (!claimIds.has(cid)) errors.push(`Protocol ${p.id} unknown claim ${cid}`);
@@ -209,6 +213,69 @@ for (const mapping of crosswalk.mappings ?? []) {
     errors.push(`Duplicate goodDogExerciseId in crosswalk: ${gid}`);
   }
   seenExerciseIds.add(gid);
+}
+
+const crashCourse = loadCrashCourse();
+const lessonIdSet = new Set(lessons.map((l) => l.id));
+const COVERAGE = new Set(["covered", "partial", "evidence_only", "gap"]);
+const EXERCISE_STATUS = new Set([
+  "covered",
+  "partial",
+  "claims_only",
+  "research_only",
+  "held_for_review",
+  "gap"
+]);
+const partIds = new Set((crashCourse.parts ?? []).map((part) => part.id));
+const stagedLessonIds = new Set();
+const seenStage = new Set();
+for (const stage of crashCourse.stages ?? []) {
+  if (seenStage.has(stage.id)) errors.push(`Duplicate crash-course stage id: ${stage.id}`);
+  seenStage.add(stage.id);
+  if (!partIds.has(stage.part)) errors.push(`Crash-course stage ${stage.id} unknown part ${stage.part}`);
+  if (!COVERAGE.has(stage.coverage)) {
+    errors.push(`Crash-course stage ${stage.id} invalid coverage ${stage.coverage}`);
+  }
+  if (stage.coverage === "covered" && stage.gaps?.length) {
+    errors.push(`Crash-course stage ${stage.id} is covered but lists gaps`);
+  }
+  if (stage.coverage !== "covered" && stage.coverage !== "evidence_only" && !stage.gaps?.length) {
+    errors.push(`Crash-course stage ${stage.id} is ${stage.coverage} but lists no gaps`);
+  }
+  for (const lessonId of stage.lessonIds ?? []) {
+    stagedLessonIds.add(lessonId);
+    if (!lessonIdSet.has(lessonId)) errors.push(`Crash-course stage ${stage.id} unknown lesson ${lessonId}`);
+  }
+  for (const cid of stage.claimIds ?? []) {
+    if (!claimIds.has(cid)) errors.push(`Crash-course stage ${stage.id} unknown claim ${cid}`);
+  }
+}
+for (const row of crashCourse.practicalExercises ?? []) {
+  if (!EXERCISE_STATUS.has(row.status)) {
+    errors.push(`Crash-course exercise ${row.imdtExercise} invalid status ${row.status}`);
+  }
+  if (row.status === "research_only" && row.lessonIds?.length) {
+    errors.push(`Crash-course exercise ${row.imdtExercise} is research_only but lists lessons`);
+  }
+  for (const lessonId of [...(row.lessonIds ?? []), ...(row.nearestLessonIds ?? [])]) {
+    if (!lessonIdSet.has(lessonId)) {
+      errors.push(`Crash-course exercise ${row.imdtExercise} unknown lesson ${lessonId}`);
+    }
+  }
+  for (const cid of row.claimIds ?? []) {
+    if (!claimIds.has(cid)) errors.push(`Crash-course exercise ${row.imdtExercise} unknown claim ${cid}`);
+  }
+}
+for (const sid of crashCourse.alignment?.sourceIds ?? []) {
+  if (!sourceIds.has(sid)) errors.push(`Crash-course alignment unknown source ${sid}`);
+}
+for (const cid of crashCourse.alignment?.claimIds ?? []) {
+  if (!claimIds.has(cid)) errors.push(`Crash-course alignment unknown claim ${cid}`);
+}
+for (const lessonId of publishConfig.pilotLessonIds ?? []) {
+  if (!stagedLessonIds.has(lessonId)) {
+    errors.push(`Pilot lesson ${lessonId} is not placed in any crash-course stage`);
+  }
 }
 
 console.log("Good Dog KB QA report");

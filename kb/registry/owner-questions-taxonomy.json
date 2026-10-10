@@ -244,6 +244,52 @@
           "relatedLessonId": "lesson-adolescent-regression"
         }
       ]
+    },
+    {
+      "id": "oq-stress-body-language",
+      "label": "Stress and body language",
+      "questions": [
+        {
+          "id": "oq-stress-001",
+          "text": "How can I tell if my dog is stressed?",
+          "relatedLessonId": "lesson-read-your-dog-stress",
+          "subthemes": [
+            "yawning or lip licking",
+            "whale eye",
+            "tucked tail",
+            "loss of appetite",
+            "look at the whole dog and context"
+          ],
+          "sourceLocator": "src-bluecross-stress-dogs"
+        },
+        {
+          "id": "oq-stress-002",
+          "text": "What should I do when my dog growls?",
+          "relatedLessonId": "lesson-read-your-dog-stress",
+          "subthemes": ["do not punish a warning", "create space", "see vet and behaviourist"],
+          "sourceLocator": "src-bluecross-stress-dogs"
+        }
+      ]
+    },
+    {
+      "id": "oq-handling-vet",
+      "label": "Handling, vet visits and grooming",
+      "questions": [
+        {
+          "id": "oq-handle-001",
+          "text": "How do I get my dog used to being handled for the vet or groomer?",
+          "relatedLessonId": "lesson-vet-handling-prep",
+          "subthemes": ["touch and treat", "same order each time", "happy vet visits"],
+          "sourceLocator": "src-dt-how-to-handle"
+        },
+        {
+          "id": "oq-handle-002",
+          "text": "Why does my dog growl or snap when I touch them?",
+          "relatedLessonId": "lesson-vet-handling-prep",
+          "subthemes": ["pain or illness", "fear of handling", "see vet first"],
+          "sourceLocator": "src-dt-how-to-handle"
+        }
+      ]
     }
   ]
 }

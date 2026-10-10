@@ -1,0 +1,455 @@
+{
+  "sources": [
+    {
+      "id": "src-dt-target-training",
+      "canonicalUrl": "https://www.dogstrust.org.uk/dog-advice/training/tips-tricks/target-training",
+      "title": "Train your dog to touch a target — Dogs Trust",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["D.hand_target_touch", "C.distance_duration_distraction"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_011",
+      "qualityTier": "high_practical",
+      "issues": []
+    },
+    {
+      "id": "src-dt-how-to-handle",
+      "canonicalUrl": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/at-home/how-to-handle-your-dog",
+      "title": "How to handle your dog — Dogs Trust",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["D.cooperative_care_vet_grooming", "H.scope_of_practice_referral"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_011",
+      "qualityTier": "high_practical",
+      "issues": []
+    },
+    {
+      "id": "src-dt-happy-vet-visits",
+      "canonicalUrl": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/vet-visit/happy-vet-visits-for-your-dog",
+      "title": "How to have a happy vet visit with your dog — Dogs Trust",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["D.cooperative_care_vet_grooming"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_011",
+      "qualityTier": "high_practical",
+      "issues": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-dt-target-002-touch-steps",
+      "statement": "Dogs Trust teaches a hand target by rubbing food on the hand, marking and rewarding nose contact, adding a 'Touch' cue once contact is consistent, then building hold time from one to two seconds and onward, and adding a slight distraction only once the dog reliably holds for five seconds.",
+      "topic": "D.hand_target_touch",
+      "supportingSourceId": "src-dt-target-training",
+      "locator": "Train your dog to touch a target steps 1-4",
+      "excerptOrParaphrase": "Mark nose contact, add cue, build duration 1s then 2s, slight distraction after reliable 5s hold.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full; steps stated explicitly by the charity's behaviour guidance.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-target-003-frustration-signs",
+      "statement": "Dogs Trust advises that mouthing, pawing or barking at the handler during target training may mean the dog is confused or frustrated, so the handler should go back a step or take a break; if the dog seems to want to avoid training, the handler may be going too fast.",
+      "topic": "D.hand_target_touch",
+      "supportingSourceId": "src-dt-target-training",
+      "locator": "Step 1 reminder and Top tips",
+      "excerptOrParaphrase": "Mouth/paw/bark = confusion or frustration; go back a step or pause; avoidance means pace too fast.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Explicit statement in a fetched charity page.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-handle-001-gradual-relaxed",
+      "statement": "Dogs Trust advises introducing handling gradually in short, frequent sessions in a quiet familiar place, only when owner and dog are both relaxed, starting where the dog already enjoys touch, and stopping if the dog seems uncomfortable.",
+      "topic": "D.cooperative_care_vet_grooming",
+      "supportingSourceId": "src-dt-how-to-handle",
+      "locator": "Comfort and safety; How to introduce handling steps 1-3",
+      "excerptOrParaphrase": "Short frequent sessions, relaxed, start with liked touch, stop if uncomfortable.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Fetched in full; reviewed by the charity's behaviour team per the page.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-handle-002-treat-same-order-generalise",
+      "statement": "Dogs Trust advises giving a treat just after touching each body part, handling in the same order each time so the dog can predict what happens, using a verbal cue such as 'let me see', then repeating the process in new quiet locations and with new people, going back to the beginning each time.",
+      "topic": "D.cooperative_care_vet_grooming",
+      "supportingSourceId": "src-dt-how-to-handle",
+      "locator": "Reward them; More tips for happy handling",
+      "excerptOrParaphrase": "Treat after touch; consistent order; cue; new places and people start from the beginning.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Fetched in full; explicit instructions.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-handle-003-pain-vet-first",
+      "statement": "Dogs Trust advises that a dog with an established fear of handling, or who shows signs of aggression when handled, should be seen by a vet because pain makes fear and aggressive responses more likely; if the dog is well, the vet can refer to an accredited behaviourist.",
+      "topic": "H.scope_of_practice_referral",
+      "supportingSourceId": "src-dt-how-to-handle",
+      "locator": "My dog's not happy being handled, what should I do?",
+      "excerptOrParaphrase": "Fear/aggression with handling: vet first (pain), then accredited behaviourist via vet referral.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Fetched in full; explicit referral advice.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+      "statement": "Dogs Trust recommends 'touch and treat' practice at home before vet visits: touch a comfortable area for no more than three seconds then treat, move to a new area only gradually, stop if the dog looks uncomfortable, and slowly build touch time from three to ten seconds, working towards paws, tail and mouth.",
+      "topic": "D.cooperative_care_vet_grooming",
+      "supportingSourceId": "src-dt-happy-vet-visits",
+      "locator": "Get your dog used to being touched at home steps 1-4",
+      "excerptOrParaphrase": "Touch up to 3s then treat; new areas slowly; build 3 to 10s; stop if uncomfortable.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Fetched in full; explicit numeric criteria.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-vet-003-speak-up-for-growl",
+      "statement": "Dogs Trust advises owners to speak up for their dog at the vet: if the dog tenses or growls, politely but firmly ask the vet to pause, because ignoring or telling off a growling dog can make the situation worse and a dog may bite when its warnings are ignored.",
+      "topic": "A.stress_fear_arousal",
+      "supportingSourceId": "src-dt-happy-vet-visits",
+      "locator": "In the examination room",
+      "excerptOrParaphrase": "Ask vet to stop if dog growls or tenses; do not ignore or scold warnings.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Fetched in full; agrees with claim-bc-stress-001-no-punish-defensive.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-vet-004-happy-visits-waiting-room",
+      "statement": "Dogs Trust suggests dropping in at the vet clinic for treats and a fuss when no procedure is needed (if the dog enjoys it), bringing a favourite toy or blanket, sitting away from the door, facing the dog away from other dogs, and encouraging focus on the owner in the waiting room.",
+      "topic": "D.cooperative_care_vet_grooming",
+      "supportingSourceId": "src-dt-happy-vet-visits",
+      "locator": "Opening paragraph; Tips for the waiting room",
+      "excerptOrParaphrase": "Drop-in happy visits; comfort items; seat away from door and other dogs; focus on owner.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Fetched in full.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-bc-stress-003-subtle-and-obvious-signs",
+      "statement": "Blue Cross lists subtle stress signs as yawning when not tired, panting with a curled tongue tip, pacing, lip licking, pinned-back ears, dilated pupils or red eyes and whale eye, and obvious signs as loss of appetite, backing away, tucked tail, cowering, diarrhoea or increased bowel movements, and trembling when not cold or excited.",
+      "topic": "A.stress_fear_arousal",
+      "supportingSourceId": "src-bluecross-stress-dogs",
+      "locator": "How to spot the signs of stress",
+      "excerptOrParaphrase": "Subtle vs obvious stress sign lists.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full; lists reproduced in paraphrase.",
+      "contradictingClaimIds": [],
+      "limitations": ["Page includes pandemic-era context that is out of date."],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-bc-stress-004-defensive-escalation-health",
+      "statement": "Blue Cross notes that dogs usually show earlier signs of stress before defensive behaviours such as stiffening and staring, growling, showing teeth, snapping or biting, that some stress signs can also be caused by a health problem so a vet should be consulted if worried, and that aggression warrants speaking to a vet and a professional animal behaviourist.",
+      "topic": "A.stress_fear_arousal",
+      "supportingSourceId": "src-bluecross-stress-dogs",
+      "locator": "Defensive behaviours; How to spot the signs of stress; When to see an animal behaviourist",
+      "excerptOrParaphrase": "Early signs precede defensive behaviours; health can mimic stress signs; refer for aggression.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-bc-stress-005-help-calm-dog",
+      "statement": "Blue Cross suggests helping a stressed dog by removing it from the stressful situation or giving it a quiet separate space, staying calm without raising your voice, providing indoor entertainment and walks, and not telling the dog off.",
+      "topic": "A.stress_fear_arousal",
+      "supportingSourceId": "src-bluecross-stress-dogs",
+      "locator": "How to help calm a stressed dog",
+      "excerptOrParaphrase": "Time away, calm owner, entertainment, no telling off.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-pdsa-stress-001-whole-dog-and-context",
+      "statement": "PDSA advises reading a dog's body language as a whole, together with the situation, rather than relying on one sign; stress signs it lists include yawning when not tired, nose or lip licking, a low or tucked tail, panting when not warm, pinned-back ears, stiff body, whale eye, withdrawing or turning away when approached, not eating, low energy and a fixed stare.",
+      "topic": "A.stress_fear_arousal",
+      "supportingSourceId": "src-pdsa-stress-dogs",
+      "locator": "Spotting the signs of stress in dogs",
+      "excerptOrParaphrase": "Look at whole dog plus context; list of stress signs.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full (dated 22 August 2024).",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-pdsa-stress-002-prevention-and-patterns",
+      "statement": "PDSA advises noticing patterns in when stress occurs (at home, on walks, around other dogs, when left alone), contacting a vet if behaviour changes suddenly, removing a scared dog from the situation without forcing interaction, keeping routines and changing them gradually, giving a quiet safe space others do not disturb, balancing enrichment with rest, and using reward-based training instead of punishment.",
+      "topic": "A.stress_fear_arousal",
+      "supportingSourceId": "src-pdsa-stress-dogs",
+      "locator": "Causes of stress in dogs; Preventing stress in dogs",
+      "excerptOrParaphrase": "Track patterns; vet for sudden change; remove from situation; routine; safe space; reward-based.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full (dated 22 August 2024).",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    }
+  ],
+  "protocols": [
+    {
+      "id": "proto-recognise-stress-signals",
+      "title": "Recognise and respond to stress signals",
+      "intendedOutcome": "Owner notices early stress signs in context, calmly gives the dog space, and knows when to involve a vet or behaviourist.",
+      "targetBehaviourIds": ["beh-stress-sign-observed"],
+      "methodIds": ["meth-create-distance"],
+      "suitableProfiles": ["all_pet_dogs_learning"],
+      "prerequisites": [],
+      "inappropriateWhen": [
+        "Dog is already growling, snapping or biting; prioritise safety and professional help"
+      ],
+      "equipment": ["Safe resting area"],
+      "environment": "Any everyday situation.",
+      "baselineAssessment": "Note what your dog looks like when relaxed, so changes stand out.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Look at your dog as a whole, together with the situation, not just one sign. Subtle signs include yawning when not tired, lip licking, panting when not hot, pinned-back ears, whale eye, pacing, and turning away or withdrawing. Clearer signs include loss of appetite, backing away, a tucked tail, cowering, trembling and a fixed stare.",
+          "rewardTiming": "Not applicable; observation step.",
+          "progressCriteria": "Owner can name at least two stress signs their dog shows and what was happening at the time.",
+          "easierIfStruggling": "Note down when and where the signs happen to spot a pattern.",
+          "failureModes": ["Relying on a single sign out of context"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "When you see stress signs, stay calm, avoid raising your voice, and move your dog away from the cause or give them a quiet space to retreat to without forcing interaction.",
+          "rewardTiming": "Not applicable; no reward is needed to allow a break.",
+          "progressCriteria": "Dog settles or recovers once the stressor is removed.",
+          "easierIfStruggling": "Increase the distance or end the activity for the day.",
+          "failureModes": ["Pushing on with the exercise", "Telling the dog off for growling or backing away"]
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Keep routines steady, change them gradually, and balance enrichment with plenty of rest. Contact your vet if the change in behaviour is sudden, or if signs keep happening, because health problems can cause similar signs.",
+          "rewardTiming": "Not applicable.",
+          "progressCriteria": "Stress signs become less frequent, or the owner has a vet appointment booked.",
+          "easierIfStruggling": "Ask your vet for tailored advice or a referral.",
+          "failureModes": ["Assuming a sudden change is only a training problem"]
+        }
+      ],
+      "reinforcementOptions": [],
+      "generalisationMaintenance": "Keep watching for subtle signs in new places and around new people.",
+      "welfareMonitoring": ["Appetite", "Sleep and rest", "Signs per beh-stress-sign-observed"],
+      "stopConditions": [
+        "If your dog stiffens and stares, growls, shows teeth, snaps or bites, give them space and contact your vet and a qualified behaviourist."
+      ],
+      "safetyPrecautions": ["safe-004-scope-referral", "safe-005-growl-not-punish"],
+      "referralRequirements": [
+        "Your vet, then an ABTC-registered clinical animal behaviourist if there is aggression or persistent fear."
+      ],
+      "supportingSourceIds": ["src-bluecross-stress-dogs", "src-pdsa-stress-dogs", "src-dt-happy-vet-visits"],
+      "supportingClaimIds": [
+        "claim-bc-stress-003-subtle-and-obvious-signs",
+        "claim-bc-stress-004-defensive-escalation-health",
+        "claim-bc-stress-005-help-calm-dog",
+        "claim-bc-stress-001-no-punish-defensive",
+        "claim-pdsa-stress-001-whole-dog-and-context",
+        "claim-pdsa-stress-002-prevention-and-patterns"
+      ],
+      "evidenceConfidence": "high_professional_guidance",
+      "reviewStatus": "auto_accepted_low_risk",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": "Education only; no progression tiers."
+    },
+    {
+      "id": "proto-handling-vet-prep-dt",
+      "title": "Get your dog comfortable with handling and vet visits",
+      "intendedOutcome": "Dog accepts gentle handling at home and has positive experiences of the vet clinic before a procedure is needed.",
+      "targetBehaviourIds": ["beh-stress-sign-observed"],
+      "methodIds": ["meth-positive-reinforcement", "meth-counter-conditioning"],
+      "suitableProfiles": ["all_pet_dogs_learning"],
+      "prerequisites": [],
+      "inappropriateWhen": [
+        "Dog growls, snaps or shows signs of aggression when handled; see your vet first",
+        "Dog may be in pain"
+      ],
+      "equipment": ["Small tasty treats", "Non-slip mat"],
+      "environment": "Quiet familiar room, then other quiet places.",
+      "baselineAssessment": "Note which areas your dog already enjoys being touched.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "When you and your dog are both relaxed, touch a part of the body your dog already enjoys being touched for no more than three seconds, then give a treat. Keep sessions short and frequent.",
+          "rewardTiming": "Treat just after each touch.",
+          "progressCriteria": "Dog stays relaxed and stays with you for several touches in a row.",
+          "easierIfStruggling": "Shorten the touch or go back to a more comfortable area.",
+          "failureModes": ["Long sessions", "Handling a tense dog"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Slowly move to new areas, always in the same order, and use a cue such as 'let me see' before touching. Work towards paws, tail, ears and mouth, and build touch time gradually from three to ten seconds. Stop if your dog seems uncomfortable.",
+          "rewardTiming": "Treat after each touch.",
+          "progressCriteria": "Dog accepts touch on each area for up to ten seconds while staying relaxed.",
+          "easierIfStruggling": "Go back to the last area where your dog was relaxed and progress more slowly.",
+          "failureModes": ["Rushing to sensitive areas", "Changing the order every time"]
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Practise in new quiet places and with other people, starting again from a gentle fuss each time. Drop in at the vet for treats and a fuss between appointments if your dog enjoys it, and bring a favourite toy or blanket.",
+          "rewardTiming": "Treat for calm behaviour at each new place.",
+          "progressCriteria": "Dog stays relaxed being handled in a new place by a familiar person.",
+          "easierIfStruggling": "Make visits shorter and quieter, and go at your dog's pace.",
+          "failureModes": ["Skipping back to full handling in a new place"]
+        }
+      ],
+      "reinforcementOptions": ["Small tasty treats"],
+      "generalisationMaintenance": "Little and often; repeat weekly as part of play.",
+      "welfareMonitoring": ["Signs per beh-stress-sign-observed"],
+      "stopConditions": [
+        "If your dog tenses, growls or tries to move away, stop and ask your vet for help rather than pushing on."
+      ],
+      "safetyPrecautions": ["safe-004-scope-referral", "safe-005-growl-not-punish"],
+      "referralRequirements": [
+        "Your vet first to rule out pain, then an accredited behaviourist via your vet if your dog still dislikes being handled."
+      ],
+      "supportingSourceIds": ["src-dt-how-to-handle", "src-dt-happy-vet-visits"],
+      "supportingClaimIds": [
+        "claim-dt-handle-001-gradual-relaxed",
+        "claim-dt-handle-002-treat-same-order-generalise",
+        "claim-dt-handle-003-pain-vet-first",
+        "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+        "claim-dt-vet-003-speak-up-for-growl",
+        "claim-dt-vet-004-happy-visits-waiting-room"
+      ],
+      "evidenceConfidence": "high_professional_guidance",
+      "reviewStatus": "auto_accepted_low_risk",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": "Education only; no progression tiers."
+    }
+  ],
+  "behaviours": [],
+  "lessons": [
+    {
+      "id": "lesson-vet-handling-prep",
+      "title": "Get ready for the vet and grooming",
+      "summary": "Practise short touch-and-treat sessions at home, keep the order the same, and make the clinic a happy place.",
+      "derivedFromProtocolId": "proto-handling-vet-prep-dt",
+      "supportingClaimIds": [
+        "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+        "claim-dt-handle-002-treat-same-order-generalise"
+      ],
+      "topic": "D.cooperative_care_vet_grooming",
+      "goodDogModule": "life_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "educationOnly": true,
+      "lastReviewed": "2026-10-10"
+    }
+  ],
+  "disagreements": [
+    {
+      "id": "disc-006-ddd-order-vs-charity-stay-order",
+      "question": "In what order should a dog's stay be made harder: distance, duration or distraction?",
+      "claimIdsInTension": [
+        "claim-dt-ddd-001-order-charity",
+        "claim-dt-stay-002-variable-duration",
+        "claim-dt-target-002-touch-steps"
+      ],
+      "areasOfAgreement": [
+        "Change one difficulty dimension at a time and go back a step when the dog struggles.",
+        "Add distractions after the skill is reliable in a quiet place."
+      ],
+      "disagreementSummary": "The KB's synthesised DDD skeleton (claim-dt-ddd-001) puts distance before duration. Dogs Trust's stay guidance and its target-training page both build duration first (target: one second, two seconds, five seconds, then a slight distraction), and lesson-stay-basics is exported as 'duration before distance'. The synthesised ordering is therefore not supported by the primary charity pages ingested so far.",
+      "likelyCauses": [
+        "The DDD claim is a KB synthesis rather than a single explicit charity statement",
+        "Different behaviours (stay vs touch vs sit) may suit different orders",
+        "Professional trainers differ in how they sequence criteria"
+      ],
+      "goodDogPosition": "Prefer the order stated on the primary charity page for each specific behaviour; treat the generic DDD skeleton as a low-confidence heuristic and keep it gated (review-013).",
+      "researchGaps": [
+        "An explicit source for a distance-first progression",
+        "Evidence comparing orderings in pet dogs"
+      ],
+      "lastReviewed": "2026-10-10"
+    }
+  ],
+  "relationships": [
+    { "type": "supported_by", "from": "lesson-read-your-dog-stress", "to": "claim-bc-stress-003-subtle-and-obvious-signs" },
+    { "type": "supported_by", "from": "lesson-read-your-dog-stress", "to": "claim-pdsa-stress-001-whole-dog-and-context" },
+    { "type": "derived_from", "from": "lesson-read-your-dog-stress", "to": "proto-recognise-stress-signals" },
+    { "type": "derived_from", "from": "lesson-vet-handling-prep", "to": "proto-handling-vet-prep-dt" },
+    { "type": "constrained_by", "from": "proto-handling-vet-prep-dt", "to": "safe-005-growl-not-punish" },
+    { "type": "constrained_by", "from": "proto-recognise-stress-signals", "to": "safe-004-scope-referral" },
+    { "type": "complements", "from": "claim-dt-target-002-touch-steps", "to": "claim-dt-hand-target-001" },
+    { "type": "complements", "from": "claim-bc-stress-003-subtle-and-obvious-signs", "to": "claim-bc-stress-002-body-language-list" },
+    { "type": "supported_by", "from": "claim-dt-vet-003-speak-up-for-growl", "to": "safe-005-growl-not-punish" },
+    { "type": "references", "from": "disc-006-ddd-order-vs-charity-stay-order", "to": "claim-dt-ddd-001-order-charity" },
+    { "type": "references", "from": "disc-006-ddd-order-vs-charity-stay-order", "to": "claim-dt-stay-002-variable-duration" }
+  ]
+}

@@ -17,10 +17,11 @@
     "test:gate": "node packages/content-gate/test.mjs",
     "test:good-dog-crosswalk": "node packages/content-gate/good-dog-crosswalk.test.mjs",
     "test:good-dog-guides": "node packages/content-gate/good-dog-guides.test.mjs",
+    "test:good-dog-crash-course": "node packages/content-gate/good-dog-crash-course.test.mjs",
     "test:export": "node scripts/export-snapshot.test.mjs",
     "url-check:strict": "node scripts/url-check-strict.mjs",
-    "lint": "npm run qa && npm run test:gate && npm run test:export && npm run test:good-dog-crosswalk && npm run test:good-dog-guides",
-    "build:kb": "npm run qa && npm run catalog && npm run export:good-dog && npm run test:gate && npm run test:good-dog-crosswalk && npm run test:good-dog-guides",
+    "lint": "npm run qa && npm run test:gate && npm run test:export && npm run test:good-dog-crosswalk && npm run test:good-dog-guides && npm run test:good-dog-crash-course",
+    "build:kb": "npm run qa && npm run catalog && npm run export:good-dog && npm run test:gate && npm run test:good-dog-crosswalk && npm run test:good-dog-guides && npm run test:good-dog-crash-course",
     "dev:web": "npm run export && npm run dev -w @gooddog/web",
     "build:app": "npm run qa && npm run catalog && npm run export && npm run test:gate && npm run test:export && npm run build -w @gooddog/web"
   }

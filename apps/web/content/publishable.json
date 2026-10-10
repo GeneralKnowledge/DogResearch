@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T15:42:48.211Z",
+  "generatedAt": "2026-10-10T17:23:01.250Z",
   "productName": "KindTrail",
   "previewMode": false,
   "ethics": {
@@ -154,6 +154,16 @@
         "id": "claim-dt-steal-002-ignore-drop",
         "statement": "Dogs Trust advises ignoring safe steal-and-parade behaviour until the dog drops the item, then redirecting to a toy or chew rather than immediately grabbing the stolen object.",
         "sourceId": "src-dt-stop-stealing"
+      },
+      {
+        "id": "claim-dt-vet-003-speak-up-for-growl",
+        "statement": "Dogs Trust advises owners to speak up for their dog at the vet: if the dog tenses or growls, politely but firmly ask the vet to pause, because ignoring or telling off a growling dog can make the situation worse and a dog may bite when its warnings are ignored.",
+        "sourceId": "src-dt-happy-vet-visits"
+      },
+      {
+        "id": "claim-bc-stress-004-defensive-escalation-health",
+        "statement": "Blue Cross notes that dogs usually show earlier signs of stress before defensive behaviours such as stiffening and staring, growling, showing teeth, snapping or biting, that some stress signs can also be caused by a health problem so a vet should be consulted if worried, and that aggression warrants speaking to a vet and a professional animal behaviourist.",
+        "sourceId": "src-bluecross-stress-dogs"
       }
     ]
   },
@@ -792,6 +802,276 @@
       "topics": [
         "J.rescue_rehomed",
         "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-dt-target-training",
+      "kind": "source",
+      "title": "Train your dog to touch a target — Dogs Trust",
+      "topics": [
+        "D.hand_target_touch",
+        "C.distance_duration_distraction"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-dt-how-to-handle",
+      "kind": "source",
+      "title": "How to handle your dog — Dogs Trust",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-dt-happy-vet-visits",
+      "kind": "source",
+      "title": "How to have a happy vet visit with your dog — Dogs Trust",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-career-course",
+      "kind": "source",
+      "title": "2 Day 'Career As A Dog Trainer' Course — IMDT (public outline)",
+      "topics": [
+        "K.imdt_ethics",
+        "B.operant_conditioning",
+        "A.body_language"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-practical-instructor-course",
+      "kind": "source",
+      "title": "4 Day Practical Instructor Course — IMDT (public outline)",
+      "topics": [
+        "C.session_planning",
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-how-to-become",
+      "kind": "source",
+      "title": "How to become a Dog Trainer — IMDT",
+      "topics": [
+        "K.imdt_ethics",
+        "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-assessment-practical-pdf",
+      "kind": "source",
+      "title": "IMDT Assessment — Practical Dog Training Session guidelines (v26.1)",
+      "topics": [
+        "K.imdt_ethics",
+        "C.session_planning",
+        "D.recall_emergency_recall"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-assessment-qa-pdf",
+      "kind": "source",
+      "title": "IMDT Assessment — Question and Answer guidelines (v26.1)",
+      "topics": [
+        "K.imdt_ethics",
+        "B.operant_conditioning",
+        "B.classical_conditioning"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-npsa-animal-learning",
+      "kind": "source",
+      "title": "An introduction to animal learning for working dog users — NPSA",
+      "topics": [
+        "B.classical_conditioning",
+        "B.operant_conditioning",
+        "E.habituation_confidence"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-dt-muzzle-training",
+      "kind": "source",
+      "title": "How to train your dog to wear a muzzle — Dogs Trust",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-bc-muzzle-training",
+      "kind": "source",
+      "title": "Dogs and muzzle training — Blue Cross",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-pdsa-muzzle-training",
+      "kind": "source",
+      "title": "How to muzzle train your dog — PDSA",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-bc-dog-puppy-training",
+      "kind": "source",
+      "title": "Dog and puppy training — Blue Cross",
+      "topics": [
+        "B.operant_conditioning",
+        "B.marker_signals",
+        "C.session_design"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-pdsa-reward-based-training",
+      "kind": "source",
+      "title": "Reward based training — PDSA",
+      "topics": [
+        "B.operant_conditioning",
+        "C.timing_rate_of_reinforcement",
+        "K.ethics_aversives"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-bc-teach-spin",
+      "kind": "source",
+      "title": "How to teach your dog to spin — Blue Cross",
+      "topics": [
+        "D.trick_training"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-dt-harness-training",
+      "kind": "source",
+      "title": "How to train your dog to wear a harness — Dogs Trust",
+      "topics": [
+        "K.training_equipment_welfare",
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-rspca-prong-collars",
+      "kind": "source",
+      "title": "Why prong collars are harmful to dogs — RSPCA",
+      "topics": [
+        "K.training_equipment_welfare",
+        "K.ethics_aversives"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-dog-ownership-guide",
+      "kind": "source",
+      "title": "Dog Ownership Guide — Dogs Trust and RSPCA",
+      "topics": [
+        "K.uk_law_professional",
+        "K.training_equipment_welfare",
+        "L.responsible_ownership"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-bva-shock-collars",
+      "kind": "source",
+      "title": "Electric shock collars and training aids — BVA policy",
+      "topics": [
+        "K.training_equipment_welfare",
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-leg-ecollars-draft-2023",
+      "kind": "source",
+      "title": "The Animal Welfare (Electronic Collars) (England) Regulations 2023 (draft)",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-hansard-ecollars-2026",
+      "kind": "source",
+      "title": "Animal Welfare: Electronic Training Aids — written answer 27 May 2026",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-rspca-brighton-treats-markers",
+      "kind": "source",
+      "title": "Training with treats and markers — RSPCA Brighton & The Heart of Sussex",
+      "topics": [
+        "C.session_design",
+        "I.metrics_latency_duration",
+        "B.marker_signals"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-battersea-drop-it",
+      "kind": "source",
+      "title": "Teaching your dog to \"drop it\" — Battersea",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-akc-chin-rest",
+      "kind": "source",
+      "title": "Chin rests: practical uses and teaching your dog — American Kennel Club",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "D.chin_rest"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-akc-fetch",
+      "kind": "source",
+      "title": "How to teach your dog to fetch — American Kennel Club",
+      "topics": [
+        "D.retrieve"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-mcconnell-emergency-stop",
+      "kind": "source",
+      "title": "Teaching the emergency stop (or flying lie down) — Patricia McConnell",
+      "topics": [
+        "D.recall_emergency_recall",
+        "D.emergency_stop"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-coa-middle",
+      "kind": "source",
+      "title": "How to teach your dog Middle — Company of Animals UK",
+      "topics": [
+        "D.middle_position"
       ],
       "module": null
     },
@@ -1771,6 +2051,510 @@
       "module": null
     },
     {
+      "id": "claim-dt-target-002-touch-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches a hand target by rubbing food on the hand, marking and rewarding nose contact, adding a 'Touch' cue o…",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-target-003-frustration-signs",
+      "kind": "claim",
+      "title": "Dogs Trust advises that mouthing, pawing or barking at the handler during target training may mean the dog is confused o…",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-handle-001-gradual-relaxed",
+      "kind": "claim",
+      "title": "Dogs Trust advises introducing handling gradually in short, frequent sessions in a quiet familiar place, only when owner…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-handle-002-treat-same-order-generalise",
+      "kind": "claim",
+      "title": "Dogs Trust advises giving a treat just after touching each body part, handling in the same order each time so the dog ca…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-handle-003-pain-vet-first",
+      "kind": "claim",
+      "title": "Dogs Trust advises that a dog with an established fear of handling, or who shows signs of aggression when handled, shoul…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+      "kind": "claim",
+      "title": "Dogs Trust recommends 'touch and treat' practice at home before vet visits: touch a comfortable area for no more than th…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-vet-003-speak-up-for-growl",
+      "kind": "claim",
+      "title": "Dogs Trust advises owners to speak up for their dog at the vet: if the dog tenses or growls, politely but firmly ask the…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-vet-004-happy-visits-waiting-room",
+      "kind": "claim",
+      "title": "Dogs Trust suggests dropping in at the vet clinic for treats and a fuss when no procedure is needed (if the dog enjoys i…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-stress-003-subtle-and-obvious-signs",
+      "kind": "claim",
+      "title": "Blue Cross lists subtle stress signs as yawning when not tired, panting with a curled tongue tip, pacing, lip licking, p…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-stress-004-defensive-escalation-health",
+      "kind": "claim",
+      "title": "Blue Cross notes that dogs usually show earlier signs of stress before defensive behaviours such as stiffening and stari…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-stress-005-help-calm-dog",
+      "kind": "claim",
+      "title": "Blue Cross suggests helping a stressed dog by removing it from the stressful situation or giving it a quiet separate spa…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-pdsa-stress-001-whole-dog-and-context",
+      "kind": "claim",
+      "title": "PDSA advises reading a dog's body language as a whole, together with the situation, rather than relying on one sign; str…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-pdsa-stress-002-prevention-and-patterns",
+      "kind": "claim",
+      "title": "PDSA advises noticing patterns in when stress occurs (at home, on walks, around other dogs, when left alone), contacting…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-001-pathway",
+      "kind": "claim",
+      "title": "IMDT's stated route to its dog trainer qualification is a 2-day theory course, a 4-day practical course and a membership…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-002-two-day-topics",
+      "kind": "claim",
+      "title": "The IMDT 2-day course outline lists the science of how dogs learn, body language, group class planning and dynamics, pri…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-003-four-day-topics",
+      "kind": "claim",
+      "title": "The IMDT 4-day practical course outline covers coaching exercises, methods and exercises to teach in class, observationa…",
+      "topics": [
+        "C.session_planning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-004-knowledge-areas",
+      "kind": "claim",
+      "title": "IMDT lists the knowledge a qualified trainer needs as how dogs learn, canine body language and behaviour, observational …",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-005-assessment-practical-exercises",
+      "kind": "claim",
+      "title": "IMDT's practical assessment (v26.1) asks the candidate to coach one of twelve exercises: emergency stop, mat target, sen…",
+      "topics": [
+        "C.session_planning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-006-assessment-theory-weighting",
+      "kind": "claim",
+      "title": "IMDT's assessment Q&A (v26.1) marks equipment use and conditioning out of 4, dog law and the Code of Ethics out of 2, bo…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-npsa-learn-001-classical",
+      "kind": "claim",
+      "title": "NPSA describes classical conditioning as a dog learning that a neutral stimulus reliably occurs before or with a meaning…",
+      "topics": [
+        "B.classical_conditioning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-npsa-learn-002-operant",
+      "kind": "claim",
+      "title": "NPSA describes operant conditioning as a dog learning that its own voluntary actions lead to consequences: behaviour fol…",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-npsa-learn-003-habituation-principles",
+      "kind": "claim",
+      "title": "NPSA explains that habituation, where a dog stops reacting to something that has no important consequence, works best wh…",
+      "topics": [
+        "E.habituation_confidence"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-muzzle-001-why-and-fit",
+      "kind": "claim",
+      "title": "Dogs Trust advises that any dog benefits from being able to wear a muzzle comfortably, for safety when frightened, ill o…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-muzzle-002-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches muzzle wearing in small steps: let the dog freely put its nose in and out, reward looking at the muzz…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-muzzle-003-cautions",
+      "kind": "claim",
+      "title": "Dogs Trust says muzzle training by the food method may not suit a dog that guards food or dislikes people near its bowl,…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+      "kind": "claim",
+      "title": "Blue Cross recommends a basket-style muzzle that lets the dog breathe, drink and take treats, notes that muzzles that cl…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-pdsa-muzzle-001-never-punish-never-alone",
+      "kind": "claim",
+      "title": "PDSA warns that a muzzle must never be used as punishment, that skipping training and simply putting a muzzle on tends t…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-train-001-learn-by-association",
+      "kind": "claim",
+      "title": "Blue Cross says dogs learn by association: when a dog does something and is rewarded straight afterwards, the action is …",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-train-002-marker-pairing",
+      "kind": "claim",
+      "title": "Blue Cross teaches a reward marker by saying 'yes', clicking or giving a thumbs-up for a deaf dog and giving a treat str…",
+      "topics": [
+        "B.marker_signals"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-train-003-short-sessions-places",
+      "kind": "claim",
+      "title": "Blue Cross advises keeping training sessions short (about two to five minutes), practising little and often, and practis…",
+      "topics": [
+        "C.session_design"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-pdsa-rbt-001-timing-half-second",
+      "kind": "claim",
+      "title": "PDSA says the reward should be given during the behaviour or within half a second after it so the dog links the two.",
+      "topics": [
+        "C.timing_rate_of_reinforcement"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-pdsa-rbt-002-golden-rules",
+      "kind": "claim",
+      "title": "PDSA's golden rules include choosing a reward the dog really likes, keeping sessions short and ending on a success, teac…",
+      "topics": [
+        "C.session_design"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-pdsa-rbt-003-no-punishment",
+      "kind": "claim",
+      "title": "PDSA says punishment such as shouting, smacking, water pistols, rattle cans and choke chains causes anxiety and fear, ma…",
+      "topics": [
+        "K.ethics_aversives"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-pr-005-raise-value-with-distractions",
+      "kind": "claim",
+      "title": "Dogs Trust advises using soft, smelly high-value treats as a 'gold star' reward and when there are more distractions, us…",
+      "topics": [
+        "C.timing_rate_of_reinforcement"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-leave-003-fair-trade-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches fair trade by letting the dog play with a not-favourite toy for a few seconds, placing a handful of v…",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-battersea-drop-001-swap-steps",
+      "kind": "claim",
+      "title": "Battersea advises teaching 'drop' by pairing the word with food on the floor, then swapping a toy for food, never taking…",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-spin-001-lure-circle",
+      "kind": "claim",
+      "title": "Blue Cross teaches a spin by luring the dog's nose from in front, round to the side and in a circle around its body, mar…",
+      "topics": [
+        "D.trick_training"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-spin-002-fade-lure-add-cue",
+      "kind": "claim",
+      "title": "Blue Cross adds the word 'spin' and a hand signal by guiding the dog round with an empty hand, then making the signal sm…",
+      "topics": [
+        "D.trick_training"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-spin-003-short-sessions-frustration",
+      "kind": "claim",
+      "title": "Blue Cross advises spin sessions of up to five minutes in a low-distraction area, and to stop and give the dog space if …",
+      "topics": [
+        "C.troubleshooting_learning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-harness-001-choose-and-fit",
+      "kind": "claim",
+      "title": "Dogs Trust advises choosing a harness that does not cross directly over the shoulders and restrict movement, that fits s…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-harness-002-introduce-gradually",
+      "kind": "claim",
+      "title": "Dogs Trust introduces a harness in small steps: treats scattered around it, feeding treats through the head hole, restin…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-rspca-prong-001-harm-and-ineffective",
+      "kind": "claim",
+      "title": "The RSPCA says prong collars work by causing pain or discomfort, can cause injury and new behaviour problems such as fea…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-rspca-prong-002-legal-but-alternatives",
+      "kind": "claim",
+      "title": "The RSPCA notes that prong collars are not illegal in the UK although it wants them banned, and recommends a well-fittin…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-kb-gap-rspca-prong-ecollar-status-dated",
+      "kind": "claim",
+      "title": "As retrieved on 2026-10-10 the RSPCA prong-collar page says shock collars are legal in England without restriction and r…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dog-001-reward-based-training",
+      "kind": "claim",
+      "title": "The Dog Ownership Guide from Dogs Trust and the RSPCA lists reward-based training as a responsible-ownership behaviour, …",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dog-002-collar-tag-microchip",
+      "kind": "claim",
+      "title": "The Dog Ownership Guide says by law a dog in public must wear a collar with an identity tag even when walked in a harnes…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dog-003-control-and-recall",
+      "kind": "claim",
+      "title": "The Dog Ownership Guide says owners should keep their dog under control and in sight in public, whether on or off lead, …",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bva-ecollar-001-uk-status",
+      "kind": "claim",
+      "title": "The BVA says electric shock collars are banned in Wales (2010 regulations), that the Scottish Government has said aversi…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bva-ecollar-002-welfare-and-reward-based",
+      "kind": "claim",
+      "title": "The BVA says even low-level electric shock produces stress, pain and fear responses in dogs and cats, lists choke collar…",
+      "topics": [
+        "K.ethics_aversives"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-leg-ecollar-001-draft-not-made",
+      "kind": "claim",
+      "title": "The Animal Welfare (Electronic Collars) (England) Regulations 2023 on legislation.gov.uk are a draft that was never made…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-hansard-ecollar-001-consult-2026",
+      "kind": "claim",
+      "title": "In a written answer on 27 May 2026 a Defra minister said Defra will consult on whether to ban electric shock collars lat…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-rspca-brighton-001-diary-and-schedule",
+      "kind": "claim",
+      "title": "An RSPCA branch suggests training little and often, such as three to four sessions a week of five to fifteen minutes, st…",
+      "topics": [
+        "I.metrics_latency_duration"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-akc-chin-001-steps",
+      "kind": "claim",
+      "title": "The AKC teaches a chin rest by luring the chin onto an upturned palm, marking and rewarding, fading the lure, adding a c…",
+      "topics": [
+        "D.chin_rest"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-akc-fetch-001-hold-then-fetch",
+      "kind": "claim",
+      "title": "The AKC teaches fetch by first teaching 'hold', then asking the dog to take a toy from an outstretched hand, then pick i…",
+      "topics": [
+        "D.retrieve"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-mcconnell-stop-001-steps",
+      "kind": "claim",
+      "title": "A trainer blog teaches an emergency stop by choosing a clear cue meaning 'stop and stand still', starting with the dog o…",
+      "topics": [
+        "D.emergency_stop"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-coa-middle-001-steps",
+      "kind": "claim",
+      "title": "A UK equipment brand teaches 'middle' by luring the dog behind the handler's legs and through to stand or sit between th…",
+      "topics": [
+        "D.middle_position"
+      ],
+      "module": null
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -1921,6 +2705,69 @@
       "id": "proto-loose-lead-force-free-draft",
       "kind": "protocol",
       "title": "Loose-lead walking — reward check-ins (draft, force-free)",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-recognise-stress-signals",
+      "kind": "protocol",
+      "title": "Recognise and respond to stress signals",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-handling-vet-prep-dt",
+      "kind": "protocol",
+      "title": "Get your dog comfortable with handling and vet visits",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-muzzle-training-dt",
+      "kind": "protocol",
+      "title": "Teach a dog to wear a basket muzzle comfortably",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-reward-use-fundamentals",
+      "kind": "protocol",
+      "title": "Use rewards so your dog learns clearly",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-hand-touch-dt",
+      "kind": "protocol",
+      "title": "Teach your dog to touch your hand",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-drop-fair-trade-dt",
+      "kind": "protocol",
+      "title": "Teach your dog to give things up with a fair trade",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-spin-lure-bc",
+      "kind": "protocol",
+      "title": "Teach your dog to spin",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-harness-and-equipment-basics",
+      "kind": "protocol",
+      "title": "Choose kind equipment and meet the legal basics",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-plan-and-measure-sessions",
+      "kind": "protocol",
+      "title": "Plan short sessions and track progress",
       "topics": [],
       "module": null
     },
@@ -2112,6 +2959,78 @@
         "G.fear_noise_separation"
       ],
       "module": "life_skills"
+    },
+    {
+      "id": "lesson-vet-handling-prep",
+      "kind": "lesson",
+      "title": "Get ready for the vet and grooming",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-muzzle-training",
+      "kind": "lesson",
+      "title": "Teach your dog to wear a muzzle happily",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-how-dogs-learn",
+      "kind": "lesson",
+      "title": "How dogs learn: rewards, markers and associations",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-hand-touch",
+      "kind": "lesson",
+      "title": "Teach your dog to touch your hand",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-drop-it-swap",
+      "kind": "lesson",
+      "title": "Give things up with a fair trade",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-spin-trick",
+      "kind": "lesson",
+      "title": "Teach your dog to spin",
+      "topics": [
+        "D.trick_training"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-equipment-and-law",
+      "kind": "lesson",
+      "title": "Kind equipment and the legal basics",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-plan-and-measure",
+      "kind": "lesson",
+      "title": "Plan short sessions and track progress",
+      "topics": [
+        "C.session_design"
+      ],
+      "module": "foundation_skills"
     },
     {
       "id": "oq-recall-001",
@@ -2427,20 +3346,172 @@
       "module": null,
       "relatedLessonId": "lesson-adolescent-regression",
       "relatedPath": null
+    },
+    {
+      "id": "oq-stress-001",
+      "kind": "owner_question",
+      "title": "How can I tell if my dog is stressed?",
+      "topics": [
+        "oq-stress-body-language",
+        "yawning or lip licking",
+        "whale eye",
+        "tucked tail",
+        "loss of appetite",
+        "look at the whole dog and context"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-read-your-dog-stress",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-stress-002",
+      "kind": "owner_question",
+      "title": "What should I do when my dog growls?",
+      "topics": [
+        "oq-stress-body-language",
+        "do not punish a warning",
+        "create space",
+        "see vet and behaviourist"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-read-your-dog-stress",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-handle-001",
+      "kind": "owner_question",
+      "title": "How do I get my dog used to being handled for the vet or groomer?",
+      "topics": [
+        "oq-handling-vet",
+        "touch and treat",
+        "same order each time",
+        "happy vet visits"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-vet-handling-prep",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-handle-002",
+      "kind": "owner_question",
+      "title": "Why does my dog growl or snap when I touch them?",
+      "topics": [
+        "oq-handling-vet",
+        "pain or illness",
+        "fear of handling",
+        "see vet first"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-vet-handling-prep",
+      "relatedPath": null
     }
   ],
   "cpdPaths": [
+    {
+      "topic": "K.training_equipment_welfare",
+      "claimIds": [
+        "claim-abtc-003-no-aversives",
+        "claim-rspca-004-avoid-aversive-classes",
+        "claim-dt-ll-002-no-aversive-kit",
+        "claim-abtc-aversive-001-shock-choke-prong",
+        "claim-abtc-aversive-002-alpha-roll",
+        "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+        "claim-pdsa-muzzle-001-never-punish-never-alone",
+        "claim-dt-harness-001-choose-and-fit"
+      ],
+      "claims": [
+        {
+          "id": "claim-abtc-003-no-aversives",
+          "statement": "ABTC states it does not agree with aversives being used to train animals and publishes an indicative list of aversive equipment and methods that should not be used."
+        },
+        {
+          "id": "claim-rspca-004-avoid-aversive-classes",
+          "statement": "RSPCA advises owners not to join classes if techniques rely on fear, pain, choke chains, shouting or hitting."
+        },
+        {
+          "id": "claim-dt-ll-002-no-aversive-kit",
+          "statement": "Dogs Trust states that equipment promising to 'cure' pulling by causing pain or discomfort in sensitive areas is unnecessary and can be unpleasant and confusing for dogs; flat collar or comfortable harness is preferred."
+        },
+        {
+          "id": "claim-abtc-aversive-001-shock-choke-prong",
+          "statement": "ABTC's June 2024 indicative list includes electric/shock collars, choke chains/collars, and prong/pinch collars as aversive equipment that should not be used in training animals."
+        },
+        {
+          "id": "claim-abtc-aversive-002-alpha-roll",
+          "statement": "ABTC's indicative aversive methods list includes 'alpha roll'/pinning, hitting, hard lead jerks, and kneeing the dog as methods that should not be used."
+        },
+        {
+          "id": "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+          "statement": "Blue Cross recommends a basket-style muzzle that lets the dog breathe, drink and take treats, notes that muzzles that close the mouth stop panting, advises checking the neck strap allows no more than one small finger, and suggests giving muzzle-training treats only while the muzzle is on so the dog links it with rewards."
+        },
+        {
+          "id": "claim-pdsa-muzzle-001-never-punish-never-alone",
+          "statement": "PDSA warns that a muzzle must never be used as punishment, that skipping training and simply putting a muzzle on tends to scare the dog, that a dog must never be left alone wearing one, that mouth-closing muzzles should only be used for a few minutes because they stop panting and drinking, and that flat-faced breeds need vet advice because a muzzle can worsen breathing."
+        },
+        {
+          "id": "claim-dt-harness-001-choose-and-fit",
+          "statement": "Dogs Trust advises choosing a harness that does not cross directly over the shoulders and restrict movement, that fits so a finger can slip between the strapping and the body, and that the dog cannot slip out of; it also advises checking harness, collar and lead regularly for wear."
+        }
+      ]
+    },
+    {
+      "topic": "K.uk_law_professional",
+      "claimIds": [
+        "claim-dt-recall-005-uk-id-law",
+        "claim-govuk-001-microchip-8weeks",
+        "claim-govuk-002-collar-tag-public",
+        "claim-cdo1992-001-collar-highway",
+        "claim-govuk-003-public-control",
+        "claim-dda-001-banned-types",
+        "claim-dog-001-reward-based-training",
+        "claim-dog-002-collar-tag-microchip"
+      ],
+      "claims": [
+        {
+          "id": "claim-dt-recall-005-uk-id-law",
+          "statement": "Dogs Trust states that in the UK dogs in public should wear a collar and ID tag and have up-to-date microchip details, as required by law."
+        },
+        {
+          "id": "claim-govuk-001-microchip-8weeks",
+          "statement": "GOV.UK states all dogs in the UK must be microchipped and registered on an approved database by 8 weeks old."
+        },
+        {
+          "id": "claim-govuk-002-collar-tag-public",
+          "statement": "GOV.UK states that if you have a dog, it must still wear a collar and tag with your name and address when in a public place (in addition to microchip requirements)."
+        },
+        {
+          "id": "claim-cdo1992-001-collar-highway",
+          "statement": "The Control of Dogs Order 1992 requires every dog in a highway or place of public resort to wear a collar with the owner's name and address inscribed on the collar or on an attached plate or badge, subject to listed exemptions."
+        },
+        {
+          "id": "claim-govuk-003-public-control",
+          "statement": "GOV.UK guidance on controlling dogs in public reminds owners that dogs must be kept under control in public places and that failure to control a dog can lead to enforcement action; owners should know local rules including where dogs must be on lead."
+        },
+        {
+          "id": "claim-dda-001-banned-types",
+          "statement": "The Dangerous Dogs Act 1991 (UK) includes provisions on prohibited types of dogs and offences relating to dangerously out of control dogs; KindTrail does not provide breed-specific legal advice and directs owners to official guidance and legal professionals for DDA questions."
+        },
+        {
+          "id": "claim-dog-001-reward-based-training",
+          "statement": "The Dog Ownership Guide from Dogs Trust and the RSPCA lists reward-based training as a responsible-ownership behaviour, says it helps prevent unwanted behaviours, and says dogs keep learning throughout life."
+        },
+        {
+          "id": "claim-dog-002-collar-tag-microchip",
+          "statement": "The Dog Ownership Guide says by law a dog in public must wear a collar with an identity tag even when walked in a harness, and that microchip details must be kept up to date."
+        }
+      ]
+    },
     {
       "topic": "K.evidence_gaps_debates",
       "claimIds": [
         "claim-kb-gap-rspca-no-drop-page",
         "claim-kb-monitor-noise-desens-rct",
         "claim-vcastro-2021-results-monitor",
+        "claim-kb-gap-rspca-prong-ecollar-status-dated",
         "claim-hiby-001-reward-obedience-correlation",
         "claim-hiby-003-welfare-conclusion",
         "claim-hiby-004-punishment-historical",
-        "claim-vcastro-001-stress-behaviours",
-        "claim-vcastro-002-cortisol-cognitive-bias"
+        "claim-vcastro-001-stress-behaviours"
       ],
       "claims": [
         {
@@ -2454,6 +3525,10 @@
         {
           "id": "claim-vcastro-2021-results-monitor",
           "statement": "As of batch 008 (2026-10-10), the KB monitors for a published outcomes paper from Vieira de Castro et al. (2021) protocol (claim-vcastro-2021-protocol-only); no completed trial results entry has been added—do not cite the protocol as efficacy evidence."
+        },
+        {
+          "id": "claim-kb-gap-rspca-prong-ecollar-status-dated",
+          "statement": "As retrieved on 2026-10-10 the RSPCA prong-collar page says shock collars are legal in England without restriction and refers to a campaign deadline of 4 September 2023; the legal-status text is out of date and was not used."
         },
         {
           "id": "claim-hiby-001-reward-obedience-correlation",
@@ -2470,10 +3545,53 @@
         {
           "id": "claim-vcastro-001-stress-behaviours",
           "statement": "Vieira de Castro et al. (2020) report dogs from schools using high proportions of aversive-based methods showed more stress-related behaviours and more tense/low behavioural states during training than dogs from reward-based schools (n=92 total across groups)."
+        }
+      ]
+    },
+    {
+      "topic": "A.stress_fear_arousal",
+      "claimIds": [
+        "claim-bc-stress-001-no-punish-defensive",
+        "claim-dt-reactive-005-stress-recovery-window",
+        "claim-bc-stress-002-body-language-list",
+        "claim-apbc-001-growl-not-punish",
+        "claim-dt-vet-003-speak-up-for-growl",
+        "claim-bc-stress-003-subtle-and-obvious-signs",
+        "claim-bc-stress-004-defensive-escalation-health",
+        "claim-bc-stress-005-help-calm-dog"
+      ],
+      "claims": [
+        {
+          "id": "claim-bc-stress-001-no-punish-defensive",
+          "statement": "Blue Cross advises not punishing dogs showing defensive behaviours such as growling, because punishment may suppress warnings and increase biting risk while adding stress."
         },
         {
-          "id": "claim-vcastro-002-cortisol-cognitive-bias",
-          "statement": "Vieira de Castro et al. (2020) report dogs from highly aversive-based schools had higher post-training cortisol increases and more 'pessimistic' cognitive bias task performance than reward-trained dogs."
+          "id": "claim-dt-reactive-005-stress-recovery-window",
+          "statement": "Dogs Trust states stress hormone levels can take 48–72 hours to drop after a reactive episode, during which the dog may remain agitated and more trigger-sensitive."
+        },
+        {
+          "id": "claim-bc-stress-002-body-language-list",
+          "statement": "Blue Cross stress guidance (batch 002 source) lists lip licking, yawning, pinned ears, and turning away as stress signs owners should notice before escalation."
+        },
+        {
+          "id": "claim-apbc-001-growl-not-punish",
+          "statement": "APBC owner education materials describe growling as communication that should not be punished; management and qualified behaviour support are recommended when growling occurs in concerning contexts."
+        },
+        {
+          "id": "claim-dt-vet-003-speak-up-for-growl",
+          "statement": "Dogs Trust advises owners to speak up for their dog at the vet: if the dog tenses or growls, politely but firmly ask the vet to pause, because ignoring or telling off a growling dog can make the situation worse and a dog may bite when its warnings are ignored."
+        },
+        {
+          "id": "claim-bc-stress-003-subtle-and-obvious-signs",
+          "statement": "Blue Cross lists subtle stress signs as yawning when not tired, panting with a curled tongue tip, pacing, lip licking, pinned-back ears, dilated pupils or red eyes and whale eye, and obvious signs as loss of appetite, backing away, tucked tail, cowering, diarrhoea or increased bowel movements, and trembling when not cold or excited."
+        },
+        {
+          "id": "claim-bc-stress-004-defensive-escalation-health",
+          "statement": "Blue Cross notes that dogs usually show earlier signs of stress before defensive behaviours such as stiffening and staring, growling, showing teeth, snapping or biting, that some stress signs can also be caused by a health problem so a vet should be consulted if worried, and that aggression warrants speaking to a vet and a professional animal behaviourist."
+        },
+        {
+          "id": "claim-bc-stress-005-help-calm-dog",
+          "statement": "Blue Cross suggests helping a stressed dog by removing it from the stressful situation or giving it a quiet separate space, staying calm without raising your voice, providing indoor entertainment and walks, and not telling the dog off."
         }
       ]
     },
@@ -2520,6 +3638,85 @@
       ]
     },
     {
+      "topic": "D.cooperative_care_vet_grooming",
+      "claimIds": [
+        "claim-dt-vet-prep-001",
+        "claim-dt-handle-001-gradual-relaxed",
+        "claim-dt-handle-002-treat-same-order-generalise",
+        "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+        "claim-dt-vet-004-happy-visits-waiting-room",
+        "claim-dt-muzzle-001-why-and-fit",
+        "claim-dt-muzzle-002-steps"
+      ],
+      "claims": [
+        {
+          "id": "claim-dt-vet-prep-001",
+          "statement": "KindTrail vet-prep guidance synthesises charity handling advice: pair gentle handling with treats, stop if stress signs appear, and ask your vet for a cooperative care plan if needed."
+        },
+        {
+          "id": "claim-dt-handle-001-gradual-relaxed",
+          "statement": "Dogs Trust advises introducing handling gradually in short, frequent sessions in a quiet familiar place, only when owner and dog are both relaxed, starting where the dog already enjoys touch, and stopping if the dog seems uncomfortable."
+        },
+        {
+          "id": "claim-dt-handle-002-treat-same-order-generalise",
+          "statement": "Dogs Trust advises giving a treat just after touching each body part, handling in the same order each time so the dog can predict what happens, using a verbal cue such as 'let me see', then repeating the process in new quiet locations and with new people, going back to the beginning each time."
+        },
+        {
+          "id": "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+          "statement": "Dogs Trust recommends 'touch and treat' practice at home before vet visits: touch a comfortable area for no more than three seconds then treat, move to a new area only gradually, stop if the dog looks uncomfortable, and slowly build touch time from three to ten seconds, working towards paws, tail and mouth."
+        },
+        {
+          "id": "claim-dt-vet-004-happy-visits-waiting-room",
+          "statement": "Dogs Trust suggests dropping in at the vet clinic for treats and a fuss when no procedure is needed (if the dog enjoys it), bringing a favourite toy or blanket, sitting away from the door, facing the dog away from other dogs, and encouraging focus on the owner in the waiting room."
+        },
+        {
+          "id": "claim-dt-muzzle-001-why-and-fit",
+          "statement": "Dogs Trust advises that any dog benefits from being able to wear a muzzle comfortably, for safety when frightened, ill or injured, to stop harmful eating, to protect others, or where the law requires it; the muzzle should let the dog eat, drink and pant (a basket type), fit without obscuring vision or digging in, and a muzzle does not change how the dog feels about a trigger."
+        },
+        {
+          "id": "claim-dt-muzzle-002-steps",
+          "statement": "Dogs Trust teaches muzzle wearing in small steps: let the dog freely put its nose in and out, reward looking at the muzzle, then treats at and inside the opening, then the dog choosing to put its nose in, then slowly building time, adding steps backwards, getting used to the clip sound and loose straps, fastening briefly and unfastening, and only then lengthening wear time with fun activities and short walks; if the dog is unsure the owner goes back to the last relaxed stage."
+        }
+      ]
+    },
+    {
+      "topic": "K.imdt_ethics",
+      "claimIds": [
+        "claim-imdt-001-force-free",
+        "claim-imdt-002-no-pp-nr",
+        "claim-imdt-cur-001-pathway",
+        "claim-imdt-cur-002-two-day-topics",
+        "claim-imdt-cur-004-knowledge-areas",
+        "claim-imdt-cur-006-assessment-theory-weighting"
+      ],
+      "claims": [
+        {
+          "id": "claim-imdt-001-force-free",
+          "statement": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may cause physical or mental discomfort."
+        },
+        {
+          "id": "claim-imdt-002-no-pp-nr",
+          "statement": "IMDT members agree to avoid positive punishment and negative reinforcement as tools for training dogs."
+        },
+        {
+          "id": "claim-imdt-cur-001-pathway",
+          "statement": "IMDT's stated route to its dog trainer qualification is a 2-day theory course, a 4-day practical course and a membership assessment; the 2-day and 4-day courses each cover half of the curriculum for the OCN Level 3 'Principles of Dog Training and Behaviour' qualification, and further correspondence courses at Levels 3 to 5 lead towards behaviourist membership."
+        },
+        {
+          "id": "claim-imdt-cur-002-two-day-topics",
+          "statement": "The IMDT 2-day course outline lists the science of how dogs learn, body language, group class planning and dynamics, principles of canine behaviour, building a one-to-one consultation, and behaviour modification and rehabilitation."
+        },
+        {
+          "id": "claim-imdt-cur-004-knowledge-areas",
+          "statement": "IMDT lists the knowledge a qualified trainer needs as how dogs learn, canine body language and behaviour, observational skills, motivating dog and owner, positive-reinforcement-based training, planning classes, assessing a dog and structuring a one-to-one session, communicating with owners, and practical work with different dogs and real owners."
+        },
+        {
+          "id": "claim-imdt-cur-006-assessment-theory-weighting",
+          "statement": "IMDT's assessment Q&A (v26.1) marks equipment use and conditioning out of 4, dog law and the Code of Ethics out of 2, body language out of 4, general training knowledge out of 8, operant conditioning out of 16 and classical conditioning out of 16."
+        }
+      ]
+    },
+    {
       "topic": "D.recall_emergency_recall",
       "claimIds": [
         "claim-dt-recall-001-prerequisite-name",
@@ -2557,71 +3754,71 @@
       ]
     },
     {
-      "topic": "K.uk_law_professional",
+      "topic": "D.leave_it_drop",
       "claimIds": [
-        "claim-dt-recall-005-uk-id-law",
-        "claim-govuk-001-microchip-8weeks",
-        "claim-govuk-002-collar-tag-public",
-        "claim-cdo1992-001-collar-highway",
-        "claim-govuk-003-public-control",
-        "claim-dda-001-banned-types"
+        "claim-dt-leave-001-fair-trade",
+        "claim-dt-leave-002-look-away",
+        "claim-rspca-leave-001-back-off-rewarded",
+        "claim-rspca-leave-002-gentle-cue-tone",
+        "claim-dt-leave-003-fair-trade-steps",
+        "claim-battersea-drop-001-swap-steps"
       ],
       "claims": [
         {
-          "id": "claim-dt-recall-005-uk-id-law",
-          "statement": "Dogs Trust states that in the UK dogs in public should wear a collar and ID tag and have up-to-date microchip details, as required by law."
+          "id": "claim-dt-leave-001-fair-trade",
+          "statement": "Dogs Trust recommends swapping items a dog should not have for something better ('fair trade') so the dog willingly releases items rather than guarding them."
         },
         {
-          "id": "claim-govuk-001-microchip-8weeks",
-          "statement": "GOV.UK states all dogs in the UK must be microchipped and registered on an approved database by 8 weeks old."
+          "id": "claim-dt-leave-002-look-away",
+          "statement": "To teach 'leave it', Dogs Trust advises waiting for the dog to look or move away from a low-value item, then marking and rewarding with a higher-value treat from the other hand."
         },
         {
-          "id": "claim-govuk-002-collar-tag-public",
-          "statement": "GOV.UK states that if you have a dog, it must still wear a collar and tag with your name and address when in a public place (in addition to microchip requirements)."
+          "id": "claim-rspca-leave-001-back-off-rewarded",
+          "statement": "RSPCA teaches 'leave' by waiting for the dog to back off from a treat in a closed fist, then opening the hand to release the treat and praise—building that disengaging is rewarded."
         },
         {
-          "id": "claim-cdo1992-001-collar-highway",
-          "statement": "The Control of Dogs Order 1992 requires every dog in a highway or place of public resort to wear a collar with the owner's name and address inscribed on the collar or on an attached plate or badge, subject to listed exemptions."
+          "id": "claim-rspca-leave-002-gentle-cue-tone",
+          "statement": "RSPCA instructs adding the cue word 'leave' in a gentle tone as the dog backs off, before releasing the treat."
         },
         {
-          "id": "claim-govuk-003-public-control",
-          "statement": "GOV.UK guidance on controlling dogs in public reminds owners that dogs must be kept under control in public places and that failure to control a dog can lead to enforcement action; owners should know local rules including where dogs must be on lead."
+          "id": "claim-dt-leave-003-fair-trade-steps",
+          "statement": "Dogs Trust teaches fair trade by letting the dog play with a not-favourite toy for a few seconds, placing a handful of very tasty treats beside the dog so the dog chooses to move to the food, rewarding that choice, letting the dog play with the toy again, and adding a cue such as 'drop' only once the dog is reliably letting go."
         },
         {
-          "id": "claim-dda-001-banned-types",
-          "statement": "The Dangerous Dogs Act 1991 (UK) includes provisions on prohibited types of dogs and offences relating to dangerously out of control dogs; KindTrail does not provide breed-specific legal advice and directs owners to official guidance and legal professionals for DDA questions."
+          "id": "claim-battersea-drop-001-swap-steps",
+          "statement": "Battersea advises teaching 'drop' by pairing the word with food on the floor, then swapping a toy for food, never taking the toy by hand and never chasing, and for toy-lovers swapping one toy for another."
         }
       ]
     },
     {
-      "topic": "K.training_equipment_welfare",
+      "topic": "H.scope_of_practice_referral",
       "claimIds": [
-        "claim-abtc-003-no-aversives",
-        "claim-rspca-004-avoid-aversive-classes",
-        "claim-dt-ll-002-no-aversive-kit",
-        "claim-abtc-aversive-001-shock-choke-prong",
-        "claim-abtc-aversive-002-alpha-roll"
+        "claim-imdt-003-referral",
+        "claim-dt-reactive-006-behaviour-support-referral",
+        "claim-dt-mouth-003-refer-bite",
+        "claim-dt-handle-003-pain-vet-first",
+        "claim-dt-muzzle-003-cautions"
       ],
       "claims": [
         {
-          "id": "claim-abtc-003-no-aversives",
-          "statement": "ABTC states it does not agree with aversives being used to train animals and publishes an indicative list of aversive equipment and methods that should not be used."
+          "id": "claim-imdt-003-referral",
+          "statement": "IMDT members agree to work within professional limits and refer owners to a suitable professional when needs exceed those limits."
         },
         {
-          "id": "claim-rspca-004-avoid-aversive-classes",
-          "statement": "RSPCA advises owners not to join classes if techniques rely on fear, pain, choke chains, shouting or hitting."
+          "id": "claim-dt-reactive-006-behaviour-support-referral",
+          "statement": "Dogs Trust offers a Behaviour Support Line and may recommend further behaviour support when phone advice is insufficient."
         },
         {
-          "id": "claim-dt-ll-002-no-aversive-kit",
-          "statement": "Dogs Trust states that equipment promising to 'cure' pulling by causing pain or discomfort in sensitive areas is unnecessary and can be unpleasant and confusing for dogs; flat collar or comfortable harness is preferred."
+          "id": "claim-dt-mouth-003-refer-bite",
+          "statement": "Dogs Trust instructs owners to contact their Behaviour Support Line promptly if mouthing causes injury or breaks skin, and to seek medical advice for human injuries."
         },
         {
-          "id": "claim-abtc-aversive-001-shock-choke-prong",
-          "statement": "ABTC's June 2024 indicative list includes electric/shock collars, choke chains/collars, and prong/pinch collars as aversive equipment that should not be used in training animals."
+          "id": "claim-dt-handle-003-pain-vet-first",
+          "statement": "Dogs Trust advises that a dog with an established fear of handling, or who shows signs of aggression when handled, should be seen by a vet because pain makes fear and aggressive responses more likely; if the dog is well, the vet can refer to an accredited behaviourist."
         },
         {
-          "id": "claim-abtc-aversive-002-alpha-roll",
-          "statement": "ABTC's indicative aversive methods list includes 'alpha roll'/pinning, hitting, hard lead jerks, and kneeing the dog as methods that should not be used."
+          "id": "claim-dt-muzzle-003-cautions",
+          "statement": "Dogs Trust says muzzle training by the food method may not suit a dog that guards food or dislikes people near its bowl, or one that struggles with its face being touched, and that such dogs need an accredited behaviourist or the charity's behaviour support line; a dog still frightened of the muzzle should see a vet, and a different style of muzzle should be used for any emergency muzzling during training."
         }
       ]
     },
@@ -2653,164 +3850,29 @@
       ]
     },
     {
-      "topic": "D.leave_it_drop",
+      "topic": "B.operant_conditioning",
       "claimIds": [
-        "claim-dt-leave-001-fair-trade",
-        "claim-dt-leave-002-look-away",
-        "claim-rspca-leave-001-back-off-rewarded",
-        "claim-rspca-leave-002-gentle-cue-tone"
+        "claim-dt-pr-001-definition",
+        "claim-rspca-001-all-reward-based",
+        "claim-npsa-learn-002-operant",
+        "claim-bc-train-001-learn-by-association"
       ],
       "claims": [
         {
-          "id": "claim-dt-leave-001-fair-trade",
-          "statement": "Dogs Trust recommends swapping items a dog should not have for something better ('fair trade') so the dog willingly releases items rather than guarding them."
+          "id": "claim-dt-pr-001-definition",
+          "statement": "Positive reinforcement training means giving the dog something they want when they behave in a way the owner likes, making that behaviour more likely in future."
         },
         {
-          "id": "claim-dt-leave-002-look-away",
-          "statement": "To teach 'leave it', Dogs Trust advises waiting for the dog to look or move away from a low-value item, then marking and rewarding with a higher-value treat from the other hand."
+          "id": "claim-rspca-001-all-reward-based",
+          "statement": "RSPCA states all dog training should be reward based, using food, toys or praise when the dog shows desired behaviour."
         },
         {
-          "id": "claim-rspca-leave-001-back-off-rewarded",
-          "statement": "RSPCA teaches 'leave' by waiting for the dog to back off from a treat in a closed fist, then opening the hand to release the treat and praise—building that disengaging is rewarded."
+          "id": "claim-npsa-learn-002-operant",
+          "statement": "NPSA describes operant conditioning as a dog learning that its own voluntary actions lead to consequences: behaviour followed by something the dog likes becomes stronger, and behaviour followed by something it dislikes becomes weaker; it recommends that training primarily use reward-based methods."
         },
         {
-          "id": "claim-rspca-leave-002-gentle-cue-tone",
-          "statement": "RSPCA instructs adding the cue word 'leave' in a gentle tone as the dog backs off, before releasing the treat."
-        }
-      ]
-    },
-    {
-      "topic": "D.wait_stay_settle",
-      "claimIds": [
-        "claim-dt-stay-001-return-to-reward",
-        "claim-dt-settle-001-self-directed",
-        "claim-dt-settle-002-reward-relaxed",
-        "claim-rspca-stay-001-reward-in-position"
-      ],
-      "claims": [
-        {
-          "id": "claim-dt-stay-001-return-to-reward",
-          "statement": "Dogs Trust advises always returning to the dog before rewarding a stay, and rewarding while the dog is still in position—not as they get up."
-        },
-        {
-          "id": "claim-dt-settle-001-self-directed",
-          "statement": "Dogs Trust settle training aims for the dog to choose calm, relaxed behaviour without the owner repeatedly instructing them during the exercise."
-        },
-        {
-          "id": "claim-dt-settle-002-reward-relaxed",
-          "statement": "Dogs Trust advises progressively rewarding more relaxed behaviours (lying down, sighing, weight shift, head rest) during settle training on a blanket or mat."
-        },
-        {
-          "id": "claim-rspca-stay-001-reward-in-position",
-          "statement": "RSPCA advises rewarding the dog while they remain in the down/stay position, not after they have got up."
-        }
-      ]
-    },
-    {
-      "topic": "H.bite_prevention_dog_child",
-      "claimIds": [
-        "claim-rspca-child-001-supervise",
-        "claim-rspca-child-002-do-not-disturb",
-        "claim-bc-child-001-remove-on-stress",
-        "claim-cfsg-001-dog-safety-code"
-      ],
-      "claims": [
-        {
-          "id": "claim-rspca-child-001-supervise",
-          "statement": "RSPCA advises never leaving a child alone in the same room as a dog, even the family dog."
-        },
-        {
-          "id": "claim-rspca-child-002-do-not-disturb",
-          "statement": "RSPCA advises teaching children not to approach dogs when the dog is eating, sleeping, unwell, injured, tired, or near valued items."
-        },
-        {
-          "id": "claim-bc-child-001-remove-on-stress",
-          "statement": "Blue Cross advises removing the dog from a worrying situation when stress signs appear (e.g. lip lick, growl, moving away) and giving a calming activity such as a chew or stuffed Kong."
-        },
-        {
-          "id": "claim-cfsg-001-dog-safety-code",
-          "statement": "CFSG Dog Safety Code advises: Be Alert (supervise children and dogs, never leave them alone together), Be Aware (recognise body language), Be Safe (keep children away when dogs sleep, eat, or have valued items)."
-        }
-      ]
-    },
-    {
-      "topic": "A.stress_fear_arousal",
-      "claimIds": [
-        "claim-bc-stress-001-no-punish-defensive",
-        "claim-dt-reactive-005-stress-recovery-window",
-        "claim-bc-stress-002-body-language-list",
-        "claim-apbc-001-growl-not-punish"
-      ],
-      "claims": [
-        {
-          "id": "claim-bc-stress-001-no-punish-defensive",
-          "statement": "Blue Cross advises not punishing dogs showing defensive behaviours such as growling, because punishment may suppress warnings and increase biting risk while adding stress."
-        },
-        {
-          "id": "claim-dt-reactive-005-stress-recovery-window",
-          "statement": "Dogs Trust states stress hormone levels can take 48–72 hours to drop after a reactive episode, during which the dog may remain agitated and more trigger-sensitive."
-        },
-        {
-          "id": "claim-bc-stress-002-body-language-list",
-          "statement": "Blue Cross stress guidance (batch 002 source) lists lip licking, yawning, pinned ears, and turning away as stress signs owners should notice before escalation."
-        },
-        {
-          "id": "claim-apbc-001-growl-not-punish",
-          "statement": "APBC owner education materials describe growling as communication that should not be punished; management and qualified behaviour support are recommended when growling occurs in concerning contexts."
-        }
-      ]
-    },
-    {
-      "topic": "G.lead_reactivity_barking",
-      "claimIds": [
-        "claim-dt-reactive-001-not-always-aggressive",
-        "claim-dt-reactive-003-create-distance-reward",
-        "claim-dt-reactive-004-relaxed-lead",
-        "claim-cc-review-2024-positive-outcomes"
-      ],
-      "claims": [
-        {
-          "id": "claim-dt-reactive-001-not-always-aggressive",
-          "statement": "Dogs Trust explains that reactive dogs bark, lunge and pull toward triggers but this is not always aggression; behaviour expresses how the dog feels and can become a learned habit that can change with training and support."
-        },
-        {
-          "id": "claim-dt-reactive-003-create-distance-reward",
-          "statement": "Dogs Trust immediate reactivity guidance: increase distance until the dog relaxes, then reward with praise, food or a favourite toy; avoid telling the dog off because this can increase stress."
-        },
-        {
-          "id": "claim-dt-reactive-004-relaxed-lead",
-          "statement": "Dogs Trust advises keeping the lead secure but relaxed during reactive moments, because tension on the lead can make a dog feel trapped and worsen reactions."
-        },
-        {
-          "id": "claim-cc-review-2024-positive-outcomes",
-          "statement": "The 2024 systematic review of counterconditioning-based dog behaviour interventions (14 studies) reports mostly positive outcomes for some kennel and dog–dog or visitor aggression contexts, but separation-related problems were more resistant and definitions of counterconditioning varied across studies."
-        }
-      ]
-    },
-    {
-      "topic": "E.socialisation_exposure",
-      "claimIds": [
-        "claim-dt-pupsoc-001-critical-window",
-        "claim-dt-pupsoc-002-vaccination-before-ground",
-        "claim-dt-pupsoc-003-stop-if-worried",
-        "claim-dt-pup101-001-individual-pace"
-      ],
-      "claims": [
-        {
-          "id": "claim-dt-pupsoc-001-critical-window",
-          "statement": "Dogs Trust states the first four months are a vital socialisation window when puppies learn what is normal, requiring gradual positive introductions to people, dogs, noises, objects and experiences."
-        },
-        {
-          "id": "claim-dt-pupsoc-002-vaccination-before-ground",
-          "statement": "Dogs Trust advises puppies should not walk on public ground before full vaccination, but can be carried (carrier/sling) to begin socialisation experiences until the vet confirms it is safe to go on the ground."
-        },
-        {
-          "id": "claim-dt-pupsoc-003-stop-if-worried",
-          "statement": "Dogs Trust instructs stopping socialisation interactions immediately if the puppy shows high arousal or signs of becoming worried or frightened, because negative or overwhelming early experiences increase later behaviour problems."
-        },
-        {
-          "id": "claim-dt-pup101-001-individual-pace",
-          "statement": "Dogs Trust Puppy 101 hub advises going at the individual puppy's pace and using rewards they like for kind, positive learning rather than a one-size-fits-all checklist."
+          "id": "claim-bc-train-001-learn-by-association",
+          "statement": "Blue Cross says dogs learn by association: when a dog does something and is rewarded straight afterwards, the action is much more likely to be repeated, and once the dog understands the request the owner can pair it with a cue such as 'sit'."
         }
       ]
     }
@@ -2828,7 +3890,10 @@
         "lesson-stay-basics",
         "lesson-rspca-leave",
         "lesson-jumping-up",
-        "lesson-read-your-dog-stress"
+        "lesson-read-your-dog-stress",
+        "lesson-how-dogs-learn",
+        "lesson-hand-touch",
+        "lesson-plan-and-measure"
       ]
     },
     {
@@ -2839,6 +3904,10 @@
         "lesson-loose-lead",
         "lesson-recall-basics",
         "lesson-emergency-recall",
+        "lesson-vet-handling-prep",
+        "lesson-drop-it-swap",
+        "lesson-spin-trick",
+        "lesson-equipment-and-law",
         "lesson-alone-prevention"
       ]
     },
@@ -4105,51 +5174,104 @@
         "educationOnly": true
       },
       "protocol": {
-        "id": "proto-ddd-progression-skeleton",
-        "title": "Distance → duration → distraction (KindTrail skeleton)",
-        "intendedOutcome": "Owner increases one difficulty dimension at a time when proofing behaviours.",
+        "id": "proto-recognise-stress-signals",
+        "title": "Recognise and respond to stress signals",
+        "intendedOutcome": "Owner notices early stress signs in context, calmly gives the dog space, and knows when to involve a vet or behaviourist.",
         "steps": [
           {
             "stepNumber": 1,
-            "instruction": "Increase distance from dog while maintaining behaviour (e.g. sit/stay) before lengthening duration.",
-            "rewardTiming": "Reward in position.",
-            "progressCriteria": "Success at new distance with 3 repetitions.",
-            "easierIfStruggling": "Reduce distance increment.",
+            "instruction": "Look at your dog as a whole, together with the situation, not just one sign. Subtle signs include yawning when not tired, lip licking, panting when not hot, pinned-back ears, whale eye, pacing, and turning away or withdrawing. Clearer signs include loss of appetite, backing away, a tucked tail, cowering, trembling and a fixed stare.",
+            "rewardTiming": "Not applicable; observation step.",
+            "progressCriteria": "Owner can name at least two stress signs their dog shows and what was happening at the time.",
+            "easierIfStruggling": "Note down when and where the signs happen to spot a pattern.",
             "failureModes": [
-              "Adding distance and duration together"
+              "Relying on a single sign out of context"
             ]
           },
           {
             "stepNumber": 2,
-            "instruction": "Increase duration only after distance stable; then add mild distractions one at a time.",
-            "rewardTiming": "High-value rewards for first successes with distraction.",
-            "progressCriteria": "Behaviour holds with one new distraction type.",
-            "easierIfStruggling": "Return to previous D or D level.",
+            "instruction": "When you see stress signs, stay calm, avoid raising your voice, and move your dog away from the cause or give them a quiet space to retreat to without forcing interaction.",
+            "rewardTiming": "Not applicable; no reward is needed to allow a break.",
+            "progressCriteria": "Dog settles or recovers once the stressor is removed.",
+            "easierIfStruggling": "Increase the distance or end the activity for the day.",
             "failureModes": [
-              "Multiple new distractions at once"
+              "Pushing on with the exercise",
+              "Telling the dog off for growling or backing away"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Keep routines steady, change them gradually, and balance enrichment with plenty of rest. Contact your vet if the change in behaviour is sudden, or if signs keep happening, because health problems can cause similar signs.",
+            "rewardTiming": "Not applicable.",
+            "progressCriteria": "Stress signs become less frequent, or the owner has a vet appointment booked.",
+            "easierIfStruggling": "Ask your vet for tailored advice or a referral.",
+            "failureModes": [
+              "Assuming a sudden change is only a training problem"
             ]
           }
         ],
-        "reviewStatus": "requires_human_review",
-        "referralRequirements": [],
-        "safetyPrecautions": [],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Your vet, then an ABTC-registered clinical animal behaviourist if there is aggression or persistent fear."
+        ],
+        "safetyPrecautions": [
+          "safe-004-scope-referral",
+          "safe-005-growl-not-punish"
+        ],
         "safe002Sanitized": false
       },
       "claims": [
         {
-          "id": "claim-dt-ddd-001-order-charity",
-          "statement": "Dogs Trust training pages consistently progress skills by reducing distraction and increasing difficulty gradually; KindTrail synthesises this as distance before duration before distraction for app progression (charity-aligned heuristic).",
-          "confidence": "medium",
-          "sourceId": "src-dt-focus-training"
+          "id": "claim-bc-stress-001-no-punish-defensive",
+          "statement": "Blue Cross advises not punishing dogs showing defensive behaviours such as growling, because punishment may suppress warnings and increase biting risk while adding stress.",
+          "confidence": "high",
+          "sourceId": "src-bluecross-stress-dogs"
         },
         {
           "id": "claim-bc-stress-002-body-language-list",
           "statement": "Blue Cross stress guidance (batch 002 source) lists lip licking, yawning, pinned ears, and turning away as stress signs owners should notice before escalation.",
           "confidence": "high",
           "sourceId": "src-bluecross-stress-dogs"
+        },
+        {
+          "id": "claim-bc-stress-003-subtle-and-obvious-signs",
+          "statement": "Blue Cross lists subtle stress signs as yawning when not tired, panting with a curled tongue tip, pacing, lip licking, pinned-back ears, dilated pupils or red eyes and whale eye, and obvious signs as loss of appetite, backing away, tucked tail, cowering, diarrhoea or increased bowel movements, and trembling when not cold or excited.",
+          "confidence": "high",
+          "sourceId": "src-bluecross-stress-dogs"
+        },
+        {
+          "id": "claim-bc-stress-004-defensive-escalation-health",
+          "statement": "Blue Cross notes that dogs usually show earlier signs of stress before defensive behaviours such as stiffening and staring, growling, showing teeth, snapping or biting, that some stress signs can also be caused by a health problem so a vet should be consulted if worried, and that aggression warrants speaking to a vet and a professional animal behaviourist.",
+          "confidence": "high",
+          "sourceId": "src-bluecross-stress-dogs"
+        },
+        {
+          "id": "claim-bc-stress-005-help-calm-dog",
+          "statement": "Blue Cross suggests helping a stressed dog by removing it from the stressful situation or giving it a quiet separate space, staying calm without raising your voice, providing indoor entertainment and walks, and not telling the dog off.",
+          "confidence": "high",
+          "sourceId": "src-bluecross-stress-dogs"
+        },
+        {
+          "id": "claim-pdsa-stress-001-whole-dog-and-context",
+          "statement": "PDSA advises reading a dog's body language as a whole, together with the situation, rather than relying on one sign; stress signs it lists include yawning when not tired, nose or lip licking, a low or tucked tail, panting when not warm, pinned-back ears, stiff body, whale eye, withdrawing or turning away when approached, not eating, low energy and a fixed stare.",
+          "confidence": "high",
+          "sourceId": "src-pdsa-stress-dogs"
+        },
+        {
+          "id": "claim-pdsa-stress-002-prevention-and-patterns",
+          "statement": "PDSA advises noticing patterns in when stress occurs (at home, on walks, around other dogs, when left alone), contacting a vet if behaviour changes suddenly, removing a scared dog from the situation without forcing interaction, keeping routines and changing them gradually, giving a quiet safe space others do not disturb, balancing enrichment with rest, and using reward-based training instead of punishment.",
+          "confidence": "high",
+          "sourceId": "src-pdsa-stress-dogs"
         }
       ],
       "sources": [
+        {
+          "id": "src-pdsa-stress-dogs",
+          "title": "Tips to identify and prevent stress in dogs — PDSA",
+          "url": "https://www.pdsa.org.uk/what-we-do/blog/tips-to-identify-and-prevent-stress-in-dogs",
+          "publisher": "PDSA",
+          "displayEligibility": "paraphrase_ok"
+        },
         {
           "id": "src-bluecross-stress-dogs",
           "title": "Signs of stress in dogs — Blue Cross",
@@ -4158,9 +5280,9 @@
           "displayEligibility": "paraphrase_ok"
         },
         {
-          "id": "src-dt-focus-training",
-          "title": "How to train your dog to focus on you",
-          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/focus-training",
+          "id": "src-dt-happy-vet-visits",
+          "title": "How to have a happy vet visit with your dog — Dogs Trust",
+          "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/vet-visit/happy-vet-visits-for-your-dog",
           "publisher": "Dogs Trust",
           "displayEligibility": "paraphrase_ok"
         }
@@ -4451,6 +5573,896 @@
       ],
       "advisory": true,
       "advisoryMessage": "Teenage fear periods vary; reduce pressure and seek help if anxiety persists."
+    },
+    {
+      "lesson": {
+        "id": "lesson-vet-handling-prep",
+        "title": "Get ready for the vet and grooming",
+        "summary": "Practise short touch-and-treat sessions at home, keep the order the same, and make the clinic a happy place.",
+        "topic": "D.cooperative_care_vet_grooming",
+        "goodDogModule": "life_skills",
+        "educationOnly": true
+      },
+      "protocol": {
+        "id": "proto-handling-vet-prep-dt",
+        "title": "Get your dog comfortable with handling and vet visits",
+        "intendedOutcome": "Dog accepts gentle handling at home and has positive experiences of the vet clinic before a procedure is needed.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "When you and your dog are both relaxed, touch a part of the body your dog already enjoys being touched for no more than three seconds, then give a treat. Keep sessions short and frequent.",
+            "rewardTiming": "Treat just after each touch.",
+            "progressCriteria": "Dog stays relaxed and stays with you for several touches in a row.",
+            "easierIfStruggling": "Shorten the touch or go back to a more comfortable area.",
+            "failureModes": [
+              "Long sessions",
+              "Handling a tense dog"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Slowly move to new areas, always in the same order, and use a cue such as 'let me see' before touching. Work towards paws, tail, ears and mouth, and build touch time gradually from three to ten seconds. Stop if your dog seems uncomfortable.",
+            "rewardTiming": "Treat after each touch.",
+            "progressCriteria": "Dog accepts touch on each area for up to ten seconds while staying relaxed.",
+            "easierIfStruggling": "Go back to the last area where your dog was relaxed and progress more slowly.",
+            "failureModes": [
+              "Rushing to sensitive areas",
+              "Changing the order every time"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Practise in new quiet places and with other people, starting again from a gentle fuss each time. Drop in at the vet for treats and a fuss between appointments if your dog enjoys it, and bring a favourite toy or blanket.",
+            "rewardTiming": "Treat for calm behaviour at each new place.",
+            "progressCriteria": "Dog stays relaxed being handled in a new place by a familiar person.",
+            "easierIfStruggling": "Make visits shorter and quieter, and go at your dog's pace.",
+            "failureModes": [
+              "Skipping back to full handling in a new place"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Your vet first to rule out pain, then an accredited behaviourist via your vet if your dog still dislikes being handled."
+        ],
+        "safetyPrecautions": [
+          "safe-004-scope-referral",
+          "safe-005-growl-not-punish"
+        ],
+        "safe002Sanitized": false
+      },
+      "claims": [
+        {
+          "id": "claim-dt-handle-001-gradual-relaxed",
+          "statement": "Dogs Trust advises introducing handling gradually in short, frequent sessions in a quiet familiar place, only when owner and dog are both relaxed, starting where the dog already enjoys touch, and stopping if the dog seems uncomfortable.",
+          "confidence": "high",
+          "sourceId": "src-dt-how-to-handle"
+        },
+        {
+          "id": "claim-dt-handle-002-treat-same-order-generalise",
+          "statement": "Dogs Trust advises giving a treat just after touching each body part, handling in the same order each time so the dog can predict what happens, using a verbal cue such as 'let me see', then repeating the process in new quiet locations and with new people, going back to the beginning each time.",
+          "confidence": "high",
+          "sourceId": "src-dt-how-to-handle"
+        },
+        {
+          "id": "claim-dt-handle-003-pain-vet-first",
+          "statement": "Dogs Trust advises that a dog with an established fear of handling, or who shows signs of aggression when handled, should be seen by a vet because pain makes fear and aggressive responses more likely; if the dog is well, the vet can refer to an accredited behaviourist.",
+          "confidence": "high",
+          "sourceId": "src-dt-how-to-handle"
+        },
+        {
+          "id": "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+          "statement": "Dogs Trust recommends 'touch and treat' practice at home before vet visits: touch a comfortable area for no more than three seconds then treat, move to a new area only gradually, stop if the dog looks uncomfortable, and slowly build touch time from three to ten seconds, working towards paws, tail and mouth.",
+          "confidence": "high",
+          "sourceId": "src-dt-happy-vet-visits"
+        },
+        {
+          "id": "claim-dt-vet-003-speak-up-for-growl",
+          "statement": "Dogs Trust advises owners to speak up for their dog at the vet: if the dog tenses or growls, politely but firmly ask the vet to pause, because ignoring or telling off a growling dog can make the situation worse and a dog may bite when its warnings are ignored.",
+          "confidence": "high",
+          "sourceId": "src-dt-happy-vet-visits"
+        },
+        {
+          "id": "claim-dt-vet-004-happy-visits-waiting-room",
+          "statement": "Dogs Trust suggests dropping in at the vet clinic for treats and a fuss when no procedure is needed (if the dog enjoys it), bringing a favourite toy or blanket, sitting away from the door, facing the dog away from other dogs, and encouraging focus on the owner in the waiting room.",
+          "confidence": "high",
+          "sourceId": "src-dt-happy-vet-visits"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-how-to-handle",
+          "title": "How to handle your dog — Dogs Trust",
+          "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/at-home/how-to-handle-your-dog",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-dt-happy-vet-visits",
+          "title": "How to have a happy vet visit with your dog — Dogs Trust",
+          "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/vet-visit/happy-vet-visits-for-your-dog",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        }
+      ],
+      "advisory": true,
+      "advisoryMessage": "If your dog growls, snaps or avoids being handled, see your vet first to rule out pain, then ask for an accredited behaviourist."
+    },
+    {
+      "lesson": {
+        "id": "lesson-how-dogs-learn",
+        "title": "How dogs learn: rewards, markers and associations",
+        "summary": "Dogs repeat what pays off and link events that happen together, so reward the behaviour you want straight away and check what your dog is already being rewarded for.",
+        "topic": "B.operant_conditioning",
+        "goodDogModule": "foundation_skills",
+        "educationOnly": true
+      },
+      "protocol": {
+        "id": "proto-reward-use-fundamentals",
+        "title": "Use rewards so your dog learns clearly",
+        "intendedOutcome": "Owner picks rewards the dog really wants, delivers them straight away, and understands that behaviour followed by a reward is likely to be repeated.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Find rewards your dog really wants. Most dogs like food, toys and your attention, and some like a favourite game or a sniff. Use soft, smelly treats cut pea-sized for hard moments and plain biscuits for easy practice.",
+            "rewardTiming": "Reward straight after the behaviour.",
+            "progressCriteria": "You can name a top reward and an everyday reward for your dog.",
+            "easierIfStruggling": "Offer a few options and watch which your dog works for.",
+            "failureModes": [
+              "Using a reward the dog does not actually want"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Give the reward during the behaviour or within about half a second afterwards so your dog links the two. If you use a marker such as 'yes' or a click, say it calmly at the right moment and always follow it with a reward, repeating the pairing around 20 times at the start.",
+            "rewardTiming": "Marker, then reward straight away.",
+            "progressCriteria": "Your dog looks for the reward when it hears the marker.",
+            "easierIfStruggling": "Practise the marker-then-treat pairing for longer before asking for anything.",
+            "failureModes": [
+              "Marking late",
+              "Marker with no reward after it"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "When teaching something new, reward every success. Once your dog does it well in different places, reward every other time, then less often, mixing treats with praise and a fuss so your dog stays interested.",
+            "rewardTiming": "Every time at first, then thin out.",
+            "progressCriteria": "Your dog still tries hard when rewards come less often.",
+            "easierIfStruggling": "Go back to rewarding every time if your dog stops trying.",
+            "failureModes": [
+              "Thinning rewards too soon"
+            ]
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Check what your dog is already being rewarded for. Attention, eye contact and being pushed away can all be rewards, so unwanted behaviour may continue even when you are telling the dog off. Ask for a calm behaviour and reward that instead.",
+            "rewardTiming": "Reward the calm choice you want.",
+            "progressCriteria": "You can spot one thing your dog does for attention and what you now reward instead.",
+            "easierIfStruggling": "Pick one behaviour to watch for a day.",
+            "failureModes": [
+              "Giving attention to the behaviour you want to stop"
+            ]
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Keep it kind and clear: end each short session on a success, teach one cue at a time with short consistent words, ignore mistakes and reward the next correct try, and make sure everyone at home uses the same cues. Never shout at, hit or frighten your dog.",
+            "rewardTiming": "Reward the next correct try.",
+            "progressCriteria": "Sessions end on a success and everyone uses the same cue.",
+            "easierIfStruggling": "Shorten the session and make the task easier.",
+            "failureModes": [
+              "Telling the dog off for mistakes",
+              "Different family members using different words"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Your vet, then an ABTC-registered behaviourist if the dog shows fear or aggression."
+        ],
+        "safetyPrecautions": [
+          "safe-001-no-aversive-routine",
+          "safe-004-scope-referral"
+        ],
+        "safe002Sanitized": false
+      },
+      "claims": [
+        {
+          "id": "claim-dt-pr-001-definition",
+          "statement": "Positive reinforcement training means giving the dog something they want when they behave in a way the owner likes, making that behaviour more likely in future.",
+          "confidence": "high",
+          "sourceId": "src-dt-positive-reinforcement"
+        },
+        {
+          "id": "claim-dt-pr-002-continuous-reinforcement-new-skill",
+          "statement": "When starting a new skill, Dogs Trust advises rewarding the dog every time they are successful; reward type and schedule can change after the behaviour is reliable across environments.",
+          "confidence": "high",
+          "sourceId": "src-dt-positive-reinforcement"
+        },
+        {
+          "id": "claim-dt-pr-003-marker-follow-reward",
+          "statement": "A marker signal must always be followed by a reward so the dog can be confident they got the behaviour right.",
+          "confidence": "high",
+          "sourceId": "src-dt-positive-reinforcement"
+        },
+        {
+          "id": "claim-dt-pr-004-unintentional-reinforcement",
+          "statement": "Undesired behaviour may increase if the dog receives attention, eye contact or interaction as a consequence—even when the owner intends to discourage the behaviour.",
+          "confidence": "medium",
+          "sourceId": "src-dt-positive-reinforcement"
+        },
+        {
+          "id": "claim-dt-marker-001-charge-marker",
+          "statement": "Before training new behaviours, the dog should learn that the marker predicts a reward via repeated marker-then-treat pairings.",
+          "confidence": "high",
+          "sourceId": "src-dt-introducing-marker"
+        },
+        {
+          "id": "claim-dt-marker-002-calm-marker-word",
+          "statement": "Dogs Trust advises saying a verbal marker as calmly as possible because excited delivery can excite, confuse or distract the dog.",
+          "confidence": "medium",
+          "sourceId": "src-dt-introducing-marker"
+        },
+        {
+          "id": "claim-bc-train-001-learn-by-association",
+          "statement": "Blue Cross says dogs learn by association: when a dog does something and is rewarded straight afterwards, the action is much more likely to be repeated, and once the dog understands the request the owner can pair it with a cue such as 'sit'.",
+          "confidence": "high",
+          "sourceId": "src-bc-dog-puppy-training"
+        },
+        {
+          "id": "claim-bc-train-002-marker-pairing",
+          "statement": "Blue Cross teaches a reward marker by saying 'yes', clicking or giving a thumbs-up for a deaf dog and giving a treat straight afterwards, repeated around 20 times, and says the marker should not replace the reward.",
+          "confidence": "high",
+          "sourceId": "src-bc-dog-puppy-training"
+        },
+        {
+          "id": "claim-pdsa-rbt-001-timing-half-second",
+          "statement": "PDSA says the reward should be given during the behaviour or within half a second after it so the dog links the two.",
+          "confidence": "high",
+          "sourceId": "src-pdsa-reward-based-training"
+        },
+        {
+          "id": "claim-pdsa-rbt-002-golden-rules",
+          "statement": "PDSA's golden rules include choosing a reward the dog really likes, keeping sessions short and ending on a success, teaching one command at a time with short, consistent commands, ignoring mistakes and rewarding the next correct attempt, and getting everyone to use the same commands.",
+          "confidence": "high",
+          "sourceId": "src-pdsa-reward-based-training"
+        },
+        {
+          "id": "claim-pdsa-rbt-003-no-punishment",
+          "statement": "PDSA says punishment such as shouting, smacking, water pistols, rattle cans and choke chains causes anxiety and fear, makes learning slower, and can lead to behaviour problems later, and that dogs do not need an owner who acts as a dominant 'pack leader'.",
+          "confidence": "high",
+          "sourceId": "src-pdsa-reward-based-training"
+        },
+        {
+          "id": "claim-dt-pr-005-raise-value-with-distractions",
+          "statement": "Dogs Trust advises using soft, smelly high-value treats as a 'gold star' reward and when there are more distractions, using less exciting treats for easy practice, and picking something extra tempting when a busier place makes responding hard.",
+          "confidence": "high",
+          "sourceId": "src-dt-positive-reinforcement"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-positive-reinforcement",
+          "title": "Positive reinforcement – training with rewards",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/positive-reinforcement-training-with-rewards",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-dt-introducing-marker",
+          "title": "How to introduce a marker to your dog training",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/introducing-a-marker",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-bc-dog-puppy-training",
+          "title": "Dog and puppy training — Blue Cross",
+          "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/dog-and-puppy-training",
+          "publisher": "Blue Cross",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-pdsa-reward-based-training",
+          "title": "Reward based training — PDSA",
+          "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/reward-based-training",
+          "publisher": "PDSA",
+          "displayEligibility": "paraphrase_ok"
+        }
+      ],
+      "advisory": false,
+      "advisoryMessage": null
+    },
+    {
+      "lesson": {
+        "id": "lesson-hand-touch",
+        "title": "Teach your dog to touch your hand",
+        "summary": "Mark and reward nose contact with your hand, add the word 'touch', then build a few seconds of hold and a mild distraction.",
+        "topic": "D.hand_target_touch",
+        "goodDogModule": "foundation_skills",
+        "educationOnly": false
+      },
+      "protocol": {
+        "id": "proto-hand-touch-dt",
+        "title": "Teach your dog to touch your hand",
+        "intendedOutcome": "Dog touches its nose to your open hand on the cue 'touch' and can hold it briefly with a mild distraction nearby.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Rub a piece of food on your open hand and hold it out. When your dog sniffs or touches your hand with its nose, mark with your marker word and reward.",
+            "rewardTiming": "Mark the moment of nose contact, then reward.",
+            "progressCriteria": "Dog reliably touches your hand with its nose.",
+            "easierIfStruggling": "Hold your hand closer and reward any sniff.",
+            "failureModes": [
+              "Rewarding before contact"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "When your dog touches your hand every time you hold it out, say 'touch' the moment it makes contact so it learns the word.",
+            "rewardTiming": "Say the cue as the nose touches, then mark and reward.",
+            "progressCriteria": "Dog touches when it hears the cue.",
+            "easierIfStruggling": "Go back to step 1 for a few more repeats.",
+            "failureModes": [
+              "Saying the cue long before the touch"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Build time by waiting one second before you mark and reward, then two, increasing slowly while your dog keeps its nose on your hand.",
+            "rewardTiming": "Mark after the short wait.",
+            "progressCriteria": "Dog holds a touch for five seconds.",
+            "easierIfStruggling": "Go back to a shorter wait.",
+            "failureModes": [
+              "Adding time too quickly"
+            ]
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "When your dog holds a touch for five seconds, add a very slight distraction such as a piece of kibble or a toy in your other hand (not their favourite). Mark and reward with an extra tasty treat.",
+            "rewardTiming": "Reward extra well for ignoring the distraction.",
+            "progressCriteria": "Dog touches your hand with the mild distraction present.",
+            "easierIfStruggling": "Make the distraction smaller or further away.",
+            "failureModes": [
+              "Distraction too exciting"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Your vet if the dog avoids being touched."
+        ],
+        "safetyPrecautions": [
+          "safe-001-no-aversive-routine"
+        ],
+        "safe002Sanitized": false
+      },
+      "claims": [
+        {
+          "id": "claim-dt-hand-target-001",
+          "statement": "Dogs Trust focus and target-style training rewards the dog for orienting to the handler's hand, building engagement before adding distractions (aligned with focus training batch 006).",
+          "confidence": "medium",
+          "sourceId": "src-dt-focus-training"
+        },
+        {
+          "id": "claim-dt-target-002-touch-steps",
+          "statement": "Dogs Trust teaches a hand target by rubbing food on the hand, marking and rewarding nose contact, adding a 'Touch' cue once contact is consistent, then building hold time from one to two seconds and onward, and adding a slight distraction only once the dog reliably holds for five seconds.",
+          "confidence": "high",
+          "sourceId": "src-dt-target-training"
+        },
+        {
+          "id": "claim-dt-target-003-frustration-signs",
+          "statement": "Dogs Trust advises that mouthing, pawing or barking at the handler during target training may mean the dog is confused or frustrated, so the handler should go back a step or take a break; if the dog seems to want to avoid training, the handler may be going too fast.",
+          "confidence": "high",
+          "sourceId": "src-dt-target-training"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-focus-training",
+          "title": "How to train your dog to focus on you",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/focus-training",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-dt-target-training",
+          "title": "Train your dog to touch a target — Dogs Trust",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/tips-tricks/target-training",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        }
+      ],
+      "advisory": false,
+      "advisoryMessage": null
+    },
+    {
+      "lesson": {
+        "id": "lesson-drop-it-swap",
+        "title": "Give things up with a fair trade",
+        "summary": "Trade a toy for tasty treats your dog chooses, never grab or chase, and add the word 'drop' once your dog reliably lets go.",
+        "topic": "D.leave_it_drop",
+        "goodDogModule": "life_skills",
+        "educationOnly": false
+      },
+      "protocol": {
+        "id": "proto-drop-fair-trade-dt",
+        "title": "Teach your dog to give things up with a fair trade",
+        "intendedOutcome": "Dog lets go of a toy or item when you offer something better and starts to let go on the cue 'drop'.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Pick a toy that is not your dog's favourite and encourage your dog to play with it for a few seconds.",
+            "rewardTiming": "Not applicable yet.",
+            "progressCriteria": "Dog is holding or playing with the toy.",
+            "easierIfStruggling": "Choose a less exciting toy.",
+            "failureModes": [
+              "Using the favourite toy"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Place a handful of very tasty treats on the floor beside your dog. Let your dog choose to leave the toy and eat the treats on its own, then tell it well done and let it play with the toy again.",
+            "rewardTiming": "Treats go down as the dog chooses to move.",
+            "progressCriteria": "Dog moves to the treats without being asked.",
+            "easierIfStruggling": "Put the treats closer or use better treats.",
+            "failureModes": [
+              "Taking the toy by hand",
+              "Chasing your dog"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Repeat as a fun game a few times. When your dog is reliably letting go of the toy for the food, say your cue ('drop' or 'out') while your dog has the toy and then put the treats down.",
+            "rewardTiming": "Say the cue first, then treats.",
+            "progressCriteria": "Dog lets go on hearing the cue.",
+            "easierIfStruggling": "Go back to the game without the cue.",
+            "failureModes": [
+              "Saying the cue after the toy is already dropped"
+            ]
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Offer fair trades whenever your dog picks up something it should not have, offering the better item before you try to take anything. Store away things you do not want your dog to get and anything harmful.",
+            "rewardTiming": "Better item first, then pick up the original item calmly.",
+            "progressCriteria": "Dog swaps on seeing the better item.",
+            "easierIfStruggling": "Practise more with safe items.",
+            "failureModes": [
+              "Grabbing and running after the dog"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Vet, then an ABTC-registered behaviourist for guarding behaviour."
+        ],
+        "safetyPrecautions": [
+          "safe-004-scope-referral",
+          "safe-005-growl-not-punish"
+        ],
+        "safe002Sanitized": false
+      },
+      "claims": [
+        {
+          "id": "claim-dt-leave-001-fair-trade",
+          "statement": "Dogs Trust recommends swapping items a dog should not have for something better ('fair trade') so the dog willingly releases items rather than guarding them.",
+          "confidence": "high",
+          "sourceId": "src-dt-leave-training"
+        },
+        {
+          "id": "claim-dt-steal-001-no-chase-game",
+          "statement": "Dogs Trust explains that chasing a dog who has stolen an item often rewards the behaviour with a fun game; owners should not play chase for stolen items.",
+          "confidence": "high",
+          "sourceId": "src-dt-stop-stealing"
+        },
+        {
+          "id": "claim-dt-steal-002-ignore-drop",
+          "statement": "Dogs Trust advises ignoring safe steal-and-parade behaviour until the dog drops the item, then redirecting to a toy or chew rather than immediately grabbing the stolen object.",
+          "confidence": "high",
+          "sourceId": "src-dt-stop-stealing"
+        },
+        {
+          "id": "claim-dt-leave-003-fair-trade-steps",
+          "statement": "Dogs Trust teaches fair trade by letting the dog play with a not-favourite toy for a few seconds, placing a handful of very tasty treats beside the dog so the dog chooses to move to the food, rewarding that choice, letting the dog play with the toy again, and adding a cue such as 'drop' only once the dog is reliably letting go.",
+          "confidence": "high",
+          "sourceId": "src-dt-leave-training"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-leave-training",
+          "title": "How to train your dog to leave it",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/leave-training",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-dt-stop-stealing",
+          "title": "How to stop your dog stealing",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/stop-your-dog-stealing",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        }
+      ],
+      "advisory": false,
+      "advisoryMessage": null
+    },
+    {
+      "lesson": {
+        "id": "lesson-spin-trick",
+        "title": "Teach your dog to spin",
+        "summary": "Lure your dog's nose in a circle, reward half turns, then add the word and a small hand signal in short, fun sessions.",
+        "topic": "D.trick_training",
+        "goodDogModule": "life_skills",
+        "educationOnly": false
+      },
+      "protocol": {
+        "id": "proto-spin-lure-bc",
+        "title": "Teach your dog to spin",
+        "intendedOutcome": "Dog turns a full circle on the word 'spin' with a small hand signal.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Have your dog stand in front of you. Hold a treat at its nose and slowly move it to the side of its head so it follows with its nose.",
+            "rewardTiming": "Mark and reward when the dog has followed the lure.",
+            "progressCriteria": "Dog follows the treat round to the side.",
+            "easierIfStruggling": "Reward any small turn.",
+            "failureModes": [
+              "Moving the lure too fast"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Keep moving the treat in a circle around your dog's body. When it finishes a circle, mark with an enthusiastic 'yes' and give the treat. If it struggles, reward a half turn first, then build to a full circle.",
+            "rewardTiming": "Mark at the end of the circle.",
+            "progressCriteria": "Dog turns a full circle confidently.",
+            "easierIfStruggling": "Go back to rewarding half turns.",
+            "failureModes": [
+              "Rewarding only when the dog has already lost interest"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Add the word 'spin' as you guide your dog round with an empty hand, then make the hand signal smaller until you are just moving your wrist and pointing.",
+            "rewardTiming": "Reward after the full circle.",
+            "progressCriteria": "Dog spins on the word and small signal.",
+            "easierIfStruggling": "Go back to the previous step if your dog is unsure.",
+            "failureModes": [
+              "Using a big signal for too long"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Your vet if your dog seems stiff or sore when turning."
+        ],
+        "safetyPrecautions": [
+          "safe-001-no-aversive-routine"
+        ],
+        "safe002Sanitized": false
+      },
+      "claims": [
+        {
+          "id": "claim-bc-spin-001-lure-circle",
+          "statement": "Blue Cross teaches a spin by luring the dog's nose from in front, round to the side and in a circle around its body, marking and rewarding a full circle, and rewarding smaller movements such as a half turn first if the dog struggles.",
+          "confidence": "high",
+          "sourceId": "src-bc-teach-spin"
+        },
+        {
+          "id": "claim-bc-spin-002-fade-lure-add-cue",
+          "statement": "Blue Cross adds the word 'spin' and a hand signal by guiding the dog round with an empty hand, then making the signal smaller; if the dog is unsure, go back to the previous step.",
+          "confidence": "high",
+          "sourceId": "src-bc-teach-spin"
+        },
+        {
+          "id": "claim-bc-spin-003-short-sessions-frustration",
+          "statement": "Blue Cross advises spin sessions of up to five minutes in a low-distraction area, and to stop and give the dog space if it shows frustration such as barking, whining, mouthing, pawing or jumping up.",
+          "confidence": "high",
+          "sourceId": "src-bc-teach-spin"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-bc-teach-spin",
+          "title": "How to teach your dog to spin — Blue Cross",
+          "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/how-to-teach-your-dog-to-spin",
+          "publisher": "Blue Cross",
+          "displayEligibility": "paraphrase_ok"
+        }
+      ],
+      "advisory": false,
+      "advisoryMessage": null
+    },
+    {
+      "lesson": {
+        "id": "lesson-equipment-and-law",
+        "title": "Kind equipment and the legal basics",
+        "summary": "Use a collar with an ID tag, a well-fitted harness and rewards; avoid prong, choke and shock devices, and check the current rules.",
+        "topic": "K.training_equipment_welfare",
+        "goodDogModule": "life_skills",
+        "educationOnly": true
+      },
+      "protocol": {
+        "id": "proto-harness-and-equipment-basics",
+        "title": "Choose kind equipment and meet the legal basics",
+        "intendedOutcome": "Dog wears a well-fitted harness and collar with ID tag comfortably, and the owner avoids pain-based equipment.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Put a collar with an identity tag on your dog and keep it on in public even if you walk in a harness. Make sure the microchip details are up to date.",
+            "rewardTiming": "Not applicable.",
+            "progressCriteria": "Collar and tag fitted and microchip details checked.",
+            "easierIfStruggling": "Ask your vet to check the microchip.",
+            "failureModes": [
+              "Taking the collar off in public"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Choose a harness that does not cross directly over the shoulders and restrict movement. It should fit so you can slip a finger between strap and body and your dog cannot slip out. Check collar, harness and lead for wear regularly.",
+            "rewardTiming": "Not applicable.",
+            "progressCriteria": "You can pass the one-finger and slip-out checks.",
+            "easierIfStruggling": "Ask a pet shop or your vet to help with fit.",
+            "failureModes": [
+              "Straps across the shoulders",
+              "Too loose or too tight"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Introduce the harness slowly. Scatter treats around it, feed treats through the head hole, rest it loosely on the neck, let your dog hear the clips, then fasten it with treats. Go back a stage if your dog worries.",
+            "rewardTiming": "Treat at each small step.",
+            "progressCriteria": "Dog wears the harness relaxed indoors.",
+            "easierIfStruggling": "Stay longer on the previous stage or stop for the day.",
+            "failureModes": [
+              "Rushing the head-over step"
+            ]
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Keep to equipment that does not hurt or frighten. Prong collars, choke chains and shock collars rely on pain or fear, and welfare charities and vets advise against them. Teach loose lead walking with rewards instead, and check current rules because they are under review in England.",
+            "rewardTiming": "Reward walking close by with treats.",
+            "progressCriteria": "You walk using only the harness or flat collar and food rewards.",
+            "easierIfStruggling": "Ask a qualified reward-based trainer to help.",
+            "failureModes": [
+              "Using pain-based gear 'just for now'"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Your vet first, then an accredited behaviourist if your dog is fearful of handling."
+        ],
+        "safetyPrecautions": [
+          "safe-001-no-aversive-routine",
+          "safe-004-scope-referral"
+        ],
+        "safe002Sanitized": false
+      },
+      "claims": [
+        {
+          "id": "claim-dt-ll-002-no-aversive-kit",
+          "statement": "Dogs Trust states that equipment promising to 'cure' pulling by causing pain or discomfort in sensitive areas is unnecessary and can be unpleasant and confusing for dogs; flat collar or comfortable harness is preferred.",
+          "confidence": "high",
+          "sourceId": "src-dt-loose-lead"
+        },
+        {
+          "id": "claim-govuk-001-microchip-8weeks",
+          "statement": "GOV.UK states all dogs in the UK must be microchipped and registered on an approved database by 8 weeks old.",
+          "confidence": "high",
+          "sourceId": "src-govuk-microchip"
+        },
+        {
+          "id": "claim-dt-harness-001-choose-and-fit",
+          "statement": "Dogs Trust advises choosing a harness that does not cross directly over the shoulders and restrict movement, that fits so a finger can slip between the strapping and the body, and that the dog cannot slip out of; it also advises checking harness, collar and lead regularly for wear.",
+          "confidence": "high",
+          "sourceId": "src-dt-harness-training"
+        },
+        {
+          "id": "claim-dt-harness-002-introduce-gradually",
+          "statement": "Dogs Trust introduces a harness in small steps: treats scattered around it, feeding treats through the head hole, resting it loosely on the neck, getting the dog used to the clip sounds, then doing it up with treats, and going back a stage or stopping if the dog worries.",
+          "confidence": "high",
+          "sourceId": "src-dt-harness-training"
+        },
+        {
+          "id": "claim-rspca-prong-001-harm-and-ineffective",
+          "statement": "The RSPCA says prong collars work by causing pain or discomfort, can cause injury and new behaviour problems such as fear and aggression, and do not teach positive behaviour; its head of behaviour, a vet, says she would never recommend them for training.",
+          "confidence": "high",
+          "sourceId": "src-rspca-prong-collars"
+        },
+        {
+          "id": "claim-rspca-prong-002-legal-but-alternatives",
+          "statement": "The RSPCA notes that prong collars are not illegal in the UK although it wants them banned, and recommends a well-fitting, comfortable harness plus teaching loose lead walking with food.",
+          "confidence": "high",
+          "sourceId": "src-rspca-prong-collars"
+        },
+        {
+          "id": "claim-dog-002-collar-tag-microchip",
+          "statement": "The Dog Ownership Guide says by law a dog in public must wear a collar with an identity tag even when walked in a harness, and that microchip details must be kept up to date.",
+          "confidence": "high",
+          "sourceId": "src-dog-ownership-guide"
+        },
+        {
+          "id": "claim-bva-ecollar-001-uk-status",
+          "statement": "The BVA says electric shock collars are banned in Wales (2010 regulations), that the Scottish Government has said aversive devices including electric collars may be an offence of causing unnecessary suffering, that Northern Ireland has no specific law, and that in England the government has been working towards a ban rather than having one in force.",
+          "confidence": "medium",
+          "sourceId": "src-bva-shock-collars"
+        },
+        {
+          "id": "claim-bva-ecollar-002-welfare-and-reward-based",
+          "statement": "The BVA says even low-level electric shock produces stress, pain and fear responses in dogs and cats, lists choke collars, prong collars and anti-bark collars as other aversive devices of concern, and recommends reward-based training.",
+          "confidence": "high",
+          "sourceId": "src-bva-shock-collars"
+        },
+        {
+          "id": "claim-hansard-ecollar-001-consult-2026",
+          "statement": "In a written answer on 27 May 2026 a Defra minister said Defra will consult on whether to ban electric shock collars later in this Parliament, with next steps to be announced in due course.",
+          "confidence": "medium",
+          "sourceId": "src-hansard-ecollars-2026"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-loose-lead",
+          "title": "Teach your dog to walk nicely on a lead",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/walking-nicely-training",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-govuk-microchip",
+          "title": "Get your dog or cat microchipped — GOV.UK",
+          "url": "https://www.gov.uk/get-your-dog-cat-microchipped",
+          "publisher": "UK Government (GOV.UK)",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-dt-harness-training",
+          "title": "How to train your dog to wear a harness — Dogs Trust",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/harness-training",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-rspca-prong-collars",
+          "title": "Why prong collars are harmful to dogs — RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/prongcollars",
+          "publisher": "RSPCA",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-dog-ownership-guide",
+          "title": "Dog Ownership Guide — Dogs Trust and RSPCA",
+          "url": "https://www.rspca.org.uk/documents/d/rspca/dogsowner",
+          "publisher": "Dogs Trust and RSPCA",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-bva-shock-collars",
+          "title": "Electric shock collars and training aids — BVA policy",
+          "url": "https://www.bva.co.uk/take-action/our-policies/electric-shock-collars-and-training-aids/",
+          "publisher": "British Veterinary Association (BVA)",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-hansard-ecollars-2026",
+          "title": "Animal Welfare: Electronic Training Aids — written answer 27 May 2026",
+          "url": "https://www.theyworkforyou.com/wrans/?id=2026-05-14.1201.h",
+          "publisher": "UK Government (Defra), Hansard written answer",
+          "displayEligibility": "paraphrase_ok"
+        }
+      ],
+      "advisory": true,
+      "advisoryMessage": "Rules on shock collars differ across the UK and are under review in England, so check current rules; if your dog is worried by equipment or being handled, see your vet first."
+    },
+    {
+      "lesson": {
+        "id": "lesson-plan-and-measure",
+        "title": "Plan short sessions and track progress",
+        "summary": "Practise one skill at a time for a few minutes, add distraction slowly and keep a simple diary to see what is working.",
+        "topic": "C.session_design",
+        "goodDogModule": "foundation_skills",
+        "educationOnly": true
+      },
+      "protocol": {
+        "id": "proto-plan-and-measure-sessions",
+        "title": "Plan short sessions and track progress",
+        "intendedOutcome": "Owner practises one skill at a time in short sessions, adds distractions gradually and keeps a simple diary so progress is visible.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Pick one skill at a time and keep sessions short, about two to five minutes, practising little and often. Stop on a success.",
+            "rewardTiming": "Reward every success at the start.",
+            "progressCriteria": "You manage several short sessions in a week.",
+            "easierIfStruggling": "Cut the session shorter.",
+            "failureModes": [
+              "Long sessions that end in frustration"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Start in a quiet place with few distractions, then move to places with more distraction only when your dog copes. If it cannot focus, go back to the earlier place for a while.",
+            "rewardTiming": "Use better rewards when distraction goes up.",
+            "progressCriteria": "Dog copes in a new, mildly distracting place.",
+            "easierIfStruggling": "Return to the quiet place.",
+            "failureModes": [
+              "Adding a new place and a new distraction at the same time"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Keep a simple diary. For each session write the date, skill, place, distractions, reward used and how it went. It shows progress and helps if you need to ask a trainer for help.",
+            "rewardTiming": "Not applicable.",
+            "progressCriteria": "You can see which skills work in which places.",
+            "easierIfStruggling": "Use a note on your phone.",
+            "failureModes": [
+              "Not writing the place and distraction"
+            ]
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Look back after a week or two. If a skill works at home but not outside, practise it in the in-between places. Ask a qualified trainer or your vet if progress stalls or your dog shows fear or aggression.",
+            "rewardTiming": "Not applicable.",
+            "progressCriteria": "You choose the next skill or place from your diary.",
+            "easierIfStruggling": "Ask a reward-based trainer to review your diary.",
+            "failureModes": [
+              "Skipping the review"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Your vet and an accredited behaviourist if fear or aggression are involved."
+        ],
+        "safetyPrecautions": [
+          "safe-004-scope-referral"
+        ],
+        "safe002Sanitized": false
+      },
+      "claims": [
+        {
+          "id": "claim-bc-train-003-short-sessions-places",
+          "statement": "Blue Cross advises keeping training sessions short (about two to five minutes), practising little and often, and practising in different places while keeping distractions to a minimum in the early stages of learning.",
+          "confidence": "high",
+          "sourceId": "src-bc-dog-puppy-training"
+        },
+        {
+          "id": "claim-pdsa-rbt-002-golden-rules",
+          "statement": "PDSA's golden rules include choosing a reward the dog really likes, keeping sessions short and ending on a success, teaching one command at a time with short, consistent commands, ignoring mistakes and rewarding the next correct attempt, and getting everyone to use the same commands.",
+          "confidence": "high",
+          "sourceId": "src-pdsa-reward-based-training"
+        },
+        {
+          "id": "claim-rspca-brighton-001-diary-and-schedule",
+          "statement": "An RSPCA branch suggests training little and often, such as three to four sessions a week of five to fifteen minutes, starting in low-distraction places and moving to higher distraction only once the dog copes, going back if the dog cannot focus, and keeping a training diary to track progress and help with troubleshooting.",
+          "confidence": "medium",
+          "sourceId": "src-rspca-brighton-treats-markers"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-bc-dog-puppy-training",
+          "title": "Dog and puppy training — Blue Cross",
+          "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/dog-and-puppy-training",
+          "publisher": "Blue Cross",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-pdsa-reward-based-training",
+          "title": "Reward based training — PDSA",
+          "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/reward-based-training",
+          "publisher": "PDSA",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-rspca-brighton-treats-markers",
+          "title": "Training with treats and markers — RSPCA Brighton & The Heart of Sussex",
+          "url": "https://rspca-brighton.org.uk/training-with-treats-markers/",
+          "publisher": "RSPCA Brighton & The Heart of Sussex (RSPCA branch)",
+          "displayEligibility": "paraphrase_ok"
+        }
+      ],
+      "advisory": false,
+      "advisoryMessage": null
     },
     {
       "lesson": {
@@ -4859,6 +6871,64 @@
           ],
           "sourceLocator": "src-dt-puppy-training-101",
           "relatedLessonId": "lesson-adolescent-regression"
+        }
+      ]
+    },
+    {
+      "id": "oq-stress-body-language",
+      "label": "Stress and body language",
+      "questions": [
+        {
+          "id": "oq-stress-001",
+          "text": "How can I tell if my dog is stressed?",
+          "relatedLessonId": "lesson-read-your-dog-stress",
+          "subthemes": [
+            "yawning or lip licking",
+            "whale eye",
+            "tucked tail",
+            "loss of appetite",
+            "look at the whole dog and context"
+          ],
+          "sourceLocator": "src-bluecross-stress-dogs"
+        },
+        {
+          "id": "oq-stress-002",
+          "text": "What should I do when my dog growls?",
+          "relatedLessonId": "lesson-read-your-dog-stress",
+          "subthemes": [
+            "do not punish a warning",
+            "create space",
+            "see vet and behaviourist"
+          ],
+          "sourceLocator": "src-bluecross-stress-dogs"
+        }
+      ]
+    },
+    {
+      "id": "oq-handling-vet",
+      "label": "Handling, vet visits and grooming",
+      "questions": [
+        {
+          "id": "oq-handle-001",
+          "text": "How do I get my dog used to being handled for the vet or groomer?",
+          "relatedLessonId": "lesson-vet-handling-prep",
+          "subthemes": [
+            "touch and treat",
+            "same order each time",
+            "happy vet visits"
+          ],
+          "sourceLocator": "src-dt-how-to-handle"
+        },
+        {
+          "id": "oq-handle-002",
+          "text": "Why does my dog growl or snap when I touch them?",
+          "relatedLessonId": "lesson-vet-handling-prep",
+          "subthemes": [
+            "pain or illness",
+            "fear of handling",
+            "see vet first"
+          ],
+          "sourceLocator": "src-dt-how-to-handle"
         }
       ]
     }

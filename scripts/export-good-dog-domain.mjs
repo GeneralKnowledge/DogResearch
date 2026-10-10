@@ -4,6 +4,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   buildGoodDogAskPatternsExport,
+  buildGoodDogCrashCourseExport,
   buildGoodDogDomainExport,
   buildGoodDogGuidesExport,
   buildGoodDogReferralsExport,
@@ -45,6 +46,12 @@ writeFileSync(
   JSON.stringify(askPatterns, null, 2)
 );
 
+const crashCourse = buildGoodDogCrashCourseExport(guides);
+writeFileSync(
+  join(distDir, "good-dog-crash-course.json"),
+  JSON.stringify(crashCourse, null, 2)
+);
+
 console.log(
-  `Exported ${domain.exercises.length} exercises, ${domain.held.length} held, ${domain.draftExercises.length} drafts, ${guides.guides.length} guides, ${Object.keys(referrals.referrals).length} referrals to dist/`
+  `Exported ${domain.exercises.length} exercises, ${domain.held.length} held, ${domain.draftExercises.length} drafts, ${guides.guides.length} guides, ${Object.keys(referrals.referrals).length} referrals, ${crashCourse.stages.length}-stage crash course to dist/`
 );

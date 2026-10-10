@@ -13,6 +13,7 @@ function resolveEligibility(source) {
   const id = source.id ?? "";
   const pub = (source.publisher ?? "").toLowerCase();
   const type = source.sourceType ?? "";
+  if (source.displayEligibility === "research_only") return "research_only";
   if (id.startsWith("study-") || type.includes("peer_reviewed") || type.includes("primary_research")) {
     return "research_only";
   }

@@ -59,6 +59,10 @@ export function loadPublishConfig() {
 }
 
 /** @returns {import('./types.d.ts').AssessmentMetric[]} */
+export function loadCrashCourse() {
+  return JSON.parse(readFileSync(join(repoRoot, "kb/meta/crash-course.json"), "utf8"));
+}
+
 export function loadAssessmentMetrics() {
   return /** @type {import('./types.d.ts').AssessmentMetric[]} */ (loadMetricsFromScripts());
 }

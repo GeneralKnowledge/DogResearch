@@ -25,6 +25,7 @@ jobs:
             dist/good-dog-guides.json
             dist/good-dog-referrals.json
             dist/good-dog-ask-patterns.json
+            dist/good-dog-crash-course.json
       - name: URL health (non-blocking)
         run: npm run url-check
         continue-on-error: true

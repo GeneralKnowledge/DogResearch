@@ -5,7 +5,11 @@
       "scientific": [],
       "professional": [
         "claim-imdt-001-force-free",
-        "claim-imdt-002-no-pp-nr"
+        "claim-imdt-002-no-pp-nr",
+        "claim-imdt-cur-001-pathway",
+        "claim-imdt-cur-002-two-day-topics",
+        "claim-imdt-cur-004-knowledge-areas",
+        "claim-imdt-cur-006-assessment-theory-weighting"
       ],
       "disputes": []
     },
@@ -14,7 +18,9 @@
       "professional": [
         "claim-imdt-003-referral",
         "claim-dt-reactive-006-behaviour-support-referral",
-        "claim-dt-mouth-003-refer-bite"
+        "claim-dt-mouth-003-refer-bite",
+        "claim-dt-handle-003-pain-vet-first",
+        "claim-dt-muzzle-003-cautions"
       ],
       "disputes": []
     },
@@ -35,7 +41,13 @@
         "claim-rspca-004-avoid-aversive-classes",
         "claim-dt-ll-002-no-aversive-kit",
         "claim-abtc-aversive-001-shock-choke-prong",
-        "claim-abtc-aversive-002-alpha-roll"
+        "claim-abtc-aversive-002-alpha-roll",
+        "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+        "claim-pdsa-muzzle-001-never-punish-never-alone",
+        "claim-dt-harness-001-choose-and-fit",
+        "claim-dt-harness-002-introduce-gradually",
+        "claim-rspca-prong-001-harm-and-ineffective",
+        "claim-rspca-prong-002-legal-but-alternatives"
       ],
       "disputes": []
     },
@@ -43,14 +55,18 @@
       "scientific": [],
       "professional": [
         "claim-dt-pr-001-definition",
-        "claim-rspca-001-all-reward-based"
+        "claim-rspca-001-all-reward-based",
+        "claim-npsa-learn-002-operant",
+        "claim-bc-train-001-learn-by-association"
       ],
       "disputes": []
     },
     "C.timing_rate_of_reinforcement": {
       "scientific": [],
       "professional": [
-        "claim-dt-pr-002-continuous-reinforcement-new-skill"
+        "claim-dt-pr-002-continuous-reinforcement-new-skill",
+        "claim-pdsa-rbt-001-timing-half-second",
+        "claim-dt-pr-005-raise-value-with-distractions"
       ],
       "disputes": []
     },
@@ -59,14 +75,16 @@
       "professional": [
         "claim-dt-pr-003-marker-follow-reward",
         "claim-dt-marker-001-charge-marker",
-        "claim-dt-marker-002-calm-marker-word"
+        "claim-dt-marker-002-calm-marker-word",
+        "claim-bc-train-002-marker-pairing"
       ],
       "disputes": []
     },
     "C.troubleshooting_learning": {
       "scientific": [],
       "professional": [
-        "claim-dt-pr-004-unintentional-reinforcement"
+        "claim-dt-pr-004-unintentional-reinforcement",
+        "claim-bc-spin-003-short-sessions-frustration"
       ],
       "disputes": []
     },
@@ -90,14 +108,22 @@
         "claim-govuk-002-collar-tag-public",
         "claim-cdo1992-001-collar-highway",
         "claim-govuk-003-public-control",
-        "claim-dda-001-banned-types"
+        "claim-dda-001-banned-types",
+        "claim-dog-001-reward-based-training",
+        "claim-dog-002-collar-tag-microchip",
+        "claim-dog-003-control-and-recall",
+        "claim-bva-ecollar-001-uk-status",
+        "claim-leg-ecollar-001-draft-not-made",
+        "claim-hansard-ecollar-001-consult-2026"
       ],
       "disputes": []
     },
     "C.session_planning": {
       "scientific": [],
       "professional": [
-        "claim-rspca-002-short-sessions"
+        "claim-rspca-002-short-sessions",
+        "claim-imdt-cur-003-four-day-topics",
+        "claim-imdt-cur-005-assessment-practical-exercises"
       ],
       "disputes": []
     },
@@ -125,7 +151,8 @@
       "professional": [
         "claim-kb-gap-rspca-no-drop-page",
         "claim-kb-monitor-noise-desens-rct",
-        "claim-vcastro-2021-results-monitor"
+        "claim-vcastro-2021-results-monitor",
+        "claim-kb-gap-rspca-prong-ecollar-status-dated"
       ],
       "disputes": []
     },
@@ -149,7 +176,9 @@
         "claim-dt-leave-001-fair-trade",
         "claim-dt-leave-002-look-away",
         "claim-rspca-leave-001-back-off-rewarded",
-        "claim-rspca-leave-002-gentle-cue-tone"
+        "claim-rspca-leave-002-gentle-cue-tone",
+        "claim-dt-leave-003-fair-trade-steps",
+        "claim-battersea-drop-001-swap-steps"
       ],
       "disputes": []
     },
@@ -215,7 +244,13 @@
         "claim-bc-stress-001-no-punish-defensive",
         "claim-dt-reactive-005-stress-recovery-window",
         "claim-bc-stress-002-body-language-list",
-        "claim-apbc-001-growl-not-punish"
+        "claim-apbc-001-growl-not-punish",
+        "claim-dt-vet-003-speak-up-for-growl",
+        "claim-bc-stress-003-subtle-and-obvious-signs",
+        "claim-bc-stress-004-defensive-escalation-health",
+        "claim-bc-stress-005-help-calm-dog",
+        "claim-pdsa-stress-001-whole-dog-and-context",
+        "claim-pdsa-stress-002-prevention-and-patterns"
       ],
       "disputes": []
     },
@@ -305,7 +340,8 @@
     "I.metrics_latency_duration": {
       "scientific": [],
       "professional": [
-        "claim-metric-loose-lead-steps"
+        "claim-metric-loose-lead-steps",
+        "claim-rspca-brighton-001-diary-and-schedule"
       ],
       "disputes": []
     },
@@ -340,14 +376,88 @@
     "D.hand_target_touch": {
       "scientific": [],
       "professional": [
-        "claim-dt-hand-target-001"
+        "claim-dt-hand-target-001",
+        "claim-dt-target-002-touch-steps",
+        "claim-dt-target-003-frustration-signs"
       ],
       "disputes": []
     },
     "D.cooperative_care_vet_grooming": {
       "scientific": [],
       "professional": [
-        "claim-dt-vet-prep-001"
+        "claim-dt-vet-prep-001",
+        "claim-dt-handle-001-gradual-relaxed",
+        "claim-dt-handle-002-treat-same-order-generalise",
+        "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+        "claim-dt-vet-004-happy-visits-waiting-room",
+        "claim-dt-muzzle-001-why-and-fit",
+        "claim-dt-muzzle-002-steps"
+      ],
+      "disputes": []
+    },
+    "B.classical_conditioning": {
+      "scientific": [],
+      "professional": [
+        "claim-npsa-learn-001-classical"
+      ],
+      "disputes": []
+    },
+    "E.habituation_confidence": {
+      "scientific": [],
+      "professional": [
+        "claim-npsa-learn-003-habituation-principles"
+      ],
+      "disputes": []
+    },
+    "C.session_design": {
+      "scientific": [],
+      "professional": [
+        "claim-bc-train-003-short-sessions-places",
+        "claim-pdsa-rbt-002-golden-rules"
+      ],
+      "disputes": []
+    },
+    "K.ethics_aversives": {
+      "scientific": [],
+      "professional": [
+        "claim-pdsa-rbt-003-no-punishment",
+        "claim-bva-ecollar-002-welfare-and-reward-based"
+      ],
+      "disputes": []
+    },
+    "D.trick_training": {
+      "scientific": [],
+      "professional": [
+        "claim-bc-spin-001-lure-circle",
+        "claim-bc-spin-002-fade-lure-add-cue"
+      ],
+      "disputes": []
+    },
+    "D.chin_rest": {
+      "scientific": [],
+      "professional": [
+        "claim-akc-chin-001-steps"
+      ],
+      "disputes": []
+    },
+    "D.retrieve": {
+      "scientific": [],
+      "professional": [
+        "claim-akc-fetch-001-hold-then-fetch"
+      ],
+      "disputes": []
+    },
+    "D.emergency_stop": {
+      "scientific": [],
+      "professional": [
+        "claim-mcconnell-stop-001-steps"
+      ],
+      "disputes": []
+    },
+    "D.middle_position": {
+      "scientific": [],
+      "professional": [
+        "claim-coa-middle-001-steps"
       ],
       "disputes": []
     }

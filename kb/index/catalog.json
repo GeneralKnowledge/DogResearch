@@ -629,6 +629,330 @@
       "publisher": "Dogs Trust"
     },
     {
+      "id": "src-dt-target-training",
+      "kind": "source",
+      "title": "Train your dog to touch a target — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/tips-tricks/target-training",
+      "topics": [
+        "D.hand_target_touch",
+        "C.distance_duration_distraction"
+      ],
+      "extractionStatus": "extracted_batch_011",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-how-to-handle",
+      "kind": "source",
+      "title": "How to handle your dog — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/at-home/how-to-handle-your-dog",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_011",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-happy-vet-visits",
+      "kind": "source",
+      "title": "How to have a happy vet visit with your dog — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/health-wellbeing/vet-visit/happy-vet-visits-for-your-dog",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "extractionStatus": "extracted_batch_011",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-imdt-career-course",
+      "kind": "source",
+      "title": "2 Day 'Career As A Dog Trainer' Course — IMDT (public outline)",
+      "url": "https://www.imdt.uk.com/england/2-day-career-as-a-dog-trainer-course/",
+      "topics": [
+        "K.imdt_ethics",
+        "B.operant_conditioning",
+        "A.body_language"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-imdt-practical-instructor-course",
+      "kind": "source",
+      "title": "4 Day Practical Instructor Course — IMDT (public outline)",
+      "url": "https://www.imdt.uk.com/england/4-day-practical-instructor-course/",
+      "topics": [
+        "C.session_planning",
+        "K.imdt_ethics"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-imdt-how-to-become",
+      "kind": "source",
+      "title": "How to become a Dog Trainer — IMDT",
+      "url": "https://www.imdt.uk.com/how-to-become-a-dog-trainer/",
+      "topics": [
+        "K.imdt_ethics",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-imdt-assessment-practical-pdf",
+      "kind": "source",
+      "title": "IMDT Assessment — Practical Dog Training Session guidelines (v26.1)",
+      "url": "https://www.imdt.uk.com/uploads/78934304-guidelines--practicaldogtrainingsession-v26.1.pdf",
+      "topics": [
+        "K.imdt_ethics",
+        "C.session_planning",
+        "D.recall_emergency_recall"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-imdt-assessment-qa-pdf",
+      "kind": "source",
+      "title": "IMDT Assessment — Question and Answer guidelines (v26.1)",
+      "url": "https://www.imdt.uk.com/uploads/74046577-guidelinesquestionandanswer-v26.1.pdf",
+      "topics": [
+        "K.imdt_ethics",
+        "B.operant_conditioning",
+        "B.classical_conditioning"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-npsa-animal-learning",
+      "kind": "source",
+      "title": "An introduction to animal learning for working dog users — NPSA",
+      "url": "https://www.npsa.gov.uk/building-protection/search-screening/introduction-animal-learning-working-dog-users",
+      "topics": [
+        "B.classical_conditioning",
+        "B.operant_conditioning",
+        "E.habituation_confidence"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "National Protective Security Authority (NPSA)"
+    },
+    {
+      "id": "src-dt-muzzle-training",
+      "kind": "source",
+      "title": "How to train your dog to wear a muzzle — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/muzzle-training",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-bc-muzzle-training",
+      "kind": "source",
+      "title": "Dogs and muzzle training — Blue Cross",
+      "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/dogs-and-muzzle-training",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Blue Cross"
+    },
+    {
+      "id": "src-pdsa-muzzle-training",
+      "kind": "source",
+      "title": "How to muzzle train your dog — PDSA",
+      "url": "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/other-veterinary-advice/how-to-muzzle-train-your-dog",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "K.training_equipment_welfare"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "PDSA"
+    },
+    {
+      "id": "src-bc-dog-puppy-training",
+      "kind": "source",
+      "title": "Dog and puppy training — Blue Cross",
+      "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/dog-and-puppy-training",
+      "topics": [
+        "B.operant_conditioning",
+        "B.marker_signals",
+        "C.session_design"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "Blue Cross"
+    },
+    {
+      "id": "src-pdsa-reward-based-training",
+      "kind": "source",
+      "title": "Reward based training — PDSA",
+      "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/reward-based-training",
+      "topics": [
+        "B.operant_conditioning",
+        "C.timing_rate_of_reinforcement",
+        "K.ethics_aversives"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "PDSA"
+    },
+    {
+      "id": "src-bc-teach-spin",
+      "kind": "source",
+      "title": "How to teach your dog to spin — Blue Cross",
+      "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/how-to-teach-your-dog-to-spin",
+      "topics": [
+        "D.trick_training"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "Blue Cross"
+    },
+    {
+      "id": "src-dt-harness-training",
+      "kind": "source",
+      "title": "How to train your dog to wear a harness — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/harness-training",
+      "topics": [
+        "K.training_equipment_welfare",
+        "D.cooperative_care_vet_grooming"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-rspca-prong-collars",
+      "kind": "source",
+      "title": "Why prong collars are harmful to dogs — RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/prongcollars",
+      "topics": [
+        "K.training_equipment_welfare",
+        "K.ethics_aversives"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "RSPCA"
+    },
+    {
+      "id": "src-dog-ownership-guide",
+      "kind": "source",
+      "title": "Dog Ownership Guide — Dogs Trust and RSPCA",
+      "url": "https://www.rspca.org.uk/documents/d/rspca/dogsowner",
+      "topics": [
+        "K.uk_law_professional",
+        "K.training_equipment_welfare",
+        "L.responsible_ownership"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "Dogs Trust and RSPCA"
+    },
+    {
+      "id": "src-bva-shock-collars",
+      "kind": "source",
+      "title": "Electric shock collars and training aids — BVA policy",
+      "url": "https://www.bva.co.uk/take-action/our-policies/electric-shock-collars-and-training-aids/",
+      "topics": [
+        "K.training_equipment_welfare",
+        "K.uk_law_professional"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "British Veterinary Association (BVA)"
+    },
+    {
+      "id": "src-leg-ecollars-draft-2023",
+      "kind": "source",
+      "title": "The Animal Welfare (Electronic Collars) (England) Regulations 2023 (draft)",
+      "url": "https://www.legislation.gov.uk/ukdsi/2023/9780348247305",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "legislation.gov.uk (draft statutory instrument)"
+    },
+    {
+      "id": "src-hansard-ecollars-2026",
+      "kind": "source",
+      "title": "Animal Welfare: Electronic Training Aids — written answer 27 May 2026",
+      "url": "https://www.theyworkforyou.com/wrans/?id=2026-05-14.1201.h",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "extractionStatus": "extracted_batch_013_search_text",
+      "publisher": "UK Government (Defra), Hansard written answer"
+    },
+    {
+      "id": "src-rspca-brighton-treats-markers",
+      "kind": "source",
+      "title": "Training with treats and markers — RSPCA Brighton & The Heart of Sussex",
+      "url": "https://rspca-brighton.org.uk/training-with-treats-markers/",
+      "topics": [
+        "C.session_design",
+        "I.metrics_latency_duration",
+        "B.marker_signals"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "RSPCA Brighton & The Heart of Sussex (RSPCA branch)"
+    },
+    {
+      "id": "src-battersea-drop-it",
+      "kind": "source",
+      "title": "Teaching your dog to \"drop it\" — Battersea",
+      "url": "https://www.battersea.org.uk/pet-advice/dog-advice/teaching-your-dog-drop-it",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "Battersea Dogs & Cats Home"
+    },
+    {
+      "id": "src-akc-chin-rest",
+      "kind": "source",
+      "title": "Chin rests: practical uses and teaching your dog — American Kennel Club",
+      "url": "https://www.akc.org/expert-advice/training/teach-dog-chin-rest/",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "D.chin_rest"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "American Kennel Club (AKC)"
+    },
+    {
+      "id": "src-akc-fetch",
+      "kind": "source",
+      "title": "How to teach your dog to fetch — American Kennel Club",
+      "url": "https://www.akc.org/learn/akc-training/how-to-teach-a-dog-to-fetch-or-retrieve/",
+      "topics": [
+        "D.retrieve"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "American Kennel Club (AKC)"
+    },
+    {
+      "id": "src-mcconnell-emergency-stop",
+      "kind": "source",
+      "title": "Teaching the emergency stop (or flying lie down) — Patricia McConnell",
+      "url": "https://www.patriciamcconnell.com/theotherendoftheleash/teaching-the-emergency-stop-or-flying-lie-down/",
+      "topics": [
+        "D.recall_emergency_recall",
+        "D.emergency_stop"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "Patricia McConnell (trainer blog)"
+    },
+    {
+      "id": "src-coa-middle",
+      "kind": "source",
+      "title": "How to teach your dog Middle — Company of Animals UK",
+      "url": "https://companyofanimals.com/uk/how-to-teach-your-dog-middle/",
+      "topics": [
+        "D.middle_position"
+      ],
+      "extractionStatus": "extracted_batch_013",
+      "publisher": "Company of Animals (commercial)"
+    },
+    {
       "id": "claim-imdt-001-force-free",
       "kind": "claim",
       "title": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may …",
@@ -1712,6 +2036,566 @@
       "sourceId": "src-dt-rehoming-hub"
     },
     {
+      "id": "claim-dt-target-002-touch-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches a hand target by rubbing food on the hand, marking and rewarding nose contact, adding a 'Touch' cue o…",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-target-training"
+    },
+    {
+      "id": "claim-dt-target-003-frustration-signs",
+      "kind": "claim",
+      "title": "Dogs Trust advises that mouthing, pawing or barking at the handler during target training may mean the dog is confused o…",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-target-training"
+    },
+    {
+      "id": "claim-dt-handle-001-gradual-relaxed",
+      "kind": "claim",
+      "title": "Dogs Trust advises introducing handling gradually in short, frequent sessions in a quiet familiar place, only when owner…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-how-to-handle"
+    },
+    {
+      "id": "claim-dt-handle-002-treat-same-order-generalise",
+      "kind": "claim",
+      "title": "Dogs Trust advises giving a treat just after touching each body part, handling in the same order each time so the dog ca…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-how-to-handle"
+    },
+    {
+      "id": "claim-dt-handle-003-pain-vet-first",
+      "kind": "claim",
+      "title": "Dogs Trust advises that a dog with an established fear of handling, or who shows signs of aggression when handled, shoul…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-how-to-handle"
+    },
+    {
+      "id": "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+      "kind": "claim",
+      "title": "Dogs Trust recommends 'touch and treat' practice at home before vet visits: touch a comfortable area for no more than th…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-happy-vet-visits"
+    },
+    {
+      "id": "claim-dt-vet-003-speak-up-for-growl",
+      "kind": "claim",
+      "title": "Dogs Trust advises owners to speak up for their dog at the vet: if the dog tenses or growls, politely but firmly ask the…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-happy-vet-visits"
+    },
+    {
+      "id": "claim-dt-vet-004-happy-visits-waiting-room",
+      "kind": "claim",
+      "title": "Dogs Trust suggests dropping in at the vet clinic for treats and a fuss when no procedure is needed (if the dog enjoys i…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-happy-vet-visits"
+    },
+    {
+      "id": "claim-bc-stress-003-subtle-and-obvious-signs",
+      "kind": "claim",
+      "title": "Blue Cross lists subtle stress signs as yawning when not tired, panting with a curled tongue tip, pacing, lip licking, p…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-stress-dogs"
+    },
+    {
+      "id": "claim-bc-stress-004-defensive-escalation-health",
+      "kind": "claim",
+      "title": "Blue Cross notes that dogs usually show earlier signs of stress before defensive behaviours such as stiffening and stari…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-stress-dogs"
+    },
+    {
+      "id": "claim-bc-stress-005-help-calm-dog",
+      "kind": "claim",
+      "title": "Blue Cross suggests helping a stressed dog by removing it from the stressful situation or giving it a quiet separate spa…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-stress-dogs"
+    },
+    {
+      "id": "claim-pdsa-stress-001-whole-dog-and-context",
+      "kind": "claim",
+      "title": "PDSA advises reading a dog's body language as a whole, together with the situation, rather than relying on one sign; str…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-stress-dogs"
+    },
+    {
+      "id": "claim-pdsa-stress-002-prevention-and-patterns",
+      "kind": "claim",
+      "title": "PDSA advises noticing patterns in when stress occurs (at home, on walks, around other dogs, when left alone), contacting…",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-stress-dogs"
+    },
+    {
+      "id": "claim-imdt-cur-001-pathway",
+      "kind": "claim",
+      "title": "IMDT's stated route to its dog trainer qualification is a 2-day theory course, a 4-day practical course and a membership…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-how-to-become"
+    },
+    {
+      "id": "claim-imdt-cur-002-two-day-topics",
+      "kind": "claim",
+      "title": "The IMDT 2-day course outline lists the science of how dogs learn, body language, group class planning and dynamics, pri…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-career-course"
+    },
+    {
+      "id": "claim-imdt-cur-003-four-day-topics",
+      "kind": "claim",
+      "title": "The IMDT 4-day practical course outline covers coaching exercises, methods and exercises to teach in class, observationa…",
+      "topics": [
+        "C.session_planning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-practical-instructor-course"
+    },
+    {
+      "id": "claim-imdt-cur-004-knowledge-areas",
+      "kind": "claim",
+      "title": "IMDT lists the knowledge a qualified trainer needs as how dogs learn, canine body language and behaviour, observational …",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-how-to-become"
+    },
+    {
+      "id": "claim-imdt-cur-005-assessment-practical-exercises",
+      "kind": "claim",
+      "title": "IMDT's practical assessment (v26.1) asks the candidate to coach one of twelve exercises: emergency stop, mat target, sen…",
+      "topics": [
+        "C.session_planning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-assessment-practical-pdf"
+    },
+    {
+      "id": "claim-imdt-cur-006-assessment-theory-weighting",
+      "kind": "claim",
+      "title": "IMDT's assessment Q&A (v26.1) marks equipment use and conditioning out of 4, dog law and the Code of Ethics out of 2, bo…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-assessment-qa-pdf"
+    },
+    {
+      "id": "claim-npsa-learn-001-classical",
+      "kind": "claim",
+      "title": "NPSA describes classical conditioning as a dog learning that a neutral stimulus reliably occurs before or with a meaning…",
+      "topics": [
+        "B.classical_conditioning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-npsa-animal-learning"
+    },
+    {
+      "id": "claim-npsa-learn-002-operant",
+      "kind": "claim",
+      "title": "NPSA describes operant conditioning as a dog learning that its own voluntary actions lead to consequences: behaviour fol…",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-npsa-animal-learning"
+    },
+    {
+      "id": "claim-npsa-learn-003-habituation-principles",
+      "kind": "claim",
+      "title": "NPSA explains that habituation, where a dog stops reacting to something that has no important consequence, works best wh…",
+      "topics": [
+        "E.habituation_confidence"
+      ],
+      "confidence": "high",
+      "sourceId": "src-npsa-animal-learning"
+    },
+    {
+      "id": "claim-dt-muzzle-001-why-and-fit",
+      "kind": "claim",
+      "title": "Dogs Trust advises that any dog benefits from being able to wear a muzzle comfortably, for safety when frightened, ill o…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-muzzle-training"
+    },
+    {
+      "id": "claim-dt-muzzle-002-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches muzzle wearing in small steps: let the dog freely put its nose in and out, reward looking at the muzz…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-muzzle-training"
+    },
+    {
+      "id": "claim-dt-muzzle-003-cautions",
+      "kind": "claim",
+      "title": "Dogs Trust says muzzle training by the food method may not suit a dog that guards food or dislikes people near its bowl,…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-muzzle-training"
+    },
+    {
+      "id": "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+      "kind": "claim",
+      "title": "Blue Cross recommends a basket-style muzzle that lets the dog breathe, drink and take treats, notes that muzzles that cl…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bc-muzzle-training"
+    },
+    {
+      "id": "claim-pdsa-muzzle-001-never-punish-never-alone",
+      "kind": "claim",
+      "title": "PDSA warns that a muzzle must never be used as punishment, that skipping training and simply putting a muzzle on tends t…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-muzzle-training"
+    },
+    {
+      "id": "claim-bc-train-001-learn-by-association",
+      "kind": "claim",
+      "title": "Blue Cross says dogs learn by association: when a dog does something and is rewarded straight afterwards, the action is …",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bc-dog-puppy-training"
+    },
+    {
+      "id": "claim-bc-train-002-marker-pairing",
+      "kind": "claim",
+      "title": "Blue Cross teaches a reward marker by saying 'yes', clicking or giving a thumbs-up for a deaf dog and giving a treat str…",
+      "topics": [
+        "B.marker_signals"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bc-dog-puppy-training"
+    },
+    {
+      "id": "claim-bc-train-003-short-sessions-places",
+      "kind": "claim",
+      "title": "Blue Cross advises keeping training sessions short (about two to five minutes), practising little and often, and practis…",
+      "topics": [
+        "C.session_design"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bc-dog-puppy-training"
+    },
+    {
+      "id": "claim-pdsa-rbt-001-timing-half-second",
+      "kind": "claim",
+      "title": "PDSA says the reward should be given during the behaviour or within half a second after it so the dog links the two.",
+      "topics": [
+        "C.timing_rate_of_reinforcement"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-reward-based-training"
+    },
+    {
+      "id": "claim-pdsa-rbt-002-golden-rules",
+      "kind": "claim",
+      "title": "PDSA's golden rules include choosing a reward the dog really likes, keeping sessions short and ending on a success, teac…",
+      "topics": [
+        "C.session_design"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-reward-based-training"
+    },
+    {
+      "id": "claim-pdsa-rbt-003-no-punishment",
+      "kind": "claim",
+      "title": "PDSA says punishment such as shouting, smacking, water pistols, rattle cans and choke chains causes anxiety and fear, ma…",
+      "topics": [
+        "K.ethics_aversives"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-reward-based-training"
+    },
+    {
+      "id": "claim-dt-pr-005-raise-value-with-distractions",
+      "kind": "claim",
+      "title": "Dogs Trust advises using soft, smelly high-value treats as a 'gold star' reward and when there are more distractions, us…",
+      "topics": [
+        "C.timing_rate_of_reinforcement"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-positive-reinforcement"
+    },
+    {
+      "id": "claim-dt-leave-003-fair-trade-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches fair trade by letting the dog play with a not-favourite toy for a few seconds, placing a handful of v…",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-leave-training"
+    },
+    {
+      "id": "claim-battersea-drop-001-swap-steps",
+      "kind": "claim",
+      "title": "Battersea advises teaching 'drop' by pairing the word with food on the floor, then swapping a toy for food, never taking…",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "confidence": "high",
+      "sourceId": "src-battersea-drop-it"
+    },
+    {
+      "id": "claim-bc-spin-001-lure-circle",
+      "kind": "claim",
+      "title": "Blue Cross teaches a spin by luring the dog's nose from in front, round to the side and in a circle around its body, mar…",
+      "topics": [
+        "D.trick_training"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bc-teach-spin"
+    },
+    {
+      "id": "claim-bc-spin-002-fade-lure-add-cue",
+      "kind": "claim",
+      "title": "Blue Cross adds the word 'spin' and a hand signal by guiding the dog round with an empty hand, then making the signal sm…",
+      "topics": [
+        "D.trick_training"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bc-teach-spin"
+    },
+    {
+      "id": "claim-bc-spin-003-short-sessions-frustration",
+      "kind": "claim",
+      "title": "Blue Cross advises spin sessions of up to five minutes in a low-distraction area, and to stop and give the dog space if …",
+      "topics": [
+        "C.troubleshooting_learning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bc-teach-spin"
+    },
+    {
+      "id": "claim-dt-harness-001-choose-and-fit",
+      "kind": "claim",
+      "title": "Dogs Trust advises choosing a harness that does not cross directly over the shoulders and restrict movement, that fits s…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-harness-training"
+    },
+    {
+      "id": "claim-dt-harness-002-introduce-gradually",
+      "kind": "claim",
+      "title": "Dogs Trust introduces a harness in small steps: treats scattered around it, feeding treats through the head hole, restin…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-harness-training"
+    },
+    {
+      "id": "claim-rspca-prong-001-harm-and-ineffective",
+      "kind": "claim",
+      "title": "The RSPCA says prong collars work by causing pain or discomfort, can cause injury and new behaviour problems such as fea…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-prong-collars"
+    },
+    {
+      "id": "claim-rspca-prong-002-legal-but-alternatives",
+      "kind": "claim",
+      "title": "The RSPCA notes that prong collars are not illegal in the UK although it wants them banned, and recommends a well-fittin…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-prong-collars"
+    },
+    {
+      "id": "claim-kb-gap-rspca-prong-ecollar-status-dated",
+      "kind": "claim",
+      "title": "As retrieved on 2026-10-10 the RSPCA prong-collar page says shock collars are legal in England without restriction and r…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "high",
+      "sourceId": "src-rspca-prong-collars"
+    },
+    {
+      "id": "claim-dog-001-reward-based-training",
+      "kind": "claim",
+      "title": "The Dog Ownership Guide from Dogs Trust and the RSPCA lists reward-based training as a responsible-ownership behaviour, …",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dog-ownership-guide"
+    },
+    {
+      "id": "claim-dog-002-collar-tag-microchip",
+      "kind": "claim",
+      "title": "The Dog Ownership Guide says by law a dog in public must wear a collar with an identity tag even when walked in a harnes…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dog-ownership-guide"
+    },
+    {
+      "id": "claim-dog-003-control-and-recall",
+      "kind": "claim",
+      "title": "The Dog Ownership Guide says owners should keep their dog under control and in sight in public, whether on or off lead, …",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dog-ownership-guide"
+    },
+    {
+      "id": "claim-bva-ecollar-001-uk-status",
+      "kind": "claim",
+      "title": "The BVA says electric shock collars are banned in Wales (2010 regulations), that the Scottish Government has said aversi…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-bva-shock-collars"
+    },
+    {
+      "id": "claim-bva-ecollar-002-welfare-and-reward-based",
+      "kind": "claim",
+      "title": "The BVA says even low-level electric shock produces stress, pain and fear responses in dogs and cats, lists choke collar…",
+      "topics": [
+        "K.ethics_aversives"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bva-shock-collars"
+    },
+    {
+      "id": "claim-leg-ecollar-001-draft-not-made",
+      "kind": "claim",
+      "title": "The Animal Welfare (Electronic Collars) (England) Regulations 2023 on legislation.gov.uk are a draft that was never made…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-leg-ecollars-draft-2023"
+    },
+    {
+      "id": "claim-hansard-ecollar-001-consult-2026",
+      "kind": "claim",
+      "title": "In a written answer on 27 May 2026 a Defra minister said Defra will consult on whether to ban electric shock collars lat…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-hansard-ecollars-2026"
+    },
+    {
+      "id": "claim-rspca-brighton-001-diary-and-schedule",
+      "kind": "claim",
+      "title": "An RSPCA branch suggests training little and often, such as three to four sessions a week of five to fifteen minutes, st…",
+      "topics": [
+        "I.metrics_latency_duration"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-rspca-brighton-treats-markers"
+    },
+    {
+      "id": "claim-akc-chin-001-steps",
+      "kind": "claim",
+      "title": "The AKC teaches a chin rest by luring the chin onto an upturned palm, marking and rewarding, fading the lure, adding a c…",
+      "topics": [
+        "D.chin_rest"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-akc-chin-rest"
+    },
+    {
+      "id": "claim-akc-fetch-001-hold-then-fetch",
+      "kind": "claim",
+      "title": "The AKC teaches fetch by first teaching 'hold', then asking the dog to take a toy from an outstretched hand, then pick i…",
+      "topics": [
+        "D.retrieve"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-akc-fetch"
+    },
+    {
+      "id": "claim-mcconnell-stop-001-steps",
+      "kind": "claim",
+      "title": "A trainer blog teaches an emergency stop by choosing a clear cue meaning 'stop and stand still', starting with the dog o…",
+      "topics": [
+        "D.emergency_stop"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-mcconnell-emergency-stop"
+    },
+    {
+      "id": "claim-coa-middle-001-steps",
+      "kind": "claim",
+      "title": "A UK equipment brand teaches 'middle' by luring the dog behind the handler's legs and through to stand or sit between th…",
+      "topics": [
+        "D.middle_position"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-coa-middle"
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -1911,6 +2795,87 @@
       ]
     },
     {
+      "id": "proto-recognise-stress-signals",
+      "kind": "protocol",
+      "title": "Recognise and respond to stress signals",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-stress-sign-observed"
+      ]
+    },
+    {
+      "id": "proto-handling-vet-prep-dt",
+      "kind": "protocol",
+      "title": "Get your dog comfortable with handling and vet visits",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-stress-sign-observed"
+      ]
+    },
+    {
+      "id": "proto-muzzle-training-dt",
+      "kind": "protocol",
+      "title": "Teach a dog to wear a basket muzzle comfortably",
+      "reviewStatus": "requires_human_review",
+      "behaviourIds": [
+        "beh-stress-sign-observed"
+      ]
+    },
+    {
+      "id": "proto-reward-use-fundamentals",
+      "kind": "protocol",
+      "title": "Use rewards so your dog learns clearly",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-marker-conditioned-response"
+      ]
+    },
+    {
+      "id": "proto-hand-touch-dt",
+      "kind": "protocol",
+      "title": "Teach your dog to touch your hand",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-hand-target-touch"
+      ]
+    },
+    {
+      "id": "proto-drop-fair-trade-dt",
+      "kind": "protocol",
+      "title": "Teach your dog to give things up with a fair trade",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-drop-stolen-item"
+      ]
+    },
+    {
+      "id": "proto-spin-lure-bc",
+      "kind": "protocol",
+      "title": "Teach your dog to spin",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-spin-on-cue"
+      ]
+    },
+    {
+      "id": "proto-harness-and-equipment-basics",
+      "kind": "protocol",
+      "title": "Choose kind equipment and meet the legal basics",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-wear-harness-calmly"
+      ]
+    },
+    {
+      "id": "proto-plan-and-measure-sessions",
+      "kind": "protocol",
+      "title": "Plan short sessions and track progress",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-owner-session-routine"
+      ]
+    },
+    {
       "id": "lesson-intro-marker",
       "kind": "lesson",
       "title": "Introduce a marker word",
@@ -2098,6 +3063,78 @@
         "G.fear_noise_separation"
       ],
       "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-vet-handling-prep",
+      "kind": "lesson",
+      "title": "Get ready for the vet and grooming",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-muzzle-training",
+      "kind": "lesson",
+      "title": "Teach your dog to wear a muzzle happily",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-how-dogs-learn",
+      "kind": "lesson",
+      "title": "How dogs learn: rewards, markers and associations",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-hand-touch",
+      "kind": "lesson",
+      "title": "Teach your dog to touch your hand",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "goodDogModule": "foundation_skills"
+    },
+    {
+      "id": "lesson-drop-it-swap",
+      "kind": "lesson",
+      "title": "Give things up with a fair trade",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-spin-trick",
+      "kind": "lesson",
+      "title": "Teach your dog to spin",
+      "topics": [
+        "D.trick_training"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-equipment-and-law",
+      "kind": "lesson",
+      "title": "Kind equipment and the legal basics",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "goodDogModule": "life_skills"
+    },
+    {
+      "id": "lesson-plan-and-measure",
+      "kind": "lesson",
+      "title": "Plan short sessions and track progress",
+      "topics": [
+        "C.session_design"
+      ],
+      "goodDogModule": "foundation_skills"
     }
   ]
 }

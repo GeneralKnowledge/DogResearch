@@ -21,6 +21,13 @@
     "lesson-reactive-management",
     "lesson-rescue-settling",
     "lesson-adolescent-regression",
+    "lesson-vet-handling-prep",
+    "lesson-how-dogs-learn",
+    "lesson-hand-touch",
+    "lesson-drop-it-swap",
+    "lesson-spin-trick",
+    "lesson-equipment-and-law",
+    "lesson-plan-and-measure",
     "lesson-alone-prevention"
   ],
   "excludedLessonIds": [],
@@ -31,9 +38,13 @@
     "lesson-emergency-recall",
     "lesson-rescue-settling",
     "lesson-adolescent-regression",
+    "lesson-vet-handling-prep",
+    "lesson-equipment-and-law",
     "lesson-alone-prevention"
   ],
   "advisoryMessages": {
+    "lesson-equipment-and-law": "Rules on shock collars differ across the UK and are under review in England, so check current rules; if your dog is worried by equipment or being handled, see your vet first.",
+    "lesson-vet-handling-prep": "If your dog growls, snaps or avoids being handled, see your vet first to rule out pain, then ask for an accredited behaviourist.",
     "lesson-puppy-socialisation": "Follow your vet's vaccination and socialisation timing for your puppy.",
     "lesson-fireworks-management": "If your dog panics, injures themselves, or stops eating, contact your vet and seek qualified behaviour support.",
     "lesson-reactive-management": "Management only—not a treatment plan for aggression. See your vet first; use ABTC-registered help for ongoing reactivity.",
@@ -58,5 +69,11 @@
     "lesson-puppy-socialisation",
     "lesson-alone-prevention"
   ],
-  "educationOnlyLessonIds": ["lesson-read-your-dog-stress"]
+  "educationOnlyLessonIds": [
+    "lesson-read-your-dog-stress",
+    "lesson-vet-handling-prep",
+    "lesson-how-dogs-learn",
+    "lesson-equipment-and-law",
+    "lesson-plan-and-measure"
+  ]
 }

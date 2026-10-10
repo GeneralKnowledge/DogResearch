@@ -29,6 +29,7 @@ On every successful `main` / `cursor/**` push, the **kb-export** workflow upload
 - `dist/good-dog-guides.json` — management and education guides (owner markdown, provenance, Ask keywords)
 - `dist/good-dog-referrals.json` — same referral cards as the KindTrail preview (`title`, `body`, `url`) plus `rationaleClaimIds`
 - `dist/good-dog-ask-patterns.json` — aversive patterns, escalate-question patterns, owner-question crosswalk
+- `dist/good-dog-crash-course.json` — ordered owner path (10 stages) with coverage notes and gaps; see `docs/imdt-alignment.md`
 
 Download the `good-dog-kb-dist` artifact from GitHub Actions. The workflow uploads every file above. Each file includes `schemaVersion` (`exportSchemaVersion` in `kb/meta/schema-version.json`, currently 1.1.0) and `generatedAt`.
 
