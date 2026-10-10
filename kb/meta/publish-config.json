@@ -42,6 +42,7 @@
   "excludeProtocolReviewStatus": ["requires_human_review"],
   "allowProtocolsDespiteReview": [
     "proto-puppy-socialisation-dt",
+    "proto-recall-three-step-dt",
     "proto-ddd-progression-skeleton"
   ],
   "requireDisplayEligibility": ["paraphrase_ok", "paraphrase_ok_pending_legal"],

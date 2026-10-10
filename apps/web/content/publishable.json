@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T15:02:10.685Z",
+  "generatedAt": "2026-10-10T15:21:47.457Z",
   "productName": "KindTrail",
   "previewMode": false,
   "ethics": {
@@ -1914,6 +1914,13 @@
       "id": "proto-adolescent-regression-mgmt",
       "kind": "protocol",
       "title": "Adolescent regression — reduce pressure",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-loose-lead-force-free-draft",
+      "kind": "protocol",
+      "title": "Loose-lead walking — reward check-ins (draft, force-free)",
       "topics": [],
       "module": null
     },

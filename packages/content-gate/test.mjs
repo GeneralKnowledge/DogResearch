@@ -20,6 +20,7 @@ assert.ok(
 );
 assert.ok(bundle.cpdPaths?.length > 0, "CPD paths exported");
 assert.ok(bundle.assessmentMetrics?.length >= 4, "assessment metrics exported");
+assert.ok(bundle.catalogSearch?.length > 0, "catalog search index exported");
 
 const recallEntry = bundle.lessons.find((l) => l.lesson.id === "lesson-recall-basics");
 assert.ok(recallEntry?.protocol.safe002Sanitized, "recall protocol sanitized for safe-002");
@@ -27,6 +28,13 @@ const stepText = recallEntry?.protocol.steps?.map((s) => s.instruction).join(" "
 assert.ok(!/\boff-lead\b/i.test(stepText) || stepText.includes("tier-2"), "off-lead phrasing gated in export");
 
 assert.equal(isOffLeadUnlocked({}), false);
+assert.equal(
+  isOffLeadUnlocked({
+    "metric-recall-long-line-5m": true,
+    "metric-recall-long-line-10m": true
+  }),
+  true
+);
 assert.equal(blocksOffLeadPromotion({}), true);
 
 const sanitized = sanitizeProtocolForExport(
