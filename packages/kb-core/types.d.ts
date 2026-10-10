@@ -4,6 +4,17 @@ export interface Source {
   title: string;
   publisher?: string;
   topics?: string[];
+  displayEligibility?: string;
+}
+
+export interface AssessmentMetric {
+  id: string;
+  title: string;
+  behaviourId?: string;
+  tier: number;
+  observableCriteria: string;
+  progressionGate?: string | null;
+  goodDogModule?: string;
 }
 
 export interface Claim {

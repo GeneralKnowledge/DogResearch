@@ -511,6 +511,112 @@
       "publisher": "Applied Animal Behaviour Science"
     },
     {
+      "id": "src-dt-fireworks-seasonal",
+      "kind": "source",
+      "title": "Helping your dog cope with fireworks",
+      "url": "https://www.dogstrust.org.uk/dog-advice/life-with-your-dog/seasonal/fireworks",
+      "topics": [
+        "G.fear_noise_separation",
+        "F.physical_activity_rest"
+      ],
+      "extractionStatus": "extracted_batch_005",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-mouthing-nipping",
+      "kind": "source",
+      "title": "Mouthing, nipping and puppy biting",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/mouthing-nipping-and-biting",
+      "topics": [
+        "G.jumping_mouthing",
+        "E.puppy_biting_chewing_sleep"
+      ],
+      "extractionStatus": "extracted_batch_005",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-stop-stealing",
+      "kind": "source",
+      "title": "How to stop your dog stealing",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/stop-your-dog-stealing",
+      "topics": [
+        "G.resource_guarding_chasing",
+        "F.low_cost_enrichment"
+      ],
+      "extractionStatus": "extracted_batch_005",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-jumping-up",
+      "kind": "source",
+      "title": "Stop your dog jumping up at people",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/jumping-up-training",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "extractionStatus": "extracted_batch_005",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-dt-focus-training",
+      "kind": "source",
+      "title": "How to train your dog to focus on you",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/focus-training",
+      "topics": [
+        "D.name_response_attention",
+        "C.session_planning"
+      ],
+      "extractionStatus": "extracted_batch_006",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-govuk-control-dog-public",
+      "kind": "source",
+      "title": "Controlling your dog in public — GOV.UK",
+      "url": "https://www.gov.uk/control-dog-public",
+      "topics": [
+        "K.uk_law_professional",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_008",
+      "publisher": "UK Government (GOV.UK)"
+    },
+    {
+      "id": "src-leg-dang-dogs-act-1991",
+      "kind": "source",
+      "title": "Dangerous Dogs Act 1991",
+      "url": "https://www.legislation.gov.uk/ukpga/1991/65/contents",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "extractionStatus": "extracted_batch_008",
+      "publisher": "UK Legislation"
+    },
+    {
+      "id": "src-bva-abnormal-behaviour",
+      "kind": "source",
+      "title": "BVA policy — Abnormal behaviour",
+      "url": "https://www.bva.co.uk/take-action/our-policies/abnormal-behaviour/",
+      "topics": [
+        "H.pain_illness_ageing",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_008",
+      "publisher": "British Veterinary Association"
+    },
+    {
+      "id": "src-apbc-owner-handouts",
+      "kind": "source",
+      "title": "APBC owner handouts",
+      "url": "https://www.apbc.org.uk/owners/handouts",
+      "topics": [
+        "K.abtc_standards",
+        "A.stress_fear_arousal"
+      ],
+      "extractionStatus": "extracted_batch_008",
+      "publisher": "Association of Pet Behaviour Counsellors"
+    },
+    {
       "id": "claim-imdt-001-force-free",
       "kind": "claim",
       "title": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may …",
@@ -1314,6 +1420,226 @@
       "sourceId": "study-counterconditioning-review-2024"
     },
     {
+      "id": "claim-dt-fireworks-001-signs",
+      "kind": "claim",
+      "title": "Dogs Trust lists fireworks fear signs including vocalising, clinginess, panting, lip-licking, hiding, escape attempts, t…",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-fireworks-seasonal"
+    },
+    {
+      "id": "claim-dt-fireworks-002-safe-space",
+      "kind": "claim",
+      "title": "Dogs Trust recommends supporting dogs during fireworks with a safe space, staying close, keeping routines consistent, an…",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-fireworks-seasonal"
+    },
+    {
+      "id": "claim-dt-mouth-001-needs",
+      "kind": "claim",
+      "title": "Dogs Trust advises meeting physical, mental, and sleep needs to reduce mouthing and nipping; the behaviour is often link…",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-mouthing-nipping"
+    },
+    {
+      "id": "claim-dt-mouth-002-redirect",
+      "kind": "claim",
+      "title": "Dogs Trust recommends keeping age-appropriate toys and chews available to redirect mouthing, and avoiding known trigger …",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-mouthing-nipping"
+    },
+    {
+      "id": "claim-dt-mouth-003-refer-bite",
+      "kind": "claim",
+      "title": "Dogs Trust instructs owners to contact their Behaviour Support Line promptly if mouthing causes injury or breaks skin, a…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-mouthing-nipping"
+    },
+    {
+      "id": "claim-dt-steal-001-no-chase-game",
+      "kind": "claim",
+      "title": "Dogs Trust explains that chasing a dog who has stolen an item often rewards the behaviour with a fun game; owners should…",
+      "topics": [
+        "G.resource_guarding_chasing"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-stop-stealing"
+    },
+    {
+      "id": "claim-dt-steal-002-ignore-drop",
+      "kind": "claim",
+      "title": "Dogs Trust advises ignoring safe steal-and-parade behaviour until the dog drops the item, then redirecting to a toy or c…",
+      "topics": [
+        "G.resource_guarding_chasing"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-stop-stealing"
+    },
+    {
+      "id": "claim-dt-steal-003-enrichment",
+      "kind": "claim",
+      "title": "Dogs Trust links stealing to boredom and recommends physical and mental stimulation, puzzle feeders, and suitable chews …",
+      "topics": [
+        "F.low_cost_enrichment"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-stop-stealing"
+    },
+    {
+      "id": "claim-dt-jump-001-four-paws",
+      "kind": "claim",
+      "title": "Dogs Trust jumping-up guidance aims to teach dogs to keep four paws on the floor when greeting people instead of jumping…",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-jumping-up"
+    },
+    {
+      "id": "claim-dt-jump-002-no-reward-jump",
+      "kind": "claim",
+      "title": "Dogs Trust advises not rewarding jumping with attention, petting, or excitement, and instead reinforcing calm greeting b…",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-jumping-up"
+    },
+    {
+      "id": "claim-dt-focus-001-reward-attention",
+      "kind": "claim",
+      "title": "Dogs Trust focus training rewards the dog for voluntarily looking at the handler, building engagement before adding dist…",
+      "topics": [
+        "D.name_response_attention"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-focus-training"
+    },
+    {
+      "id": "claim-dt-ddd-001-order-charity",
+      "kind": "claim",
+      "title": "Dogs Trust training pages consistently progress skills by reducing distraction and increasing difficulty gradually; Kind…",
+      "topics": [
+        "C.distance_duration_distraction"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-focus-training"
+    },
+    {
+      "id": "claim-bc-stress-002-body-language-list",
+      "kind": "claim",
+      "title": "Blue Cross stress guidance (batch 002 source) lists lip licking, yawning, pinned ears, and turning away as stress signs …",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bluecross-stress-dogs"
+    },
+    {
+      "id": "claim-metric-recall-long-line-gate",
+      "kind": "claim",
+      "title": "KindTrail progression requires long-line recall at 5m (tier 1) and 10m (tier 2) before any UI suggests off-lead freedom …",
+      "topics": [
+        "I.progression_criteria"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-recall-training"
+    },
+    {
+      "id": "claim-metric-loose-lead-steps",
+      "kind": "claim",
+      "title": "KindTrail uses ten consecutive loose-lead steps as tier-1 proof for loose-lead walking, matching stop-start progression …",
+      "topics": [
+        "I.metrics_latency_duration"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-dt-loose-lead"
+    },
+    {
+      "id": "claim-metric-name-2s",
+      "kind": "claim",
+      "title": "KindTrail uses the existing beh-name-orientation criterion (2 second orient to name) as tier-1 name response for recall …",
+      "topics": [
+        "I.baseline_measurable_goals"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-name-training-full"
+    },
+    {
+      "id": "claim-govuk-003-public-control",
+      "kind": "claim",
+      "title": "GOV.UK guidance on controlling dogs in public reminds owners that dogs must be kept under control in public places and t…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-govuk-control-dog-public"
+    },
+    {
+      "id": "claim-dda-001-banned-types",
+      "kind": "claim",
+      "title": "The Dangerous Dogs Act 1991 (UK) includes provisions on prohibited types of dogs and offences relating to dangerously ou…",
+      "topics": [
+        "K.uk_law_professional"
+      ],
+      "confidence": "high",
+      "sourceId": "src-leg-dang-dogs-act-1991"
+    },
+    {
+      "id": "claim-bva-001-pain-behaviour",
+      "kind": "claim",
+      "title": "BVA abnormal behaviour policy states that pain, illness, and discomfort can contribute to behavioural signs and that vet…",
+      "topics": [
+        "H.pain_illness_ageing"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bva-abnormal-behaviour"
+    },
+    {
+      "id": "claim-abtc-roles-001-boundaries",
+      "kind": "claim",
+      "title": "ABTC registers distinct practitioner roles (including training instructors and clinical animal behaviourists); KindTrail…",
+      "topics": [
+        "K.abtc_standards"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-abtc-owners"
+    },
+    {
+      "id": "claim-apbc-001-growl-not-punish",
+      "kind": "claim",
+      "title": "APBC owner education materials describe growling as communication that should not be punished; management and qualified …",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "confidence": "medium",
+      "sourceId": "src-apbc-owner-handouts"
+    },
+    {
+      "id": "claim-vcastro-2021-results-monitor",
+      "kind": "claim",
+      "title": "As of batch 008 (2026-10-10), the KB monitors for a published outcomes paper from Vieira de Castro et al. (2021) protoco…",
+      "topics": [
+        "K.evidence_gaps_debates"
+      ],
+      "confidence": "high",
+      "sourceId": "study-vieira-castro-2021-protocol"
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -1438,6 +1764,51 @@
       "reviewStatus": "requires_human_review",
       "behaviourIds": [
         "beh-confident-novelty-exposure"
+      ]
+    },
+    {
+      "id": "proto-fireworks-management-dt",
+      "kind": "protocol",
+      "title": "Fireworks season — management and comfort (Dogs Trust)",
+      "reviewStatus": "requires_human_review",
+      "behaviourIds": [
+        "beh-calm-in-safe-space"
+      ]
+    },
+    {
+      "id": "proto-steal-chase-management-dt",
+      "kind": "protocol",
+      "title": "Steal-and-chase — stop rewarding the game (Dogs Trust)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-drop-stolen-item"
+      ]
+    },
+    {
+      "id": "proto-jumping-four-paws-dt",
+      "kind": "protocol",
+      "title": "Four paws on the floor greetings (Dogs Trust)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-four-paws-greeting"
+      ]
+    },
+    {
+      "id": "proto-mouthing-redirect-dt",
+      "kind": "protocol",
+      "title": "Mouthing — redirect and needs check (Dogs Trust)",
+      "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-mouth-on-toy-not-hands"
+      ]
+    },
+    {
+      "id": "proto-ddd-progression-skeleton",
+      "kind": "protocol",
+      "title": "Distance → duration → distraction (KindTrail skeleton)",
+      "reviewStatus": "requires_human_review",
+      "behaviourIds": [
+        "beh-sit-on-cue"
       ]
     }
   ]

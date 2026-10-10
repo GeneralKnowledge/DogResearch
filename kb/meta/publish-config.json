@@ -9,17 +9,20 @@
     "lesson-leave-it-basics",
     "lesson-rspca-leave",
     "lesson-loose-lead",
-    "lesson-puppy-socialisation"
-  ],
-  "excludedLessonIds": [
+    "lesson-puppy-socialisation",
     "lesson-recall-basics",
-    "lesson-reactive-management"
+    "lesson-steal-chase",
+    "lesson-jumping-up",
+    "lesson-mouthing-redirect",
+    "lesson-read-your-dog-stress"
   ],
-  "advisoryLessonIds": [
-    "lesson-puppy-socialisation"
-  ],
+  "excludedLessonIds": ["lesson-reactive-management"],
+  "advisoryLessonIds": ["lesson-puppy-socialisation"],
   "excludeProtocolReviewStatus": ["requires_human_review"],
   "allowProtocolsDespiteReview": [
-    "proto-puppy-socialisation-dt"
-  ]
+    "proto-puppy-socialisation-dt",
+    "proto-recall-three-step-dt",
+    "proto-ddd-progression-skeleton"
+  ],
+  "requireDisplayEligibility": ["paraphrase_ok", "paraphrase_ok_pending_legal"]
 }

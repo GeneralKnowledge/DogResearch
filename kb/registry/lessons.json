@@ -20,10 +20,10 @@
       "supportingClaimIds": ["claim-dt-recall-001-prerequisite-name", "claim-dt-recall-003-no-punish-late-return"],
       "topic": "D.recall_emergency_recall",
       "goodDogModule": "life_skills",
-      "traceabilityStatus": "pending_human_review",
-      "publishedToApp": false,
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10",
-      "notes": "Excluded from pilot until recall protocol human review (review-001)."
+      "notes": "Pilot export after batch 007 metrics and review-001 resolved."
     },
     {
       "id": "lesson-first-sit",

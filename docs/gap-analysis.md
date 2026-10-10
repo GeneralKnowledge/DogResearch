@@ -1,44 +1,37 @@
-# Gap analysis (updated after batch 004)
+# Gap analysis (updated after batch 008)
 
 ## Coverage by taxonomy category
 
-| Category | Status after batch 004 | Priority next sources |
+| Category | Status after batch 008 | Priority next sources |
 |----------|------------------------|------------------------|
-| A Behaviour & communication | DT reactive stress recovery; BC stress (batch 002) | Full body language taxonomy; displacement behaviours |
+| A Behaviour & communication | Stress lesson + BC cross-ref; DDD skeleton | Displacement behaviours depth |
 | B Learning theory | Marker + CC method registered | APBC/FABC learning theory sheets |
-| C Training mechanics | DDD partial; loose lead (batch 002) | Systematic DDD progression sources |
-| D Foundation behaviours | Sit/down/stay/recall/leave; RSPCA leave added | Mouth **drop** page if published; hand target |
-| E Puppy/adolescent | DT socialisation + Puppy 101 hub | Blue Cross puppy (blocked 403); adolescent fear |
-| F Enrichment | PDSA claims (batch 002) | More RSPCA/DT enrichment protocols |
-| G Behaviour problems | Reactive **management** + referral (DT) | Clinical CC/desensitisation plans (APBC); noise phobia |
-| H Health & boundaries | Vet-first for reactivity; CFSG (batch 003) | BVA/RCVS pain-behaviour |
-| I Assessment | None | Define Good Dog metrics with human review |
-| J Special populations | None | Rescue-specific charities; multi-dog management |
-| K Ethics/regulation | ABTC aversives; 2024 HDB scoping review | ABTC role standard PDFs (`review-011`) |
+| C Training mechanics | DDD skeleton (review-013) | Charity explicit stay/generalisation pages |
+| D Foundation behaviours | Sit/down/recall/leave + mouthing/jump | Hand target; drop page if RSPCA publishes |
+| E Puppy/adolescent | DT socialisation + Puppy 101 | Blue Cross puppy (403); adolescent fear |
+| F Enrichment | PDSA + DT steal enrichment angle | More RSPCA/DT enrichment protocols |
+| G Behaviour problems | Reactive management; steal/chase; fireworks registered | Clinical noise phobia plans (referral only) |
+| H Health & boundaries | BVA abnormal behaviour; vet-first reactivity | RCVS pain-behaviour page if URL stable |
+| I Assessment | **assessment-metrics.json** + synthesis claims | Human validation of tier thresholds in field |
+| J Special populations | None | Rescue; multi-dog |
+| K Ethics/regulation | GOV/DDA summaries; ABTC role synthesis | ABTC role PDFs (`review-011`) |
 
 ## Source registry gaps
 
-- **Blue Cross puppy**: HTTP 403 in agent/CI environment — deferred.
-- **ABTC role standards PDFs**: not ingested (Cloudflare/404); practitioner role claims pending.
-- **Peer-reviewed corpus**: Hiby 2004, Vieira de Castro 2020, Blackwell 2021, Guilherme-Fernandes 2017, **Verbeek 2024 scoping**, **2024 CC systematic review**.
-- **RSPCA drop**: no dedicated page; documented in KB audit claim.
-
-## Evidence gaps (research)
-
-- Causal welfare outcomes of reward-only vs mixed methods in pet dogs (modern RCTs beyond training schools).
-- Generalisation protocols with measurable criteria across environments.
-- UK owner adherence barriers (qualitative research).
-- Pooled meta-analysis of aversive vs reward methods (still absent; scoping reviews only).
+- **Blue Cross puppy**: HTTP 403 in agent/CI — deferred.
+- **ABTC role standards PDFs**: Cloudflare; provisional role claim on src-abtc-owners.
+- **RSPCA drop**: documented gap claim.
+- **APBC handouts**: hub registered; individual PDFs not fully extracted.
 
 ## Quality / QA gaps
 
-- `npm run url-check` added but not yet in CI (recommended as non-blocking).
-- Licence fields mostly `unknown_web_content` — legal review for app display.
-- APBC/FABC handouts still needed for growl/suppression ethics (`review-004` partial).
+- `npm run url-check` wired in CI (non-blocking) with host allowlist.
+- `displayEligibility` on core sources + batch sources; export gate enforces paraphrase_ok tags.
+- Licence fields still mostly `unknown_web_content` — legal sign-off pending for `paraphrase_ok`.
 
-## Recommended batch 005
+## Recommended batch 009+
 
-1. Fireworks/noise desensitisation (charity guidance).
-2. Resource guarding management + referral.
-3. ABTC role standards when PDFs accessible.
-4. Optional: wire `url-check` in CI with allowlist for known flaky hosts.
+1. Adolescent fear / teenage regression (E).
+2. Rescue / rehomed dogs (J).
+3. Cooperative handling / vet prep (D).
+4. Community evidence (K) — defer until foundational layers stable.

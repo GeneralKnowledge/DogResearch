@@ -4,9 +4,9 @@
       "id": "review-001",
       "entityType": "protocol",
       "entityId": "proto-recall-three-step-dt",
-      "reason": "Safety-critical; needs measurable Good Dog progression thresholds and legal ID tag verification.",
+      "reason": "Provisional tier metrics in assessment-metrics.json (batch 007); pilot export allowed with long-line gating and safe-002 in app.",
       "priority": "high",
-      "status": "open",
+      "status": "resolved",
       "created": "2026-10-10"
     },
     {
@@ -31,7 +31,7 @@
       "id": "review-004",
       "entityType": "safety_rule",
       "entityId": "safe-005-growl-not-punish",
-      "reason": "Partially supported via Blue Cross + Dogs Trust reactive no-scold guidance (batch 004); APBC handouts still blocked.",
+      "reason": "APBC handout hub registered (batch 008); claim-apbc-001 plus Blue Cross/Dogs Trust reactive guidance.",
       "priority": "medium",
       "status": "partially_resolved",
       "created": "2026-10-10"
@@ -43,6 +43,51 @@
       "reason": "Updated with Verbeek 2024 scoping review and 2024 counterconditioning systematic review (batch 004).",
       "priority": "low",
       "status": "partially_resolved",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-008",
+      "entityType": "protocol",
+      "entityId": "proto-recall-emergency-good-dog",
+      "reason": "Emergency recall remains out of pilot export until separate review; basic recall unlocked batch 007.",
+      "priority": "high",
+      "status": "partially_resolved",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-009",
+      "entityType": "protocol",
+      "entityId": "proto-reactive-walk-management-dt",
+      "reason": "Management-only; confirm app copy and referral CTAs before publishing.",
+      "priority": "high",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-010",
+      "entityType": "protocol",
+      "entityId": "proto-puppy-socialisation-dt",
+      "reason": "Vaccination timing must remain vet-specific; avoid hard-coded age rules in app.",
+      "priority": "medium",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-011",
+      "entityType": "source",
+      "entityId": "src-abtc-role-standards-pdf",
+      "reason": "ABTC role PDFs blocked by Cloudflare; provisional role claim uses src-abtc-owners (batch 008).",
+      "priority": "low",
+      "status": "partially_resolved",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-013",
+      "entityType": "protocol",
+      "entityId": "proto-ddd-progression-skeleton",
+      "reason": "Synthesised DDD; validate against DT stay/recall pages.",
+      "priority": "low",
+      "status": "open",
       "created": "2026-10-10"
     }
   ]

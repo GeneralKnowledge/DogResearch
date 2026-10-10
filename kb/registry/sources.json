@@ -3,12 +3,17 @@
     {
       "id": "src-imdt-code-of-ethics",
       "canonicalUrl": "https://www.imdt.uk.com/code-of-ethics",
-      "alternateUrls": ["https://www.imdt.uk.com/code-of-ethics.html"],
+      "alternateUrls": [
+        "https://www.imdt.uk.com/code-of-ethics.html"
+      ],
       "title": "IMDT Code of Ethics",
       "authors": [],
       "publisher": "Institute of Modern Dog Trainers (IMDT)",
       "sourceType": "professional_standard",
-      "topics": ["K.imdt_ethics", "K.evidence_gaps_debates"],
+      "topics": [
+        "K.imdt_ethics",
+        "K.evidence_gaps_debates"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -18,7 +23,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "foundational_ethics",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-abtc-owners",
@@ -27,7 +33,11 @@
       "authors": [],
       "publisher": "Animal Behaviour and Training Council (ABTC)",
       "sourceType": "professional_standard",
-      "topics": ["K.abtc_standards", "H.scope_of_practice_referral", "K.training_equipment_welfare"],
+      "topics": [
+        "K.abtc_standards",
+        "H.scope_of_practice_referral",
+        "K.training_equipment_welfare"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -37,7 +47,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_002",
       "qualityTier": "foundational_ethics",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-dt-positive-reinforcement",
@@ -46,7 +57,11 @@
       "authors": [],
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["B.operant_conditioning", "C.timing_rate_of_reinforcement", "C.troubleshooting_learning"],
+      "topics": [
+        "B.operant_conditioning",
+        "C.timing_rate_of_reinforcement",
+        "C.troubleshooting_learning"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -56,7 +71,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-dt-introducing-marker",
@@ -65,7 +81,11 @@
       "authors": [],
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["B.marker_signals", "B.clicker_training", "C.timing_rate_of_reinforcement"],
+      "topics": [
+        "B.marker_signals",
+        "B.clicker_training",
+        "C.timing_rate_of_reinforcement"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -75,7 +95,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-dt-recall-training",
@@ -84,7 +105,11 @@
       "authors": [],
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.recall_emergency_recall", "C.distance_duration_distraction", "G.management_referral"],
+      "topics": [
+        "D.recall_emergency_recall",
+        "C.distance_duration_distraction",
+        "G.management_referral"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -94,7 +119,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-dt-name-training",
@@ -103,7 +129,9 @@
       "authors": [],
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.name_response_attention"],
+      "topics": [
+        "D.name_response_attention"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -113,7 +141,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "registered_batch_001",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-dt-escaping-running-away",
@@ -122,7 +151,10 @@
       "authors": [],
       "publisher": "Dogs Trust",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.recall_emergency_recall", "G.management_referral"],
+      "topics": [
+        "D.recall_emergency_recall",
+        "G.management_referral"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -132,7 +164,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "partial_batch_001",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-rspca-dog-training",
@@ -141,7 +174,10 @@
       "authors": [],
       "publisher": "RSPCA",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["C.session_planning", "K.abtc_standards"],
+      "topics": [
+        "C.session_planning",
+        "K.abtc_standards"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -151,7 +187,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-rspca-find-trainer",
@@ -160,7 +197,10 @@
       "authors": [],
       "publisher": "RSPCA",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["K.abtc_standards", "H.scope_of_practice_referral"],
+      "topics": [
+        "K.abtc_standards",
+        "H.scope_of_practice_referral"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -170,7 +210,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "src-rspca-sit",
@@ -179,7 +220,10 @@
       "authors": [],
       "publisher": "RSPCA",
       "sourceType": "welfare_charity_guidance",
-      "topics": ["D.sit_down_stand", "B.luring_shaping_capturing_chaining"],
+      "topics": [
+        "D.sit_down_stand",
+        "B.luring_shaping_capturing_chaining"
+      ],
       "contentClass": "professional_guidance",
       "publishedDate": null,
       "lastUpdatedDate": null,
@@ -189,7 +233,8 @@
       "accessRestrictions": "public_web",
       "extractionStatus": "extracted_batch_001",
       "qualityTier": "high_practical",
-      "issues": []
+      "issues": [],
+      "displayEligibility": "paraphrase_ok_pending_legal"
     },
     {
       "id": "study-hiby-rooney-bradshaw-2004",
@@ -198,10 +243,18 @@
         "https://www.cambridge.org/core/journals/animal-welfare/article/dog-training-methods-their-use-effectiveness-and-interaction-with-behaviour-and-welfare/B219F8FBE35C05DA269D02F310E38B66"
       ],
       "title": "Dog training methods: their use, effectiveness and interaction with behaviour and welfare",
-      "authors": ["Elly F. Hiby", "Nicola J. Rooney", "John W. S. Bradshaw"],
+      "authors": [
+        "Elly F. Hiby",
+        "Nicola J. Rooney",
+        "John W. S. Bradshaw"
+      ],
       "publisher": "Animal Welfare (Universities Federation for Animal Welfare)",
       "sourceType": "peer_reviewed_journal",
-      "topics": ["B.operant_conditioning", "K.evidence_gaps_debates", "G.behaviour_problems"],
+      "topics": [
+        "B.operant_conditioning",
+        "K.evidence_gaps_debates",
+        "G.behaviour_problems"
+      ],
       "contentClass": "primary_research",
       "publishedDate": "2004-02-01",
       "lastUpdatedDate": null,
@@ -211,7 +264,10 @@
       "accessRestrictions": "paywall_possible",
       "extractionStatus": "abstract_extracted_batch_001",
       "qualityTier": "foundational_research",
-      "issues": ["owner_report_survey_not_behavioural_experiment"]
+      "issues": [
+        "owner_report_survey_not_behavioural_experiment"
+      ],
+      "displayEligibility": "research_only"
     }
   ]
 }

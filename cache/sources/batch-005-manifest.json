@@ -1,0 +1,27 @@
+{
+  "batchId": "batch-005",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    {
+      "sourceId": "src-dt-fireworks-seasonal",
+      "url": "https://www.dogstrust.org.uk/dog-advice/life-with-your-dog/seasonal/fireworks",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-dt-mouthing-nipping",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/mouthing-nipping-and-biting",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-dt-stop-stealing",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/stop-your-dog-stealing",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-dt-jumping-up",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/jumping-up-training",
+      "httpStatus": 200
+    }
+  ],
+  "notes": ["RSPCA fireworks/noise pages not found (404); guarding framed via steal/chase management."]
+}

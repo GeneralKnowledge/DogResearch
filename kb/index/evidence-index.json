@@ -13,7 +13,8 @@
       "scientific": [],
       "professional": [
         "claim-imdt-003-referral",
-        "claim-dt-reactive-006-behaviour-support-referral"
+        "claim-dt-reactive-006-behaviour-support-referral",
+        "claim-dt-mouth-003-refer-bite"
       ],
       "disputes": []
     },
@@ -22,7 +23,8 @@
       "professional": [
         "claim-abtc-001-unregulated",
         "claim-abtc-002-science-based",
-        "claim-rspca-003-abtc-trainer"
+        "claim-rspca-003-abtc-trainer",
+        "claim-abtc-roles-001-boundaries"
       ],
       "disputes": []
     },
@@ -86,7 +88,9 @@
         "claim-dt-recall-005-uk-id-law",
         "claim-govuk-001-microchip-8weeks",
         "claim-govuk-002-collar-tag-public",
-        "claim-cdo1992-001-collar-highway"
+        "claim-cdo1992-001-collar-highway",
+        "claim-govuk-003-public-control",
+        "claim-dda-001-banned-types"
       ],
       "disputes": []
     },
@@ -119,7 +123,8 @@
         "claim-verbeek-2024-weird-limit"
       ],
       "professional": [
-        "claim-kb-gap-rspca-no-drop-page"
+        "claim-kb-gap-rspca-no-drop-page",
+        "claim-vcastro-2021-results-monitor"
       ],
       "disputes": []
     },
@@ -160,7 +165,8 @@
     "C.distance_duration_distraction": {
       "scientific": [],
       "professional": [
-        "claim-dt-stay-002-variable-duration"
+        "claim-dt-stay-002-variable-duration",
+        "claim-dt-ddd-001-order-charity"
       ],
       "disputes": []
     },
@@ -177,7 +183,9 @@
         "claim-dt-alone-001-gradual",
         "claim-dt-alone-002-no-tell-off",
         "claim-dt-alone-003-four-hours",
-        "claim-dt-sa-001-avoid-alone"
+        "claim-dt-sa-001-avoid-alone",
+        "claim-dt-fireworks-001-signs",
+        "claim-dt-fireworks-002-safe-space"
       ],
       "disputes": []
     },
@@ -203,7 +211,9 @@
       "scientific": [],
       "professional": [
         "claim-bc-stress-001-no-punish-defensive",
-        "claim-dt-reactive-005-stress-recovery-window"
+        "claim-dt-reactive-005-stress-recovery-window",
+        "claim-bc-stress-002-body-language-list",
+        "claim-apbc-001-growl-not-punish"
       ],
       "disputes": []
     },
@@ -232,7 +242,8 @@
       "scientific": [],
       "professional": [
         "claim-dt-name-001-check-in",
-        "claim-dt-name-002-no-repeat-name"
+        "claim-dt-name-002-no-repeat-name",
+        "claim-dt-focus-001-reward-attention"
       ],
       "disputes": []
     },
@@ -254,6 +265,59 @@
         "claim-dt-pupsoc-002-vaccination-before-ground",
         "claim-dt-pupsoc-003-stop-if-worried",
         "claim-dt-pup101-001-individual-pace"
+      ],
+      "disputes": []
+    },
+    "G.jumping_mouthing": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-mouth-001-needs",
+        "claim-dt-mouth-002-redirect",
+        "claim-dt-jump-001-four-paws",
+        "claim-dt-jump-002-no-reward-jump"
+      ],
+      "disputes": []
+    },
+    "G.resource_guarding_chasing": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-steal-001-no-chase-game",
+        "claim-dt-steal-002-ignore-drop"
+      ],
+      "disputes": []
+    },
+    "F.low_cost_enrichment": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-steal-003-enrichment"
+      ],
+      "disputes": []
+    },
+    "I.progression_criteria": {
+      "scientific": [],
+      "professional": [
+        "claim-metric-recall-long-line-gate"
+      ],
+      "disputes": []
+    },
+    "I.metrics_latency_duration": {
+      "scientific": [],
+      "professional": [
+        "claim-metric-loose-lead-steps"
+      ],
+      "disputes": []
+    },
+    "I.baseline_measurable_goals": {
+      "scientific": [],
+      "professional": [
+        "claim-metric-name-2s"
+      ],
+      "disputes": []
+    },
+    "H.pain_illness_ageing": {
+      "scientific": [],
+      "professional": [
+        "claim-bva-001-pain-behaviour"
       ],
       "disputes": []
     }

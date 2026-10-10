@@ -54,3 +54,11 @@ export function loadMergedRegistry() {
 
   return merged;
 }
+
+/** @returns {unknown[]} */
+export function loadAssessmentMetrics() {
+  const path = join(registry, "assessment-metrics.json");
+  if (!existsSync(path)) return [];
+  const raw = loadJson("assessment-metrics.json");
+  return raw.metrics ?? [];
+}

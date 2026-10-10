@@ -1,0 +1,12 @@
+{
+  "batchId": "batch-006",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    {
+      "sourceId": "src-dt-focus-training",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/focus-training",
+      "httpStatus": 200
+    }
+  ],
+  "notes": ["Blue Cross stress reused from batch 002 src-bluecross-stress-dogs."]
+}

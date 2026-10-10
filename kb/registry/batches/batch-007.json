@@ -1,0 +1,56 @@
+{
+  "claims": [
+    {
+      "id": "claim-metric-recall-long-line-gate",
+      "statement": "KindTrail progression requires long-line recall at 5m (tier 1) and 10m (tier 2) before any UI suggests off-lead freedom in public, aligned with Dogs Trust recall management and safe-002.",
+      "topic": "I.progression_criteria",
+      "supportingSourceId": "src-dt-recall-training",
+      "locator": "assessment-metrics.json + claim-dt-recall-004",
+      "excerptOrParaphrase": "Tier gating for recall.",
+      "evidenceType": "kb_synthesis",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "medium",
+      "confidenceJustification": "Metrics documented in assessment-metrics.json with charity claim anchors.",
+      "contradictingClaimIds": [],
+      "limitations": ["Human review review-001 closed batch 007 with provisional tiers."],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-metric-loose-lead-steps",
+      "statement": "KindTrail uses ten consecutive loose-lead steps as tier-1 proof for loose-lead walking, matching stop-start progression in Dogs Trust loose-lead guidance.",
+      "topic": "I.metrics_latency_duration",
+      "supportingSourceId": "src-dt-loose-lead",
+      "locator": "assessment-metrics.json",
+      "excerptOrParaphrase": "10-step slack lead criterion.",
+      "evidenceType": "kb_synthesis",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "medium",
+      "confidenceJustification": "Derived from protocol progressCriteria pattern.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-metric-name-2s",
+      "statement": "KindTrail uses the existing beh-name-orientation criterion (2 second orient to name) as tier-1 name response for recall prerequisites.",
+      "topic": "I.baseline_measurable_goals",
+      "supportingSourceId": "src-dt-name-training-full",
+      "locator": "beh-name-orientation",
+      "excerptOrParaphrase": "2s name orient threshold.",
+      "evidenceType": "kb_synthesis",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Behaviour entity already in KB.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    }
+  ],
+  "relationships": [
+    { "type": "evaluated_by", "from": "claim-metric-recall-long-line-gate", "to": "metric-recall-long-line-5m" },
+    { "type": "evaluated_by", "from": "claim-metric-loose-lead-steps", "to": "metric-loose-lead-10-steps" }
+  ]
+}
