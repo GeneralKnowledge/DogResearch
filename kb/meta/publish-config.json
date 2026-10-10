@@ -1,0 +1,25 @@
+{
+  "productName": "KindTrail",
+  "pilotLessonIds": [
+    "lesson-intro-marker",
+    "lesson-first-sit",
+    "lesson-down-basics",
+    "lesson-name-attention",
+    "lesson-settle-mat",
+    "lesson-leave-it-basics",
+    "lesson-rspca-leave",
+    "lesson-loose-lead",
+    "lesson-puppy-socialisation"
+  ],
+  "excludedLessonIds": [
+    "lesson-recall-basics",
+    "lesson-reactive-management"
+  ],
+  "advisoryLessonIds": [
+    "lesson-puppy-socialisation"
+  ],
+  "excludeProtocolReviewStatus": ["requires_human_review"],
+  "allowProtocolsDespiteReview": [
+    "proto-puppy-socialisation-dt"
+  ]
+}

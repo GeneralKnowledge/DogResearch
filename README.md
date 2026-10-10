@@ -1,14 +1,18 @@
 # Good Dog — canine training knowledge base
 
-Structured research library for **Good Dog**, a UK-focused, owner-first, reward-based dog training app aligned with **IMDT** ethics and **ABTC**-compatible professional standards.
+Structured research library for **KindTrail** / Good Dog: a UK-focused, owner-first, reward-based training product aligned with **IMDT** ethics and **ABTC**-compatible professional standards.
 
-This repo is the **research agent output**: sources, atomic claims, protocols, safety rules, disagreements, and traceable lesson stubs—not scraped website copies.
+This repo holds the **research knowledge base** plus the **KindTrail web app** (`apps/web`).
 
 ## Quick start
 
 ```bash
+npm install
 npm run catalog   # rebuild kb/index/catalog.json and evidence-index.json
 npm run qa        # integrity checks (provenance, IDs, protocol structure)
+npm run export    # publishable.json for the web app
+npm run dev:web   # Next.js owner learning UI (port 3000)
+npm run build:app # CI: qa → catalog → export → test:gate → next build
 ```
 
 ## Layout
@@ -35,4 +39,11 @@ npm run qa        # integrity checks (provenance, IDs, protocol structure)
 
 **Batch 003** — down/settle/name/stay/recall refinements, GOV.UK + CDO 1992, CFSG, Guilherme-Fernandes (2017) review, Blackwell (2021) judgement bias.
 
-Incremental batches live in `kb/registry/batches/` and merge at QA time. Latest report: `reports/batch-003-report.md`.
+Incremental batches live in `kb/registry/batches/` and merge at QA time. Latest report: `reports/batch-004-report.md`.
+
+## KindTrail product
+
+- [`apps/web`](apps/web) — owner lessons, ethics, referrals, trainer CPD pilot
+- [`packages/kb-core`](packages/kb-core) — registry loader + lesson bundles
+- [`packages/content-gate`](packages/content-gate) — pilot allowlist and safety filtering
+- [`docs/product-scope.md`](docs/product-scope.md) — scope decision (owner app first)

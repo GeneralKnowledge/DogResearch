@@ -1,0 +1,1071 @@
+{
+  "generatedAt": "2026-10-10T14:43:36.110Z",
+  "productName": "KindTrail",
+  "previewMode": false,
+  "ethics": {
+    "disclaimer": "KindTrail is an independent UK training guidance product. It is not affiliated with or endorsed by the Institute of Modern Dog Trainers (IMDT Ltd). Content is paraphrased from registered sources in our research knowledge base.",
+    "safetyRules": [
+      {
+        "id": "safe-001-no-aversive-routine",
+        "title": "Do not recommend pain, fear or coercion as routine training",
+        "rule": "Good Dog must not present pain, intimidation, choke chains, shouting, hitting, or aversive equipment as standard training solutions.",
+        "referralText": "Direct owner to reward-based professional (ABTC/IMDT-aligned) if current trainer uses aversives.",
+        "severity": "critical"
+      },
+      {
+        "id": "safe-002-recall-management",
+        "title": "Manage recall failure with lines and secure areas",
+        "rule": "Until recall is reliable, keep the dog on a long line or lead; off-lead only in secure areas or when confidence in recall is established.",
+        "referralText": "If recall does not improve, refer to qualified trainer or behaviourist.",
+        "severity": "critical"
+      },
+      {
+        "id": "safe-003-no-punish-return",
+        "title": "Never punish a dog for coming back late",
+        "rule": "After recall, even if slow, use positive reinforcement; avoid anger, shouting, or ending fun as punishment for late return.",
+        "referralText": null,
+        "severity": "high"
+      },
+      {
+        "id": "safe-004-scope-referral",
+        "title": "Refer beyond training education scope",
+        "rule": "Aggression, severe fear, sudden unexplained behaviour change, or suspected pain/illness require veterinary and/or clinical behaviour referral—not generic app protocols alone.",
+        "referralText": "Contact veterinarian for medical causes; seek ABTC-registered Clinical Animal Behaviourist or Veterinary Behaviourist for clinical behaviour treatment.",
+        "severity": "critical"
+      },
+      {
+        "id": "safe-005-growl-not-punish",
+        "title": "Do not punish warning signals without addressing cause",
+        "rule": "Do not train owners to suppress growling or other warnings without addressing underlying fear, pain, or conflict; prioritise management and professional support.",
+        "referralText": "Qualified behaviourist; veterinary pain assessment.",
+        "severity": "critical"
+      },
+      {
+        "id": "safe-006-child-supervision",
+        "title": "Always supervise children and dogs",
+        "rule": "Never leave a child alone with a dog; teach do-not-disturb contexts and gentle interaction.",
+        "referralText": null,
+        "severity": "critical"
+      },
+      {
+        "id": "safe-007-no-punish-growling",
+        "title": "Do not punish warning signals",
+        "rule": "Do not punish growling or other warnings; remove dog from trigger and seek vet/behaviourist support.",
+        "referralText": "Veterinary assessment and accredited animal behaviourist.",
+        "severity": "critical"
+      },
+      {
+        "id": "safe-008-abtc-aversive-ban",
+        "title": "Do not recommend ABTC-listed aversive tools or methods",
+        "rule": "Good Dog must not recommend equipment or methods on ABTC indicative aversive lists (e.g. shock, choke, prong, alpha roll).",
+        "referralText": null,
+        "severity": "critical"
+      }
+    ],
+    "supportingClaims": [
+      {
+        "id": "claim-imdt-001-force-free",
+        "statement": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may cause physical or mental discomfort.",
+        "sourceId": "src-imdt-code-of-ethics"
+      },
+      {
+        "id": "claim-imdt-002-no-pp-nr",
+        "statement": "IMDT members agree to avoid positive punishment and negative reinforcement as tools for training dogs.",
+        "sourceId": "src-imdt-code-of-ethics"
+      },
+      {
+        "id": "claim-imdt-003-referral",
+        "statement": "IMDT members agree to work within professional limits and refer owners to a suitable professional when needs exceed those limits.",
+        "sourceId": "src-imdt-code-of-ethics"
+      },
+      {
+        "id": "claim-abtc-003-no-aversives",
+        "statement": "ABTC states it does not agree with aversives being used to train animals and publishes an indicative list of aversive equipment and methods that should not be used.",
+        "sourceId": "src-abtc-owners"
+      },
+      {
+        "id": "claim-dt-recall-003-no-punish-late-return",
+        "statement": "If a dog ignores recall during training, Dogs Trust advises staying calm because anger or shouting can reduce willingness to return; use long line guidance or collect the dog instead of punishing.",
+        "sourceId": "src-dt-recall-training"
+      },
+      {
+        "id": "claim-dt-recall-004-offlead-criteria",
+        "statement": "Dogs Trust advises off-lead exercise in open spaces only when the owner is confident the dog will come back when called.",
+        "sourceId": "src-dt-recall-training"
+      },
+      {
+        "id": "claim-rspca-004-avoid-aversive-classes",
+        "statement": "RSPCA advises owners not to join classes if techniques rely on fear, pain, choke chains, shouting or hitting.",
+        "sourceId": "src-rspca-find-trainer"
+      },
+      {
+        "id": "claim-dt-escape-001-unreliable-recall-management",
+        "statement": "If a dog does not always come when called, Dogs Trust advises keeping them on a long line or lead rather than relying on off-lead freedom.",
+        "sourceId": "src-dt-escaping-running-away"
+      },
+      {
+        "id": "claim-rspca-child-001-supervise",
+        "statement": "RSPCA advises never leaving a child alone in the same room as a dog, even the family dog.",
+        "sourceId": "src-rspca-children-dogs"
+      },
+      {
+        "id": "claim-rspca-child-002-do-not-disturb",
+        "statement": "RSPCA advises teaching children not to approach dogs when the dog is eating, sleeping, unwell, injured, tired, or near valued items.",
+        "sourceId": "src-rspca-children-dogs"
+      },
+      {
+        "id": "claim-bc-stress-001-no-punish-defensive",
+        "statement": "Blue Cross advises not punishing dogs showing defensive behaviours such as growling, because punishment may suppress warnings and increase biting risk while adding stress.",
+        "sourceId": "src-bluecross-stress-dogs"
+      },
+      {
+        "id": "claim-bc-child-001-remove-on-stress",
+        "statement": "Blue Cross advises removing the dog from a worrying situation when stress signs appear (e.g. lip lick, growl, moving away) and giving a calming activity such as a chew or stuffed Kong.",
+        "sourceId": "src-bluecross-children-dog-safe"
+      },
+      {
+        "id": "claim-abtc-aversive-001-shock-choke-prong",
+        "statement": "ABTC's June 2024 indicative list includes electric/shock collars, choke chains/collars, and prong/pinch collars as aversive equipment that should not be used in training animals.",
+        "sourceId": "src-abtc-aversives-list-2024"
+      },
+      {
+        "id": "claim-abtc-aversive-002-alpha-roll",
+        "statement": "ABTC's indicative aversive methods list includes 'alpha roll'/pinning, hitting, hard lead jerks, and kneeing the dog as methods that should not be used.",
+        "sourceId": "src-abtc-aversives-list-2024"
+      },
+      {
+        "id": "claim-dt-reactive-003-create-distance-reward",
+        "statement": "Dogs Trust immediate reactivity guidance: increase distance until the dog relaxes, then reward with praise, food or a favourite toy; avoid telling the dog off because this can increase stress.",
+        "sourceId": "src-dt-reactive-dog"
+      }
+    ]
+  },
+  "referrals": {
+    "abtcRegister": {
+      "title": "Find an ABTC-registered trainer",
+      "body": "RSPCA recommends looking for ABTC-registered animal training instructors for ethical training that meets welfare needs.",
+      "url": "https://abtc.org.uk/owners/"
+    },
+    "vetFirst": {
+      "title": "See your vet first",
+      "body": "Dogs Trust advises having a reactive dog examined by a vet to check for underlying medical conditions before behaviour change work, noting pain and illness can reduce tolerance and coping."
+    },
+    "dogsTrustBehaviourLine": {
+      "title": "Dogs Trust Behaviour Support Line",
+      "body": "Free telephone advice for UK dog owners struggling with behaviour.",
+      "url": "https://www.dogstrust.org.uk/dog-advice/understanding-your-dog/finding-behaviour-and-training-support"
+    }
+  },
+  "modules": [
+    {
+      "id": "foundation_skills",
+      "title": "Foundation skills",
+      "lessonIds": [
+        "lesson-intro-marker",
+        "lesson-first-sit",
+        "lesson-down-basics",
+        "lesson-name-attention",
+        "lesson-settle-mat",
+        "lesson-rspca-leave"
+      ]
+    },
+    {
+      "id": "life_skills",
+      "title": "Life skills",
+      "lessonIds": [
+        "lesson-leave-it-basics",
+        "lesson-loose-lead"
+      ]
+    },
+    {
+      "id": "puppy",
+      "title": "Puppy",
+      "lessonIds": [
+        "lesson-puppy-socialisation"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lesson": {
+        "id": "lesson-intro-marker",
+        "title": "Introduce a marker word",
+        "summary": "Teach your dog that a calm 'yes' (or click) always means a reward is coming, before learning new skills.",
+        "derivedFromProtocolId": "proto-marker-charging-dt",
+        "supportingClaimIds": [
+          "claim-dt-marker-001-charge-marker",
+          "claim-dt-pr-003-marker-follow-reward"
+        ],
+        "topic": "B.marker_signals",
+        "goodDogModule": "foundation_skills",
+        "traceabilityStatus": "complete",
+        "publishedToApp": true,
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-marker-charging-dt",
+        "title": "Charge a marker signal (Dogs Trust pattern)",
+        "intendedOutcome": "Dog shows clear anticipation (orientation toward handler/treats) immediately after marker with no behaviour requirement.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Choose one marker (calm verbal word such as 'yes', clicker, whistle, or visual signal for deaf dogs) and use it consistently in tone and form.",
+            "rewardTiming": "Deliver treat immediately after each marker.",
+            "progressCriteria": "Dog orients toward handler or treats within one second of marker on repeated trials.",
+            "easierIfStruggling": "Use higher-value treats; reduce environmental stimulation; increase distance from distractions.",
+            "failureModes": [
+              "Marker word used in daily speech causing confusion",
+              "Excited marker delivery overstimulates dog"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Repeat marker then treat pairing multiple times in a short session until dog visibly anticipates food after the marker alone.",
+            "rewardTiming": "Treat within 1–2 seconds of marker on every repetition during charging phase.",
+            "progressCriteria": "Anticipatory response to marker without requiring body movement cue.",
+            "easierIfStruggling": "Shorten sessions; pause if dog disengages.",
+            "failureModes": [
+              "Pairing marker with accidental cues",
+              "Gaps between marker and treat too long"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Begin teaching new behaviours only after charging criterion met; maintain rule that marker is always followed by reward during learning phase.",
+            "rewardTiming": "Marker marks exact behaviour instant; reward follows immediately.",
+            "progressCriteria": "Stable anticipation across at least two sessions.",
+            "easierIfStruggling": "Re-charge marker in easier environment if anticipation fades.",
+            "failureModes": [
+              "Fading rewards before behaviour learned",
+              "Using marker without following reward"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [],
+        "safetyPrecautions": [
+          "Do not train on full stomach if dog prone to vomiting with excitement—adjust timing"
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim-dt-pr-003-marker-follow-reward",
+          "statement": "A marker signal must always be followed by a reward so the dog can be confident they got the behaviour right.",
+          "confidence": "high",
+          "sourceId": "src-dt-positive-reinforcement"
+        },
+        {
+          "id": "claim-dt-marker-001-charge-marker",
+          "statement": "Before training new behaviours, the dog should learn that the marker predicts a reward via repeated marker-then-treat pairings.",
+          "confidence": "high",
+          "sourceId": "src-dt-introducing-marker"
+        },
+        {
+          "id": "claim-dt-marker-002-calm-marker-word",
+          "statement": "Dogs Trust advises saying a verbal marker as calmly as possible because excited delivery can excite, confuse or distract the dog.",
+          "confidence": "medium",
+          "sourceId": "src-dt-introducing-marker"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-positive-reinforcement",
+          "title": "Positive reinforcement – training with rewards",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/positive-reinforcement-training-with-rewards",
+          "publisher": "Dogs Trust"
+        },
+        {
+          "id": "src-dt-introducing-marker",
+          "title": "How to introduce a marker to your dog training",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/introducing-a-marker",
+          "publisher": "Dogs Trust"
+        }
+      ],
+      "advisory": false
+    },
+    {
+      "lesson": {
+        "id": "lesson-first-sit",
+        "title": "First sit with a lure",
+        "summary": "Use a treat lure, reward the moment your dog sits, then add the word 'sit' at the right time.",
+        "derivedFromProtocolId": "proto-sit-lure-rspca",
+        "supportingClaimIds": [
+          "claim-rspca-005-sit-lure-timing"
+        ],
+        "topic": "D.sit_down_stand",
+        "goodDogModule": "foundation_skills",
+        "traceabilityStatus": "complete",
+        "publishedToApp": true,
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-sit-lure-rspca",
+        "title": "Teach sit with food lure (RSPCA six-step outline)",
+        "intendedOutcome": "Dog sits on verbal cue 'sit' with hindquarters on ground.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "With dog standing, hold treat near nose.",
+            "rewardTiming": "No reward until sit occurs in later steps.",
+            "progressCriteria": "Dog tracks treat with nose.",
+            "easierIfStruggling": "Use smellier treat; shorten sessions.",
+            "failureModes": [
+              "Lure held too high causing jump"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Move hand in arc over head so dog follows treat; as head rises, bottom goes to floor; praise and treat the instant sit happens.",
+            "rewardTiming": "Treat immediately on sit.",
+            "progressCriteria": "Bottom contacts floor following lure arc.",
+            "easierIfStruggling": "Smaller arc; reward partial sits only if shaping intentionally.",
+            "failureModes": [
+              "Backing up instead of sitting—train with wall behind"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Practice in short regular sessions.",
+            "rewardTiming": "Treat each successful sit during acquisition.",
+            "progressCriteria": "Repeated sits with lure.",
+            "easierIfStruggling": "Fewer reps per session.",
+            "failureModes": [
+              "Sessions too long"
+            ]
+          },
+          {
+            "stepNumber": 4,
+            "instruction": "Add verbal cue 'sit' as dog moves into sit, not before movement.",
+            "rewardTiming": "Treat on completed sit after cue timed correctly.",
+            "progressCriteria": "Dog sits when lure used with correctly timed verbal cue.",
+            "easierIfStruggling": "Delay adding verbal cue until lure reliable.",
+            "failureModes": [
+              "Cue spoken before movement"
+            ]
+          },
+          {
+            "stepNumber": 5,
+            "instruction": "Continue short regular practice.",
+            "rewardTiming": "Maintain reinforcement for correct sits.",
+            "progressCriteria": "Sit begins without excessive lure dependence.",
+            "easierIfStruggling": "Fade lure gradually—not specified numerically by RSPCA.",
+            "failureModes": [
+              "Fading lure too fast"
+            ]
+          },
+          {
+            "stepNumber": 6,
+            "instruction": "Use an 'okay' or release cue to mark end of exercise.",
+            "rewardTiming": "Optional release reward per owner choice.",
+            "progressCriteria": "Dog waits until release after sit when trained for duration separately.",
+            "easierIfStruggling": "Keep duration short initially.",
+            "failureModes": [
+              "No clear end to exercise"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [],
+        "safetyPrecautions": []
+      },
+      "claims": [
+        {
+          "id": "claim-rspca-002-short-sessions",
+          "statement": "RSPCA recommends breaking training into short but regular sessions and starting new tricks in a quiet room with minimal distractions.",
+          "confidence": "high",
+          "sourceId": "src-rspca-dog-training"
+        },
+        {
+          "id": "claim-rspca-005-sit-lure-timing",
+          "statement": "RSPCA advises adding the verbal cue 'sit' only as the dog moves into sit, not before, to avoid associating the word with the wrong movement.",
+          "confidence": "high",
+          "sourceId": "src-rspca-sit"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-rspca-dog-training",
+          "title": "Dog training — RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training",
+          "publisher": "RSPCA"
+        },
+        {
+          "id": "src-rspca-sit",
+          "title": "How to train a dog to sit — RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/sit",
+          "publisher": "RSPCA"
+        }
+      ],
+      "advisory": false
+    },
+    {
+      "lesson": {
+        "id": "lesson-down-basics",
+        "title": "Teach down without forcing",
+        "summary": "Lure or shape a down and never push your dog into position.",
+        "derivedFromProtocolId": "proto-down-lure-dt",
+        "supportingClaimIds": [
+          "claim-dt-down-001-no-force"
+        ],
+        "topic": "D.sit_down_stand",
+        "goodDogModule": "foundation_skills",
+        "traceabilityStatus": "complete",
+        "publishedToApp": true,
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-down-lure-dt",
+        "title": "Lie down with lure and shaping (Dogs Trust)",
+        "intendedOutcome": "Dog lies down on verbal 'down' cue.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "From sit, lure hand toward floor in front of paws; mark and reward any down or shaping step toward floor.",
+            "rewardTiming": "Mark at elbows on floor or closest approximation.",
+            "progressCriteria": "Full down with lure.",
+            "easierIfStruggling": "Reward head dip or elbow bend only until full down emerges.",
+            "failureModes": [
+              "Forcing dog into position"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Fade visible lure; add verbal 'down' before gesture once behaviour reliable.",
+            "rewardTiming": "Reward completed down.",
+            "progressCriteria": "Down on verbal cue with minimal gesture.",
+            "easierIfStruggling": "Reintroduce brief lure.",
+            "failureModes": [
+              "Cue before movement"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [],
+        "safetyPrecautions": [
+          "Never push dog into down"
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim-dt-down-001-no-force",
+          "statement": "Dogs Trust instructs owners never to push a dog's back down to force a down; use luring/shaping and reward instead.",
+          "confidence": "high",
+          "sourceId": "src-dt-lie-down"
+        },
+        {
+          "id": "claim-dt-down-002-shaping",
+          "statement": "If a dog does not fully lie down initially, Dogs Trust advises marking and rewarding incremental movements toward the floor (head lower, bend) before requiring a full down.",
+          "confidence": "high",
+          "sourceId": "src-dt-lie-down"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-lie-down",
+          "title": "How to train your dog to lie down",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/lie-down-training",
+          "publisher": "Dogs Trust"
+        }
+      ],
+      "advisory": false
+    },
+    {
+      "lesson": {
+        "id": "lesson-name-attention",
+        "title": "Build name response",
+        "summary": "Reward check-ins, then teach your dog that their name means look at you—without repeating it.",
+        "derivedFromProtocolId": "proto-name-attention-dt",
+        "supportingClaimIds": [
+          "claim-dt-name-001-check-in"
+        ],
+        "topic": "D.name_response_attention",
+        "goodDogModule": "foundation_skills",
+        "traceabilityStatus": "complete",
+        "publishedToApp": true,
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-name-attention-dt",
+        "title": "Name response and attention (Dogs Trust)",
+        "intendedOutcome": "Dog orients to handler promptly when name is spoken once.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Reward every voluntary glance toward handler without saying name yet.",
+            "rewardTiming": "Immediate treat on glance.",
+            "progressCriteria": "Frequent check-ins.",
+            "easierIfStruggling": "Higher value treats.",
+            "failureModes": [
+              "Only rewarding when dog is naughty"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Say name once; when dog looks, throw treat to side; repeat varying direction; generalise locations.",
+            "rewardTiming": "Treat after orientation.",
+            "progressCriteria": "Reliable name response in moderate distraction.",
+            "easierIfStruggling": "Do not repeat name; move slightly to prompt.",
+            "failureModes": [
+              "Repeating name"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [],
+        "safetyPrecautions": []
+      },
+      "claims": [
+        {
+          "id": "claim-dt-name-001-check-in",
+          "statement": "Dogs Trust recommends rewarding every glance the dog gives the handler during early focus training before adding the name cue.",
+          "confidence": "high",
+          "sourceId": "src-dt-name-training-full"
+        },
+        {
+          "id": "claim-dt-name-002-no-repeat-name",
+          "statement": "Dogs Trust advises not repeating the dog's name rapidly if they fail to respond, to avoid teaching the dog to ignore it.",
+          "confidence": "high",
+          "sourceId": "src-dt-name-training-full"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-name-training-full",
+          "title": "How to teach your dog their name (full extraction)",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/name-training",
+          "publisher": "Dogs Trust"
+        }
+      ],
+      "advisory": false
+    },
+    {
+      "lesson": {
+        "id": "lesson-settle-mat",
+        "title": "Settle on a mat",
+        "summary": "Help your dog choose calm on a blanket, with more relaxation rewarded over time.",
+        "derivedFromProtocolId": "proto-settle-mat-dt",
+        "supportingClaimIds": [
+          "claim-dt-settle-002-reward-relaxed"
+        ],
+        "topic": "D.wait_stay_settle",
+        "goodDogModule": "foundation_skills",
+        "publishedToApp": true,
+        "traceabilityStatus": "complete",
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-settle-mat-dt",
+        "title": "Settle on mat (Dogs Trust relaxation training)",
+        "intendedOutcome": "Dog voluntarily relaxes on blanket/mat with increasing duration and distractions.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Sit quietly; drop treats on mat for any behaviour that is not staring, pulling, or barking; gradually reinforce lie down and relaxation signs.",
+            "rewardTiming": "Quiet delivery of treats onto mat.",
+            "progressCriteria": "Dog chooses mat and shows relaxed posture.",
+            "easierIfStruggling": "Reward standing quietly or sniffing blanket first.",
+            "failureModes": [
+              "Talking or commanding repeatedly during settle"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Increase duration between treats; add distractions at distance; if dog gets up, wait for re-settle before rewarding.",
+            "rewardTiming": "After sustained calm.",
+            "progressCriteria": "Settle with mild distractions indoors/outdoors.",
+            "easierIfStruggling": "Increase distance from distraction.",
+            "failureModes": [
+              "Rewarding immediately after breaking settle"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [],
+        "safetyPrecautions": []
+      },
+      "claims": [
+        {
+          "id": "claim-dt-settle-001-self-directed",
+          "statement": "Dogs Trust settle training aims for the dog to choose calm, relaxed behaviour without the owner repeatedly instructing them during the exercise.",
+          "confidence": "high",
+          "sourceId": "src-dt-settle-training"
+        },
+        {
+          "id": "claim-dt-settle-002-reward-relaxed",
+          "statement": "Dogs Trust advises progressively rewarding more relaxed behaviours (lying down, sighing, weight shift, head rest) during settle training on a blanket or mat.",
+          "confidence": "high",
+          "sourceId": "src-dt-settle-training"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-settle-training",
+          "title": "How to train your dog to be calm, relax and settle",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/settle-training",
+          "publisher": "Dogs Trust"
+        }
+      ],
+      "advisory": false
+    },
+    {
+      "lesson": {
+        "id": "lesson-leave-it-basics",
+        "title": "Leave it — foundations",
+        "summary": "Teach your dog to look away from tempting items and wait for a better reward.",
+        "derivedFromProtocolId": "proto-leave-it-dt",
+        "supportingClaimIds": [
+          "claim-dt-leave-002-look-away"
+        ],
+        "topic": "D.leave_it_drop",
+        "goodDogModule": "life_skills",
+        "traceabilityStatus": "complete",
+        "publishedToApp": true,
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-leave-it-dt",
+        "title": "Leave it — look away progression (Dogs Trust)",
+        "intendedOutcome": "Dog orientates away from presented item on 'leave' cue without taking it.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Hold low-value item in one hand; when dog sniffs then looks or moves away, mark and reward from other hand with better treat.",
+            "rewardTiming": "Mark at look-away; treat immediately.",
+            "progressCriteria": "Reliable look-away before cue added.",
+            "easierIfStruggling": "Use more boring decoy item; higher-value reward.",
+            "failureModes": [
+              "Dog grabs item—prevent access, reset"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Add verbal cue 'leave' as item presented; mark and reward look-away.",
+            "rewardTiming": "On successful leave response.",
+            "progressCriteria": "Dog looks away on cue before item reachable.",
+            "easierIfStruggling": "Increase distance to item.",
+            "failureModes": [
+              "Repeating cue without success"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Generalise: new locations, item on floor, dropped from low height, gradually higher-value forbidden items.",
+            "rewardTiming": "Maintain high-value reward for difficult leaves.",
+            "progressCriteria": "Success in moderate distraction environments.",
+            "easierIfStruggling": "Return to earlier step per Dogs Trust guidance.",
+            "failureModes": [
+              "Progressing value or distraction too fast"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Persistent failure to leave—training classes or behaviourist"
+        ],
+        "safetyPrecautions": [
+          "Use fair trade instead of force-taking items from mouth"
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim-dt-leave-001-fair-trade",
+          "statement": "Dogs Trust recommends swapping items a dog should not have for something better ('fair trade') so the dog willingly releases items rather than guarding them.",
+          "confidence": "high",
+          "sourceId": "src-dt-leave-training"
+        },
+        {
+          "id": "claim-dt-leave-002-look-away",
+          "statement": "To teach 'leave it', Dogs Trust advises waiting for the dog to look or move away from a low-value item, then marking and rewarding with a higher-value treat from the other hand.",
+          "confidence": "high",
+          "sourceId": "src-dt-leave-training"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-leave-training",
+          "title": "How to train your dog to leave it",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/leave-training",
+          "publisher": "Dogs Trust"
+        }
+      ],
+      "advisory": false
+    },
+    {
+      "lesson": {
+        "id": "lesson-rspca-leave",
+        "title": "Teach leave (RSPCA method)",
+        "summary": "Reward your dog for backing away from something so leaving it feels safe and worthwhile.",
+        "derivedFromProtocolId": "proto-leave-rspca-fist",
+        "supportingClaimIds": [
+          "claim-rspca-leave-001-back-off-rewarded"
+        ],
+        "topic": "D.leave_it_drop",
+        "goodDogModule": "foundation_skills",
+        "traceabilityStatus": "complete",
+        "publishedToApp": true,
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-leave-rspca-fist",
+        "title": "Leave — fist closed progression (RSPCA)",
+        "intendedOutcome": "Dog disengages from presented item on gentle 'leave' cue.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Place treat in closed fist; say 'take it' in friendly voice and let dog sniff/lick closed hand without opening.",
+            "rewardTiming": "No reward until dog backs off.",
+            "progressCriteria": "Dog learns closed fist does not release on mouthing.",
+            "easierIfStruggling": "Use lower-value treat in fist; higher-value reward when opening hand.",
+            "failureModes": [
+              "Opening fist while dog is mouthing"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "When dog backs off even slightly, open fist, release treat and praise generously.",
+            "rewardTiming": "Treat the moment of disengagement.",
+            "progressCriteria": "Consistent back-off before treat release.",
+            "easierIfStruggling": "Wait for larger gap if needed.",
+            "failureModes": [
+              "Rewarding while nose still on fist"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Add gentle 'leave' as dog backs off, then release treat; progress to treat visible in open palm and reward from other hand when dog leaves it.",
+            "rewardTiming": "Treat from other hand after successful leave.",
+            "progressCriteria": "Leaves visible palm item on cue.",
+            "easierIfStruggling": "Close hand if dog moves toward palm treat.",
+            "failureModes": [
+              "Harsh tone on cue"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [
+          "Persistent failure—ABTC-registered trainer"
+        ],
+        "safetyPrecautions": [
+          "Pair with fair-trade if item already in mouth (see Dogs Trust leave guidance)"
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim-rspca-leave-001-back-off-rewarded",
+          "statement": "RSPCA teaches 'leave' by waiting for the dog to back off from a treat in a closed fist, then opening the hand to release the treat and praise—building that disengaging is rewarded.",
+          "confidence": "high",
+          "sourceId": "src-rspca-leave-training"
+        },
+        {
+          "id": "claim-rspca-leave-002-gentle-cue-tone",
+          "statement": "RSPCA instructs adding the cue word 'leave' in a gentle tone as the dog backs off, before releasing the treat.",
+          "confidence": "high",
+          "sourceId": "src-rspca-leave-training"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-rspca-leave-training",
+          "title": "How to train your dog to leave something alone — RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/leave",
+          "publisher": "RSPCA"
+        }
+      ],
+      "advisory": false
+    },
+    {
+      "lesson": {
+        "id": "lesson-loose-lead",
+        "title": "Stop when the lead tightens",
+        "summary": "Help your dog learn that a loose lead keeps the walk moving.",
+        "derivedFromProtocolId": "proto-loose-lead-dt",
+        "supportingClaimIds": [
+          "claim-dt-ll-001-stop-when-tight"
+        ],
+        "topic": "D.loose_lead_greetings",
+        "goodDogModule": "life_skills",
+        "traceabilityStatus": "complete",
+        "publishedToApp": true,
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-loose-lead-dt",
+        "title": "Loose-lead walking — stop-start method (Dogs Trust)",
+        "intendedOutcome": "Dog walks with slack lead; forward motion contingent on loose lead.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Reward dog for standing/sitting at handler side without lead; add lead when reliable.",
+            "rewardTiming": "Reward at handler side.",
+            "progressCriteria": "Dog chooses proximity without pulling.",
+            "easierIfStruggling": "Higher-value rewards; quieter location.",
+            "failureModes": [
+              "Starting outdoors with high distractions"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "When lead tightens, stop immediately; remain quiet until slack, then move forward.",
+            "rewardTiming": "Forward motion is reinforcer; optional treats at side.",
+            "progressCriteria": "Dog orients back and loosens lead to restart walk.",
+            "easierIfStruggling": "Walk opposite direction briefly to regain focus.",
+            "failureModes": [
+              "Jerking lead",
+              "Verbal reprimands",
+              "Single step forward while pulling"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "Maintain consistency each walk; expect longer walks during learning phase.",
+            "rewardTiming": "Intermittent treats as skill stabilises.",
+            "progressCriteria": "Slack lead maintained with moderate distractions.",
+            "easierIfStruggling": "Reduce distractions; shorten sessions.",
+            "failureModes": [
+              "Inconsistent stop-start under time pressure"
+            ]
+          }
+        ],
+        "reviewStatus": "auto_accepted_low_risk",
+        "referralRequirements": [],
+        "safetyPrecautions": [
+          "Do not use pain-based anti-pull devices per Dogs Trust and ABTC lists"
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim-dt-ll-001-stop-when-tight",
+          "statement": "Dogs Trust teaches that when the lead tightens, the handler stops walking and does not move forward until the lead is slack again.",
+          "confidence": "high",
+          "sourceId": "src-dt-loose-lead"
+        },
+        {
+          "id": "claim-dt-ll-002-no-aversive-kit",
+          "statement": "Dogs Trust states that equipment promising to 'cure' pulling by causing pain or discomfort in sensitive areas is unnecessary and can be unpleasant and confusing for dogs; flat collar or comfortable harness is preferred.",
+          "confidence": "high",
+          "sourceId": "src-dt-loose-lead"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-loose-lead",
+          "title": "Teach your dog to walk nicely on a lead",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/walking-nicely-training",
+          "publisher": "Dogs Trust"
+        }
+      ],
+      "advisory": false
+    },
+    {
+      "lesson": {
+        "id": "lesson-puppy-socialisation",
+        "title": "Socialise your puppy safely",
+        "summary": "Go at your puppy's pace, keep experiences positive, and follow your vet's guidance before walks on the ground.",
+        "derivedFromProtocolId": "proto-puppy-socialisation-dt",
+        "supportingClaimIds": [
+          "claim-dt-pupsoc-003-stop-if-worried"
+        ],
+        "topic": "E.socialisation_exposure",
+        "goodDogModule": "puppy",
+        "traceabilityStatus": "complete",
+        "publishedToApp": true,
+        "lastReviewed": "2026-10-10"
+      },
+      "protocol": {
+        "id": "proto-puppy-socialisation-dt",
+        "title": "Puppy socialisation — positive exposure checklist (Dogs Trust)",
+        "intendedOutcome": "Puppy forms positive associations with everyday people, animals, sounds, surfaces and objects during the early socialisation window.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Begin at home with gentle handling, household sounds (e.g. vacuum off then on at distance), varied surfaces and props (hats, umbrellas) at puppy's pace with rewards for relaxed behaviour.",
+            "rewardTiming": "Treat/play while puppy remains relaxed.",
+            "progressCriteria": "Puppy accepts novel home stimuli without fleeing.",
+            "easierIfStruggling": "Increase distance; reduce duration; split stimuli.",
+            "failureModes": [
+              "Flooding or forcing contact"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Before full vaccination, carry puppy to observe people, traffic and dogs from safe distance; reward calm observation.",
+            "rewardTiming": "Reward calm body language only.",
+            "progressCriteria": "Calm observation at sub-threshold distances.",
+            "easierIfStruggling": "Shorter outings; quieter locations.",
+            "failureModes": [
+              "Ground contact before vet approval"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "After vaccination clearance, introduce walks, varied dogs/animals at distance, visitors and sound desensitisation; stop immediately if puppy becomes worried or over-aroused.",
+            "rewardTiming": "High-value rewards for calm choices.",
+            "progressCriteria": "Growing confidence across checklist categories without shutdown.",
+            "easierIfStruggling": "Return to earlier step; consult vet/trainer.",
+            "failureModes": [
+              "Quantity-over-quality socialisation"
+            ]
+          }
+        ],
+        "reviewStatus": "requires_human_review",
+        "referralRequirements": [
+          "Puppy class with reward-based ABTC instructor optional"
+        ],
+        "safetyPrecautions": [
+          "Follow vet vaccination and parasite advice"
+        ]
+      },
+      "claims": [
+        {
+          "id": "claim-dt-pupsoc-001-critical-window",
+          "statement": "Dogs Trust states the first four months are a vital socialisation window when puppies learn what is normal, requiring gradual positive introductions to people, dogs, noises, objects and experiences.",
+          "confidence": "high",
+          "sourceId": "src-dt-puppy-socialisation"
+        },
+        {
+          "id": "claim-dt-pupsoc-002-vaccination-before-ground",
+          "statement": "Dogs Trust advises puppies should not walk on public ground before full vaccination, but can be carried (carrier/sling) to begin socialisation experiences until the vet confirms it is safe to go on the ground.",
+          "confidence": "high",
+          "sourceId": "src-dt-puppy-socialisation"
+        },
+        {
+          "id": "claim-dt-pupsoc-003-stop-if-worried",
+          "statement": "Dogs Trust instructs stopping socialisation interactions immediately if the puppy shows high arousal or signs of becoming worried or frightened, because negative or overwhelming early experiences increase later behaviour problems.",
+          "confidence": "high",
+          "sourceId": "src-dt-puppy-socialisation"
+        },
+        {
+          "id": "claim-dt-pup101-001-individual-pace",
+          "statement": "Dogs Trust Puppy 101 hub advises going at the individual puppy's pace and using rewards they like for kind, positive learning rather than a one-size-fits-all checklist.",
+          "confidence": "high",
+          "sourceId": "src-dt-puppy-training-101"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-puppy-socialisation",
+          "title": "Introducing your puppy to the world around them",
+          "url": "https://www.dogstrust.org.uk/dog-advice/puppy/puppy-socialisation-introduction",
+          "publisher": "Dogs Trust"
+        },
+        {
+          "id": "src-dt-puppy-training-101",
+          "title": "Puppy 101 — training basics hub",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/puppy-training",
+          "publisher": "Dogs Trust"
+        }
+      ],
+      "advisory": true
+    }
+  ],
+  "ownerQuestions": [
+    {
+      "id": "oq-recall",
+      "label": "Recall and off-lead safety",
+      "questions": [
+        {
+          "id": "oq-recall-001",
+          "text": "Why won't my dog come when called?",
+          "subthemes": [
+            "hasn't learned name or recall",
+            "scared by stimuli",
+            "worried about being told off or put back on lead",
+            "over-excited or frustrated",
+            "chasing wildlife",
+            "boredom and exploration"
+          ],
+          "sourceLocator": "src-dt-escaping-running-away"
+        },
+        {
+          "id": "oq-recall-002",
+          "text": "Can my dog ever go off-lead in public?",
+          "subthemes": [
+            "some dogs cannot reliably off-lead",
+            "emergency recall still worth practising"
+          ],
+          "sourceLocator": "src-dt-escaping-running-away"
+        }
+      ]
+    },
+    {
+      "id": "oq-training-basics",
+      "label": "Getting started with training",
+      "questions": [
+        {
+          "id": "oq-train-001",
+          "text": "What reward should I use if my dog isn't food motivated outdoors?",
+          "subthemes": [
+            "higher value treats",
+            "toys",
+            "environmental rewards"
+          ],
+          "sourceLocator": "src-dt-positive-reinforcement"
+        },
+        {
+          "id": "oq-train-002",
+          "text": "How do I find a safe trainer or class in the UK?",
+          "subthemes": [
+            "ABTC register",
+            "avoid aversive methods"
+          ],
+          "sourceLocator": "src-rspca-find-trainer"
+        }
+      ]
+    },
+    {
+      "id": "oq-reactivity",
+      "label": "Lead reactivity and barking on walks",
+      "questions": [
+        {
+          "id": "oq-react-001",
+          "text": "Why does my dog bark and lunge at other dogs on lead?",
+          "subthemes": [
+            "fear or frustration",
+            "pain or illness",
+            "learned habit",
+            "lead tension"
+          ],
+          "sourceLocator": "src-dt-reactive-dog"
+        },
+        {
+          "id": "oq-react-002",
+          "text": "What can I do in the moment when my dog reacts?",
+          "subthemes": [
+            "create distance",
+            "reward calm",
+            "avoid telling off",
+            "keep lead relaxed"
+          ],
+          "sourceLocator": "src-dt-reactive-dog"
+        }
+      ]
+    },
+    {
+      "id": "oq-puppy-socialisation",
+      "label": "Puppy socialisation",
+      "questions": [
+        {
+          "id": "oq-pup-001",
+          "text": "How do I socialise my puppy before vaccinations are complete?",
+          "subthemes": [
+            "carry in sling/carrier",
+            "vet timing",
+            "positive exposures at home"
+          ],
+          "sourceLocator": "src-dt-puppy-socialisation"
+        },
+        {
+          "id": "oq-pup-002",
+          "text": "What if my puppy seems scared during socialisation?",
+          "subthemes": [
+            "stop interaction",
+            "reduce intensity",
+            "seek professional help if persistent"
+          ],
+          "sourceLocator": "src-dt-puppy-socialisation"
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}

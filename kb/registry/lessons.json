@@ -9,7 +9,7 @@
       "topic": "B.marker_signals",
       "goodDogModule": "foundation_skills",
       "traceabilityStatus": "complete",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10"
     },
     {
@@ -22,7 +22,8 @@
       "goodDogModule": "life_skills",
       "traceabilityStatus": "pending_human_review",
       "publishedToApp": false,
-      "lastReviewed": "2026-10-10"
+      "lastReviewed": "2026-10-10",
+      "notes": "Excluded from pilot until recall protocol human review (review-001)."
     },
     {
       "id": "lesson-first-sit",
@@ -33,7 +34,7 @@
       "topic": "D.sit_down_stand",
       "goodDogModule": "foundation_skills",
       "traceabilityStatus": "complete",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10"
     }
   ]

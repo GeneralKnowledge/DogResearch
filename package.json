@@ -1,12 +1,20 @@
 {
   "name": "good-dog-knowledge-base",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Research knowledge base for Good Dog (UK, reward-based, IMDT-aligned)",
+  "description": "Research knowledge base and KindTrail owner training product (UK, reward-based)",
   "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
     "qa": "node scripts/qa-check.mjs",
     "catalog": "node scripts/build-catalog.mjs",
-    "url-check": "node scripts/url-live-check.mjs"
+    "url-check": "node scripts/url-live-check.mjs",
+    "export": "node scripts/export-publishable.mjs",
+    "test:gate": "node packages/content-gate/test.mjs",
+    "dev:web": "npm run export && npm run dev -w @gooddog/web",
+    "build:app": "npm run qa && npm run catalog && npm run export && npm run test:gate && npm run build -w @gooddog/web"
   }
 }

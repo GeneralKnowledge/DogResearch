@@ -1,0 +1,13 @@
+{
+  "name": "@gooddog/content-gate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "dependencies": {
+    "@gooddog/kb-core": "0.1.0"
+  }
+}

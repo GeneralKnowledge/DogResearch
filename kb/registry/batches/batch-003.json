@@ -746,7 +746,7 @@
       "topic": "D.name_response_attention",
       "goodDogModule": "foundation_skills",
       "traceabilityStatus": "complete",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10"
     },
     {
@@ -758,7 +758,7 @@
       "topic": "D.sit_down_stand",
       "goodDogModule": "foundation_skills",
       "traceabilityStatus": "complete",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10"
     },
     {
@@ -769,7 +769,7 @@
       "supportingClaimIds": ["claim-dt-settle-002-reward-relaxed"],
       "topic": "D.wait_stay_settle",
       "goodDogModule": "foundation_skills",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "traceabilityStatus": "complete",
       "lastReviewed": "2026-10-10"
     }

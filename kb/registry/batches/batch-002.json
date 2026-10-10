@@ -792,7 +792,7 @@
       "topic": "D.leave_it_drop",
       "goodDogModule": "life_skills",
       "traceabilityStatus": "complete",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10"
     },
     {
@@ -804,7 +804,7 @@
       "topic": "D.loose_lead_greetings",
       "goodDogModule": "life_skills",
       "traceabilityStatus": "complete",
-      "publishedToApp": false,
+      "publishedToApp": true,
       "lastReviewed": "2026-10-10"
     }
   ],
