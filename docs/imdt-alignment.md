@@ -8,7 +8,7 @@ A short, ordered path for owners (10 stages in 3 parts) whose structure follows 
 
 KindTrail is independent and not affiliated with IMDT. The export carries that disclaimer, and owner-facing stage titles do not name IMDT.
 
-The teaching order — prerequisites, gates, and situation branches — is planned in [`learning-curriculum.md`](learning-curriculum.md). This file stays the coverage checklist.
+The ten-week timetable is [`kb/meta/uk-lite-course.json`](../kb/meta/uk-lite-course.json), written up in [`learning-curriculum.md`](learning-curriculum.md). This file stays the coverage checklist. The timetable is an owner course taught across weeks. It is not the IMDT courses and not a qualification.
 
 ## How the parts map
 
@@ -51,6 +51,7 @@ Operant conditioning (16) and classical conditioning (16) carry most marks. `les
 - IMDT sources are `paraphrase_ok_pending_legal`, so they cannot feed owner lessons or guides. `review-017` tracks legal confirmation before any public claim that the path "follows" IMDT.
 - `lesson-muzzle-training` is `requires_human_review` and not exported (`review-016`).
 - QA fails if a pilot lesson is missing from every stage, or a stage references an unknown lesson or claim.
+- QA also fails if the UK Lite timetable cites an unknown lesson, schedules a research-only, held, or gap exercise, or leaves a pilot lesson out of every week, branch, and not-in-course entry.
 
 ## Suggested next steps
 

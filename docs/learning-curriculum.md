@@ -1,278 +1,159 @@
-# Owner learning curriculum (plan)
+# Foundation course (UK Lite)
 
-A teaching sequence for UK dog owners, built from the research already in this repo. It is owner education. It is not a professional qualification, and it is not an IMDT course.
+Ten weeks with an owner and their own dog. Source of truth: [`kb/meta/uk-lite-course.json`](../kb/meta/uk-lite-course.json).
 
-The public outline stays the 10-stage crash course in [`kb/meta/crash-course.json`](../kb/meta/crash-course.json) (see [`imdt-alignment.md`](imdt-alignment.md)). That file is a **coverage checklist**: which researched lessons sit under which IMDT-analogue heading. This plan is the **teaching order**: what to do first, what must be solid before the next skill, and what must stay out of the owner path.
+The public title is **Foundation course**. UK Lite is the internal name. The course is independent guidance. It is not affiliated with or endorsed by IMDT Ltd, and it is not a professional qualification. Lesson wording comes from the UK welfare-charity lessons already in this repo. IMDT sources stay `paraphrase_ok_pending_legal` and do not feed owner text (`review-017`).
 
-Lesson wording continues to come from UK welfare-charity sources. IMDT sources stay `paraphrase_ok_pending_legal` and do not feed owner text (`review-017`).
+The week themes follow the public shape of IMDT's shorter UK pathway: theory first (the 2-day headings), then the practical exercises this registry can teach, then limits. [`kb/meta/crash-course.json`](../kb/meta/crash-course.json) stays the coverage checklist. This file is the timetable.
 
-## How to read the two orders
+## How a week works
 
-| | Crash course | This curriculum |
-|--|--------------|-----------------|
-| Job | Show coverage against the public IMDT pathway | Order practice so each step has its researched prerequisite |
-| Shape | 3 parts, 10 stages | Core path of 8 units, plus situation branches |
-| Plan and measure | Stage 10, with consultation and ethics | Introduced in unit 0, revisited as the capstone |
-| Read your dog | Stage 2, inside "understand" | Required again before any outdoor or behaviour-support work |
-| Kind methods and the law | Stage 9 | Collar, ID and harness fit in unit 0, so gear choices happen before skills |
+- One theme. Dog work stays short and ends on a success. Blue Cross suggests about 2 to 5 minutes; one RSPCA branch page suggests about 5 to 15 (`disc-007`). The course does not pick one of those numbers.
+- The week is complete after at least five practice days and the check below. A missed check repeats the week at an easier version of the same skill.
+- Later weeks keep a few repetitions of earlier skills.
+- There is no rep-count target. Checks use the observable criteria below and, where listed, the metrics in [`kb/registry/assessment-metrics.json`](../kb/registry/assessment-metrics.json).
 
-Where the two orders differ, the crash course still lists the lesson. Only the moment it is taught moves.
+## Part 1 — Understand
 
-## Rules the sequence has to obey
+Owner version of the 2-day theory course.
 
-These come from safety rules, protocol prerequisites, the Good Dog crosswalk, and recorded disagreements. They are not style preferences.
+### Week 1 — How dogs learn
 
-1. **Reward-based only.** Do not teach pain, fear, intimidation, or aversive equipment as a method (`safe-001`). Scientific nuance about punishment in other populations stays in the evidence layer (`disc-001`), not in owner steps.
-2. **Name before a recall cue.** Dogs Trust: reliable name response before a formal recall word (`claim-dt-recall-001`, `proto-recall-three-step-dt` prerequisites).
-3. **Marker before hand touch and spin.** Crosswalk prerequisites are `ex-reward-marker`.
-4. **Sit before down and before stay.** Crosswalk: `ex-down-comfort` and `ex-wait-brief` require `ex-sit-comfort`. Add the word "sit" as the dog sits, not before the movement (`claim-rspca-005-sit-lure-timing`).
-5. **Leave-it before the RSPCA leave and before drop-it.** Both require `ex-leave-it-easy`.
-6. **Recall foundation before emergency recall.** Crosswalk prerequisite `ex-recall-foundation`. Promote emergency recall in app copy only after the tier-2 long-line metric (`review-008`).
-7. **Off-lead stays locked.** Long line or secure area until recall is reliable (`safe-002`). Never punish a late return (`safe-003`). The tier-99 metric must not auto-unlock public off-lead freedom.
-8. **Stay: duration before distance.** Dogs Trust stay and target pages build duration first. A synthesised "distance first" order disagrees with that (`disc-006`, `review-013`). Teach the charity order.
-9. **No universal rep count.** Marker-protocol notes say sources do not give a universal number of repetitions. Progress is the observable criterion on the protocol, not a rep target.
-10. **Session length is a recorded disagreement.** Blue Cross suggests about 2–5 minutes; one RSPCA branch page suggests about 5–15 (`disc-007`). Teach "short, end on a success, several times a week." Do not collapse the two ranges into one number.
-11. **Clinical problems are referrals, not lessons.** Aggression, severe fear, sudden change, and suspected pain go to a vet and a clinical behaviour professional (`safe-004`). Do not punish growling (`safe-005`, `safe-007`). Clinical separation anxiety is referral-only; the alone-time lesson is prevention (`review-006`).
-12. **Held and research-only items are not units.** Muzzle training stays behind human review (`review-016`). Loose-lead export stays `hold_until_method_review` for `ex-lead-loose`. Chin rest, emergency stop, middle, and send-around are not owner lessons.
+Lessons: `lesson-equipment-and-law`, `lesson-how-dogs-learn`, `lesson-intro-marker`.
 
-## Core path
+Practice: pair the marker with a reward on several days. Fit the collar, ID tag, and harness, and check the microchip record.
 
-Every dog. Situation branches slot in where noted; they do not replace these units.
+Check: the dog looks for a reward when it hears the marker, across two sessions, and the collar, ID tag, and harness fit are done.
 
-### Unit 0 — Set up the practice
+If the check fails: keep pairing the marker with a reward. Do not add a new skill this week.
 
-Crash-course stages touched: 1 (how dogs learn), 9 (equipment and law), 10 (plan and measure).
+Shock-collar status stays the cautious wording already in the equipment lesson (`review-020`).
 
-| Order | Lesson | Kind | Done when |
-|------:|--------|------|-----------|
-| 0.1 | `lesson-equipment-and-law` | Education | Collar and ID tag are on, microchip details checked, harness passes a one-finger and slip-out check, walks use a flat collar or well-fitted harness and food rewards |
-| 0.2 | `lesson-plan-and-measure` | Education | Owner can run several short sessions in a week and has one written goal |
-| 0.3 | `lesson-how-dogs-learn` | Education | Owner can name one high-value reward and one everyday reward, and can point to one behaviour they have been accidentally rewarding |
-| 0.4 | `lesson-intro-marker` | Skill | Dog looks for the reward when it hears the marker, stable across two sessions |
+### Week 2 — Read your dog
 
-Teach 0.3 and 0.4 as one block: the marker is the practical half of "how dogs learn." Formal words (operant, classical, habituation, counter-conditioning) stay in the evidence layer; stage 1 of the crash course is still only partial coverage for that reason.
+Lessons: `lesson-name-attention`, `lesson-read-your-dog-stress`.
 
-**Do not teach here:** shock-collar law as settled England law. The 2023 England regulations were an unmade draft; Wales has banned them since 2010; a May 2026 Defra answer says a consultation is still to come (`review-020`). Head collars, long-line choice, and retractable leads are claims or gaps, not this lesson.
+Practice: the name game in a quiet room. On one boring outing, watch for stress signs and do not add a training ask.
 
-**Known hole:** "What reward if my dog is not food-motivated outdoors?" (`oq-train-001`) has no lesson. Until one exists, unit 4 should say to raise reward value or use play, and not pretend there is a protocol.
+Check: the dog orients within 2 seconds of its name, said once, at conversational volume, in low distraction (`metric-name-latency-2s`). The owner can name stress signs and give space when they appear.
 
-### Unit 1 — Attention and reading the dog
+If the check fails: shorten the name game and drop distractions. Week 6 stays closed until this check is met.
 
-Crash-course stages: 1–2, and the name half of stage 5.
+### Week 3 — Plan the work
 
-| Order | Lesson | Done when |
-|------:|--------|-----------|
-| 1.1 | `lesson-name-attention` | Dog orients within 2 seconds of the name, said once, at conversational volume, in low distraction (`metric-name-latency-2s`) |
-| 1.2 | `lesson-read-your-dog-stress` | Owner can name subtle and obvious stress signs and give space when they appear |
+Lesson: `lesson-plan-and-measure`.
 
-The name metric is the **recall gate**. Do not add a recall cue in unit 4 until 1.1 is met in a quiet place.
+This is the owner version of class planning and a consultation: one written goal, a diary, and the same cue for the whole household.
 
-Reading stress is short on purpose: stress signs in context only. Dog-to-dog communication, play versus conflict, and video practice are recorded gaps. Re-open this lesson before unit 4 (outdoors) and before any behaviour-support branch.
+Practice: log several short sessions against that goal. Keep a few marker and name repetitions in each one.
 
-### Unit 2 — Positions at easy criteria
+Check: the goal is written down and several short sessions are logged against it.
 
-Crash-course stage 4, plus the mat exercise that only partly covers "mat target."
+If the check fails: shrink the goal to a single skill in a quiet room and log that.
 
-Teach indoors or in a quiet garden. One criterion at a time. If the dog stalls, lower the ask; do not add a new skill to fix a stuck one.
+## Part 2 — Practise
 
-| Order | Lesson | Prerequisite | Done when |
-|------:|--------|--------------|-----------|
-| 2.1 | `lesson-first-sit` | Marker helps; not a hard prerequisite | Dog sits as the lure is used, cue timed with the sit, lure starting to fade |
-| 2.2 | `lesson-down-basics` | Sit (`ex-sit-comfort`) | Full down with a lure, no force |
-| 2.3 | `lesson-hand-touch` | Marker | Nose touches the hand on cue, then a hold of about five seconds, then the same touch with one mild distraction |
-| 2.4 | `lesson-settle-mat` | Dog will take food calmly | Dog settles on the mat. This is a settle, not a formal mat-target send |
-| 2.5 | `lesson-stay-basics` | Sit | Short duration while the handler is still close. Add duration before distance (`disc-006`) |
+Only exercises the registry can teach. Stay builds duration before distance (`disc-006`).
 
-`lesson-spin-trick` can sit beside 2.3 once the marker is reliable. It is a teaching game (lure a circle), not a life skill, and it is not required to unlock later units.
+### Week 4 — Positions
 
-### Unit 3 — Swap the unwanted behaviour
+Lessons: `lesson-first-sit`, then `lesson-down-basics` and `lesson-stay-basics`, plus `lesson-hand-touch`. `lesson-spin-trick` is optional and does not gate the week.
 
-Crash-course stage 6.
+Practice: one position at a time, indoors or in a quiet garden. Add the word "sit" as the dog sits. For the stay, add time while you are still close.
 
-| Order | Lesson | Prerequisite | Done when |
-|------:|--------|--------------|-----------|
-| 3.1 | `lesson-leave-it-basics` | — | Dog backs off a closed fist before the treat is released |
-| 3.2 | `lesson-rspca-leave` | 3.1 | Dog leaves an item on an open palm on the cue |
-| 3.3 | `lesson-drop-it-swap` | 3.1 | Dog lets go of a toy for a fair trade on the cue |
-| 3.4 | `lesson-jumping-up` | A down or sit the dog can offer | Greetings with four paws on the floor for regular visitors |
-| 3.5 | `lesson-steal-chase` | 3.3 helps | Dog drops without a chase starting; stealing is managed, not confronted |
+Check: the dog sits on cue with the lure starting to fade, and holds a short stay close to the handler.
 
-3.4 and 3.5 are everyday problems, so an owner can start them as soon as the prerequisite exists, even if unit 2 is still in progress. Do not teach taking items away by force. Resource-guarding confrontations stay out (`safe-007`).
+If the check fails: return to the lure sit in a quiet room. Leave down, stay, and hand touch until the sit is easy again.
 
-Drop-it covers the swap half of a retrieve only. A full retrieve is not a unit.
+### Week 5 — Everyday manners
 
-### Unit 4 — Coming back
+Lessons: `lesson-leave-it-basics`, then `lesson-rspca-leave` and `lesson-drop-it-swap`. `lesson-jumping-up` and `lesson-steal-chase` are for when that is the live problem. They do not gate the week.
 
-Crash-course stage 5 (recall half).
+Practice: closed fist, then open palm, then a toy swapped for something better.
 
-Start only after the name gate in unit 1. Stay on a long line or in a secure area the whole time.
+Check: the dog backs off a closed fist before the treat is released, and lets go of a toy in a fair trade.
 
-| Order | Lesson or check | Done when |
-|------:|-----------------|-----------|
-| 4.1 | `lesson-recall-basics`, enclosed space | Dog approaches from a short distance indoors or in a garden on one cue. Same word for the whole household |
-| 4.2 | Long line, 5 metres, low distraction | `metric-recall-long-line-5m` |
-| 4.3 | Long line, 10 metres, mild distraction | `metric-recall-long-line-10m` (tier 2) |
-| 4.4 | `lesson-emergency-recall` | Only after 4.3. Still on a line. This is a second cue for hard moments, not permission to drop the line |
-| — | Public off-lead | Stays blocked (`metric-off-lead-not-unlocked`, `safe-002`) until tier 2 is met **and** the owner confirms a secure area or a professional has signed it off |
+If the check fails: stay on the closed fist. Do not move the food onto an open palm yet.
 
-Failure modes to keep in the lesson, not in a footnote: repeating the cue, calling when the dog is unlikely to come, scolding a late return, pulling the dog in on the line, ending the walk as the reward for coming back.
+A full retrieve is not this week. The drop and swap is the part the registry can teach.
 
-Emergency stop (a freeze at a distance) is research-only (one non-UK source). Do not add it as a lesson beside emergency recall.
+### Week 6 — Coming back nearby
 
-### Unit 5 — Walking on a loose lead
+Opens after week 5 and after `metric-name-latency-2s`.
 
-Crash-course stage 5 (lead half).
+Lesson: `lesson-recall-basics`.
 
-The researched protocol is Dogs Trust stop-when-tight, then forward motion when the lead is slack (`proto-loose-lead-dt`). The crosswalk **holds** export over Good Dog's existing `ex-lead-loose` until method review. A check-in draft exists and is not production content.
+Practice: one recall word for the whole household. Enclosed space first, then 5 metres on a long line in low distraction. Reward the return, including a slow one (`safe-003`).
 
-Until that hold lifts:
+Check: `metric-recall-long-line-5m`.
 
-- The curriculum may list `lesson-loose-lead` as the intended skill.
-- Good Dog must not overwrite `ex-lead-loose` from this knowledge base.
-- The only published observable is ten consecutive slack steps without the owner stopping (`metric-loose-lead-10-steps`).
-- There is no owner lesson yet for the easier variation `ex-lead-intro`.
+If the check fails: go back to the name game and shorten the distance. Do not repeat the cue if the dog is unlikely to come.
 
-Do not invent a second loose-lead method in owner copy while the hold is in place.
+### Week 7 — Coming back at a distance
 
-### Unit 6 — Handling and the vet
+Practice: one cue, 10 metres, long line, mild distraction. Stay on the line.
 
-Crash-course stage 7.
+Check: `metric-recall-long-line-10m`.
 
-| Order | Lesson | Status | Done when |
-|------:|--------|--------|-----------|
-| 6.1 | `lesson-vet-handling-prep` | Exportable | Touch for examination is predictable and the dog can pause. Pain or a growl at the vet means stop and speak to the vet, not "push through" |
-| 6.2 | `lesson-muzzle-training` | **Held** (`review-016`) | Not an owner unit until human review clears it |
+`lesson-emergency-recall` starts only after that check (`review-008`).
 
-Chin rest is research-only (one US organisation source). Cooperative care in this unit is the vet-prep lesson, not a chin-rest protocol.
+If the check fails: drop back to 5 metres and an easier place. Leave the emergency cue unused.
 
-### Unit 7 — Capstone
+Public off-lead stays locked for the whole course (`safe-002`, `metric-off-lead-not-unlocked`).
 
-Revisit stage 10, and the ethics half of stage 9.
+### Week 8 — Loose lead
 
-| Check | Lesson or rule | Done when |
-|-------|----------------|-----------|
-| Diary | `lesson-plan-and-measure` | Owner can see which skills work in which places and can pick the next skill or place from the diary |
-| New place | Same lesson | Dog still copes when the same skill is tried somewhere mildly more distracting |
-| Limits | `safe-004`, referrals | Owner can say which problems are outside this path (below) |
+Lesson: `lesson-loose-lead`.
 
-This is where assessment metrics should eventually attach to the lesson. They are not wired into `lesson-plan-and-measure` yet (crash-course stage 10 gap).
+Practice: the researched loose-lead lesson on several short outings, plus a few recall repetitions on the line.
 
-## Situation branches
+Check: ten consecutive slack steps without the owner stopping (`metric-loose-lead-10-steps`).
 
-These are not a second core path. Open the one that matches the dog. Each one still requires unit 1.2 (read stress) and stops at the referral line.
+If the check fails: practise fewer steps in a quieter place.
 
-### Puppy
+Good Dog must not overwrite `ex-lead-loose` from this course. `goodDogExportStatus` stays `hold_until_method_review`.
 
-Insert as soon as the dog is a puppy; do not wait for unit 4.
+## Part 3 — Real life
 
-| Lesson | Constraint |
-|--------|------------|
-| `lesson-puppy-socialisation` | No public-ground walking before the vet says vaccination cover is enough. Carry or use a sling until then (`claim-dt-pupsoc-002`). Keep experiences under the puppy's threshold |
-| `lesson-mouthing-redirect` | Redirect to an appropriate item; check sleep, toileting, and food first. Pairs with unit 3 if the puppy is already grabbing |
-| `lesson-alone-prevention` | Short, calm absences while the puppy is coping. This is prevention only |
+Owner version of behaviour modification and professional limits. Clinical problems stay referrals (`safe-004`).
 
-Not covered, and not to be improvised: nervous-puppy protocols, play versus aggression, why puppies enter rescue.
+### Week 9 — One situation
 
-### Adolescent dog
+Choose one branch. Practise it on at least five days. Keep a few reps of an earlier skill.
 
-`lesson-adolescent-regression` when a previously reliable skill falls apart. Shorten the session, return to an easier version of a foundation skill, and do not punish the regression. Then re-enter the core path at the last solid step, not at the hardest one.
+If the week goes badly: stay on the same branch at an easier setup.
 
-### Newly rehomed dog
+| Branch | Lessons | Constraint |
+|--------|---------|------------|
+| Puppy | `lesson-puppy-socialisation`, `lesson-mouthing-redirect` | No public-ground walking before the vet says vaccination cover is enough. Carry the puppy until then. |
+| Newly rehomed dog | `lesson-rescue-settling` | Settling comes before harder skills. Eating and resting in the home is the aim. |
+| Adolescent dog | `lesson-adolescent-regression` | Shorten the session and return to an easier version of a skill that used to work. |
+| Hard walks | `lesson-reactive-management` | Vet check first. Management and a referral, not a rehabilitation plan (`safe-004`, `safe-005`). |
+| Noise and fireworks | `lesson-fireworks-management` | Safe place, notice the signs, comfort and management. Severe panic is a referral (`safe-004`). |
+| Time alone | `lesson-alone-prevention` | Short absences only while the dog is coping. Stop lengthening them if the dog is distressed (`review-006`, `safe-004`). |
 
-`lesson-rescue-settling` comes **before** unit 2 for that dog. Predictable routine, let the dog approach, reward calm exploration. "Done" at this stage is eating and resting in the home, not a sit. Skills from unit 2 start only after that, at easier criteria.
+### Week 10 — Generalise and stop
 
-### Walks that go badly
+Lessons: `lesson-plan-and-measure`, `lesson-vet-handling-prep`.
 
-`lesson-reactive-management` is management and a referral, not a rehabilitation course.
+Practice: one solid skill somewhere mildly new. Predictable touch for a vet visit, at the dog's pace. Read the diary and pick the next skill or place.
 
-Order inside the lesson, from the protocol:
+Check: that skill still works in the new place, and the owner can name the problems that belong with a vet or a behaviour professional.
 
-1. Vet check before behaviour-change work (pain and illness reduce tolerance).
-2. Quieter times and places; turn away or block the view before the dog is over threshold.
-3. Reward attention at a distance where the dog can still take food.
-4. After a big reaction, give the researched recovery window (about 48–72 hours) before the next hard walk.
-5. If that is not enough, Dogs Trust Behaviour Support or an ABTC-listed professional. Do not add aversive equipment here.
+If the check fails: return the skill to the last place where it worked, then try a smaller change of place.
 
-### Noise and fireworks
+Muzzle training stays in human review (`review-016`) and is not a week. Public off-lead stays locked.
 
-`lesson-fireworks-management`: a safe place, notice the dog's signs, comfort and management. It is not a clinical densensitisation plan. Severe noise fear uses the referral path (`safe-004`).
+## Not in this course
 
-### Time alone (adolescent and adult)
-
-`lesson-alone-prevention` only while the dog is coping. If the dog is distressed when left, stop lengthening absences and refer (`claim-dt-sa-001`, `review-006`). Do not present this lesson as a separation-anxiety treatment.
-
-### Multi-dog households
-
-No protocol (taxonomy J gap). Do not invent household-management steps. Point at a reward-based trainer via referrals.
-
-## What "finished" means
-
-The path is finished for an owner when all of these are true:
-
-- Marker, name (2 seconds), sit, and a short close stay are in place.
-- Leave-it works on an easy item, and a drop is a trade.
-- Recall meets the 10-metre long-line metric, and off-lead in public has not been unlocked by the app.
-- The owner can name stress signs and has a referral route.
-- The diary shows the same skill in more than one place, with sessions that end on success.
-
-Loose lead, muzzle, and emergency recall can be in progress at that point. They are not required to call the core path complete, because two of them are held or gated and the third depends on tier-2 recall.
-
-## Explicitly not in the curriculum
-
-| Item | Why it is absent | Nearest researched neighbour |
-|------|------------------|------------------------------|
-| Emergency stop | Research only, one non-UK source | `lesson-emergency-recall` |
-| Chin rest | Research only, one US organisation source | `lesson-vet-handling-prep` |
-| Middle | Research only, one commercial source | — |
-| Send around | No usable source | — |
-| Full retrieve | Partial: drop and swap only | `lesson-drop-it-swap` |
-| Formal mat target | Settle lesson is not a send-to-mat | `lesson-settle-mat` |
-| Muzzle | Held for human review (`review-016`) | `lesson-muzzle-training` |
-| Loose-lead overwrite of `ex-lead-loose` | `hold_until_method_review` | `lesson-loose-lead` |
-| Outdoor reward choice | Owner question only (`oq-train-001`) | `lesson-how-dogs-learn` |
-| Multi-dog households | No protocol | Referrals |
-| Habituation and counter-conditioning as owner lessons | Evidence layer only | `lesson-how-dogs-learn` |
-
-## Where an owner question should enter
-
-Owners will not arrive at unit 0. The question taxonomy already points at lessons. Safety gates still apply: a recall question does not skip the name gate, and a reactivity question does not skip the vet note.
-
-| Question | Enter at |
-|----------|----------|
-| `oq-train-002` find a kind trainer | Referrals, any time |
-| `oq-train-001` outdoor rewards | Unit 0.3, and the known hole above |
-| `oq-pup-001`, `oq-pup-002` | Puppy branch, plus unit 0 |
-| `oq-stress-001` | Unit 1.2 |
-| `oq-jump-001`, `oq-mouth-001` | Unit 3.4 or mouthing branch, after a sit or a redirect exists |
-| `oq-leave-001`, `oq-guard-002` | Unit 3.1 then 3.3. Guarding confrontations stay out |
-| `oq-stay-001` | Unit 2.5 after sit |
-| `oq-lead-001` | Unit 5, subject to the export hold |
-| `oq-recall-001` | Unit 1.1, then unit 4. Do not open on the recall cue |
-| `oq-recall-002` | Unit 4.4 only after tier 2; otherwise explain the lock |
-| `oq-react-001`, `oq-react-002` | Reactive branch |
-| `oq-noise-001`, `oq-noise-002` | Fireworks branch, or referral if severe |
-| `oq-alone-001`, `oq-alone-002` | Alone-time branch, or referral if distressed |
-| `oq-rescue-001` | Rescue branch before skills |
-| `oq-teen-001` | Adolescent branch, then the last solid core step |
-| `oq-handle-001`, `oq-handle-002` | Unit 6.1. Muzzle stays held |
-
-## Suggested first sessions
-
-For a new adult dog with no urgent safety problem, seven short sessions cover units 0 and 1 and the first position:
-
-1. Equipment check, one written goal, what this dog works for.
-2. How rewards and markers work; charge the marker.
-3. Marker only, until the dog anticipates the treat.
-4. Name game in a quiet room.
-5. Name game again; read stress signs on a boring walk (no training asks).
-6. First sit, lure only.
-7. Sit with the word timed to the movement; stop while it is still easy.
-
-A puppy swaps sessions 5–7 for socialisation-by-carrying and mouthing redirection if those are the live problems. A newly rehomed dog replaces sessions 4–7 with settling until the dog is eating and resting.
-
-## What this plan does not change
-
-- `kb/meta/crash-course.json` remains the coverage export. This document does not add a second machine-readable course.
-- No new owner lessons are invented for the gaps. Filling chin rest, emergency stop, middle, send-around, and a real retrieve still needs UK charity or professional-body sources (`review-022`).
-- Legal display is unchanged: Good Dog export only uses sources tagged `paraphrase_ok`.
-- Loose lead and muzzle stay held until their review items move.
+| Item | Why |
+|------|-----|
+| `lesson-settle-mat` | The lesson exists. This course uses the stay for duration. Mat target stays partial on the crash-course checklist. |
+| `lesson-muzzle-training` | Held for human review (`review-016`). |
+| Emergency stop | Research only, one non-UK source. |
+| Chin rest | Research only, one US organisation source. |
+| Middle | Research only, one commercial source. |
+| Send around | No usable source. |
+| Full retrieve | No owner lesson. Week 5 teaches the drop and swap only. |
+| Multi-dog households | No protocol. Use the referral route. |
+| Outdoor reward choice (`oq-train-001`) | No lesson. Raise reward value or use play. Do not invent a protocol. |

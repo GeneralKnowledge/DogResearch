@@ -70,7 +70,8 @@ Content is **not** legally cleared for in-app display until registry sources are
 
 - [`docs/architecture.md`](docs/architecture.md) — entity model and provenance rules
 - [`docs/product-scope.md`](docs/product-scope.md) — Good Dog vs KindTrail roles
-- [`docs/learning-curriculum.md`](docs/learning-curriculum.md) — owner teaching order (prerequisites, gates, branches)
+- [`docs/learning-curriculum.md`](docs/learning-curriculum.md) — ten-week Foundation course (UK Lite timetable)
+- [`kb/meta/uk-lite-course.json`](kb/meta/uk-lite-course.json) — source of truth for that course
 - [`docs/imdt-alignment.md`](docs/imdt-alignment.md) — crash-course coverage vs public IMDT outlines
 - [`docs/good-dog-integration.md`](docs/good-dog-integration.md) — crosswalk, P1-1 loose lead, artifacts
 - [`kb/meta/good-dog-exercise-crosswalk.json`](kb/meta/good-dog-exercise-crosswalk.json) — Good Dog `ex-*` mapping
