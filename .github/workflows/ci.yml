@@ -19,7 +19,12 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: good-dog-kb-dist
-          path: dist/good-dog-*.json
+          path: |
+            dist/good-dog-domain.json
+            dist/good-dog-safety.json
+            dist/good-dog-guides.json
+            dist/good-dog-referrals.json
+            dist/good-dog-ask-patterns.json
       - name: URL health (non-blocking)
         run: npm run url-check
         continue-on-error: true

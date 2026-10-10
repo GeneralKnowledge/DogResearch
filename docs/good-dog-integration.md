@@ -8,10 +8,15 @@
 
 | File | Contents |
 |------|----------|
-| `dist/good-dog-domain.json` | Exercises (`ex-*` or `ex-kb-*`), held exports, drafts, management/education modules |
-| `dist/good-dog-safety.json` | Safety rules, assessment metrics, aversive text patterns, off-lead promotion gate |
+| `dist/good-dog-domain.json` | Exercises (`ex-*` or `ex-kb-*`), held exports, drafts. `steps_only` rows include optional `glossaryTermIds`, `topicGroup`, and `purposeOneLine` for merge without replacing rich Good Dog copy. `managementModules` / `educationOnly` remain for traceability. |
+| `dist/good-dog-safety.json` | Safety rules, assessment metrics with `goodDogInferenceHints` (`exerciseIds`, `learningObjectiveIds`), aversive text patterns, off-lead promotion gate |
+| `dist/good-dog-guides.json` | Management and education lessons whose sources are `paraphrase_ok`: `ownerBodyMarkdown` from protocol steps, provenance, `suggestedAskKeywords` |
+| `dist/good-dog-referrals.json` | KindTrail `publishable.referrals` shape (`title`, `body`, `url`) plus `rationaleClaimIds` |
+| `dist/good-dog-ask-patterns.json` | `violatesNoAversivePatterns`, `escalateQuestionPatterns` (regex/keywords → `safe-*` ids and guide lesson ids), owner-question taxonomy crosswalk (`goodDogHelpId` or `guideLessonId`) |
 
-Schema version: `exportSchemaVersion` in [kb/meta/schema-version.json](../kb/meta/schema-version.json), embedded in each export.
+Schema version: `exportSchemaVersion` in [kb/meta/schema-version.json](../kb/meta/schema-version.json) (1.1.0), embedded in each export.
+
+CI job `kb-export` uploads these files as the `good-dog-kb-dist` artifact.
 
 ## Crosswalk
 

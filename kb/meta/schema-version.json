@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "exportSchemaVersion": "1.0.0",
+  "exportSchemaVersion": "1.1.0",
   "goodDogKbProfile": "research-agent-v1",
   "lastUpdated": "2026-10-10",
   "entityTypes": [

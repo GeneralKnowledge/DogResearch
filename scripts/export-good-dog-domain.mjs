@@ -3,7 +3,10 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  buildGoodDogAskPatternsExport,
   buildGoodDogDomainExport,
+  buildGoodDogGuidesExport,
+  buildGoodDogReferralsExport,
   buildGoodDogSafetyExport,
   validateVariationGraph
 } from "@gooddog/content-gate/good-dog-export.mjs";
@@ -30,6 +33,18 @@ writeFileSync(join(distDir, "good-dog-domain.json"), JSON.stringify(domain, null
 const safety = buildGoodDogSafetyExport();
 writeFileSync(join(distDir, "good-dog-safety.json"), JSON.stringify(safety, null, 2));
 
+const guides = buildGoodDogGuidesExport();
+writeFileSync(join(distDir, "good-dog-guides.json"), JSON.stringify(guides, null, 2));
+
+const referrals = buildGoodDogReferralsExport();
+writeFileSync(join(distDir, "good-dog-referrals.json"), JSON.stringify(referrals, null, 2));
+
+const askPatterns = buildGoodDogAskPatternsExport(guides);
+writeFileSync(
+  join(distDir, "good-dog-ask-patterns.json"),
+  JSON.stringify(askPatterns, null, 2)
+);
+
 console.log(
-  `Exported ${domain.exercises.length} exercises, ${domain.held.length} held, ${domain.draftExercises.length} drafts to dist/`
+  `Exported ${domain.exercises.length} exercises, ${domain.held.length} held, ${domain.draftExercises.length} drafts, ${guides.guides.length} guides, ${Object.keys(referrals.referrals).length} referrals to dist/`
 );

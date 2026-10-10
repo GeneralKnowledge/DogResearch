@@ -1,13 +1,17 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import {
+  getLessonBundle,
   getRepoRoot,
   loadGoodDogCrosswalk,
   loadGoodDogFieldDefaults,
-  loadMergedRegistry
+  loadMergedRegistry,
+  loadOwnerQuestions,
+  loadPublishConfig
 } from "@gooddog/kb-core";
 import {
   buildPublishableBundle,
+  buildReferrals,
   sanitizeProtocolForExport
 } from "./index.mjs";
 
@@ -41,6 +45,56 @@ export function resolveCrosswalkEntry(crosswalk, lessonId, protocolId) {
 /** @param {string} exerciseId */
 export function exerciseIdToSlug(exerciseId) {
   return exerciseId.replace(/^ex-kb-/, "kb-").replace(/^ex-/, "");
+}
+
+/** @param {unknown} text */
+export function purposeOneLine(text) {
+  const cleaned = String(text ?? "").replace(/\s+/g, " ").trim();
+  if (!cleaned) return "";
+  const sentence = cleaned.split(/(?<=[.!?])\s+/)[0] ?? cleaned;
+  if (sentence.length <= 180) return sentence;
+  return `${sentence.slice(0, 177).trimEnd()}…`;
+}
+
+function loadSchemaMeta() {
+  return JSON.parse(
+    readFileSync(join(getRepoRoot(), "kb/meta/schema-version.json"), "utf8")
+  );
+}
+
+/**
+ * @param {import('@gooddog/kb-core/types').Protocol} protocol
+ * @param {import('@gooddog/kb-core/types').Lesson | undefined} lesson
+ * @param {Array<{ id: string }>} claims
+ * @param {Array<{ id: string; lastReviewed?: string }>} sources
+ * @param {{ lastUpdated?: string }} schemaMeta
+ */
+function buildGuideProvenance(protocol, lesson, claims, sources, schemaMeta) {
+  const lastVerified =
+    protocol.lastReviewed ??
+    protocol.lastVerified ??
+    lesson?.lastReviewed ??
+    sources.find((s) => s.lastReviewed)?.lastReviewed ??
+    schemaMeta.lastUpdated;
+
+  return {
+    protocolId: protocol.id,
+    claimIds: [
+      ...new Set([
+        ...(lesson?.supportingClaimIds ?? []),
+        ...(protocol.supportingClaimIds ?? []),
+        ...claims.map((c) => c.id)
+      ])
+    ],
+    sourceIds: [
+      ...new Set([
+        ...(protocol.supportingSourceIds ?? []),
+        ...sources.map((s) => s.id)
+      ])
+    ],
+    reviewStatus: protocol.reviewStatus ?? "unknown",
+    lastVerified
+  };
 }
 
 /**
@@ -171,6 +225,9 @@ export function buildGoodDogDomainExport(opts = {}) {
       lifeStages: defaults.lifeStages ?? ["adult"],
       topicGroup: defaults.topicGroup ?? "everyday_foundations",
       contentCompleteness: "steps_only",
+      purposeOneLine: purposeOneLine(
+        lesson.summary || sanitized.intendedOutcome || lesson.title
+      ),
       newExercise: mapping.newExercise === true,
       goodDogExportStatus: exportStatus,
       provenance: {
@@ -234,6 +291,7 @@ export function buildGoodDogDomainExport(opts = {}) {
       lifeStages: defaults.lifeStages ?? ["adult"],
       topicGroup: defaults.topicGroup ?? "walking_together",
       contentCompleteness: "steps_only",
+      purposeOneLine: purposeOneLine(protocol.intendedOutcome || protocol.title),
       newExercise: true,
       goodDogExportStatus: "draft",
       provenance: {
@@ -312,12 +370,16 @@ export function buildGoodDogSafetyExport() {
   const assessmentMetrics = JSON.parse(
     readFileSync(join(getRepoRoot(), "kb/registry/assessment-metrics.json"), "utf8")
   ).metrics;
+  const crosswalk = loadGoodDogCrosswalk();
 
   return {
     schemaVersion: schemaMeta.exportSchemaVersion ?? "1.0.0",
     generatedAt: new Date().toISOString(),
     safetyRules: registry.safetyRules,
-    assessmentMetrics,
+    assessmentMetrics: assessmentMetrics.map((metric) => ({
+      ...metric,
+      goodDogInferenceHints: inferenceHintsForMetric(metric, crosswalk.mappings ?? [])
+    })),
     violatesNoAversivePatterns: NO_AVERSIVE_PATTERN_SOURCES.map((source) => ({
       source,
       flags: "i"
@@ -329,5 +391,513 @@ export function buildGoodDogSafetyExport() {
     },
     safe002Sanitized:
       "Recall-related protocol steps in good-dog-domain.json use sanitizeProtocolForExport (off-lead phrasing gated)."
+  };
+}
+
+/**
+ * Exercises and learning objectives whose sessions count toward a metric.
+ * Includes every crosswalk row for the metric's protocols, plus sibling
+ * exercises that share those learning objectives (held and draft ids included).
+ *
+ * @param {{ supportingProtocolIds?: string[] }} metric
+ * @param {Array<Record<string, unknown>>} mappings
+ */
+export function inferenceHintsForMetric(metric, mappings) {
+  const protocolIds = new Set(metric.supportingProtocolIds ?? []);
+  const direct = mappings.filter(
+    (m) => typeof m.protocolId === "string" && protocolIds.has(m.protocolId)
+  );
+  const learningObjectiveIds = [
+    ...new Set(
+      direct
+        .map((m) => m.learningObjectiveId)
+        .filter((id) => typeof id === "string" && id.length > 0)
+    )
+  ].sort();
+  const objectiveSet = new Set(learningObjectiveIds);
+  const exerciseIds = [
+    ...new Set(
+      mappings
+        .filter((m) => {
+          const protocolMatch =
+            typeof m.protocolId === "string" && protocolIds.has(m.protocolId);
+          const objectiveMatch =
+            typeof m.learningObjectiveId === "string" &&
+            objectiveSet.has(m.learningObjectiveId);
+          return protocolMatch || objectiveMatch;
+        })
+        .map((m) => m.goodDogExerciseId)
+        .filter((id) => typeof id === "string" && id.length > 0)
+    )
+  ].sort();
+
+  return { exerciseIds, learningObjectiveIds };
+}
+
+/** Curated Ask phrases for guides. Owner-question subthemes are appended at export. */
+const GUIDE_ASK_KEYWORDS = {
+  "lesson-steal-chase": [
+    "steal",
+    "stolen",
+    "chase",
+    "runs away with",
+    "drop it",
+    "guarding"
+  ],
+  "lesson-fireworks-management": [
+    "fireworks",
+    "bangs",
+    "noise fear",
+    "thunder",
+    "scared of noises"
+  ],
+  "lesson-reactive-management": [
+    "reactive",
+    "lunges",
+    "barks at dogs",
+    "lead reactivity",
+    "on lead barking"
+  ],
+  "lesson-rescue-settling": ["rescue dog", "newly adopted", "settle in", "rehomed"],
+  "lesson-adolescent-regression": [
+    "teenager",
+    "adolescent",
+    "regression",
+    "suddenly worse",
+    "fear period"
+  ],
+  "lesson-puppy-socialisation": [
+    "socialise",
+    "socialization",
+    "puppy",
+    "vaccination",
+    "before vaccinations"
+  ],
+  "lesson-read-your-dog-stress": [
+    "stress signals",
+    "lip lick",
+    "yawning",
+    "body language",
+    "anxious",
+    "turning away"
+  ]
+};
+
+const CATEGORY_GUIDE = {
+  "oq-reactivity": "lesson-reactive-management",
+  "oq-noise-fireworks": "lesson-fireworks-management",
+  "oq-guarding-stealing": "lesson-steal-chase",
+  "oq-puppy-socialisation": "lesson-puppy-socialisation"
+};
+
+const CATEGORY_HELP = {
+  "oq-recall": "help-recall",
+  "oq-training-basics": "help-training-basics",
+  "oq-jumping-mouthing": "help-jumping-mouthing",
+  "oq-reactivity": "help-reactivity",
+  "oq-noise-fireworks": "help-noise-fireworks",
+  "oq-guarding-stealing": "help-guarding",
+  "oq-puppy-socialisation": "help-puppy-socialisation"
+};
+
+const QUESTION_HELP = {
+  "oq-train-001": "help-rewards",
+  "oq-train-002": "help-find-trainer"
+};
+
+const REFERRAL_RATIONALE_CLAIM_IDS = {
+  abtcRegister: ["claim-rspca-003-abtc-trainer"],
+  vetFirst: ["claim-dt-reactive-002-vet-check-first"],
+  dogsTrustBehaviourLine: ["claim-dt-reactive-006-behaviour-support-referral"]
+};
+
+/**
+ * @param {string} lessonId
+ * @param {Array<{ id: string; questions?: Array<Record<string, unknown>> }>} ownerQuestions
+ * @param {Set<string>} exportedGuideIds
+ */
+function suggestedAskKeywords(lessonId, ownerQuestions, exportedGuideIds) {
+  /** @type {string[]} */
+  const keywords = [...(GUIDE_ASK_KEYWORDS[lessonId] ?? [])];
+  for (const category of ownerQuestions) {
+    for (const question of category.questions ?? []) {
+      const link = questionCrosswalk(question, category, exportedGuideIds);
+      if (link.guideLessonId !== lessonId) continue;
+      for (const theme of question.subthemes ?? []) {
+        if (typeof theme === "string" && theme.trim()) keywords.push(theme.trim());
+      }
+    }
+  }
+  const seen = new Set();
+  const unique = [];
+  for (const keyword of keywords) {
+    const key = keyword.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(keyword);
+    if (unique.length >= 16) break;
+  }
+  return unique;
+}
+
+/**
+ * @param {Record<string, unknown>} question
+ * @param {{ id: string }} category
+ * @param {Set<string>} exportedGuideIds
+ */
+export function questionCrosswalk(question, category, exportedGuideIds) {
+  const related =
+    typeof question.relatedLessonId === "string" ? question.relatedLessonId : "";
+  if (related && exportedGuideIds.has(related)) {
+    return { guideLessonId: related };
+  }
+  const categoryGuide = CATEGORY_GUIDE[category.id];
+  if (!related && categoryGuide && exportedGuideIds.has(categoryGuide)) {
+    return { guideLessonId: categoryGuide };
+  }
+  if (related) {
+    return { goodDogHelpId: `help-${related.replace(/^lesson-/, "")}` };
+  }
+  const special = QUESTION_HELP[question.id];
+  if (special) return { goodDogHelpId: special };
+  return {
+    goodDogHelpId: CATEGORY_HELP[category.id] ?? `help-${category.id.replace(/^oq-/, "")}`
+  };
+}
+
+/** Owner-facing lines for safety ids stored on protocols. */
+const OWNER_SAFETY_LINES = {
+  "safe-001-no-aversive-routine":
+    "If training uses pain, fear, or equipment such as a choke or prong, switch to a reward-based professional.",
+  "safe-004-scope-referral":
+    "See your vet if pain or illness might be involved, and an ABTC-registered clinical behaviourist for aggression or severe fear.",
+  "safe-007-no-confrontational-guarding":
+    "If your dog growls or snaps over food or items, stop and ask an ABTC clinical animal behaviourist for help."
+};
+
+/**
+ * Light owner voice for protocol text that is already a permitted paraphrase.
+ * @param {string} text
+ */
+export function toOwnerVoice(text) {
+  let out = text.replace(/\b([Dd])og\b/g, (full, letter, offset, source) => {
+    const before = source.slice(Math.max(0, offset - 6), offset);
+    if (/\byour\s$/i.test(before)) return full;
+    return letter === "D" ? "Your dog" : "your dog";
+  });
+  out = out
+    .replace(/\(extinction burst\)/gi, "(it may happen more often for a short while, then fade)")
+    .replace(/previous D or D level/gi, "the previous distance or duration")
+    .replace(/^Management:\s*/i, "");
+  out = out.trim();
+  if (!out) return out;
+  return out.charAt(0).toUpperCase() + out.slice(1);
+}
+
+/**
+ * @param {import('@gooddog/kb-core/types').Protocol} protocol
+ * @param {Array<{ id: string; rule?: string; referralText?: string | null }>} safetyRules
+ */
+function ownerPauseLines(protocol, safetyRules) {
+  /** @type {string[]} */
+  const lines = [];
+  for (const item of protocol.safetyPrecautions ?? []) {
+    if (typeof item !== "string" || !item.trim()) continue;
+    if (/^safe-/.test(item)) {
+      const mapped = OWNER_SAFETY_LINES[item];
+      if (mapped) {
+        lines.push(mapped);
+        continue;
+      }
+      const rule = safetyRules.find((r) => r.id === item);
+      const text = rule?.referralText || rule?.rule;
+      if (text && !/^direct owner\b/i.test(text)) lines.push(toOwnerVoice(text));
+      continue;
+    }
+    lines.push(toOwnerVoice(item));
+  }
+  for (const stop of protocol.stopConditions ?? []) {
+    if (typeof stop === "string" && stop.trim()) lines.push(toOwnerVoice(stop));
+  }
+  return [...new Set(lines)];
+}
+
+/**
+ * Short owner-facing sections from protocol steps.
+ * Steps are already paraphrases; only call this for paraphrase_ok lessons.
+ *
+ * @param {object} input
+ * @param {import('@gooddog/kb-core/types').Lesson} input.lesson
+ * @param {import('@gooddog/kb-core/types').Protocol} input.protocol
+ * @param {string | null | undefined} input.advisoryMessage
+ * @param {Array<{ id: string; rule?: string; referralText?: string | null }>} input.safetyRules
+ */
+export function buildOwnerBodyMarkdown({ lesson, protocol, advisoryMessage, safetyRules }) {
+  const recallRelated =
+    lesson.id.includes("recall") || protocol.id.includes("recall");
+  const mentionsOffLead = (protocol.steps ?? []).some((step) =>
+    /\boff[- ]?lead\b/i.test(step.instruction ?? "")
+  );
+  const sanitized = sanitizeProtocolForExport(protocol, recallRelated || mentionsOffLead);
+  /** @type {string[]} */
+  const parts = [];
+  if (lesson.summary?.trim()) parts.push(lesson.summary.trim(), "");
+  if (lesson.educationOnly) {
+    parts.push(
+      "If you notice stress signals, pause and make the exercise easier instead of pushing on.",
+      ""
+    );
+  }
+  parts.push("## What to try", "");
+  for (const step of sanitized.steps ?? []) {
+    parts.push(`### Step ${step.stepNumber}`, "", toOwnerVoice(step.instruction), "");
+    if (step.easierIfStruggling?.trim()) {
+      parts.push(`If this is hard: ${toOwnerVoice(step.easierIfStruggling)}`, "");
+    }
+  }
+  if (advisoryMessage?.trim()) {
+    parts.push("## Please note", "", advisoryMessage.trim(), "");
+  }
+  const pauses = ownerPauseLines(protocol, safetyRules);
+  if (pauses.length) {
+    parts.push("## When to pause", "");
+    for (const line of pauses) parts.push(`- ${line}`);
+    parts.push("");
+  }
+  const referrals = (protocol.referralRequirements ?? []).filter(
+    (line) => typeof line === "string" && line.trim()
+  );
+  if (referrals.length) {
+    parts.push("## Get help", "");
+    for (const line of referrals) parts.push(`- ${toOwnerVoice(line)}`);
+    parts.push("");
+  }
+  return `${parts.join("\n").trim()}\n`;
+}
+
+export function buildGoodDogGuidesExport() {
+  const bundle = buildPublishableBundle(false);
+  const registry = loadMergedRegistry();
+  const config = loadPublishConfig();
+  const schemaMeta = loadSchemaMeta();
+  const ownerQuestions = loadOwnerQuestions();
+  const managementIds = new Set(config.managementLessonIds ?? []);
+  const educationIds = new Set(config.educationOnlyLessonIds ?? []);
+
+  /** @type {Array<Record<string, unknown>>} */
+  const candidates = [];
+  /** @type {Array<{ lessonId: string; reason: string }>} */
+  const excluded = [];
+
+  for (const entry of bundle.lessons) {
+    const lessonId = entry.lesson.id;
+    const isEducation = educationIds.has(lessonId) || entry.lesson.educationOnly === true;
+    const isManagement = managementIds.has(lessonId);
+    if (!isEducation && !isManagement) continue;
+
+    const full = getLessonBundle(lessonId);
+    if (!full) {
+      excluded.push({ lessonId, reason: "missing_bundle" });
+      continue;
+    }
+    if (
+      !full.sources.length ||
+      full.sources.some((source) => !isSourceGoodDogDisplayEligible(source))
+    ) {
+      excluded.push({ lessonId, reason: "source_not_paraphrase_ok" });
+      continue;
+    }
+    candidates.push({ entry, full });
+  }
+
+  const exportedGuideIds = new Set(
+    candidates.map((row) => /** @type {string} */ (row.full.lesson.id))
+  );
+
+  const guides = candidates.map(({ entry, full }) => {
+    const lesson = full.lesson;
+    return {
+      lessonId: lesson.id,
+      title: lesson.title,
+      summary: lesson.summary,
+      advisory: entry.advisory === true,
+      advisoryMessage: entry.advisoryMessage ?? null,
+      protocolId: full.protocol.id,
+      ownerBodyMarkdown: buildOwnerBodyMarkdown({
+        lesson,
+        protocol: full.protocol,
+        advisoryMessage: entry.advisoryMessage,
+        safetyRules: registry.safetyRules
+      }),
+      provenance: buildGuideProvenance(
+        full.protocol,
+        lesson,
+        full.claims,
+        full.sources,
+        schemaMeta
+      ),
+      suggestedAskKeywords: suggestedAskKeywords(lesson.id, ownerQuestions, exportedGuideIds)
+    };
+  });
+
+  return {
+    schemaVersion: schemaMeta.exportSchemaVersion ?? "1.0.0",
+    generatedAt: new Date().toISOString(),
+    guides,
+    excluded
+  };
+}
+
+export function buildGoodDogReferralsExport() {
+  const registry = loadMergedRegistry();
+  const schemaMeta = loadSchemaMeta();
+  const claimIds = new Set(registry.claims.map((claim) => claim.id));
+  const base = buildReferrals(registry);
+  /** @type {Record<string, { title: string; body: string; url?: string; rationaleClaimIds: string[] }>} */
+  const referrals = {};
+
+  for (const [key, value] of Object.entries(base)) {
+    const rationale = (REFERRAL_RATIONALE_CLAIM_IDS[key] ?? []).filter((id) =>
+      claimIds.has(id)
+    );
+    referrals[key] = {
+      title: value.title,
+      body: value.body,
+      ...(value.url ? { url: value.url } : {}),
+      rationaleClaimIds: rationale
+    };
+  }
+
+  return {
+    schemaVersion: schemaMeta.exportSchemaVersion ?? "1.0.0",
+    generatedAt: new Date().toISOString(),
+    referrals
+  };
+}
+
+const ESCALATE_QUESTION_PATTERNS = [
+  {
+    id: "escalate-aversive-methods",
+    safetyRuleIds: ["safe-001-no-aversive-routine", "safe-008-abtc-aversive-ban"],
+    guideLessonIds: [],
+    keywords: ["shock collar", "choke chain", "prong", "alpha roll", "hit my dog"],
+    pattern:
+      "\\b(shock collar|choke chain|prong|alpha roll|hit(ting)?\\s+(my\\s+|your\\s+)?dog)\\b",
+    flags: "i"
+  },
+  {
+    id: "escalate-off-lead-recall",
+    safetyRuleIds: ["safe-002-recall-management"],
+    guideLessonIds: [],
+    keywords: ["off lead", "off-lead", "won't come back", "does not come when called"],
+    pattern: "\\b(off[- ]?lead|won'?t come|does not come|not coming back)\\b",
+    flags: "i"
+  },
+  {
+    id: "escalate-punish-return",
+    safetyRuleIds: ["safe-003-no-punish-return"],
+    guideLessonIds: [],
+    keywords: ["punish for coming back", "told off for coming", "scold recall"],
+    pattern: "\\b(punish|scold|shout|told off|tell off).{0,40}\\b(come|coming|recall|came back)\\b",
+    flags: "i"
+  },
+  {
+    id: "escalate-clinical-scope",
+    safetyRuleIds: ["safe-004-scope-referral"],
+    guideLessonIds: [
+      "lesson-reactive-management",
+      "lesson-fireworks-management",
+      "lesson-rescue-settling",
+      "lesson-adolescent-regression"
+    ],
+    keywords: ["aggression", "bite", "severe fear", "panic", "sudden behaviour change", "pain"],
+    pattern:
+      "\\b(aggress\\w*|bites?|biting|severe fear|panic|self[- ]?injur\\w*|sudden(ly)?\\s+(changed|change|worse)|in pain)\\b",
+    flags: "i"
+  },
+  {
+    id: "escalate-punish-warning",
+    safetyRuleIds: ["safe-005-growl-not-punish", "safe-007-no-punish-growling"],
+    guideLessonIds: ["lesson-read-your-dog-stress", "lesson-reactive-management"],
+    keywords: ["growl", "punish growl", "snarl", "warning signal"],
+    pattern: "\\b(growl\\w*|snarl\\w*|warning signal)\\b",
+    flags: "i"
+  },
+  {
+    id: "escalate-child-supervision",
+    safetyRuleIds: ["safe-006-child-supervision"],
+    guideLessonIds: ["lesson-read-your-dog-stress"],
+    keywords: ["child", "baby", "toddler", "alone with the dog"],
+    pattern: "\\b(child|children|baby|toddler|kid)s?\\b",
+    flags: "i"
+  },
+  {
+    id: "escalate-guarding-chase",
+    safetyRuleIds: ["safe-007-no-confrontational-guarding"],
+    guideLessonIds: ["lesson-steal-chase"],
+    keywords: ["resource guarding", "guards food", "chase stolen", "pry from mouth"],
+    pattern:
+      "\\b(resource guarding|guards?\\s+(food|toys?|items?)|chase\\w*.{0,24}(stolen|item)|pry|out of (his|her|their) mouth)\\b",
+    flags: "i"
+  }
+];
+
+/**
+ * @param {ReturnType<typeof buildGoodDogGuidesExport>} [guidesExport]
+ */
+export function buildGoodDogAskPatternsExport(guidesExport) {
+  const guides = guidesExport ?? buildGoodDogGuidesExport();
+  const registry = loadMergedRegistry();
+  const schemaMeta = loadSchemaMeta();
+  const ownerQuestions = loadOwnerQuestions();
+  const ruleIds = new Set(registry.safetyRules.map((rule) => rule.id));
+  const exportedGuideIds = new Set(guides.guides.map((guide) => guide.lessonId));
+
+  const escalateQuestionPatterns = ESCALATE_QUESTION_PATTERNS.map((pattern) => ({
+    ...pattern,
+    safetyRuleIds: pattern.safetyRuleIds.filter((id) => ruleIds.has(id)),
+    guideLessonIds: pattern.guideLessonIds.filter((id) => exportedGuideIds.has(id))
+  })).filter((pattern) => pattern.safetyRuleIds.length > 0);
+
+  const ownerQuestionTaxonomy = ownerQuestions.map((category) => {
+    const questions = (category.questions ?? []).map((question) => {
+      const link = questionCrosswalk(question, category, exportedGuideIds);
+      return {
+        id: question.id,
+        text: question.text,
+        subthemes: question.subthemes ?? [],
+        sourceLocator: question.sourceLocator ?? null,
+        ...link
+      };
+    });
+    const guideIds = [...new Set(questions.map((q) => q.guideLessonId).filter(Boolean))];
+    const helpIds = [...new Set(questions.map((q) => q.goodDogHelpId).filter(Boolean))];
+    /** @type {{ guideLessonId: string } | { goodDogHelpId: string }} */
+    const categoryLink =
+      guideIds.length === 1 && helpIds.length === 0
+        ? { guideLessonId: guideIds[0] }
+        : helpIds.length === 1 && guideIds.length === 0
+          ? { goodDogHelpId: helpIds[0] }
+          : {
+              goodDogHelpId:
+                CATEGORY_HELP[category.id] ?? `help-${category.id.replace(/^oq-/, "")}`
+            };
+    return {
+      id: category.id,
+      label: category.label,
+      ...categoryLink,
+      questions
+    };
+  });
+
+  return {
+    schemaVersion: schemaMeta.exportSchemaVersion ?? "1.0.0",
+    generatedAt: new Date().toISOString(),
+    violatesNoAversivePatterns: NO_AVERSIVE_PATTERN_SOURCES.map((source) => ({
+      source,
+      flags: "i"
+    })),
+    escalateQuestionPatterns,
+    ownerQuestionTaxonomy
   };
 }
