@@ -1,7 +1,10 @@
 import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadMergedRegistry as loadFromScripts } from "../../scripts/load-registry.mjs";
+import {
+  loadMergedRegistry as loadFromScripts,
+  loadAssessmentMetrics as loadMetricsFromScripts
+} from "../../scripts/load-registry.mjs";
 
 const pkgRoot = dirname(fileURLToPath(import.meta.url));
 const repoRoot = join(pkgRoot, "../..");
@@ -53,4 +56,9 @@ export function loadOwnerQuestions() {
 /** @returns {Record<string, unknown>} */
 export function loadPublishConfig() {
   return JSON.parse(readFileSync(join(repoRoot, "kb/meta/publish-config.json"), "utf8"));
+}
+
+/** @returns {import('./types.d.ts').AssessmentMetric[]} */
+export function loadAssessmentMetrics() {
+  return /** @type {import('./types.d.ts').AssessmentMetric[]} */ (loadMetricsFromScripts());
 }

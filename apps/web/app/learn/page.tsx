@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { getPublishable } from "@/lib/publishable";
+import { CatalogSearch } from "@/components/CatalogSearch";
+import { ProgressionTiers } from "@/components/ProgressionTiers";
 
 export default function LearnIndexPage() {
   const data = getPublishable();
@@ -8,6 +10,8 @@ export default function LearnIndexPage() {
     <>
       <h1>Learning paths</h1>
       <p className="muted">Choose a module to work through at your dog&apos;s pace.</p>
+      <CatalogSearch />
+      <ProgressionTiers />
       {data.modules.map((mod) => (
         <section key={mod.id} className="card">
           <h2>{mod.title}</h2>

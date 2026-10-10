@@ -1,8 +1,12 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import {
   loadMergedRegistry,
   getLessonBundle,
   loadPublishConfig,
-  loadOwnerQuestions
+  loadOwnerQuestions,
+  loadAssessmentMetrics,
+  getRepoRoot
 } from "@gooddog/kb-core";
 
 /**
@@ -25,6 +29,33 @@ export function isProtocolPublishable(protocol, config) {
  * @param {import('@gooddog/kb-core/types').Lesson} lesson
  * @param {ReturnType<typeof loadPublishConfig>} config
  */
+/**
+ * @param {import('@gooddog/kb-core/types').Source} source
+ * @param {ReturnType<typeof loadPublishConfig>} config
+ */
+export function isSourceDisplayEligible(source, config) {
+  const allowed = config.requireDisplayEligibility;
+  if (!allowed?.length) return true;
+  const tag = source.displayEligibility ?? "paraphrase_ok_pending_legal";
+  if (tag === "research_only") return false;
+  return allowed.includes(tag);
+}
+
+/**
+ * @param {Record<string, boolean>} metricProgress
+ */
+export function isOffLeadUnlocked(metricProgress) {
+  return (
+    metricProgress["metric-recall-long-line-5m"] === true &&
+    metricProgress["metric-recall-long-line-10m"] === true
+  );
+}
+
+/** Enforces safe-002: no off-lead promotion until tier-2 recall metrics met. */
+export function blocksOffLeadPromotion(metricProgress) {
+  return !isOffLeadUnlocked(metricProgress);
+}
+
 export function isLessonInPilot(lesson, config) {
   if (config.excludedLessonIds?.includes(lesson.id)) {
     return false;
@@ -60,7 +91,7 @@ export function buildPublishableBundle(previewMode = false) {
       continue;
     }
 
-    const { lesson, protocol } = bundle;
+    const { lesson, protocol, sources: bundleSources } = bundle;
 
     if (lesson.traceabilityStatus !== "complete" && !previewMode) {
       skipped.push({ lessonId, reason: "traceability_incomplete" });
@@ -81,6 +112,14 @@ export function buildPublishableBundle(previewMode = false) {
       continue;
     }
 
+    if (
+      !previewMode &&
+      bundleSources.some((s) => !isSourceDisplayEligible(s, config))
+    ) {
+      skipped.push({ lessonId, reason: "source_display_not_eligible" });
+      continue;
+    }
+
     lessons.push({
       ...bundle,
       advisory: config.advisoryLessonIds?.includes(lessonId) ?? false
@@ -88,6 +127,19 @@ export function buildPublishableBundle(previewMode = false) {
   }
 
   const modules = groupByModule(lessons.map((l) => l.lesson));
+  const assessmentMetrics = loadAssessmentMetrics();
+  const catalogSearch = loadCatalogSearchIndex();
+  const professionalRoleClaims = registry.claims
+    .filter((c) =>
+      ["claim-abtc-roles-001-boundaries", "claim-rspca-003-abtc-trainer", "claim-bva-001-pain-behaviour"].includes(
+        c.id
+      )
+    )
+    .map((c) => ({
+      id: c.id,
+      statement: c.statement,
+      topic: c.topic
+    }));
 
   return {
     generatedAt: new Date().toISOString(),
@@ -112,6 +164,9 @@ export function buildPublishableBundle(previewMode = false) {
         }))
     },
     referrals: buildReferrals(registry),
+    professionalRoles: professionalRoleClaims,
+    assessmentMetrics,
+    catalogSearch,
     modules,
     lessons: lessons.map((entry) => ({
       lesson: entry.lesson,
@@ -122,12 +177,15 @@ export function buildPublishableBundle(previewMode = false) {
         confidence: c.confidence,
         sourceId: c.supportingSourceId ?? c.studyId
       })),
-      sources: entry.sources.map((s) => ({
-        id: s.id,
-        title: s.title,
-        url: s.canonicalUrl,
-        publisher: s.publisher
-      })),
+      sources: entry.sources
+        .filter((s) => isSourceDisplayEligible(s, config))
+        .map((s) => ({
+          id: s.id,
+          title: s.title,
+          url: s.canonicalUrl,
+          publisher: s.publisher,
+          displayEligibility: s.displayEligibility ?? "paraphrase_ok_pending_legal"
+        })),
       advisory: entry.advisory
     })),
     ownerQuestions: loadOwnerQuestions(),
@@ -199,6 +257,23 @@ function buildReferrals(registry) {
 }
 
 /** @param {string} text */
+function loadCatalogSearchIndex() {
+  try {
+    const raw = JSON.parse(
+      readFileSync(join(getRepoRoot(), "kb/index/catalog.json"), "utf8")
+    );
+    return (raw.searchableEntries ?? []).map((e) => ({
+      id: e.id,
+      kind: e.kind,
+      title: e.title,
+      topics: e.topics ?? [],
+      module: e.goodDogModule ?? null
+    }));
+  } catch {
+    return [];
+  }
+}
+
 export function violatesNoAversiveRule(text) {
   const blocked = [
     /\bshock collar\b/i,

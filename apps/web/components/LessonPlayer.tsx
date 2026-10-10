@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { PublishableLesson } from "@/lib/publishable";
 import { isStepDone, saveStep } from "@/lib/progress";
+import { isOffLeadUnlocked } from "@/lib/progression";
 
 type Tab = "steps" | "evidence";
 
@@ -10,6 +11,9 @@ export function LessonPlayer({ entry }: { entry: PublishableLesson }) {
   const [tab, setTab] = useState<Tab>("steps");
   const [tick, setTick] = useState(0);
   const { lesson, protocol, claims, sources, advisory } = entry;
+  const educationOnly = (lesson as { educationOnly?: boolean }).educationOnly === true;
+  const showOffLeadGate =
+    lesson.id === "lesson-recall-basics" || protocol.id === "proto-recall-three-step-dt";
 
   const steps = useMemo(() => protocol.steps ?? [], [protocol.steps]);
 
@@ -49,6 +53,19 @@ export function LessonPlayer({ entry }: { entry: PublishableLesson }) {
 
       {tab === "steps" ? (
         <>
+          {educationOnly ? (
+            <p className="card" style={{ background: "#f0f7ff", borderColor: "#c5d9f0" }}>
+              <strong>Education only:</strong> no step checklist—use this to observe stress and know
+              when to pause or refer.
+            </p>
+          ) : null}
+          {showOffLeadGate && !isOffLeadUnlocked() ? (
+            <p className="card" style={{ background: "#fff8f0", borderColor: "#e8c9a8" }}>
+              <strong>Long line first:</strong> KindTrail blocks promoting off-lead freedom in public
+              until you mark tier-1 and tier-2 recall metrics on the{" "}
+              <a href="/learn">Learn</a> page (safe-002).
+            </p>
+          ) : null}
           <p className="muted">{protocol.intendedOutcome}</p>
           <ol className="step-list">
             {steps.map((step) => {

@@ -1,0 +1,28 @@
+{
+  "batchId": "batch-008",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    {
+      "sourceId": "src-govuk-control-dog-public",
+      "url": "https://www.gov.uk/control-dog-public",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-leg-dang-dogs-act-1991",
+      "url": "https://www.legislation.gov.uk/ukpga/1991/65/contents",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-bva-abnormal-behaviour",
+      "url": "https://www.bva.co.uk/take-action/our-policies/abnormal-behaviour/",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-apbc-owner-handouts",
+      "url": "https://www.apbc.org.uk/owners/handouts",
+      "httpStatus": 202,
+      "allowlisted": true
+    }
+  ],
+  "notes": ["ABTC role PDFs remain Cloudflare-blocked (review-011)."]
+}

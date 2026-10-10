@@ -2,7 +2,7 @@
 /**
  * Automated QA for Good Dog knowledge base batch integrity.
  */
-import { loadMergedRegistry } from "./load-registry.mjs";
+import { loadMergedRegistry, loadAssessmentMetrics } from "./load-registry.mjs";
 
 const errors = [];
 const warnings = [];
@@ -103,6 +103,7 @@ for (const l of lessons) {
 const behaviourIds = new Set(behaviours.map((b) => b.id));
 const lessonIds = new Set(lessons.map((l) => l.id));
 const disagreementIds = new Set(disagreements.map((d) => d.id));
+const metricIds = new Set(loadAssessmentMetrics().map((m) => m.id));
 const entityIds = new Set([
   ...sourceIds,
   ...studyIds,
@@ -111,7 +112,8 @@ const entityIds = new Set([
   ...safetyIds,
   ...behaviourIds,
   ...lessonIds,
-  ...disagreementIds
+  ...disagreementIds,
+  ...metricIds
 ]);
 
 for (const r of relationships) {

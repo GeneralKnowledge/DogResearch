@@ -1,0 +1,64 @@
+{
+  "metrics": [
+    {
+      "id": "metric-name-latency-2s",
+      "title": "Name response within 2 seconds",
+      "behaviourId": "beh-name-orientation",
+      "tier": 1,
+      "observableCriteria": "Dog orients to handler within 2 seconds of name spoken once at conversational volume.",
+      "progressionGate": null,
+      "supportingClaimIds": [],
+      "supportingProtocolIds": ["proto-name-attention-dt"],
+      "goodDogModule": "foundation_skills",
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "metric-recall-long-line-5m",
+      "title": "Recall on long line — 5 metres",
+      "behaviourId": "beh-recall-to-handler",
+      "tier": 1,
+      "observableCriteria": "Single recall cue; dog returns to within arm's reach on 5m long line in low distraction.",
+      "progressionGate": "safe-002-recall-management",
+      "supportingClaimIds": ["claim-dt-recall-004-offlead-criteria"],
+      "supportingProtocolIds": ["proto-recall-three-step-dt"],
+      "goodDogModule": "life_skills",
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "metric-recall-long-line-10m",
+      "title": "Recall on long line — 10 metres",
+      "behaviourId": "beh-recall-to-handler",
+      "tier": 2,
+      "observableCriteria": "Single recall cue; reliable on 10m long line with mild distraction.",
+      "progressionGate": "safe-002-recall-management",
+      "supportingClaimIds": ["claim-dt-recall-004-offlead-criteria"],
+      "supportingProtocolIds": ["proto-recall-three-step-dt"],
+      "goodDogModule": "life_skills",
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "metric-loose-lead-10-steps",
+      "title": "Loose lead — 10 consecutive steps",
+      "behaviourId": "beh-loose-lead-walk",
+      "tier": 1,
+      "observableCriteria": "Ten consecutive steps with slack lead without owner stopping.",
+      "progressionGate": null,
+      "supportingClaimIds": ["claim-dt-ll-001-stop-when-tight"],
+      "supportingProtocolIds": ["proto-loose-lead-dt"],
+      "goodDogModule": "life_skills",
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "metric-off-lead-not-unlocked",
+      "title": "Off-lead freedom (not auto-unlocked)",
+      "behaviourId": "beh-recall-to-handler",
+      "tier": 99,
+      "observableCriteria": "App must not promote off-lead in public until tier 2 recall met AND owner confirms secure area or professional sign-off.",
+      "progressionGate": "safe-002-recall-management",
+      "supportingClaimIds": ["claim-dt-recall-004-offlead-criteria", "claim-govuk-002-collar-tag-public"],
+      "supportingProtocolIds": ["proto-recall-three-step-dt"],
+      "goodDogModule": "life_skills",
+      "lastReviewed": "2026-10-10"
+    }
+  ]
+}

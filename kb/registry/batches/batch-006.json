@@ -1,0 +1,140 @@
+{
+  "sources": [
+    {
+      "id": "src-dt-focus-training",
+      "canonicalUrl": "https://www.dogstrust.org.uk/dog-advice/training/basics/focus-training",
+      "title": "How to train your dog to focus on you",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["D.name_response_attention", "C.session_planning"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok_pending_legal",
+      "reuseNotes": "Paraphrase only.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_006",
+      "qualityTier": "high_practical",
+      "issues": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-dt-focus-001-reward-attention",
+      "statement": "Dogs Trust focus training rewards the dog for voluntarily looking at the handler, building engagement before adding distractions.",
+      "topic": "D.name_response_attention",
+      "supportingSourceId": "src-dt-focus-training",
+      "locator": "Training approach",
+      "excerptOrParaphrase": "Reward offered attention first.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Standard +R focus pattern.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-ddd-001-order-charity",
+      "statement": "Dogs Trust training pages consistently progress skills by reducing distraction and increasing difficulty gradually; KindTrail synthesises this as distance before duration before distraction for app progression (charity-aligned heuristic).",
+      "topic": "C.distance_duration_distraction",
+      "supportingSourceId": "src-dt-focus-training",
+      "locator": "KB synthesis batch 006",
+      "excerptOrParaphrase": "DDD heuristic aligned to charity gradual progression.",
+      "evidenceType": "kb_synthesis",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "medium",
+      "confidenceJustification": "Cross-page synthesis; not single explicit DDD article.",
+      "contradictingClaimIds": [],
+      "limitations": ["Human review for app tier thresholds."],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-bc-stress-002-body-language-list",
+      "statement": "Blue Cross stress guidance (batch 002 source) lists lip licking, yawning, pinned ears, and turning away as stress signs owners should notice before escalation.",
+      "topic": "A.stress_fear_arousal",
+      "supportingSourceId": "src-bluecross-stress-dogs",
+      "locator": "Cross-reference batch 002",
+      "excerptOrParaphrase": "Reuse existing registered source.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Already extracted in batch 002.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    }
+  ],
+  "protocols": [
+    {
+      "id": "proto-ddd-progression-skeleton",
+      "title": "Distance → duration → distraction (KindTrail skeleton)",
+      "intendedOutcome": "Owner increases one difficulty dimension at a time when proofing behaviours.",
+      "targetBehaviourIds": ["beh-sit-on-cue"],
+      "methodIds": ["meth-positive-reinforcement", "meth-create-distance"],
+      "suitableProfiles": ["all_pet_dogs_learning"],
+      "prerequisites": ["beh-sit-on-cue"],
+      "inappropriateWhen": ["Dog showing stress—reduce criteria"],
+      "equipment": ["Treats"],
+      "environment": "Start low distraction.",
+      "baselineAssessment": "Behaviour reliable in quiet room.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Increase distance from dog while maintaining behaviour (e.g. sit/stay) before lengthening duration.",
+          "rewardTiming": "Reward in position.",
+          "progressCriteria": "Success at new distance with 3 repetitions.",
+          "easierIfStruggling": "Reduce distance increment.",
+          "failureModes": ["Adding distance and duration together"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Increase duration only after distance stable; then add mild distractions one at a time.",
+          "rewardTiming": "High-value rewards for first successes with distraction.",
+          "progressCriteria": "Behaviour holds with one new distraction type.",
+          "easierIfStruggling": "Return to previous D or D level.",
+          "failureModes": ["Multiple new distractions at once"]
+        }
+      ],
+      "reinforcementOptions": ["Food", "Praise"],
+      "generalisationMaintenance": "Cycle through DDD for each new skill.",
+      "welfareMonitoring": ["Stress signs per claim-bc-stress-002-body-language-list"],
+      "stopConditions": ["Persistent failure—reduce criteria or refer"],
+      "safetyPrecautions": [],
+      "referralRequirements": [],
+      "supportingSourceIds": ["src-dt-focus-training", "src-bluecross-stress-dogs"],
+      "supportingClaimIds": ["claim-dt-ddd-001-order-charity", "claim-bc-stress-002-body-language-list"],
+      "evidenceConfidence": "medium_professional_guidance",
+      "reviewStatus": "requires_human_review",
+      "reviewReason": "Synthesised DDD skeleton; tier numbers need validation.",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": "Links to assessment metrics tiers."
+    }
+  ],
+  "behaviours": [
+    {
+      "id": "beh-stress-sign-observed",
+      "name": "Owner recognises stress sign",
+      "observableCriteria": "Owner can name at least two stress signs (e.g. lip lick, yawning) when dog shows them and pauses training.",
+      "topic": "A.stress_fear_arousal"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-read-your-dog-stress",
+      "title": "Read stress signals",
+      "summary": "Notice lip licks, yawning, and turning away—pause and help your dog feel safe.",
+      "derivedFromProtocolId": "proto-ddd-progression-skeleton",
+      "supportingClaimIds": ["claim-bc-stress-002-body-language-list"],
+      "topic": "A.stress_fear_arousal",
+      "goodDogModule": "foundation_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "educationOnly": true,
+      "lastReviewed": "2026-10-10"
+    }
+  ]
+}
