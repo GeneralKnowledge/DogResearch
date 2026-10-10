@@ -13,10 +13,13 @@
     "catalog": "node scripts/build-catalog.mjs",
     "url-check": "node scripts/url-live-check.mjs",
     "export": "node scripts/export-publishable.mjs",
+    "export:good-dog": "node scripts/export-good-dog-domain.mjs",
     "test:gate": "node packages/content-gate/test.mjs",
+    "test:good-dog-crosswalk": "node packages/content-gate/good-dog-crosswalk.test.mjs",
     "test:export": "node scripts/export-snapshot.test.mjs",
     "url-check:strict": "node scripts/url-check-strict.mjs",
-    "lint": "npm run qa && npm run test:gate && npm run test:export",
+    "lint": "npm run qa && npm run test:gate && npm run test:export && npm run test:good-dog-crosswalk",
+    "build:kb": "npm run qa && npm run catalog && npm run export:good-dog && npm run test:gate && npm run test:good-dog-crosswalk",
     "dev:web": "npm run export && npm run dev -w @gooddog/web",
     "build:app": "npm run qa && npm run catalog && npm run export && npm run test:gate && npm run test:export && npm run build -w @gooddog/web"
   }

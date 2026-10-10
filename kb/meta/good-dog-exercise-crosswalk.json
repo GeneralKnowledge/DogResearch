@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0.0",
+  "mappings": [
+    {
+      "lessonId": "lesson-intro-marker",
+      "protocolId": "proto-marker-charging-dt",
+      "goodDogExerciseId": "ex-reward-marker",
+      "learningObjectiveId": "reward-marker",
+      "prerequisiteIds": [],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-name-attention",
+      "protocolId": "proto-name-attention-dt",
+      "goodDogExerciseId": "ex-name-response",
+      "learningObjectiveId": "name-response",
+      "prerequisiteIds": [],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-first-sit",
+      "protocolId": "proto-sit-lure-rspca",
+      "goodDogExerciseId": "ex-sit-comfort",
+      "learningObjectiveId": "sit",
+      "prerequisiteIds": [],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-down-basics",
+      "protocolId": "proto-down-lure-dt",
+      "goodDogExerciseId": "ex-down-comfort",
+      "learningObjectiveId": "down",
+      "prerequisiteIds": ["ex-sit-comfort"],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-settle-mat",
+      "protocolId": "proto-settle-mat-dt",
+      "goodDogExerciseId": "ex-mat-settle",
+      "learningObjectiveId": "mat-settle",
+      "prerequisiteIds": [],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-stay-basics",
+      "protocolId": "proto-stay-progression-dt",
+      "goodDogExerciseId": "ex-wait-brief",
+      "learningObjectiveId": "wait",
+      "prerequisiteIds": ["ex-sit-comfort"],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-leave-it-basics",
+      "protocolId": "proto-leave-it-dt",
+      "goodDogExerciseId": "ex-leave-it-easy",
+      "learningObjectiveId": "leave-it",
+      "prerequisiteIds": [],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-rspca-leave",
+      "protocolId": "proto-leave-rspca-fist",
+      "goodDogExerciseId": "ex-kb-rspca-leave",
+      "learningObjectiveId": "leave-it",
+      "prerequisiteIds": ["ex-leave-it-easy"],
+      "newExercise": true
+    },
+    {
+      "lessonId": "lesson-loose-lead",
+      "protocolId": "proto-loose-lead-dt",
+      "goodDogExerciseId": "ex-lead-loose",
+      "learningObjectiveId": "lead-walking",
+      "prerequisiteIds": ["ex-lead-intro"],
+      "easierVariationId": "ex-lead-intro",
+      "harderVariationId": "ex-check-in-walk",
+      "goodDogExportStatus": "hold_until_method_review",
+      "methodTags": ["stop_until_slack_then_forward_motion"],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-recall-basics",
+      "protocolId": "proto-recall-three-step-dt",
+      "goodDogExerciseId": "ex-recall-foundation",
+      "learningObjectiveId": "recall",
+      "prerequisiteIds": [],
+      "harderVariationId": "ex-recall-mild-distract",
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-emergency-recall",
+      "protocolId": "proto-recall-emergency-good-dog",
+      "goodDogExerciseId": "ex-kb-emergency-recall",
+      "learningObjectiveId": "recall",
+      "prerequisiteIds": ["ex-recall-foundation"],
+      "newExercise": true
+    },
+    {
+      "lessonId": "lesson-jumping-up",
+      "protocolId": "proto-jumping-four-paws-dt",
+      "goodDogExerciseId": "ex-greeting-calm",
+      "learningObjectiveId": "greetings",
+      "prerequisiteIds": [],
+      "newExercise": false
+    },
+    {
+      "lessonId": "lesson-mouthing-redirect",
+      "protocolId": "proto-mouthing-redirect-dt",
+      "goodDogExerciseId": "ex-puppy-mouthing",
+      "learningObjectiveId": "puppy-mouthing",
+      "prerequisiteIds": [],
+      "newExercise": false
+    },
+    {
+      "protocolId": "proto-loose-lead-force-free-draft",
+      "goodDogExerciseId": "ex-kb-loose-lead-check-in-draft",
+      "learningObjectiveId": "lead-walking",
+      "prerequisiteIds": ["ex-lead-intro"],
+      "easierVariationId": "ex-lead-intro",
+      "harderVariationId": "ex-check-in-walk",
+      "goodDogExportStatus": "draft",
+      "newExercise": true
+    }
+  ]
+}

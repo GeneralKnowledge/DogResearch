@@ -44,5 +44,14 @@
     "proto-puppy-socialisation-dt",
     "proto-ddd-progression-skeleton"
   ],
-  "requireDisplayEligibility": ["paraphrase_ok", "paraphrase_ok_pending_legal"]
+  "requireDisplayEligibility": ["paraphrase_ok", "paraphrase_ok_pending_legal"],
+  "managementLessonIds": [
+    "lesson-steal-chase",
+    "lesson-fireworks-management",
+    "lesson-reactive-management",
+    "lesson-rescue-settling",
+    "lesson-adolescent-regression",
+    "lesson-puppy-socialisation"
+  ],
+  "educationOnlyLessonIds": ["lesson-read-your-dog-stress"]
 }

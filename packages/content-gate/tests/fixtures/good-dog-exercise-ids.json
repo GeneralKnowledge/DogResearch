@@ -1,0 +1,29 @@
+{
+  "vendoredFrom": "https://github.com/GeneralKnowledge/Good-Dog/blob/main/src/lib/domains/dog-training/content/exercises.ts",
+  "vendoredAt": "2026-10-10",
+  "exerciseIds": [
+    "ex-name-response",
+    "ex-reward-marker",
+    "ex-engagement-easy",
+    "ex-sit-comfort",
+    "ex-down-comfort",
+    "ex-wait-brief",
+    "ex-mat-settle",
+    "ex-calm-home",
+    "ex-handling-touch",
+    "ex-name-mild-distract",
+    "ex-recall-foundation",
+    "ex-recall-mild-distract",
+    "ex-lead-intro",
+    "ex-lead-loose",
+    "ex-check-in-walk",
+    "ex-leave-it-easy",
+    "ex-door-manners",
+    "ex-greeting-calm",
+    "ex-rest-spot",
+    "ex-puppy-sounds",
+    "ex-puppy-surfaces",
+    "ex-toilet-routine",
+    "ex-puppy-mouthing"
+  ]
+}

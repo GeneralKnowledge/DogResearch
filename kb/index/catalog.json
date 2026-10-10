@@ -1900,6 +1900,15 @@
       "behaviourIds": [
         "beh-stress-sign-observed"
       ]
+    },
+    {
+      "id": "proto-loose-lead-force-free-draft",
+      "kind": "protocol",
+      "title": "Loose-lead walking — reward check-ins (draft, force-free)",
+      "reviewStatus": "requires_human_review",
+      "behaviourIds": [
+        "beh-loose-lead-walk"
+      ]
     }
   ]
 }

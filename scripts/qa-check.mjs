@@ -2,7 +2,12 @@
 /**
  * Automated QA for Good Dog knowledge base batch integrity.
  */
+import { readFileSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 import { loadMergedRegistry, loadAssessmentMetrics } from "./load-registry.mjs";
+
+const repoRoot = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 const errors = [];
 const warnings = [];
@@ -128,6 +133,58 @@ for (const r of relationships) {
   if (!entityIds.has(r.to) && !sourceIds.has(r.to) && !studyIds.has(r.to) && !safetyIds.has(r.to)) {
     warnings.push(`Relationship to unknown id: ${r.to}`);
   }
+}
+
+const publishConfig = JSON.parse(
+  readFileSync(join(repoRoot, "kb/meta/publish-config.json"), "utf8")
+);
+const crosswalk = JSON.parse(
+  readFileSync(join(repoRoot, "kb/meta/good-dog-exercise-crosswalk.json"), "utf8")
+);
+const managementIds = new Set(publishConfig.managementLessonIds ?? []);
+const educationIds = new Set(publishConfig.educationOnlyLessonIds ?? []);
+const allowReview = new Set(publishConfig.allowProtocolsDespiteReview ?? []);
+
+for (const lessonId of publishConfig.pilotLessonIds ?? []) {
+  const lesson = lessons.find((l) => l.id === lessonId);
+  if (!lesson) {
+    errors.push(`Pilot lesson ${lessonId} not found in registry`);
+    continue;
+  }
+  const protocol = protocols.find((p) => p.id === lesson.derivedFromProtocolId);
+  if (
+    lesson.traceabilityStatus !== "complete" &&
+    !(protocol && allowReview.has(protocol.id))
+  ) {
+    errors.push(
+      `Pilot lesson ${lessonId} traceabilityStatus is ${lesson.traceabilityStatus} (not complete)`
+    );
+  }
+
+  if (managementIds.has(lessonId) || educationIds.has(lessonId) || lesson.educationOnly) {
+    continue;
+  }
+
+  const mapping = (crosswalk.mappings ?? []).find((m) => m.lessonId === lessonId);
+  if (!mapping) {
+    errors.push(`Pilot skill lesson ${lessonId} missing Good Dog crosswalk entry`);
+    continue;
+  }
+  if (mapping.newExercise !== true && !/^ex-/.test(mapping.goodDogExerciseId ?? "")) {
+    errors.push(
+      `Crosswalk for ${lessonId} must have goodDogExerciseId /^ex-/ or newExercise: true`
+    );
+  }
+}
+
+const seenExerciseIds = new Set();
+for (const mapping of crosswalk.mappings ?? []) {
+  const gid = mapping.goodDogExerciseId;
+  if (!gid) continue;
+  if (seenExerciseIds.has(gid)) {
+    errors.push(`Duplicate goodDogExerciseId in crosswalk: ${gid}`);
+  }
+  seenExerciseIds.add(gid);
 }
 
 console.log("Good Dog KB QA report");
