@@ -39,3 +39,9 @@
 
 - disc-006: the synthesised DDD order (distance first) conflicts with Dogs Trust stay and target pages (duration first). review-013 stays open.
 - Vet/handling education lesson added; hand-target claims added without a new exercise.
+
+## Batch 012 notes
+
+- IMDT-aligned crash course map added (`kb/meta/crash-course.json`, `docs/imdt-alignment.md`): 10 stages, 12 assessed exercises, 6 Q&A areas.
+- Biggest remaining gaps vs IMDT outline: owner lesson on operant/classical conditioning, hand touch, emergency stop, chin rest, retrieve, plan-and-measure.
+- Muzzle training researched (Dogs Trust, Blue Cross, PDSA) but gated for human review.

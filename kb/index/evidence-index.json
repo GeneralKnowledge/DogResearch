@@ -5,7 +5,11 @@
       "scientific": [],
       "professional": [
         "claim-imdt-001-force-free",
-        "claim-imdt-002-no-pp-nr"
+        "claim-imdt-002-no-pp-nr",
+        "claim-imdt-cur-001-pathway",
+        "claim-imdt-cur-002-two-day-topics",
+        "claim-imdt-cur-004-knowledge-areas",
+        "claim-imdt-cur-006-assessment-theory-weighting"
       ],
       "disputes": []
     },
@@ -15,7 +19,8 @@
         "claim-imdt-003-referral",
         "claim-dt-reactive-006-behaviour-support-referral",
         "claim-dt-mouth-003-refer-bite",
-        "claim-dt-handle-003-pain-vet-first"
+        "claim-dt-handle-003-pain-vet-first",
+        "claim-dt-muzzle-003-cautions"
       ],
       "disputes": []
     },
@@ -36,7 +41,9 @@
         "claim-rspca-004-avoid-aversive-classes",
         "claim-dt-ll-002-no-aversive-kit",
         "claim-abtc-aversive-001-shock-choke-prong",
-        "claim-abtc-aversive-002-alpha-roll"
+        "claim-abtc-aversive-002-alpha-roll",
+        "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+        "claim-pdsa-muzzle-001-never-punish-never-alone"
       ],
       "disputes": []
     },
@@ -44,7 +51,8 @@
       "scientific": [],
       "professional": [
         "claim-dt-pr-001-definition",
-        "claim-rspca-001-all-reward-based"
+        "claim-rspca-001-all-reward-based",
+        "claim-npsa-learn-002-operant"
       ],
       "disputes": []
     },
@@ -98,7 +106,9 @@
     "C.session_planning": {
       "scientific": [],
       "professional": [
-        "claim-rspca-002-short-sessions"
+        "claim-rspca-002-short-sessions",
+        "claim-imdt-cur-003-four-day-topics",
+        "claim-imdt-cur-005-assessment-practical-exercises"
       ],
       "disputes": []
     },
@@ -360,7 +370,23 @@
         "claim-dt-handle-001-gradual-relaxed",
         "claim-dt-handle-002-treat-same-order-generalise",
         "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
-        "claim-dt-vet-004-happy-visits-waiting-room"
+        "claim-dt-vet-004-happy-visits-waiting-room",
+        "claim-dt-muzzle-001-why-and-fit",
+        "claim-dt-muzzle-002-steps"
+      ],
+      "disputes": []
+    },
+    "B.classical_conditioning": {
+      "scientific": [],
+      "professional": [
+        "claim-npsa-learn-001-classical"
+      ],
+      "disputes": []
+    },
+    "E.habituation_confidence": {
+      "scientific": [],
+      "professional": [
+        "claim-npsa-learn-003-habituation-principles"
       ],
       "disputes": []
     }

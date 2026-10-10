@@ -5,6 +5,7 @@ import {
   getRepoRoot,
   loadGoodDogCrosswalk,
   loadGoodDogFieldDefaults,
+  loadCrashCourse,
   loadMergedRegistry,
   loadOwnerQuestions,
   loadPublishConfig
@@ -919,5 +920,116 @@ export function buildGoodDogAskPatternsExport(guidesExport) {
     })),
     escalateQuestionPatterns,
     ownerQuestionTaxonomy
+  };
+}
+
+
+/**
+ * Ordered owner path with coverage notes. Only publishable lessons appear in `lessons`;
+ * researched-but-gated lessons are listed in `heldLessonIds`.
+ *
+ * @param {ReturnType<typeof buildGoodDogGuidesExport>} [guidesExport]
+ */
+export function buildGoodDogCrashCourseExport(guidesExport = buildGoodDogGuidesExport()) {
+  const course = loadCrashCourse();
+  const registry = loadMergedRegistry();
+  const schemaMeta = loadSchemaMeta();
+  const bundle = buildPublishableBundle(false);
+  const publishable = new Map(bundle.lessons.map((entry) => [entry.lesson.id, entry.lesson]));
+  const guideIds = new Set(guidesExport.guides.map((guide) => guide.lessonId));
+  const registryLessons = new Map(registry.lessons.map((lesson) => [lesson.id, lesson]));
+
+  /** @param {string[]} ids */
+  const resolveLessons = (ids) => {
+    const lessons = [];
+    const heldLessonIds = [];
+    for (const lessonId of ids) {
+      const lesson = publishable.get(lessonId);
+      if (lesson) {
+        lessons.push({
+          lessonId,
+          title: lesson.title,
+          kind: guideIds.has(lessonId) ? "guide" : "skill"
+        });
+      } else if (registryLessons.has(lessonId)) {
+        heldLessonIds.push(lessonId);
+      }
+    }
+    return { lessons, heldLessonIds };
+  };
+
+  const claimCountByTopic = new Map();
+  for (const claim of registry.claims) {
+    claimCountByTopic.set(claim.topic, (claimCountByTopic.get(claim.topic) ?? 0) + 1);
+  }
+
+  const stages = [...course.stages]
+    .sort((a, b) => a.order - b.order)
+    .map((stage) => {
+      const { lessons, heldLessonIds } = resolveLessons(stage.lessonIds ?? []);
+      return {
+        id: stage.id,
+        part: stage.part,
+        order: stage.order,
+        title: stage.title,
+        aim: stage.aim,
+        lessons,
+        heldLessonIds,
+        claimIds: stage.claimIds ?? [],
+        coverage: stage.coverage,
+        gaps: stage.gaps ?? []
+      };
+    });
+
+  const practicalExercises = course.practicalExercises.map((row) => ({
+    imdtExercise: row.imdtExercise,
+    status: row.status,
+    ...resolveLessons(row.lessonIds ?? []),
+    nearestLessonIds: row.nearestLessonIds ?? [],
+    claimIds: row.claimIds ?? []
+  }));
+
+  const theoryAreas = course.theoryAreas.map((area) => {
+    const claimCount = area.claimTopics.reduce(
+      (sum, topic) => sum + (claimCountByTopic.get(topic) ?? 0),
+      0
+    );
+    return {
+      area: area.area,
+      marks: area.marks,
+      claimTopics: area.claimTopics,
+      claimCount,
+      evidenceStatus: claimCount > 0 ? "evidence" : "gap"
+    };
+  });
+
+  const path = [];
+  for (const stage of stages) {
+    for (const lesson of stage.lessons) {
+      if (!path.includes(lesson.lessonId)) path.push(lesson.lessonId);
+    }
+  }
+
+  const tally = (rows, key) =>
+    rows.reduce((acc, row) => ({ ...acc, [row[key]]: (acc[row[key]] ?? 0) + 1 }), {});
+
+  return {
+    schemaVersion: schemaMeta.exportSchemaVersion ?? "1.0.0",
+    generatedAt: new Date().toISOString(),
+    courseId: course.courseId,
+    title: course.title,
+    summary: course.summary,
+    alignment: course.alignment,
+    parts: course.parts,
+    stages,
+    path,
+    practicalExercises,
+    theoryAreas,
+    summaryCounts: {
+      stages: stages.length,
+      pathLessons: path.length,
+      stageCoverage: tally(stages, "coverage"),
+      practicalExerciseStatus: tally(practicalExercises, "status")
+    }
   };
 }

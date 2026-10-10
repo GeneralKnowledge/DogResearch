@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T16:36:50.304Z",
+  "generatedAt": "2026-10-10T16:43:13.928Z",
   "productName": "KindTrail",
   "previewMode": false,
   "ethics": {
@@ -831,6 +831,99 @@
       "title": "How to have a happy vet visit with your dog — Dogs Trust",
       "topics": [
         "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-career-course",
+      "kind": "source",
+      "title": "2 Day 'Career As A Dog Trainer' Course — IMDT (public outline)",
+      "topics": [
+        "K.imdt_ethics",
+        "B.operant_conditioning",
+        "A.body_language"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-practical-instructor-course",
+      "kind": "source",
+      "title": "4 Day Practical Instructor Course — IMDT (public outline)",
+      "topics": [
+        "C.session_planning",
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-how-to-become",
+      "kind": "source",
+      "title": "How to become a Dog Trainer — IMDT",
+      "topics": [
+        "K.imdt_ethics",
+        "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-assessment-practical-pdf",
+      "kind": "source",
+      "title": "IMDT Assessment — Practical Dog Training Session guidelines (v26.1)",
+      "topics": [
+        "K.imdt_ethics",
+        "C.session_planning",
+        "D.recall_emergency_recall"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-imdt-assessment-qa-pdf",
+      "kind": "source",
+      "title": "IMDT Assessment — Question and Answer guidelines (v26.1)",
+      "topics": [
+        "K.imdt_ethics",
+        "B.operant_conditioning",
+        "B.classical_conditioning"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-npsa-animal-learning",
+      "kind": "source",
+      "title": "An introduction to animal learning for working dog users — NPSA",
+      "topics": [
+        "B.classical_conditioning",
+        "B.operant_conditioning",
+        "E.habituation_confidence"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-dt-muzzle-training",
+      "kind": "source",
+      "title": "How to train your dog to wear a muzzle — Dogs Trust",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-bc-muzzle-training",
+      "kind": "source",
+      "title": "Dogs and muzzle training — Blue Cross",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "src-pdsa-muzzle-training",
+      "kind": "source",
+      "title": "How to muzzle train your dog — PDSA",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "K.training_equipment_welfare"
       ],
       "module": null
     },
@@ -1927,6 +2020,132 @@
       "module": null
     },
     {
+      "id": "claim-imdt-cur-001-pathway",
+      "kind": "claim",
+      "title": "IMDT's stated route to its dog trainer qualification is a 2-day theory course, a 4-day practical course and a membership…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-002-two-day-topics",
+      "kind": "claim",
+      "title": "The IMDT 2-day course outline lists the science of how dogs learn, body language, group class planning and dynamics, pri…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-003-four-day-topics",
+      "kind": "claim",
+      "title": "The IMDT 4-day practical course outline covers coaching exercises, methods and exercises to teach in class, observationa…",
+      "topics": [
+        "C.session_planning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-004-knowledge-areas",
+      "kind": "claim",
+      "title": "IMDT lists the knowledge a qualified trainer needs as how dogs learn, canine body language and behaviour, observational …",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-005-assessment-practical-exercises",
+      "kind": "claim",
+      "title": "IMDT's practical assessment (v26.1) asks the candidate to coach one of twelve exercises: emergency stop, mat target, sen…",
+      "topics": [
+        "C.session_planning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-imdt-cur-006-assessment-theory-weighting",
+      "kind": "claim",
+      "title": "IMDT's assessment Q&A (v26.1) marks equipment use and conditioning out of 4, dog law and the Code of Ethics out of 2, bo…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-npsa-learn-001-classical",
+      "kind": "claim",
+      "title": "NPSA describes classical conditioning as a dog learning that a neutral stimulus reliably occurs before or with a meaning…",
+      "topics": [
+        "B.classical_conditioning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-npsa-learn-002-operant",
+      "kind": "claim",
+      "title": "NPSA describes operant conditioning as a dog learning that its own voluntary actions lead to consequences: behaviour fol…",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-npsa-learn-003-habituation-principles",
+      "kind": "claim",
+      "title": "NPSA explains that habituation, where a dog stops reacting to something that has no important consequence, works best wh…",
+      "topics": [
+        "E.habituation_confidence"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-muzzle-001-why-and-fit",
+      "kind": "claim",
+      "title": "Dogs Trust advises that any dog benefits from being able to wear a muzzle comfortably, for safety when frightened, ill o…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-muzzle-002-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches muzzle wearing in small steps: let the dog freely put its nose in and out, reward looking at the muzz…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-dt-muzzle-003-cautions",
+      "kind": "claim",
+      "title": "Dogs Trust says muzzle training by the food method may not suit a dog that guards food or dislikes people near its bowl,…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+      "kind": "claim",
+      "title": "Blue Cross recommends a basket-style muzzle that lets the dog breathe, drink and take treats, notes that muzzles that cl…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
+      "id": "claim-pdsa-muzzle-001-never-punish-never-alone",
+      "kind": "claim",
+      "title": "PDSA warns that a muzzle must never be used as punishment, that skipping training and simply putting a muzzle on tends t…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": null
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -2091,6 +2310,13 @@
       "id": "proto-handling-vet-prep-dt",
       "kind": "protocol",
       "title": "Get your dog comfortable with handling and vet visits",
+      "topics": [],
+      "module": null
+    },
+    {
+      "id": "proto-muzzle-training-dt",
+      "kind": "protocol",
+      "title": "Teach a dog to wear a basket muzzle comfortably",
       "topics": [],
       "module": null
     },
@@ -2353,6 +2579,48 @@
       ]
     },
     {
+      "topic": "K.training_equipment_welfare",
+      "claimIds": [
+        "claim-abtc-003-no-aversives",
+        "claim-rspca-004-avoid-aversive-classes",
+        "claim-dt-ll-002-no-aversive-kit",
+        "claim-abtc-aversive-001-shock-choke-prong",
+        "claim-abtc-aversive-002-alpha-roll",
+        "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+        "claim-pdsa-muzzle-001-never-punish-never-alone"
+      ],
+      "claims": [
+        {
+          "id": "claim-abtc-003-no-aversives",
+          "statement": "ABTC states it does not agree with aversives being used to train animals and publishes an indicative list of aversive equipment and methods that should not be used."
+        },
+        {
+          "id": "claim-rspca-004-avoid-aversive-classes",
+          "statement": "RSPCA advises owners not to join classes if techniques rely on fear, pain, choke chains, shouting or hitting."
+        },
+        {
+          "id": "claim-dt-ll-002-no-aversive-kit",
+          "statement": "Dogs Trust states that equipment promising to 'cure' pulling by causing pain or discomfort in sensitive areas is unnecessary and can be unpleasant and confusing for dogs; flat collar or comfortable harness is preferred."
+        },
+        {
+          "id": "claim-abtc-aversive-001-shock-choke-prong",
+          "statement": "ABTC's June 2024 indicative list includes electric/shock collars, choke chains/collars, and prong/pinch collars as aversive equipment that should not be used in training animals."
+        },
+        {
+          "id": "claim-abtc-aversive-002-alpha-roll",
+          "statement": "ABTC's indicative aversive methods list includes 'alpha roll'/pinning, hitting, hard lead jerks, and kneeing the dog as methods that should not be used."
+        },
+        {
+          "id": "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+          "statement": "Blue Cross recommends a basket-style muzzle that lets the dog breathe, drink and take treats, notes that muzzles that close the mouth stop panting, advises checking the neck strap allows no more than one small finger, and suggests giving muzzle-training treats only while the muzzle is on so the dog links it with rewards."
+        },
+        {
+          "id": "claim-pdsa-muzzle-001-never-punish-never-alone",
+          "statement": "PDSA warns that a muzzle must never be used as punishment, that skipping training and simply putting a muzzle on tends to scare the dog, that a dog must never be left alone wearing one, that mouth-closing muzzles should only be used for a few minutes because they stop panting and drinking, and that flat-faced breeds need vet advice because a muzzle can worsen breathing."
+        }
+      ]
+    },
+    {
       "topic": "G.fear_noise_separation",
       "claimIds": [
         "claim-dt-alone-001-gradual",
@@ -2391,6 +2659,85 @@
         {
           "id": "claim-kb-gap-rspca-no-noise-page",
           "statement": "As of batch 005 retrieval (2026-10-10), no stable RSPCA public URL was found for fireworks/noise desensitisation; KindTrail uses Dogs Trust seasonal fireworks guidance and defers clinical noise phobia plans to referral."
+        }
+      ]
+    },
+    {
+      "topic": "D.cooperative_care_vet_grooming",
+      "claimIds": [
+        "claim-dt-vet-prep-001",
+        "claim-dt-handle-001-gradual-relaxed",
+        "claim-dt-handle-002-treat-same-order-generalise",
+        "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+        "claim-dt-vet-004-happy-visits-waiting-room",
+        "claim-dt-muzzle-001-why-and-fit",
+        "claim-dt-muzzle-002-steps"
+      ],
+      "claims": [
+        {
+          "id": "claim-dt-vet-prep-001",
+          "statement": "KindTrail vet-prep guidance synthesises charity handling advice: pair gentle handling with treats, stop if stress signs appear, and ask your vet for a cooperative care plan if needed."
+        },
+        {
+          "id": "claim-dt-handle-001-gradual-relaxed",
+          "statement": "Dogs Trust advises introducing handling gradually in short, frequent sessions in a quiet familiar place, only when owner and dog are both relaxed, starting where the dog already enjoys touch, and stopping if the dog seems uncomfortable."
+        },
+        {
+          "id": "claim-dt-handle-002-treat-same-order-generalise",
+          "statement": "Dogs Trust advises giving a treat just after touching each body part, handling in the same order each time so the dog can predict what happens, using a verbal cue such as 'let me see', then repeating the process in new quiet locations and with new people, going back to the beginning each time."
+        },
+        {
+          "id": "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
+          "statement": "Dogs Trust recommends 'touch and treat' practice at home before vet visits: touch a comfortable area for no more than three seconds then treat, move to a new area only gradually, stop if the dog looks uncomfortable, and slowly build touch time from three to ten seconds, working towards paws, tail and mouth."
+        },
+        {
+          "id": "claim-dt-vet-004-happy-visits-waiting-room",
+          "statement": "Dogs Trust suggests dropping in at the vet clinic for treats and a fuss when no procedure is needed (if the dog enjoys it), bringing a favourite toy or blanket, sitting away from the door, facing the dog away from other dogs, and encouraging focus on the owner in the waiting room."
+        },
+        {
+          "id": "claim-dt-muzzle-001-why-and-fit",
+          "statement": "Dogs Trust advises that any dog benefits from being able to wear a muzzle comfortably, for safety when frightened, ill or injured, to stop harmful eating, to protect others, or where the law requires it; the muzzle should let the dog eat, drink and pant (a basket type), fit without obscuring vision or digging in, and a muzzle does not change how the dog feels about a trigger."
+        },
+        {
+          "id": "claim-dt-muzzle-002-steps",
+          "statement": "Dogs Trust teaches muzzle wearing in small steps: let the dog freely put its nose in and out, reward looking at the muzzle, then treats at and inside the opening, then the dog choosing to put its nose in, then slowly building time, adding steps backwards, getting used to the clip sound and loose straps, fastening briefly and unfastening, and only then lengthening wear time with fun activities and short walks; if the dog is unsure the owner goes back to the last relaxed stage."
+        }
+      ]
+    },
+    {
+      "topic": "K.imdt_ethics",
+      "claimIds": [
+        "claim-imdt-001-force-free",
+        "claim-imdt-002-no-pp-nr",
+        "claim-imdt-cur-001-pathway",
+        "claim-imdt-cur-002-two-day-topics",
+        "claim-imdt-cur-004-knowledge-areas",
+        "claim-imdt-cur-006-assessment-theory-weighting"
+      ],
+      "claims": [
+        {
+          "id": "claim-imdt-001-force-free",
+          "statement": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may cause physical or mental discomfort."
+        },
+        {
+          "id": "claim-imdt-002-no-pp-nr",
+          "statement": "IMDT members agree to avoid positive punishment and negative reinforcement as tools for training dogs."
+        },
+        {
+          "id": "claim-imdt-cur-001-pathway",
+          "statement": "IMDT's stated route to its dog trainer qualification is a 2-day theory course, a 4-day practical course and a membership assessment; the 2-day and 4-day courses each cover half of the curriculum for the OCN Level 3 'Principles of Dog Training and Behaviour' qualification, and further correspondence courses at Levels 3 to 5 lead towards behaviourist membership."
+        },
+        {
+          "id": "claim-imdt-cur-002-two-day-topics",
+          "statement": "The IMDT 2-day course outline lists the science of how dogs learn, body language, group class planning and dynamics, principles of canine behaviour, building a one-to-one consultation, and behaviour modification and rehabilitation."
+        },
+        {
+          "id": "claim-imdt-cur-004-knowledge-areas",
+          "statement": "IMDT lists the knowledge a qualified trainer needs as how dogs learn, canine body language and behaviour, observational skills, motivating dog and owner, positive-reinforcement-based training, planning classes, assessing a dog and structuring a one-to-one session, communicating with owners, and practical work with different dogs and real owners."
+        },
+        {
+          "id": "claim-imdt-cur-006-assessment-theory-weighting",
+          "statement": "IMDT's assessment Q&A (v26.1) marks equipment use and conditioning out of 4, dog law and the Code of Ethics out of 2, body language out of 4, general training knowledge out of 8, operant conditioning out of 16 and classical conditioning out of 16."
         }
       ]
     },
@@ -2469,76 +2816,13 @@
       ]
     },
     {
-      "topic": "K.training_equipment_welfare",
-      "claimIds": [
-        "claim-abtc-003-no-aversives",
-        "claim-rspca-004-avoid-aversive-classes",
-        "claim-dt-ll-002-no-aversive-kit",
-        "claim-abtc-aversive-001-shock-choke-prong",
-        "claim-abtc-aversive-002-alpha-roll"
-      ],
-      "claims": [
-        {
-          "id": "claim-abtc-003-no-aversives",
-          "statement": "ABTC states it does not agree with aversives being used to train animals and publishes an indicative list of aversive equipment and methods that should not be used."
-        },
-        {
-          "id": "claim-rspca-004-avoid-aversive-classes",
-          "statement": "RSPCA advises owners not to join classes if techniques rely on fear, pain, choke chains, shouting or hitting."
-        },
-        {
-          "id": "claim-dt-ll-002-no-aversive-kit",
-          "statement": "Dogs Trust states that equipment promising to 'cure' pulling by causing pain or discomfort in sensitive areas is unnecessary and can be unpleasant and confusing for dogs; flat collar or comfortable harness is preferred."
-        },
-        {
-          "id": "claim-abtc-aversive-001-shock-choke-prong",
-          "statement": "ABTC's June 2024 indicative list includes electric/shock collars, choke chains/collars, and prong/pinch collars as aversive equipment that should not be used in training animals."
-        },
-        {
-          "id": "claim-abtc-aversive-002-alpha-roll",
-          "statement": "ABTC's indicative aversive methods list includes 'alpha roll'/pinning, hitting, hard lead jerks, and kneeing the dog as methods that should not be used."
-        }
-      ]
-    },
-    {
-      "topic": "D.cooperative_care_vet_grooming",
-      "claimIds": [
-        "claim-dt-vet-prep-001",
-        "claim-dt-handle-001-gradual-relaxed",
-        "claim-dt-handle-002-treat-same-order-generalise",
-        "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
-        "claim-dt-vet-004-happy-visits-waiting-room"
-      ],
-      "claims": [
-        {
-          "id": "claim-dt-vet-prep-001",
-          "statement": "KindTrail vet-prep guidance synthesises charity handling advice: pair gentle handling with treats, stop if stress signs appear, and ask your vet for a cooperative care plan if needed."
-        },
-        {
-          "id": "claim-dt-handle-001-gradual-relaxed",
-          "statement": "Dogs Trust advises introducing handling gradually in short, frequent sessions in a quiet familiar place, only when owner and dog are both relaxed, starting where the dog already enjoys touch, and stopping if the dog seems uncomfortable."
-        },
-        {
-          "id": "claim-dt-handle-002-treat-same-order-generalise",
-          "statement": "Dogs Trust advises giving a treat just after touching each body part, handling in the same order each time so the dog can predict what happens, using a verbal cue such as 'let me see', then repeating the process in new quiet locations and with new people, going back to the beginning each time."
-        },
-        {
-          "id": "claim-dt-vet-002-touch-treat-three-to-ten-seconds",
-          "statement": "Dogs Trust recommends 'touch and treat' practice at home before vet visits: touch a comfortable area for no more than three seconds then treat, move to a new area only gradually, stop if the dog looks uncomfortable, and slowly build touch time from three to ten seconds, working towards paws, tail and mouth."
-        },
-        {
-          "id": "claim-dt-vet-004-happy-visits-waiting-room",
-          "statement": "Dogs Trust suggests dropping in at the vet clinic for treats and a fuss when no procedure is needed (if the dog enjoys it), bringing a favourite toy or blanket, sitting away from the door, facing the dog away from other dogs, and encouraging focus on the owner in the waiting room."
-        }
-      ]
-    },
-    {
       "topic": "H.scope_of_practice_referral",
       "claimIds": [
         "claim-imdt-003-referral",
         "claim-dt-reactive-006-behaviour-support-referral",
         "claim-dt-mouth-003-refer-bite",
-        "claim-dt-handle-003-pain-vet-first"
+        "claim-dt-handle-003-pain-vet-first",
+        "claim-dt-muzzle-003-cautions"
       ],
       "claims": [
         {
@@ -2556,6 +2840,10 @@
         {
           "id": "claim-dt-handle-003-pain-vet-first",
           "statement": "Dogs Trust advises that a dog with an established fear of handling, or who shows signs of aggression when handled, should be seen by a vet because pain makes fear and aggressive responses more likely; if the dog is well, the vet can refer to an accredited behaviourist."
+        },
+        {
+          "id": "claim-dt-muzzle-003-cautions",
+          "statement": "Dogs Trust says muzzle training by the food method may not suit a dog that guards food or dislikes people near its bowl, or one that struggles with its face being touched, and that such dogs need an accredited behaviourist or the charity's behaviour support line; a dog still frightened of the muzzle should see a vet, and a different style of muzzle should be used for any emergency muzzling during training."
         }
       ]
     },
@@ -2637,33 +2925,6 @@
         {
           "id": "claim-rspca-stay-001-reward-in-position",
           "statement": "RSPCA advises rewarding the dog while they remain in the down/stay position, not after they have got up."
-        }
-      ]
-    },
-    {
-      "topic": "H.bite_prevention_dog_child",
-      "claimIds": [
-        "claim-rspca-child-001-supervise",
-        "claim-rspca-child-002-do-not-disturb",
-        "claim-bc-child-001-remove-on-stress",
-        "claim-cfsg-001-dog-safety-code"
-      ],
-      "claims": [
-        {
-          "id": "claim-rspca-child-001-supervise",
-          "statement": "RSPCA advises never leaving a child alone in the same room as a dog, even the family dog."
-        },
-        {
-          "id": "claim-rspca-child-002-do-not-disturb",
-          "statement": "RSPCA advises teaching children not to approach dogs when the dog is eating, sleeping, unwell, injured, tired, or near valued items."
-        },
-        {
-          "id": "claim-bc-child-001-remove-on-stress",
-          "statement": "Blue Cross advises removing the dog from a worrying situation when stress signs appear (e.g. lip lick, growl, moving away) and giving a calming activity such as a chew or stuffed Kong."
-        },
-        {
-          "id": "claim-cfsg-001-dog-safety-code",
-          "statement": "CFSG Dog Safety Code advises: Be Alert (supervise children and dogs, never leave them alone together), Be Aware (recognise body language), Be Safe (keep children away when dogs sleep, eat, or have valued items)."
         }
       ]
     }

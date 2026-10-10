@@ -664,6 +664,117 @@
       "publisher": "Dogs Trust"
     },
     {
+      "id": "src-imdt-career-course",
+      "kind": "source",
+      "title": "2 Day 'Career As A Dog Trainer' Course — IMDT (public outline)",
+      "url": "https://www.imdt.uk.com/england/2-day-career-as-a-dog-trainer-course/",
+      "topics": [
+        "K.imdt_ethics",
+        "B.operant_conditioning",
+        "A.body_language"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-imdt-practical-instructor-course",
+      "kind": "source",
+      "title": "4 Day Practical Instructor Course — IMDT (public outline)",
+      "url": "https://www.imdt.uk.com/england/4-day-practical-instructor-course/",
+      "topics": [
+        "C.session_planning",
+        "K.imdt_ethics"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-imdt-how-to-become",
+      "kind": "source",
+      "title": "How to become a Dog Trainer — IMDT",
+      "url": "https://www.imdt.uk.com/how-to-become-a-dog-trainer/",
+      "topics": [
+        "K.imdt_ethics",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-imdt-assessment-practical-pdf",
+      "kind": "source",
+      "title": "IMDT Assessment — Practical Dog Training Session guidelines (v26.1)",
+      "url": "https://www.imdt.uk.com/uploads/78934304-guidelines--practicaldogtrainingsession-v26.1.pdf",
+      "topics": [
+        "K.imdt_ethics",
+        "C.session_planning",
+        "D.recall_emergency_recall"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-imdt-assessment-qa-pdf",
+      "kind": "source",
+      "title": "IMDT Assessment — Question and Answer guidelines (v26.1)",
+      "url": "https://www.imdt.uk.com/uploads/74046577-guidelinesquestionandanswer-v26.1.pdf",
+      "topics": [
+        "K.imdt_ethics",
+        "B.operant_conditioning",
+        "B.classical_conditioning"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Institute of Modern Dog Trainers (IMDT)"
+    },
+    {
+      "id": "src-npsa-animal-learning",
+      "kind": "source",
+      "title": "An introduction to animal learning for working dog users — NPSA",
+      "url": "https://www.npsa.gov.uk/building-protection/search-screening/introduction-animal-learning-working-dog-users",
+      "topics": [
+        "B.classical_conditioning",
+        "B.operant_conditioning",
+        "E.habituation_confidence"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "National Protective Security Authority (NPSA)"
+    },
+    {
+      "id": "src-dt-muzzle-training",
+      "kind": "source",
+      "title": "How to train your dog to wear a muzzle — Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/outdoors/muzzle-training",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "H.scope_of_practice_referral"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Dogs Trust"
+    },
+    {
+      "id": "src-bc-muzzle-training",
+      "kind": "source",
+      "title": "Dogs and muzzle training — Blue Cross",
+      "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training/dogs-and-muzzle-training",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "Blue Cross"
+    },
+    {
+      "id": "src-pdsa-muzzle-training",
+      "kind": "source",
+      "title": "How to muzzle train your dog — PDSA",
+      "url": "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/other-veterinary-advice/how-to-muzzle-train-your-dog",
+      "topics": [
+        "D.cooperative_care_vet_grooming",
+        "K.training_equipment_welfare"
+      ],
+      "extractionStatus": "extracted_batch_012",
+      "publisher": "PDSA"
+    },
+    {
       "id": "claim-imdt-001-force-free",
       "kind": "claim",
       "title": "IMDT members agree to actively provide and promote force-free training methods and reject methods or equipment that may …",
@@ -1877,6 +1988,146 @@
       "sourceId": "src-pdsa-stress-dogs"
     },
     {
+      "id": "claim-imdt-cur-001-pathway",
+      "kind": "claim",
+      "title": "IMDT's stated route to its dog trainer qualification is a 2-day theory course, a 4-day practical course and a membership…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-how-to-become"
+    },
+    {
+      "id": "claim-imdt-cur-002-two-day-topics",
+      "kind": "claim",
+      "title": "The IMDT 2-day course outline lists the science of how dogs learn, body language, group class planning and dynamics, pri…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-career-course"
+    },
+    {
+      "id": "claim-imdt-cur-003-four-day-topics",
+      "kind": "claim",
+      "title": "The IMDT 4-day practical course outline covers coaching exercises, methods and exercises to teach in class, observationa…",
+      "topics": [
+        "C.session_planning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-practical-instructor-course"
+    },
+    {
+      "id": "claim-imdt-cur-004-knowledge-areas",
+      "kind": "claim",
+      "title": "IMDT lists the knowledge a qualified trainer needs as how dogs learn, canine body language and behaviour, observational …",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-how-to-become"
+    },
+    {
+      "id": "claim-imdt-cur-005-assessment-practical-exercises",
+      "kind": "claim",
+      "title": "IMDT's practical assessment (v26.1) asks the candidate to coach one of twelve exercises: emergency stop, mat target, sen…",
+      "topics": [
+        "C.session_planning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-assessment-practical-pdf"
+    },
+    {
+      "id": "claim-imdt-cur-006-assessment-theory-weighting",
+      "kind": "claim",
+      "title": "IMDT's assessment Q&A (v26.1) marks equipment use and conditioning out of 4, dog law and the Code of Ethics out of 2, bo…",
+      "topics": [
+        "K.imdt_ethics"
+      ],
+      "confidence": "high",
+      "sourceId": "src-imdt-assessment-qa-pdf"
+    },
+    {
+      "id": "claim-npsa-learn-001-classical",
+      "kind": "claim",
+      "title": "NPSA describes classical conditioning as a dog learning that a neutral stimulus reliably occurs before or with a meaning…",
+      "topics": [
+        "B.classical_conditioning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-npsa-animal-learning"
+    },
+    {
+      "id": "claim-npsa-learn-002-operant",
+      "kind": "claim",
+      "title": "NPSA describes operant conditioning as a dog learning that its own voluntary actions lead to consequences: behaviour fol…",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "confidence": "high",
+      "sourceId": "src-npsa-animal-learning"
+    },
+    {
+      "id": "claim-npsa-learn-003-habituation-principles",
+      "kind": "claim",
+      "title": "NPSA explains that habituation, where a dog stops reacting to something that has no important consequence, works best wh…",
+      "topics": [
+        "E.habituation_confidence"
+      ],
+      "confidence": "high",
+      "sourceId": "src-npsa-animal-learning"
+    },
+    {
+      "id": "claim-dt-muzzle-001-why-and-fit",
+      "kind": "claim",
+      "title": "Dogs Trust advises that any dog benefits from being able to wear a muzzle comfortably, for safety when frightened, ill o…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-muzzle-training"
+    },
+    {
+      "id": "claim-dt-muzzle-002-steps",
+      "kind": "claim",
+      "title": "Dogs Trust teaches muzzle wearing in small steps: let the dog freely put its nose in and out, reward looking at the muzz…",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-muzzle-training"
+    },
+    {
+      "id": "claim-dt-muzzle-003-cautions",
+      "kind": "claim",
+      "title": "Dogs Trust says muzzle training by the food method may not suit a dog that guards food or dislikes people near its bowl,…",
+      "topics": [
+        "H.scope_of_practice_referral"
+      ],
+      "confidence": "high",
+      "sourceId": "src-dt-muzzle-training"
+    },
+    {
+      "id": "claim-bc-muzzle-001-basket-fit-treat-only-when-worn",
+      "kind": "claim",
+      "title": "Blue Cross recommends a basket-style muzzle that lets the dog breathe, drink and take treats, notes that muzzles that cl…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-bc-muzzle-training"
+    },
+    {
+      "id": "claim-pdsa-muzzle-001-never-punish-never-alone",
+      "kind": "claim",
+      "title": "PDSA warns that a muzzle must never be used as punishment, that skipping training and simply putting a muzzle on tends t…",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "confidence": "high",
+      "sourceId": "src-pdsa-muzzle-training"
+    },
+    {
       "id": "proto-marker-charging-dt",
       "kind": "protocol",
       "title": "Charge a marker signal (Dogs Trust pattern)",
@@ -2089,6 +2340,15 @@
       "kind": "protocol",
       "title": "Get your dog comfortable with handling and vet visits",
       "reviewStatus": "auto_accepted_low_risk",
+      "behaviourIds": [
+        "beh-stress-sign-observed"
+      ]
+    },
+    {
+      "id": "proto-muzzle-training-dt",
+      "kind": "protocol",
+      "title": "Teach a dog to wear a basket muzzle comfortably",
+      "reviewStatus": "requires_human_review",
       "behaviourIds": [
         "beh-stress-sign-observed"
       ]

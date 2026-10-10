@@ -134,6 +134,24 @@
       "priority": "low",
       "status": "partially_resolved",
       "created": "2026-10-10"
+    },
+    {
+      "id": "review-016",
+      "entityType": "protocol",
+      "entityId": "proto-muzzle-training-dt",
+      "reason": "Muzzle training is safety-adjacent (aggression, pain, breathing in flat-faced breeds). Three consistent charity sources, but gated as requires_human_review and not allowlisted, so lesson-muzzle-training is not exported.",
+      "priority": "high",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-017",
+      "entityType": "source",
+      "entityId": "src-imdt-assessment-qa-pdf",
+      "reason": "IMDT public outlines (batch 012) are used only as a structural coverage checklist in kb/meta/crash-course.json and are pending_legal. Confirm with IMDT before any public wording that says the path 'follows' their curriculum.",
+      "priority": "medium",
+      "status": "open",
+      "created": "2026-10-10"
     }
   ]
 }
