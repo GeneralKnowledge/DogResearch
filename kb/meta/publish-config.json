@@ -27,7 +27,8 @@
     "lesson-drop-it-swap",
     "lesson-spin-trick",
     "lesson-equipment-and-law",
-    "lesson-plan-and-measure"
+    "lesson-plan-and-measure",
+    "lesson-alone-prevention"
   ],
   "excludedLessonIds": [],
   "advisoryLessonIds": [
@@ -38,7 +39,8 @@
     "lesson-rescue-settling",
     "lesson-adolescent-regression",
     "lesson-vet-handling-prep",
-    "lesson-equipment-and-law"
+    "lesson-equipment-and-law",
+    "lesson-alone-prevention"
   ],
   "advisoryMessages": {
     "lesson-equipment-and-law": "Rules on shock collars differ across the UK and are under review in England, so check current rules; if your dog is worried by equipment or being handled, see your vet first.",
@@ -48,7 +50,8 @@
     "lesson-reactive-management": "Management only—not a treatment plan for aggression. See your vet first; use ABTC-registered help for ongoing reactivity.",
     "lesson-emergency-recall": "Practice in secure areas on a long line. Do not rely on emergency recall off-lead in public until tier-2 recall metrics are met.",
     "lesson-rescue-settling": "Rescue dogs may need extra time and professional support—avoid overwhelming new environments.",
-    "lesson-adolescent-regression": "Teenage fear periods vary; reduce pressure and seek help if anxiety persists."
+    "lesson-adolescent-regression": "Teenage fear periods vary; reduce pressure and seek help if anxiety persists.",
+    "lesson-alone-prevention": "This is gradual alone-time practice for dogs who are coping. If your dog panics when left, do not keep lengthening absences—arrange care and speak to your vet or a behaviour professional."
   },
   "excludeProtocolReviewStatus": ["requires_human_review"],
   "allowProtocolsDespiteReview": [
@@ -63,7 +66,8 @@
     "lesson-reactive-management",
     "lesson-rescue-settling",
     "lesson-adolescent-regression",
-    "lesson-puppy-socialisation"
+    "lesson-puppy-socialisation",
+    "lesson-alone-prevention"
   ],
   "educationOnlyLessonIds": [
     "lesson-read-your-dog-stress",

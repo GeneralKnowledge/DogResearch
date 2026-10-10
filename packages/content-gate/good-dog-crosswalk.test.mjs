@@ -45,6 +45,10 @@ assert.ok(
   "loose lead held until method review"
 );
 assert.ok(domain.draftExercises.length >= 1, "draft force-free loose lead protocol exported");
+assert.ok(
+  domain.managementModules.some((m) => m.lessonId === "lesson-alone-prevention"),
+  "alone-time lesson exported as a management module, not a skill exercise"
+);
 
 const variationErrors = validateVariationGraph([
   ...domain.exercises,

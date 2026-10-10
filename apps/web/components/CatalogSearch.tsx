@@ -43,8 +43,15 @@ export function CatalogSearch() {
             const oq = data.ownerQuestions
               ?.flatMap((c) => c.questions.map((q) => ({ ...q, cat: c.id })))
               .find((q) => q.id === e.id);
-            const relatedLesson = (oq as { relatedLessonId?: string } | undefined)
-              ?.relatedLessonId;
+            const entryLink = e as { relatedLessonId?: string | null; relatedPath?: string | null };
+            const oqLesson =
+              oq && "relatedLessonId" in oq && typeof oq.relatedLessonId === "string"
+                ? oq.relatedLessonId
+                : undefined;
+            const oqPath =
+              oq && "relatedPath" in oq && typeof oq.relatedPath === "string" ? oq.relatedPath : undefined;
+            const relatedLesson = entryLink.relatedLessonId ?? oqLesson;
+            const relatedPath = entryLink.relatedPath ?? oqPath;
             return (
               <li key={`${e.kind}-${e.id}`}>
                 <span className="pill">{e.kind}</span>{" "}
@@ -54,6 +61,10 @@ export function CatalogSearch() {
                   <>
                     {e.title}{" "}
                     <Link href={`/learn/lesson/${relatedLesson}`}>Go to lesson</Link>
+                  </>
+                ) : relatedPath?.startsWith("/") ? (
+                  <>
+                    {e.title} <Link href={relatedPath}>Open</Link>
                   </>
                 ) : (
                   <span>{e.title}</span>

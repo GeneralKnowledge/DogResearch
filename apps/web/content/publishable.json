@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:08:12.481Z",
+  "generatedAt": "2026-10-10T17:23:01.250Z",
   "productName": "KindTrail",
   "previewMode": false,
   "ethics": {
@@ -2772,166 +2772,638 @@
       "module": null
     },
     {
+      "id": "lesson-intro-marker",
+      "kind": "lesson",
+      "title": "Introduce a marker word",
+      "topics": [
+        "B.marker_signals"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-recall-basics",
+      "kind": "lesson",
+      "title": "Build a reliable recall (basics)",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-first-sit",
+      "kind": "lesson",
+      "title": "First sit with a lure",
+      "topics": [
+        "D.sit_down_stand"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-leave-it-basics",
+      "kind": "lesson",
+      "title": "Leave it — foundations",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-loose-lead",
+      "kind": "lesson",
+      "title": "Stop when the lead tightens",
+      "topics": [
+        "D.loose_lead_greetings"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-name-attention",
+      "kind": "lesson",
+      "title": "Build name response",
+      "topics": [
+        "D.name_response_attention"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-down-basics",
+      "kind": "lesson",
+      "title": "Teach down without forcing",
+      "topics": [
+        "D.sit_down_stand"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-settle-mat",
+      "kind": "lesson",
+      "title": "Settle on a mat",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-reactive-management",
+      "kind": "lesson",
+      "title": "Help your reactive dog on walks",
+      "topics": [
+        "G.lead_reactivity_barking"
+      ],
+      "module": "behaviour_support"
+    },
+    {
+      "id": "lesson-puppy-socialisation",
+      "kind": "lesson",
+      "title": "Socialise your puppy safely",
+      "topics": [
+        "E.socialisation_exposure"
+      ],
+      "module": "puppy"
+    },
+    {
+      "id": "lesson-rspca-leave",
+      "kind": "lesson",
+      "title": "Teach leave (RSPCA method)",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-fireworks-management",
+      "kind": "lesson",
+      "title": "Help your dog through fireworks",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "module": "behaviour_support"
+    },
+    {
+      "id": "lesson-steal-chase",
+      "kind": "lesson",
+      "title": "Stop the steal-and-chase game",
+      "topics": [
+        "G.resource_guarding_chasing"
+      ],
+      "module": "behaviour_support"
+    },
+    {
+      "id": "lesson-jumping-up",
+      "kind": "lesson",
+      "title": "Four paws on the floor",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-mouthing-redirect",
+      "kind": "lesson",
+      "title": "Redirect mouthing and nipping",
+      "topics": [
+        "G.jumping_mouthing"
+      ],
+      "module": "puppy"
+    },
+    {
+      "id": "lesson-read-your-dog-stress",
+      "kind": "lesson",
+      "title": "Read stress signals",
+      "topics": [
+        "A.stress_fear_arousal"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-stay-basics",
+      "kind": "lesson",
+      "title": "Build a stay",
+      "topics": [
+        "D.wait_stay_settle"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-emergency-recall",
+      "kind": "lesson",
+      "title": "Emergency recall practice",
+      "topics": [
+        "D.recall_emergency_recall"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-rescue-settling",
+      "kind": "lesson",
+      "title": "Help a rescue dog settle in",
+      "topics": [
+        "J.rescue_rehomed"
+      ],
+      "module": "behaviour_support"
+    },
+    {
+      "id": "lesson-adolescent-regression",
+      "kind": "lesson",
+      "title": "When your teenage dog regresses",
+      "topics": [
+        "E.adolescent_development"
+      ],
+      "module": "puppy"
+    },
+    {
+      "id": "lesson-alone-prevention",
+      "kind": "lesson",
+      "title": "Practise short times alone",
+      "topics": [
+        "G.fear_noise_separation"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-vet-handling-prep",
+      "kind": "lesson",
+      "title": "Get ready for the vet and grooming",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-muzzle-training",
+      "kind": "lesson",
+      "title": "Teach your dog to wear a muzzle happily",
+      "topics": [
+        "D.cooperative_care_vet_grooming"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-how-dogs-learn",
+      "kind": "lesson",
+      "title": "How dogs learn: rewards, markers and associations",
+      "topics": [
+        "B.operant_conditioning"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-hand-touch",
+      "kind": "lesson",
+      "title": "Teach your dog to touch your hand",
+      "topics": [
+        "D.hand_target_touch"
+      ],
+      "module": "foundation_skills"
+    },
+    {
+      "id": "lesson-drop-it-swap",
+      "kind": "lesson",
+      "title": "Give things up with a fair trade",
+      "topics": [
+        "D.leave_it_drop"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-spin-trick",
+      "kind": "lesson",
+      "title": "Teach your dog to spin",
+      "topics": [
+        "D.trick_training"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-equipment-and-law",
+      "kind": "lesson",
+      "title": "Kind equipment and the legal basics",
+      "topics": [
+        "K.training_equipment_welfare"
+      ],
+      "module": "life_skills"
+    },
+    {
+      "id": "lesson-plan-and-measure",
+      "kind": "lesson",
+      "title": "Plan short sessions and track progress",
+      "topics": [
+        "C.session_design"
+      ],
+      "module": "foundation_skills"
+    },
+    {
       "id": "oq-recall-001",
       "kind": "owner_question",
       "title": "Why won't my dog come when called?",
       "topics": [
-        "oq-recall"
+        "oq-recall",
+        "hasn't learned name or recall",
+        "scared by stimuli",
+        "worried about being told off or put back on lead",
+        "over-excited or frustrated",
+        "chasing wildlife",
+        "boredom and exploration"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-recall-basics",
+      "relatedPath": null
     },
     {
       "id": "oq-recall-002",
       "kind": "owner_question",
       "title": "Can my dog ever go off-lead in public?",
       "topics": [
-        "oq-recall"
+        "oq-recall",
+        "some dogs cannot reliably off-lead",
+        "emergency recall still worth practising"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-emergency-recall",
+      "relatedPath": null
     },
     {
       "id": "oq-train-001",
       "kind": "owner_question",
       "title": "What reward should I use if my dog isn't food motivated outdoors?",
       "topics": [
-        "oq-training-basics"
+        "oq-training-basics",
+        "higher value treats",
+        "toys",
+        "environmental rewards"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": null,
+      "relatedPath": null
     },
     {
       "id": "oq-train-002",
       "kind": "owner_question",
       "title": "How do I find a safe trainer or class in the UK?",
       "topics": [
-        "oq-training-basics"
+        "oq-training-basics",
+        "ABTC register",
+        "avoid aversive methods"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": null,
+      "relatedPath": "/referrals"
     },
     {
       "id": "oq-react-001",
       "kind": "owner_question",
       "title": "Why does my dog bark and lunge at other dogs on lead?",
       "topics": [
-        "oq-reactivity"
+        "oq-reactivity",
+        "fear or frustration",
+        "pain or illness",
+        "learned habit",
+        "lead tension"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-reactive-management",
+      "relatedPath": null
     },
     {
       "id": "oq-react-002",
       "kind": "owner_question",
       "title": "What can I do in the moment when my dog reacts?",
       "topics": [
-        "oq-reactivity"
+        "oq-reactivity",
+        "create distance",
+        "reward calm",
+        "avoid telling off",
+        "keep lead relaxed"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-reactive-management",
+      "relatedPath": null
     },
     {
       "id": "oq-noise-001",
       "kind": "owner_question",
       "title": "How can I help my dog during fireworks?",
       "topics": [
-        "oq-noise-fireworks"
+        "oq-noise-fireworks",
+        "safe space",
+        "routine",
+        "masking sounds",
+        "vet if health concerns"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-fireworks-management",
+      "relatedPath": null
     },
     {
       "id": "oq-noise-002",
       "kind": "owner_question",
       "title": "When is noise fear more than I can manage at home?",
       "topics": [
-        "oq-noise-fireworks"
+        "oq-noise-fireworks",
+        "severe panic",
+        "self-injury",
+        "behaviourist/vet plan"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-fireworks-management",
+      "relatedPath": null
     },
     {
       "id": "oq-guard-001",
       "kind": "owner_question",
       "title": "Why does my dog run away with stolen items?",
       "topics": [
-        "oq-guarding-stealing"
+        "oq-guarding-stealing",
+        "chase game reinforcement",
+        "enrichment",
+        "trade-up"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-steal-chase",
+      "relatedPath": null
     },
     {
       "id": "oq-guard-002",
       "kind": "owner_question",
       "title": "Should I chase my dog to get something back?",
       "topics": [
-        "oq-guarding-stealing"
+        "oq-guarding-stealing",
+        "do not chase",
+        "ignore safe steals until drop",
+        "refer if aggression"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-leave-it-basics",
+      "relatedPath": null
     },
     {
       "id": "oq-jump-001",
       "kind": "owner_question",
       "title": "How do I stop my dog jumping on visitors?",
       "topics": [
-        "oq-jumping-mouthing"
+        "oq-jumping-mouthing",
+        "four paws on floor",
+        "everyone consistent",
+        "reward calm"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-jumping-up",
+      "relatedPath": null
     },
     {
       "id": "oq-mouth-001",
       "kind": "owner_question",
       "title": "My puppy won't stop mouthing me—what now?",
       "topics": [
-        "oq-jumping-mouthing"
+        "oq-jumping-mouthing",
+        "meet needs",
+        "redirect to chews",
+        "behaviour support line if injury"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-mouthing-redirect",
+      "relatedPath": null
     },
     {
       "id": "oq-pup-001",
       "kind": "owner_question",
       "title": "How do I socialise my puppy before vaccinations are complete?",
       "topics": [
-        "oq-puppy-socialisation"
+        "oq-puppy-socialisation",
+        "carry in sling/carrier",
+        "vet timing",
+        "positive exposures at home"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-puppy-socialisation",
+      "relatedPath": null
     },
     {
       "id": "oq-pup-002",
       "kind": "owner_question",
       "title": "What if my puppy seems scared during socialisation?",
       "topics": [
-        "oq-puppy-socialisation"
+        "oq-puppy-socialisation",
+        "stop interaction",
+        "reduce intensity",
+        "seek professional help if persistent"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-puppy-socialisation",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-alone-001",
+      "kind": "owner_question",
+      "title": "How do I teach my dog to spend time alone?",
+      "topics": [
+        "oq-alone-time",
+        "very gradual",
+        "food toy",
+        "shorten if stressed",
+        "calm exits and returns"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-alone-prevention",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-alone-002",
+      "kind": "owner_question",
+      "title": "My dog panics when I leave—should I keep practising absences?",
+      "topics": [
+        "oq-alone-time",
+        "stop beyond coping",
+        "arrange care",
+        "vet or behaviour professional",
+        "not a treatment plan"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-alone-prevention",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-stay-001",
+      "kind": "owner_question",
+      "title": "How do I teach my dog to stay?",
+      "topics": [
+        "oq-stay-leave-lead",
+        "reward in position",
+        "return before treating",
+        "duration before distance"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-stay-basics",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-leave-001",
+      "kind": "owner_question",
+      "title": "How do I stop my dog grabbing things?",
+      "topics": [
+        "oq-stay-leave-lead",
+        "leave it",
+        "trade up",
+        "do not chase"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-leave-it-basics",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-lead-001",
+      "kind": "owner_question",
+      "title": "How do I stop my dog pulling on the lead?",
+      "topics": [
+        "oq-stay-leave-lead",
+        "stop when the lead is tight",
+        "move when it is slack",
+        "comfortable harness or flat collar"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-loose-lead",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-stress-001",
+      "kind": "owner_question",
+      "title": "How do I know if my dog is stressed?",
+      "topics": [
+        "oq-stress-rescue-teen",
+        "lip lick",
+        "yawn",
+        "turning away",
+        "pause the session"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-read-your-dog-stress",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-rescue-001",
+      "kind": "owner_question",
+      "title": "How do I help a newly adopted dog settle?",
+      "topics": [
+        "oq-stress-rescue-teen",
+        "predictable routine",
+        "low pressure",
+        "professional support if fear persists"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-rescue-settling",
+      "relatedPath": null
+    },
+    {
+      "id": "oq-teen-001",
+      "kind": "owner_question",
+      "title": "Why has my teenage dog forgotten their training?",
+      "topics": [
+        "oq-stress-rescue-teen",
+        "adolescent regression",
+        "shorter sessions",
+        "stay force-free"
+      ],
+      "module": null,
+      "relatedLessonId": "lesson-adolescent-regression",
+      "relatedPath": null
     },
     {
       "id": "oq-stress-001",
       "kind": "owner_question",
       "title": "How can I tell if my dog is stressed?",
       "topics": [
-        "oq-stress-body-language"
+        "oq-stress-body-language",
+        "yawning or lip licking",
+        "whale eye",
+        "tucked tail",
+        "loss of appetite",
+        "look at the whole dog and context"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-read-your-dog-stress",
+      "relatedPath": null
     },
     {
       "id": "oq-stress-002",
       "kind": "owner_question",
       "title": "What should I do when my dog growls?",
       "topics": [
-        "oq-stress-body-language"
+        "oq-stress-body-language",
+        "do not punish a warning",
+        "create space",
+        "see vet and behaviourist"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-read-your-dog-stress",
+      "relatedPath": null
     },
     {
       "id": "oq-handle-001",
       "kind": "owner_question",
       "title": "How do I get my dog used to being handled for the vet or groomer?",
       "topics": [
-        "oq-handling-vet"
+        "oq-handling-vet",
+        "touch and treat",
+        "same order each time",
+        "happy vet visits"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-vet-handling-prep",
+      "relatedPath": null
     },
     {
       "id": "oq-handle-002",
       "kind": "owner_question",
       "title": "Why does my dog growl or snap when I touch them?",
       "topics": [
-        "oq-handling-vet"
+        "oq-handling-vet",
+        "pain or illness",
+        "fear of handling",
+        "see vet first"
       ],
-      "module": null
+      "module": null,
+      "relatedLessonId": "lesson-vet-handling-prep",
+      "relatedPath": null
     }
   ],
   "cpdPaths": [
@@ -3435,7 +3907,8 @@
         "lesson-vet-handling-prep",
         "lesson-drop-it-swap",
         "lesson-spin-trick",
-        "lesson-equipment-and-law"
+        "lesson-equipment-and-law",
+        "lesson-alone-prevention"
       ]
     },
     {
@@ -5990,6 +6463,106 @@
       ],
       "advisory": false,
       "advisoryMessage": null
+    },
+    {
+      "lesson": {
+        "id": "lesson-alone-prevention",
+        "title": "Practise short times alone",
+        "summary": "Build brief separations with a food toy and calm returns. This is prevention for dogs who cope—not a treatment plan for separation anxiety.",
+        "topic": "G.fear_noise_separation",
+        "goodDogModule": "life_skills",
+        "educationOnly": false
+      },
+      "protocol": {
+        "id": "proto-alone-prevention-dt",
+        "title": "Alone-time preparation (puppy/adult prevention — Dogs Trust)",
+        "intendedOutcome": "Dog remains relaxed during brief separations with positive alone-time associations.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "instruction": "Use baby gate for brief visual separation; scatter treats or provide food toy before gate closes.",
+            "rewardTiming": "Calm behaviour reinforced with continued positive alone activity.",
+            "progressCriteria": "No stress signs (panting, pacing, vocalising) for brief period.",
+            "easierIfStruggling": "Stay closer to gate; shorten duration.",
+            "failureModes": [
+              "Increasing duration despite stress signs"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "instruction": "Gradually increase time apart while owner in house, then very short departures with calm, low-key exits and returns.",
+            "rewardTiming": "Calm on return rewarded; no fuss on departure/arrival.",
+            "progressCriteria": "Short absences tolerated without stress signs.",
+            "easierIfStruggling": "Reduce seconds away; use dog sitter instead of stretching duration if anxiety present.",
+            "failureModes": [
+              "Big emotional greetings",
+              "Punishment for destruction"
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "instruction": "If the dog panics, stops coping, or already shows separation anxiety, stop lengthening absences. Arrange care so they are not left beyond what they can manage, and contact a vet or behaviour professional. This plan is prevention only—not a treatment programme.",
+            "rewardTiming": "No extra absences while distressed.",
+            "progressCriteria": "Owner can state the difference between short prevention practice and a clinical separation plan.",
+            "easierIfStruggling": "Use a sitter or company instead of practising departures.",
+            "failureModes": [
+              "Repeating absences that the dog cannot cope with"
+            ]
+          }
+        ],
+        "reviewStatus": "reviewed_pilot_export",
+        "referralRequirements": [
+          "Separation anxiety signs → Dogs Trust Behaviour Support Line / vet / behaviourist"
+        ],
+        "safetyPrecautions": [
+          "Do not leave beyond four-hour charity heuristic if avoidable"
+        ],
+        "safe002Sanitized": false
+      },
+      "claims": [
+        {
+          "id": "claim-dt-alone-001-gradual",
+          "statement": "Dogs Trust advises building time apart very gradually, pairing alone time with positive experiences such as long-lasting food toys, and reducing duration if stress signs appear.",
+          "confidence": "high",
+          "sourceId": "src-dt-time-alone"
+        },
+        {
+          "id": "claim-dt-alone-002-no-tell-off",
+          "statement": "Dogs Trust states that telling a dog off for separation-related destruction or toileting is likely to worsen anxiety because the dog does not understand the punishment in that context.",
+          "confidence": "high",
+          "sourceId": "src-dt-time-alone"
+        },
+        {
+          "id": "claim-dt-alone-003-four-hours",
+          "statement": "Dogs Trust advises avoiding leaving an adult dog alone for more than four hours, and building up more slowly if separation anxiety signs are present.",
+          "confidence": "medium",
+          "sourceId": "src-dt-time-alone"
+        },
+        {
+          "id": "claim-dt-sa-001-avoid-alone",
+          "statement": "For dogs showing separation anxiety, Dogs Trust advises avoiding leaving them alone (or longer than they can cope) because continued absences can worsen the problem while longer-term support is arranged.",
+          "confidence": "high",
+          "sourceId": "src-dt-separation-anxiety"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-dt-time-alone",
+          "title": "Helping your dog get used to spending time alone",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/home/time-alone",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        },
+        {
+          "id": "src-dt-separation-anxiety",
+          "title": "Separation anxiety in dogs: signs and support",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/separation-anxiety",
+          "publisher": "Dogs Trust",
+          "displayEligibility": "paraphrase_ok"
+        }
+      ],
+      "advisory": true,
+      "advisoryMessage": "This is gradual alone-time practice for dogs who are coping. If your dog panics when left, do not keep lengthening absences—arrange care and speak to your vet or a behaviour professional."
     }
   ],
   "ownerQuestions": [
@@ -6008,7 +6581,8 @@
             "chasing wildlife",
             "boredom and exploration"
           ],
-          "sourceLocator": "src-dt-escaping-running-away"
+          "sourceLocator": "src-dt-escaping-running-away",
+          "relatedLessonId": "lesson-recall-basics"
         },
         {
           "id": "oq-recall-002",
@@ -6017,7 +6591,8 @@
             "some dogs cannot reliably off-lead",
             "emergency recall still worth practising"
           ],
-          "sourceLocator": "src-dt-escaping-running-away"
+          "sourceLocator": "src-dt-escaping-running-away",
+          "relatedLessonId": "lesson-emergency-recall"
         }
       ]
     },
@@ -6042,7 +6617,8 @@
             "ABTC register",
             "avoid aversive methods"
           ],
-          "sourceLocator": "src-rspca-find-trainer"
+          "sourceLocator": "src-rspca-find-trainer",
+          "relatedPath": "/referrals"
         }
       ]
     },
@@ -6059,7 +6635,8 @@
             "learned habit",
             "lead tension"
           ],
-          "sourceLocator": "src-dt-reactive-dog"
+          "sourceLocator": "src-dt-reactive-dog",
+          "relatedLessonId": "lesson-reactive-management"
         },
         {
           "id": "oq-react-002",
@@ -6070,7 +6647,8 @@
             "avoid telling off",
             "keep lead relaxed"
           ],
-          "sourceLocator": "src-dt-reactive-dog"
+          "sourceLocator": "src-dt-reactive-dog",
+          "relatedLessonId": "lesson-reactive-management"
         }
       ]
     },
@@ -6127,7 +6705,7 @@
             "refer if aggression"
           ],
           "sourceLocator": "src-dt-stop-stealing",
-          "relatedLessonId": "lesson-steal-chase"
+          "relatedLessonId": "lesson-leave-it-basics"
         }
       ]
     },
@@ -6171,7 +6749,8 @@
             "vet timing",
             "positive exposures at home"
           ],
-          "sourceLocator": "src-dt-puppy-socialisation"
+          "sourceLocator": "src-dt-puppy-socialisation",
+          "relatedLessonId": "lesson-puppy-socialisation"
         },
         {
           "id": "oq-pup-002",
@@ -6181,7 +6760,117 @@
             "reduce intensity",
             "seek professional help if persistent"
           ],
-          "sourceLocator": "src-dt-puppy-socialisation"
+          "sourceLocator": "src-dt-puppy-socialisation",
+          "relatedLessonId": "lesson-puppy-socialisation"
+        }
+      ]
+    },
+    {
+      "id": "oq-alone-time",
+      "label": "Time alone",
+      "questions": [
+        {
+          "id": "oq-alone-001",
+          "text": "How do I teach my dog to spend time alone?",
+          "subthemes": [
+            "very gradual",
+            "food toy",
+            "shorten if stressed",
+            "calm exits and returns"
+          ],
+          "sourceLocator": "src-dt-time-alone",
+          "relatedLessonId": "lesson-alone-prevention"
+        },
+        {
+          "id": "oq-alone-002",
+          "text": "My dog panics when I leave—should I keep practising absences?",
+          "subthemes": [
+            "stop beyond coping",
+            "arrange care",
+            "vet or behaviour professional",
+            "not a treatment plan"
+          ],
+          "sourceLocator": "src-dt-separation-anxiety",
+          "relatedLessonId": "lesson-alone-prevention"
+        }
+      ]
+    },
+    {
+      "id": "oq-stay-leave-lead",
+      "label": "Stay, leave it, and loose lead",
+      "questions": [
+        {
+          "id": "oq-stay-001",
+          "text": "How do I teach my dog to stay?",
+          "subthemes": [
+            "reward in position",
+            "return before treating",
+            "duration before distance"
+          ],
+          "sourceLocator": "src-dt-stay-training",
+          "relatedLessonId": "lesson-stay-basics"
+        },
+        {
+          "id": "oq-leave-001",
+          "text": "How do I stop my dog grabbing things?",
+          "subthemes": [
+            "leave it",
+            "trade up",
+            "do not chase"
+          ],
+          "sourceLocator": "src-dt-leave-training",
+          "relatedLessonId": "lesson-leave-it-basics"
+        },
+        {
+          "id": "oq-lead-001",
+          "text": "How do I stop my dog pulling on the lead?",
+          "subthemes": [
+            "stop when the lead is tight",
+            "move when it is slack",
+            "comfortable harness or flat collar"
+          ],
+          "sourceLocator": "src-dt-loose-lead",
+          "relatedLessonId": "lesson-loose-lead"
+        }
+      ]
+    },
+    {
+      "id": "oq-stress-rescue-teen",
+      "label": "Stress, rescue dogs, and teenagers",
+      "questions": [
+        {
+          "id": "oq-stress-001",
+          "text": "How do I know if my dog is stressed?",
+          "subthemes": [
+            "lip lick",
+            "yawn",
+            "turning away",
+            "pause the session"
+          ],
+          "sourceLocator": "src-bluecross-stress-dogs",
+          "relatedLessonId": "lesson-read-your-dog-stress"
+        },
+        {
+          "id": "oq-rescue-001",
+          "text": "How do I help a newly adopted dog settle?",
+          "subthemes": [
+            "predictable routine",
+            "low pressure",
+            "professional support if fear persists"
+          ],
+          "sourceLocator": "src-dt-rehoming-hub",
+          "relatedLessonId": "lesson-rescue-settling"
+        },
+        {
+          "id": "oq-teen-001",
+          "text": "Why has my teenage dog forgotten their training?",
+          "subthemes": [
+            "adolescent regression",
+            "shorter sessions",
+            "stay force-free"
+          ],
+          "sourceLocator": "src-dt-puppy-training-101",
+          "relatedLessonId": "lesson-adolescent-regression"
         }
       ]
     },

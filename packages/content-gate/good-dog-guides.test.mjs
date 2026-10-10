@@ -12,6 +12,7 @@ import {
 
 const EXPECTED_GUIDE_IDS = [
   "lesson-adolescent-regression",
+  "lesson-alone-prevention",
   "lesson-equipment-and-law",
   "lesson-fireworks-management",
   "lesson-how-dogs-learn",
@@ -27,8 +28,8 @@ const EXPECTED_GUIDE_IDS = [
 const guides = buildGoodDogGuidesExport();
 assert.equal(
   guides.guides.length,
-  11,
-  "guides export includes 11 entries (7 original, vet handling, and 3 crash-course explainers)"
+  12,
+  "guides export includes 12 entries (7 original, alone-time prevention, vet handling, and 3 crash-course explainers)"
 );
 assert.deepEqual(
   guides.guides.map((guide) => guide.lessonId).sort(),

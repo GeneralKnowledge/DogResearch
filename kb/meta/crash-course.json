@@ -158,7 +158,8 @@
       "lessonIds": [
         "lesson-fireworks-management",
         "lesson-reactive-management",
-        "lesson-rescue-settling"
+        "lesson-rescue-settling",
+        "lesson-alone-prevention"
       ],
       "claimIds": ["claim-imdt-003-referral"],
       "coverage": "covered",

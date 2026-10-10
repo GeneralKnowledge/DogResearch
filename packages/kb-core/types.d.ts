@@ -107,5 +107,7 @@ export interface OwnerQuestionCategory {
     text: string;
     subthemes?: string[];
     sourceLocator?: string;
+    relatedLessonId?: string;
+    relatedPath?: string;
   }>;
 }

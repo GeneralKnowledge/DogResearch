@@ -378,8 +378,10 @@ function loadCatalogSearchIndex() {
         id: q.id,
         kind: "owner_question",
         title: q.text,
-        topics: [cat.id],
-        module: null
+        topics: [cat.id, ...(q.subthemes ?? [])],
+        module: null,
+        relatedLessonId: q.relatedLessonId ?? null,
+        relatedPath: q.relatedPath ?? null
       });
     }
   }

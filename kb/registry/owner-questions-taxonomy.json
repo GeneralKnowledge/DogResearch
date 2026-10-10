@@ -1,6 +1,17 @@
 {
   "taxonomyId": "oq-tax-v1",
-  "derivedFromSourceIds": ["src-dt-escaping-running-away", "src-dt-recall-training"],
+  "derivedFromSourceIds": [
+    "src-dt-escaping-running-away",
+    "src-dt-recall-training",
+    "src-dt-time-alone",
+    "src-dt-separation-anxiety",
+    "src-dt-stay-training",
+    "src-dt-leave-training",
+    "src-dt-loose-lead",
+    "src-bluecross-stress-dogs",
+    "src-dt-rehoming-hub",
+    "src-dt-puppy-training-101"
+  ],
   "evidenceChannel": "owner_question_discovery",
   "notes": "Questions phrased from common owner problems in charity guidance—not proof of best solutions.",
   "categories": [
@@ -19,13 +30,15 @@
             "chasing wildlife",
             "boredom and exploration"
           ],
-          "sourceLocator": "src-dt-escaping-running-away"
+          "sourceLocator": "src-dt-escaping-running-away",
+          "relatedLessonId": "lesson-recall-basics"
         },
         {
           "id": "oq-recall-002",
           "text": "Can my dog ever go off-lead in public?",
           "subthemes": ["some dogs cannot reliably off-lead", "emergency recall still worth practising"],
-          "sourceLocator": "src-dt-escaping-running-away"
+          "sourceLocator": "src-dt-escaping-running-away",
+          "relatedLessonId": "lesson-emergency-recall"
         }
       ]
     },
@@ -43,7 +56,8 @@
           "id": "oq-train-002",
           "text": "How do I find a safe trainer or class in the UK?",
           "subthemes": ["ABTC register", "avoid aversive methods"],
-          "sourceLocator": "src-rspca-find-trainer"
+          "sourceLocator": "src-rspca-find-trainer",
+          "relatedPath": "/referrals"
         }
       ]
     },
@@ -60,7 +74,8 @@
             "learned habit",
             "lead tension"
           ],
-          "sourceLocator": "src-dt-reactive-dog"
+          "sourceLocator": "src-dt-reactive-dog",
+          "relatedLessonId": "lesson-reactive-management"
         },
         {
           "id": "oq-react-002",
@@ -71,7 +86,8 @@
             "avoid telling off",
             "keep lead relaxed"
           ],
-          "sourceLocator": "src-dt-reactive-dog"
+          "sourceLocator": "src-dt-reactive-dog",
+          "relatedLessonId": "lesson-reactive-management"
         }
       ]
     },
@@ -111,7 +127,7 @@
           "text": "Should I chase my dog to get something back?",
           "subthemes": ["do not chase", "ignore safe steals until drop", "refer if aggression"],
           "sourceLocator": "src-dt-stop-stealing",
-          "relatedLessonId": "lesson-steal-chase"
+          "relatedLessonId": "lesson-leave-it-basics"
         }
       ]
     },
@@ -143,13 +159,89 @@
           "id": "oq-pup-001",
           "text": "How do I socialise my puppy before vaccinations are complete?",
           "subthemes": ["carry in sling/carrier", "vet timing", "positive exposures at home"],
-          "sourceLocator": "src-dt-puppy-socialisation"
+          "sourceLocator": "src-dt-puppy-socialisation",
+          "relatedLessonId": "lesson-puppy-socialisation"
         },
         {
           "id": "oq-pup-002",
           "text": "What if my puppy seems scared during socialisation?",
           "subthemes": ["stop interaction", "reduce intensity", "seek professional help if persistent"],
-          "sourceLocator": "src-dt-puppy-socialisation"
+          "sourceLocator": "src-dt-puppy-socialisation",
+          "relatedLessonId": "lesson-puppy-socialisation"
+        }
+      ]
+    },
+    {
+      "id": "oq-alone-time",
+      "label": "Time alone",
+      "questions": [
+        {
+          "id": "oq-alone-001",
+          "text": "How do I teach my dog to spend time alone?",
+          "subthemes": ["very gradual", "food toy", "shorten if stressed", "calm exits and returns"],
+          "sourceLocator": "src-dt-time-alone",
+          "relatedLessonId": "lesson-alone-prevention"
+        },
+        {
+          "id": "oq-alone-002",
+          "text": "My dog panics when I leave—should I keep practising absences?",
+          "subthemes": ["stop beyond coping", "arrange care", "vet or behaviour professional", "not a treatment plan"],
+          "sourceLocator": "src-dt-separation-anxiety",
+          "relatedLessonId": "lesson-alone-prevention"
+        }
+      ]
+    },
+    {
+      "id": "oq-stay-leave-lead",
+      "label": "Stay, leave it, and loose lead",
+      "questions": [
+        {
+          "id": "oq-stay-001",
+          "text": "How do I teach my dog to stay?",
+          "subthemes": ["reward in position", "return before treating", "duration before distance"],
+          "sourceLocator": "src-dt-stay-training",
+          "relatedLessonId": "lesson-stay-basics"
+        },
+        {
+          "id": "oq-leave-001",
+          "text": "How do I stop my dog grabbing things?",
+          "subthemes": ["leave it", "trade up", "do not chase"],
+          "sourceLocator": "src-dt-leave-training",
+          "relatedLessonId": "lesson-leave-it-basics"
+        },
+        {
+          "id": "oq-lead-001",
+          "text": "How do I stop my dog pulling on the lead?",
+          "subthemes": ["stop when the lead is tight", "move when it is slack", "comfortable harness or flat collar"],
+          "sourceLocator": "src-dt-loose-lead",
+          "relatedLessonId": "lesson-loose-lead"
+        }
+      ]
+    },
+    {
+      "id": "oq-stress-rescue-teen",
+      "label": "Stress, rescue dogs, and teenagers",
+      "questions": [
+        {
+          "id": "oq-stress-001",
+          "text": "How do I know if my dog is stressed?",
+          "subthemes": ["lip lick", "yawn", "turning away", "pause the session"],
+          "sourceLocator": "src-bluecross-stress-dogs",
+          "relatedLessonId": "lesson-read-your-dog-stress"
+        },
+        {
+          "id": "oq-rescue-001",
+          "text": "How do I help a newly adopted dog settle?",
+          "subthemes": ["predictable routine", "low pressure", "professional support if fear persists"],
+          "sourceLocator": "src-dt-rehoming-hub",
+          "relatedLessonId": "lesson-rescue-settling"
+        },
+        {
+          "id": "oq-teen-001",
+          "text": "Why has my teenage dog forgotten their training?",
+          "subthemes": ["adolescent regression", "shorter sessions", "stay force-free"],
+          "sourceLocator": "src-dt-puppy-training-101",
+          "relatedLessonId": "lesson-adolescent-regression"
         }
       ]
     },
