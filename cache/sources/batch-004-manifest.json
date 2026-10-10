@@ -1,0 +1,48 @@
+{
+  "batchId": "batch-004",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    {
+      "sourceId": "src-dt-reactive-dog",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/reactive-dog",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-dt-puppy-socialisation",
+      "url": "https://www.dogstrust.org.uk/dog-advice/puppy/puppy-socialisation-introduction",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-dt-puppy-training-101",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/puppy-training",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "src-rspca-leave-training",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/leave",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "study-verbeek-2024-hdb-scoping",
+      "url": "https://doi.org/10.3390/ani14131985",
+      "httpStatus": 200
+    },
+    {
+      "sourceId": "study-counterconditioning-review-2024",
+      "url": "https://doi.org/10.1016/j.applanim.2024.01539",
+      "httpStatus": "metadata"
+    },
+    {
+      "sourceId": "src-bluecross-puppy-socialisation",
+      "url": "https://www.bluecross.org.uk/advice/dog/puppy",
+      "httpStatus": 403,
+      "notes": "Deferred; Cloudflare/bot block in CI environment"
+    },
+    {
+      "sourceId": "src-abtc-role-standards-pdf",
+      "url": "https://abtc.org.uk/wp-content/uploads/2023/01/ABTC-Role-Standard-Animal-Training-Instructor.pdf",
+      "httpStatus": 404,
+      "notes": "Site returns 404/challenge; tracked in review-011"
+    }
+  ]
+}

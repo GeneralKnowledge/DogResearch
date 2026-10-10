@@ -1,44 +1,44 @@
-# Gap analysis (updated after batch 002)
+# Gap analysis (updated after batch 004)
 
 ## Coverage by taxonomy category
 
-| Category | Batch 001 status | Priority next sources |
-|----------|------------------|------------------------|
-| A Behaviour & communication | Blue Cross stress/warning signs (claims) | Full body language taxonomy; displacement behaviours |
-| B Learning theory | Marker + +R claims | APBC/FABC learning theory sheets; open-access reviews on operant conditioning in dogs |
-| C Training mechanics | Session timing, DDD partial | Dogs Trust focus/lead walking; systematic DDD progression sources |
-| D Foundation behaviours | Sit, recall, leave, loose lead; stay extracted | Down, drop, emergency recall, settle — Dogs Trust + RSPCA |
-| E Puppy/adolescent | Registered only | Dogs Trust puppy 101; Blue Cross puppy socialisation |
-| F Enrichment | PDSA claims (food allowance, rest) | More RSPCA/DT enrichment protocols |
-| G Behaviour problems | Separation management + referral | Lead reactivity, noise phobia — APBC/FABC sheets |
-| H Health & boundaries | Vet-first, child supervision | CFSG dog-child; BVA/RCVS pain-behaviour |
-| I Assessment | None | Define Good Dog metrics provisionally with human review |
+| Category | Status after batch 004 | Priority next sources |
+|----------|------------------------|------------------------|
+| A Behaviour & communication | DT reactive stress recovery; BC stress (batch 002) | Full body language taxonomy; displacement behaviours |
+| B Learning theory | Marker + CC method registered | APBC/FABC learning theory sheets |
+| C Training mechanics | DDD partial; loose lead (batch 002) | Systematic DDD progression sources |
+| D Foundation behaviours | Sit/down/stay/recall/leave; RSPCA leave added | Mouth **drop** page if published; hand target |
+| E Puppy/adolescent | DT socialisation + Puppy 101 hub | Blue Cross puppy (blocked 403); adolescent fear |
+| F Enrichment | PDSA claims (batch 002) | More RSPCA/DT enrichment protocols |
+| G Behaviour problems | Reactive **management** + referral (DT) | Clinical CC/desensitisation plans (APBC); noise phobia |
+| H Health & boundaries | Vet-first for reactivity; CFSG (batch 003) | BVA/RCVS pain-behaviour |
+| I Assessment | None | Define Good Dog metrics with human review |
 | J Special populations | None | Rescue-specific charities; multi-dog management |
-| K Ethics/regulation | IMDT, ABTC, Hiby | UK law (Microchipping, Dangerous Dogs Act summaries — official); ABTC aversive leaflet full extract |
+| K Ethics/regulation | ABTC aversives; 2024 HDB scoping review | ABTC role standard PDFs (`review-011`) |
 
 ## Source registry gaps
 
-- **Blue Cross, PDSA**: initial ingestion complete (batch 002); not exhaustive.
-- **ABTC role standards PDFs**: not downloaded; practitioner category claims pending.
-- **Peer-reviewed corpus**: Hiby 2004 + Vieira de Castro 2020; add systematic reviews next.
-- **Community corpora**: intentionally deferred until foundational layer stable.
+- **Blue Cross puppy**: HTTP 403 in agent/CI environment — deferred.
+- **ABTC role standards PDFs**: not ingested (Cloudflare/404); practitioner role claims pending.
+- **Peer-reviewed corpus**: Hiby 2004, Vieira de Castro 2020, Blackwell 2021, Guilherme-Fernandes 2017, **Verbeek 2024 scoping**, **2024 CC systematic review**.
+- **RSPCA drop**: no dedicated page; documented in KB audit claim.
 
 ## Evidence gaps (research)
 
-- Causal welfare outcomes of reward-only vs mixed methods in pet dogs (modern RCTs).
+- Causal welfare outcomes of reward-only vs mixed methods in pet dogs (modern RCTs beyond training schools).
 - Generalisation protocols with measurable criteria across environments.
 - UK owner adherence barriers (qualitative research).
+- Pooled meta-analysis of aversive vs reward methods (still absent; scoping reviews only).
 
 ## Quality / QA gaps
 
-- URL live-check automation (HTTP HEAD) not yet in CI.
+- `npm run url-check` added but not yet in CI (recommended as non-blocking).
 - Licence fields mostly `unknown_web_content` — legal review for app display.
-- `safe-005-growl-not-punish` lacks extracted supporting claims.
+- APBC/FABC handouts still needed for growl/suppression ethics (`review-004` partial).
 
-## Recommended batch 002
+## Recommended batch 005
 
-1. Complete Dogs Trust foundation set (leave it, down, stay, loose lead, separation).
-2. RSPCA behaviour + dog-child safety resources.
-3. ABTC ethical training leaflet + aversive list itemisation.
-4. PDSA + Blue Cross welfare/enrichment.
-5. Add 2–3 post-2010 peer-reviewed studies on training methods and welfare.
+1. Fireworks/noise desensitisation (charity guidance).
+2. Resource guarding management + referral.
+3. ABTC role standards when PDFs accessible.
+4. Optional: wire `url-check` in CI with allowlist for known flaky hosts.

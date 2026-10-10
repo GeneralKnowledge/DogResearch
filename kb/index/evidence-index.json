@@ -12,7 +12,8 @@
     "H.scope_of_practice_referral": {
       "scientific": [],
       "professional": [
-        "claim-imdt-003-referral"
+        "claim-imdt-003-referral",
+        "claim-dt-reactive-006-behaviour-support-referral"
       ],
       "disputes": []
     },
@@ -113,9 +114,13 @@
         "claim-vcastro-002-cortisol-cognitive-bias",
         "claim-review-2017-aversive-correlation",
         "claim-blackwell-2021-pessimism",
-        "claim-vcastro-2021-protocol-only"
+        "claim-vcastro-2021-protocol-only",
+        "claim-verbeek-2024-training-theme",
+        "claim-verbeek-2024-weird-limit"
       ],
-      "professional": [],
+      "professional": [
+        "claim-kb-gap-rspca-no-drop-page"
+      ],
       "disputes": []
     },
     "G.behaviour_problems": {
@@ -136,7 +141,9 @@
       "scientific": [],
       "professional": [
         "claim-dt-leave-001-fair-trade",
-        "claim-dt-leave-002-look-away"
+        "claim-dt-leave-002-look-away",
+        "claim-rspca-leave-001-back-off-rewarded",
+        "claim-rspca-leave-002-gentle-cue-tone"
       ],
       "disputes": []
     },
@@ -177,7 +184,8 @@
     "H.veterinary_assessment": {
       "scientific": [],
       "professional": [
-        "claim-dt-support-001-vet-first"
+        "claim-dt-support-001-vet-first",
+        "claim-dt-reactive-002-vet-check-first"
       ],
       "disputes": []
     },
@@ -194,7 +202,8 @@
     "A.stress_fear_arousal": {
       "scientific": [],
       "professional": [
-        "claim-bc-stress-001-no-punish-defensive"
+        "claim-bc-stress-001-no-punish-defensive",
+        "claim-dt-reactive-005-stress-recovery-window"
       ],
       "disputes": []
     },
@@ -224,6 +233,27 @@
       "professional": [
         "claim-dt-name-001-check-in",
         "claim-dt-name-002-no-repeat-name"
+      ],
+      "disputes": []
+    },
+    "G.lead_reactivity_barking": {
+      "scientific": [
+        "claim-cc-review-2024-positive-outcomes"
+      ],
+      "professional": [
+        "claim-dt-reactive-001-not-always-aggressive",
+        "claim-dt-reactive-003-create-distance-reward",
+        "claim-dt-reactive-004-relaxed-lead"
+      ],
+      "disputes": []
+    },
+    "E.socialisation_exposure": {
+      "scientific": [],
+      "professional": [
+        "claim-dt-pupsoc-001-critical-window",
+        "claim-dt-pupsoc-002-vaccination-before-ground",
+        "claim-dt-pupsoc-003-stop-if-worried",
+        "claim-dt-pup101-001-individual-pace"
       ],
       "disputes": []
     }

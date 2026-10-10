@@ -31,18 +31,18 @@
       "id": "review-004",
       "entityType": "safety_rule",
       "entityId": "safe-005-growl-not-punish",
-      "reason": "Needs supporting claim extraction from APBC/RSPCA/FABC sources in batch 002.",
-      "priority": "high",
-      "status": "open",
+      "reason": "Partially supported via Blue Cross + Dogs Trust reactive no-scold guidance (batch 004); APBC handouts still blocked.",
+      "priority": "medium",
+      "status": "partially_resolved",
       "created": "2026-10-10"
     },
     {
       "id": "review-005",
       "entityType": "study",
       "entityId": "study-hiby-rooney-bradshaw-2004",
-      "reason": "Add newer systematic reviews on aversive vs reward methods for synthesis update.",
+      "reason": "Updated with Verbeek 2024 scoping review and 2024 counterconditioning systematic review (batch 004).",
       "priority": "low",
-      "status": "open",
+      "status": "partially_resolved",
       "created": "2026-10-10"
     }
   ]

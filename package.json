@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "qa": "node scripts/qa-check.mjs",
-    "catalog": "node scripts/build-catalog.mjs"
+    "catalog": "node scripts/build-catalog.mjs",
+    "url-check": "node scripts/url-live-check.mjs"
   }
 }

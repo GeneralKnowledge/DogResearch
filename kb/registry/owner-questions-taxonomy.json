@@ -46,6 +46,52 @@
           "sourceLocator": "src-rspca-find-trainer"
         }
       ]
+    },
+    {
+      "id": "oq-reactivity",
+      "label": "Lead reactivity and barking on walks",
+      "questions": [
+        {
+          "id": "oq-react-001",
+          "text": "Why does my dog bark and lunge at other dogs on lead?",
+          "subthemes": [
+            "fear or frustration",
+            "pain or illness",
+            "learned habit",
+            "lead tension"
+          ],
+          "sourceLocator": "src-dt-reactive-dog"
+        },
+        {
+          "id": "oq-react-002",
+          "text": "What can I do in the moment when my dog reacts?",
+          "subthemes": [
+            "create distance",
+            "reward calm",
+            "avoid telling off",
+            "keep lead relaxed"
+          ],
+          "sourceLocator": "src-dt-reactive-dog"
+        }
+      ]
+    },
+    {
+      "id": "oq-puppy-socialisation",
+      "label": "Puppy socialisation",
+      "questions": [
+        {
+          "id": "oq-pup-001",
+          "text": "How do I socialise my puppy before vaccinations are complete?",
+          "subthemes": ["carry in sling/carrier", "vet timing", "positive exposures at home"],
+          "sourceLocator": "src-dt-puppy-socialisation"
+        },
+        {
+          "id": "oq-pup-002",
+          "text": "What if my puppy seems scared during socialisation?",
+          "subthemes": ["stop interaction", "reduce intensity", "seek professional help if persistent"],
+          "sourceLocator": "src-dt-puppy-socialisation"
+        }
+      ]
     }
   ]
 }

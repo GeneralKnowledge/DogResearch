@@ -46,7 +46,8 @@
       "rule": "Do not train owners to suppress growling or other warnings without addressing underlying fear, pain, or conflict; prioritise management and professional support.",
       "rationaleClaimIds": [
         "claim-bc-stress-001-no-punish-defensive",
-        "claim-bc-child-001-remove-on-stress"
+        "claim-bc-child-001-remove-on-stress",
+        "claim-dt-reactive-003-create-distance-reward"
       ],
       "action": "filter_and_refer",
       "severity": "critical",
