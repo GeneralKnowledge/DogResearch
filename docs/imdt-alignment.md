@@ -27,12 +27,12 @@ The ten-week timetable is [`kb/meta/uk-lite-course.json`](../kb/meta/uk-lite-cou
 | Loose lead walking | covered | `lesson-loose-lead` |
 | Nose to hand touch | covered | `lesson-hand-touch` |
 | Twist/spin | covered | `lesson-spin-trick` |
-| Retrieve | partial | `lesson-drop-it-swap` (the drop and swap part only) |
-| Mat target | partial | `lesson-settle-mat` (settle, not targeting) |
-| Chin rest | research only | one US organisation source; not shown as a lesson |
-| Emergency stop | research only | one non-UK source; not shown as a lesson |
-| Middle | research only | one commercial source; not shown as a lesson |
-| Send around | gap | no usable source found |
+| Retrieve | partial | `lesson-drop-it-swap` and `lesson-play-retrieve` (hold and bring-back). Blue Cross does not describe a release into the hand, so this stays partial. |
+| Mat target | partial | `lesson-settle-mat` is a calm settle on a blanket, scheduled as an optional week 4 lesson. It is not a send to a mat. |
+| Chin rest | research only | no UK charity step page; the batch 014 indexes do not list it |
+| Emergency stop | research only | PDSA's road-safety stop has no body position or distance steps. Nearest lesson is `lesson-stay-basics`. Not shown as its own lesson. |
+| Middle | research only | no UK charity step page; the batch 014 indexes do not list it |
+| Send around | gap | no step page; the batch 014 indexes do not list it |
 | Muzzle training | researched, held | `lesson-muzzle-training` (needs human review, review-016) |
 
 `research_only` means the source is registered and fetched but cannot feed owner text (single non-UK or commercial source). QA fails if a `research_only` exercise lists a lesson, or if a protocol cites a `research_only` source.
@@ -45,6 +45,17 @@ Operant conditioning (16) and classical conditioning (16) carry most marks. `les
 
 - Stage 9 (kind methods, equipment and the law): `lesson-equipment-and-law` covers harness basics and a neutral advisory. Shock-collar status is time-sensitive and held as a documented gap (review-020): the 2023 regulations on legislation.gov.uk are an unmade draft, Wales has banned them since 2010, and a Defra written answer of 27 May 2026 says a consultation is coming.
 - Stage 10 (plan and measure): `lesson-plan-and-measure` covers short sessions, a simple diary and a schedule. Session-length advice differs between sources (`disc-007-session-length`, review-023).
+
+## Stage notes after batch 014
+
+- Outdoor rewards: `lesson-outdoor-rewards` uses the existing Dogs Trust claim about raising treat value when a busier place makes responding hard. It is in week 1 and again, optionally, in the recall weeks.
+- Retrieve stays partial. `lesson-play-retrieve` teaches hold and return from the Blue Cross play page. A release into the hand is not in those steps.
+- Two-dog households: `lesson-multi-dog-household` is a week 9 branch. Guarding stays a referral, not a taking-items protocol.
+- Mat settle is now an optional week 4 lesson. The mat-target row stays partial because settle is not a send to a mat.
+- Emergency stop stays `research_only`. The PDSA road-safety page was read and was too thin to teach from.
+- `disc-006` now includes the RSPCA stay order (duration, then one step of distance). The distance-first skeleton and `review-013` are unchanged.
+- `disc-007` now includes Dogs Trust 5 to 10 minutes and PDSA clicker ranges. The course still does not pick one number.
+- Shock collars: the May 2026 written-answer page timed out again. A 21 January 2026 Commons debate was read. The equipment lesson wording was not changed (`review-020`).
 
 ## ## Guardrails
 

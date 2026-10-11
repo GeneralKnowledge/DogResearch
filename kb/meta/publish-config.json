@@ -28,7 +28,10 @@
     "lesson-spin-trick",
     "lesson-equipment-and-law",
     "lesson-plan-and-measure",
-    "lesson-alone-prevention"
+    "lesson-alone-prevention",
+    "lesson-outdoor-rewards",
+    "lesson-play-retrieve",
+    "lesson-multi-dog-household"
   ],
   "excludedLessonIds": [],
   "advisoryLessonIds": [
@@ -40,7 +43,8 @@
     "lesson-adolescent-regression",
     "lesson-vet-handling-prep",
     "lesson-equipment-and-law",
-    "lesson-alone-prevention"
+    "lesson-alone-prevention",
+    "lesson-multi-dog-household"
   ],
   "advisoryMessages": {
     "lesson-equipment-and-law": "Rules on shock collars differ across the UK and are under review in England, so check current rules; if your dog is worried by equipment or being handled, see your vet first.",
@@ -51,7 +55,8 @@
     "lesson-emergency-recall": "Practice in secure areas on a long line. Do not rely on emergency recall off-lead in public until tier-2 recall metrics are met.",
     "lesson-rescue-settling": "Rescue dogs may need extra time and professional support—avoid overwhelming new environments.",
     "lesson-adolescent-regression": "Teenage fear periods vary; reduce pressure and seek help if anxiety persists.",
-    "lesson-alone-prevention": "This is gradual alone-time practice for dogs who are coping. If your dog panics when left, do not keep lengthening absences—arrange care and speak to your vet or a behaviour professional."
+    "lesson-alone-prevention": "This is gradual alone-time practice for dogs who are coping. If your dog panics when left, do not keep lengthening absences—arrange care and speak to your vet or a behaviour professional.",
+    "lesson-multi-dog-household": "If either dog growls, lunges or snaps, separate them and do not retry the meeting until you have spoken to a behaviour professional. See a vet straight away if a dog is injured."
   },
   "excludeProtocolReviewStatus": ["requires_human_review"],
   "allowProtocolsDespiteReview": [
@@ -67,13 +72,15 @@
     "lesson-rescue-settling",
     "lesson-adolescent-regression",
     "lesson-puppy-socialisation",
-    "lesson-alone-prevention"
+    "lesson-alone-prevention",
+    "lesson-multi-dog-household"
   ],
   "educationOnlyLessonIds": [
     "lesson-read-your-dog-stress",
     "lesson-vet-handling-prep",
     "lesson-how-dogs-learn",
     "lesson-equipment-and-law",
-    "lesson-plan-and-measure"
+    "lesson-plan-and-measure",
+    "lesson-outdoor-rewards"
   ]
 }

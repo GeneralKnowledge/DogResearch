@@ -8,7 +8,7 @@ The week themes follow the public shape of IMDT's shorter UK pathway: theory fir
 
 ## How a week works
 
-- One theme. Dog work stays short and ends on a success. Blue Cross suggests about 2 to 5 minutes; one RSPCA branch page suggests about 5 to 15 (`disc-007`). The course does not pick one of those numbers.
+- One theme. Dog work stays short and ends on a success. Published ranges stay side by side (`disc-007`): Blue Cross about 2 to 5 minutes, Dogs Trust 5 to 10, PDSA clicker training about 10 to 15 (about 2 minutes to charge a click, shorter for puppies), and one RSPCA branch 5 to 15. The RSPCA national page gives no minute number. The course does not pick one of those numbers.
 - The week is complete after at least five practice days and the check below. A missed check repeats the week at an easier version of the same skill.
 - Later weeks keep a few repetitions of earlier skills.
 - There is no rep-count target. Checks use the observable criteria below and, where listed, the metrics in [`kb/registry/assessment-metrics.json`](../kb/registry/assessment-metrics.json).
@@ -19,7 +19,9 @@ Owner version of the 2-day theory course.
 
 ### Week 1 — How dogs learn
 
-Lessons: `lesson-equipment-and-law`, `lesson-how-dogs-learn`, `lesson-intro-marker`.
+Lessons: `lesson-equipment-and-law`, `lesson-how-dogs-learn`, `lesson-outdoor-rewards`, `lesson-intro-marker`.
+
+`lesson-outdoor-rewards` is the answer to a dog that responds at home and not outside: a plainer treat for easy practice, a softer, smellier treat when the place gets harder (`oq-train-001`).
 
 Practice: pair the marker with a reward on several days. Fit the collar, ID tag, and harness, and check the microchip record.
 
@@ -57,7 +59,9 @@ Only exercises the registry can teach. Stay builds duration before distance (`di
 
 ### Week 4 — Positions
 
-Lessons: `lesson-first-sit`, then `lesson-down-basics` and `lesson-stay-basics`, plus `lesson-hand-touch`. `lesson-spin-trick` is optional and does not gate the week.
+Lessons: `lesson-first-sit`, then `lesson-down-basics` and `lesson-stay-basics`, plus `lesson-hand-touch`. `lesson-spin-trick` and `lesson-settle-mat` are optional and do not gate the week.
+
+`lesson-settle-mat` is a calm settle on a blanket. It is not a send to a mat. The crash-course mat-target row stays partial. Stay still builds duration before distance. RSPCA's stay page says the same order (`claim-rspca-stay-002-duration-then-distance`, `disc-006`). The distance-first skeleton and `review-013` are unchanged.
 
 Practice: one position at a time, indoors or in a quiet garden. Add the word "sit" as the dog sits. For the stay, add time while you are still close.
 
@@ -67,15 +71,15 @@ If the check fails: return to the lure sit in a quiet room. Leave down, stay, an
 
 ### Week 5 — Everyday manners
 
-Lessons: `lesson-leave-it-basics`, then `lesson-rspca-leave` and `lesson-drop-it-swap`. `lesson-jumping-up` and `lesson-steal-chase` are for when that is the live problem. They do not gate the week.
+Lessons: `lesson-leave-it-basics`, then `lesson-rspca-leave`, `lesson-drop-it-swap`, and `lesson-play-retrieve`. `lesson-jumping-up` and `lesson-steal-chase` are for when that is the live problem. They do not gate the week.
 
-Practice: closed fist, then open palm, then a toy swapped for something better.
+Practice: closed fist, then open palm, then a toy swapped for something better, then a hold and a bring-back.
 
-Check: the dog backs off a closed fist before the treat is released, and lets go of a toy in a fair trade.
+Check: the dog backs off a closed fist before the treat is released, and lets go of a toy in a fair trade. The bring-back does not gate the week.
 
 If the check fails: stay on the closed fist. Do not move the food onto an open palm yet.
 
-A full retrieve is not this week. The drop and swap is the part the registry can teach.
+`lesson-play-retrieve` follows Blue Cross: reward a hold, then a pickup, then a return, and throw only after the toy has stopped. The fetched retrieve steps do not include a release into the hand, so the assessed retrieve stays partial. Dogs Trust tidy-up is a separate get-it, drop and box chain.
 
 ### Week 6 — Coming back nearby
 
@@ -83,7 +87,7 @@ Opens after week 5 and after `metric-name-latency-2s`.
 
 Lesson: `lesson-recall-basics`.
 
-Practice: one recall word for the whole household. Enclosed space first, then 5 metres on a long line in low distraction. Reward the return, including a slow one (`safe-003`).
+Practice: one recall word for the whole household. Enclosed space first, then 5 metres on a long line in low distraction. Reward the return, including a slow one (`safe-003`). If the place makes responding hard, use the softer treat from `lesson-outdoor-rewards`. That lesson is optional here and does not gate the week.
 
 Check: `metric-recall-long-line-5m`.
 
@@ -91,7 +95,7 @@ If the check fails: go back to the name game and shorten the distance. Do not re
 
 ### Week 7 — Coming back at a distance
 
-Practice: one cue, 10 metres, long line, mild distraction. Stay on the line.
+Practice: one cue, 10 metres, long line, mild distraction. Stay on the line. If the place gets harder, use `lesson-outdoor-rewards` again and shorten the place before you add distance. It does not gate the week.
 
 Check: `metric-recall-long-line-10m`.
 
@@ -131,6 +135,7 @@ If the week goes badly: stay on the same branch at an easier setup.
 | Hard walks | `lesson-reactive-management` | Vet check first. Management and a referral, not a rehabilitation plan (`safe-004`, `safe-005`). |
 | Noise and fireworks | `lesson-fireworks-management` | Safe place, notice the signs, comfort and management. Severe panic is a referral (`safe-004`). |
 | Time alone | `lesson-alone-prevention` | Short absences only while the dog is coping. Stop lengthening them if the dog is distressed (`review-006`, `safe-004`). |
+| Two dogs | `lesson-multi-dog-household` | Meet at a distance, then separate beds, bowls, meals and chews. Do not punish a growl. Barking, lunging or snapping means stop and get help (`safe-004`, `safe-005`). This is not a plan for taking guarded items. |
 
 ### Week 10 — Generalise and stop
 
@@ -148,12 +153,10 @@ Muzzle training stays in human review (`review-016`) and is not a week. Public o
 
 | Item | Why |
 |------|-----|
-| `lesson-settle-mat` | The lesson exists. This course uses the stay for duration. Mat target stays partial on the crash-course checklist. |
 | `lesson-muzzle-training` | Held for human review (`review-016`). |
-| Emergency stop | Research only, one non-UK source. |
-| Chin rest | Research only, one US organisation source. |
-| Middle | Research only, one commercial source. |
-| Send around | No usable source. |
-| Full retrieve | No owner lesson. Week 5 teaches the drop and swap only. |
-| Multi-dog households | No protocol. Use the referral route. |
-| Outdoor reward choice (`oq-train-001`) | No lesson. Raise reward value or use play. Do not invent a protocol. |
+| Emergency stop | The PDSA road-safety page was read. Its stop cue has no body position or distance steps, so it is not the assessed stop. The nearest lesson is the stay. |
+| Chin rest | Still no UK charity step page. The Dogs Trust, Blue Cross, PDSA and RSPCA indexes fetched in batch 014 do not list it. |
+| Middle | The same indexes do not list it. |
+| Send around | The same indexes do not list it. |
+| Full retrieve | Week 5 teaches a drop and a play bring-back. A release into the hand is still missing, so the assessed retrieve stays partial. |
+| Mat target | Week 4 can include `lesson-settle-mat` as a calm settle on a blanket. That is not a send to a mat, so the crash-course row stays partial. |

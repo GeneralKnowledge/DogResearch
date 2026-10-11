@@ -135,6 +135,14 @@
       "newExercise": true
     },
     {
+      "lessonId": "lesson-play-retrieve",
+      "protocolId": "proto-play-retrieve-bc",
+      "goodDogExerciseId": "ex-kb-play-retrieve",
+      "learningObjectiveId": "leave-it",
+      "prerequisiteIds": ["ex-kb-drop-it-swap"],
+      "newExercise": true
+    },
+    {
       "protocolId": "proto-loose-lead-force-free-draft",
       "goodDogExerciseId": "ex-kb-loose-lead-check-in-draft",
       "learningObjectiveId": "lead-walking",

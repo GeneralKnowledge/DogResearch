@@ -50,7 +50,8 @@
           "id": "oq-train-001",
           "text": "What reward should I use if my dog isn't food motivated outdoors?",
           "subthemes": ["higher value treats", "toys", "environmental rewards"],
-          "sourceLocator": "src-dt-positive-reinforcement"
+          "sourceLocator": "src-dt-positive-reinforcement",
+          "relatedLessonId": "lesson-outdoor-rewards"
         },
         {
           "id": "oq-train-002",

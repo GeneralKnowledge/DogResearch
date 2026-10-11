@@ -175,7 +175,7 @@
       "id": "review-020",
       "entityType": "claim",
       "entityId": "claim-hansard-ecollar-001-consult-2026",
-      "reason": "Shock-collar status in England is time-sensitive. The 2023 England regulations were draft only and never made; a Defra written answer of 27 May 2026 says a consultation on a ban will come later in this Parliament. The Hansard page fetch timed out, so wording came from search-result text. Re-check against Defra and GOV.UK before any owner-facing legal wording, and re-check periodically.",
+      "reason": "Shock-collar status in England is time-sensitive. The 2023 England regulations were draft only and never made, and there is still no ban in force. The 27 May 2026 TheyWorkForYou written answer timed out again in batch 014, and the parliament written-statement URL returned 403, so claim-hansard-ecollar-001 stays at medium confidence. A 21 January 2026 Commons debate was fetched in full: the Minister for Food Security and Rural Affairs said the Government will consult on a ban because of possible harm, check nothing significant has changed since 2018, and act on the results (claim-hansard-aws-001-consult-jan-2026). The equipment lesson wording was not changed. Re-check before any owner-facing legal wording.",
       "priority": "high",
       "status": "open",
       "created": "2026-10-10"
@@ -193,7 +193,7 @@
       "id": "review-022",
       "entityType": "source",
       "entityId": "src-akc-chin-rest",
-      "reason": "Chin rest, retrieve, emergency stop and middle have only US, single-author or commercial sources (AKC, McConnell blog, Company of Animals). They are research_only and stay as gaps until a UK charity or professional-body page is found.",
+      "reason": "Chin rest, middle and send around still have no UK charity step page. Batch 014 fetched the Dogs Trust training hub and tricks index, the Blue Cross behaviour index, the RSPCA training index and the PDSA puppies hub; none listed those exercises, so they stay excluded. Emergency stop stays research_only: the PDSA road-safety page was read and its 'stop' section has no body position or distance steps, so the nearest owner lesson is lesson-stay-basics. Retrieve stays partial: Blue Cross teaches hold and return, but not a release into the hand.",
       "priority": "medium",
       "status": "open",
       "created": "2026-10-10"
@@ -202,8 +202,17 @@
       "id": "review-023",
       "entityType": "claim",
       "entityId": "claim-rspca-brighton-001-diary-and-schedule",
-      "reason": "Session length differs between Blue Cross (2 to 5 minutes) and one RSPCA branch (5 to 15 minutes); see disc-007. The diary suggestion rests on a single branch page.",
+      "reason": "Session length still disagrees after batch 014. Blue Cross is about 2 to 5 minutes, Dogs Trust national tips are 5 to 10, PDSA clicker training is about 10 to 15 (about 2 minutes to charge a click), and one RSPCA branch is 5 to 15. The RSPCA national page has no minute number. disc-007 keeps every range. The course rule stays short sessions that end on a success. The diary suggestion still rests on a single branch page.",
       "priority": "low",
+      "status": "open",
+      "created": "2026-10-10"
+    },
+    {
+      "id": "review-024",
+      "entityType": "protocol",
+      "entityId": "proto-play-retrieve-bc",
+      "reason": "Batch 014 owner protocols (outdoor rewards, play retrieve, multi-dog introduction) are auto_accepted_low_risk from UK charity sources and have not had human wording review. Play retrieve does not include a release into the hand. Multi-dog is management and a referral, not a taking-items plan.",
+      "priority": "medium",
       "status": "open",
       "created": "2026-10-10"
     }

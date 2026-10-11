@@ -1557,19 +1557,23 @@
       "claimIdsInTension": [
         "claim-bc-train-003-short-sessions-places",
         "claim-rspca-brighton-001-diary-and-schedule",
-        "claim-bc-spin-003-short-sessions-frustration"
+        "claim-bc-spin-003-short-sessions-frustration",
+        "claim-dt-tips-001-session-5-to-10",
+        "claim-pdsa-clicker-001-session-length",
+        "claim-rspca-train-004-end-on-known"
       ],
       "areasOfAgreement": [
         "Little and often.",
         "Start with low distraction and build up.",
         "End on a success."
       ],
-      "disagreementSummary": "Blue Cross suggests about two to five minutes per session and up to five minutes for a trick; an RSPCA branch suggests five to fifteen minutes, three to four times a week.",
+      "disagreementSummary": "Published ranges do not match. Blue Cross suggests about two to five minutes, and up to five minutes for a trick. Dogs Trust's national top tips say five to ten minutes, one behaviour, then a fun game. PDSA's clicker page says about ten to fifteen minutes at most, about two minutes when charging the click, and shorter still for puppies. One RSPCA branch says five to fifteen minutes, three to four times a week. The RSPCA national training page says short regular sessions that end on something the dog already knows, and gives no minute number.",
       "likelyCauses": [
-        "Different aims (new skill versus maintenance)",
-        "Branch-level versus national guidance"
+        "Different aims (new skill versus maintenance, or charging a marker versus practising a skill)",
+        "Branch-level versus national guidance",
+        "Puppy sessions versus adult sessions"
       ],
-      "goodDogPosition": "Teach 2-5 minute sessions for new skills (Blue Cross), and treat longer sessions as optional for dogs that stay keen.",
+      "goodDogPosition": "Keep sessions short and end on a success. Leave the published ranges side by side: Blue Cross about 2 to 5 minutes, Dogs Trust 5 to 10 minutes, PDSA clicker training about 10 to 15 minutes at most (about 2 minutes to charge a click, shorter for puppies), and one RSPCA branch 5 to 15 minutes. Do not collapse them into one number.",
       "researchGaps": [
         "Evidence on optimal session length for pet dogs"
       ],

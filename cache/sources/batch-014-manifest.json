@@ -1,0 +1,125 @@
+{
+  "batchId": "batch-014",
+  "retrievedDate": "2026-10-10",
+  "fetches": [
+    {
+      "sourceId": "src-bc-play-with-dog",
+      "url": "https://www.bluecross.org.uk/advice/dog/how-to-play-with-your-dog",
+      "httpStatus": 200,
+      "method": "full page fetch"
+    },
+    {
+      "sourceId": "src-dt-tidy-toys",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/tips-tricks/tidying-up",
+      "httpStatus": 200,
+      "method": "full page fetch"
+    },
+    {
+      "sourceId": "src-dt-introduce-new-dog",
+      "url": "https://www.dogstrust.org.uk/dog-advice/life-with-your-dog/at-home/introducing-new-puppy",
+      "httpStatus": 200,
+      "method": "full page fetch"
+    },
+    {
+      "sourceId": "src-dt-resource-guarding",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/resource-guarding-food-and-toys",
+      "httpStatus": 200,
+      "method": "full page fetch"
+    },
+    {
+      "sourceId": "src-pdsa-road-safety",
+      "url": "https://www.pdsa.org.uk/what-we-do/blog/6-road-safety-tips-for-dog-owners",
+      "httpStatus": 200,
+      "method": "full page fetch"
+    },
+    {
+      "sourceId": "src-rspca-stay",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training/stay",
+      "httpStatus": 200,
+      "method": "full page fetch of an existing source; new claim stay-002"
+    },
+    {
+      "sourceId": "src-dt-top-ten-tips",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+      "httpStatus": 200,
+      "method": "full page fetch"
+    },
+    {
+      "sourceId": "src-pdsa-clicker-training",
+      "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/clicker-training",
+      "httpStatus": 200,
+      "method": "full page fetch"
+    },
+    {
+      "sourceId": "src-rspca-dog-training",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training",
+      "httpStatus": 200,
+      "method": "full page fetch of an existing source; new claim train-004"
+    },
+    {
+      "sourceId": "src-hansard-aws-debate-2026-01-21",
+      "url": "https://hansard.parliament.uk/commons/2026-01-21/debates/EC63BF37-555F-4ADB-94BD-266E8208D610/AnimalWelfareStrategyForEngland",
+      "httpStatus": 200,
+      "method": "full page fetch"
+    },
+    {
+      "sourceId": "src-hansard-ecollars-2026",
+      "url": "https://www.theyworkforyou.com/wrans/?id=2026-05-14.1201.h",
+      "httpStatus": null,
+      "method": "direct fetch timed out again; claim-hansard-ecollar-001 was not updated"
+    },
+    {
+      "sourceId": null,
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-05-14/hcws1217",
+      "httpStatus": 403,
+      "method": "written-statement page returned 403; not used"
+    }
+  ],
+  "indexSearches": [
+    {
+      "publisher": "Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/tips-tricks",
+      "httpStatus": 200,
+      "listed": ["target touch", "dog bowling", "read", "tunnel", "paws up", "tidy toys"],
+      "notListed": ["chin rest", "middle", "send around"]
+    },
+    {
+      "publisher": "Dogs Trust",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training",
+      "httpStatus": 200,
+      "listed": ["marker", "top 10 tips", "positive reinforcement", "name", "sit", "stay", "down", "loose lead", "hand target", "muzzle", "alone time"],
+      "notListed": ["chin rest", "middle", "send around"]
+    },
+    {
+      "publisher": "Blue Cross",
+      "url": "https://www.bluecross.org.uk/advice/dog/behaviour-and-training",
+      "httpStatus": 200,
+      "listed": ["puppy sleep", "stress", "dog and puppy training", "toilet training", "thunderstorms", "puppy education", "barking", "separation", "mouthing"],
+      "notListed": ["chin rest", "middle", "send around"]
+    },
+    {
+      "publisher": "RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs/training",
+      "httpStatus": 200,
+      "listed": ["sit", "down", "stay", "leave", "come", "loose lead"],
+      "notListed": ["chin rest", "middle", "send around"]
+    },
+    {
+      "publisher": "PDSA",
+      "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs",
+      "httpStatus": 200,
+      "listed": ["welfare needs", "body language", "adolescent dogs", "crate training", "breed pages"],
+      "notListed": ["chin rest", "middle", "send around"]
+    }
+  ],
+  "notes": [
+    "Search snippets were not used as sources.",
+    "Blue Cross retrieve steps include hold and return, and a throw only after the toy has stopped. They do not require a release into the hand, so the crash-course retrieve row stays partial.",
+    "PDSA road-safety section 3 names an emergency stop but has no body position, marker or distance steps. No owner lesson was added. nearestLessonIds points at lesson-stay-basics.",
+    "RSPCA stay already existed as src-rspca-stay. The re-read adds duration, then one step of distance, beside disc-006. proto-ddd-progression-skeleton and review-013 were not changed.",
+    "Session ranges now include Dogs Trust 5 to 10 minutes and PDSA clicker 10 to 15 minutes, with about 2 minutes to charge a click. The RSPCA national page still has no minute number. disc-007 was widened and not collapsed.",
+    "The PDSA clicker page says lie down can be combined with gentle pressure on the back. That sentence was not extracted.",
+    "The 27 May 2026 TheyWorkForYou written answer timed out again. questions-statements.parliament.uk returned 403. The 21 January 2026 Commons debate was read in full and is a new source. The equipment lesson wording was not changed.",
+    "No index listed chin rest, middle or send around. Those exercises stay on excludedExercises."
+  ]
+}

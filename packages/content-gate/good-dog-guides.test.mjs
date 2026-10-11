@@ -16,6 +16,8 @@ const EXPECTED_GUIDE_IDS = [
   "lesson-equipment-and-law",
   "lesson-fireworks-management",
   "lesson-how-dogs-learn",
+  "lesson-multi-dog-household",
+  "lesson-outdoor-rewards",
   "lesson-plan-and-measure",
   "lesson-puppy-socialisation",
   "lesson-reactive-management",
@@ -28,8 +30,8 @@ const EXPECTED_GUIDE_IDS = [
 const guides = buildGoodDogGuidesExport();
 assert.equal(
   guides.guides.length,
-  12,
-  "guides export includes 12 entries (7 original, alone-time prevention, vet handling, and 3 crash-course explainers)"
+  14,
+  "guides export includes 14 entries (12 previous, outdoor rewards, and the two-dog household guide)"
 );
 assert.deepEqual(
   guides.guides.map((guide) => guide.lessonId).sort(),

@@ -1,0 +1,641 @@
+{
+  "sources": [
+    {
+      "id": "src-bc-play-with-dog",
+      "canonicalUrl": "https://www.bluecross.org.uk/advice/dog/how-to-play-with-your-dog",
+      "title": "How to play with your dog — Blue Cross",
+      "publisher": "Blue Cross",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["D.leave_it_drop", "F.physical_activity_rest"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only. Page dated 20 May 2024. Retrieve steps cover hold and return. Release into the hand is in the tug section, not the retrieve steps.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_014",
+      "qualityTier": "high_practical",
+      "issues": []
+    },
+    {
+      "id": "src-dt-tidy-toys",
+      "canonicalUrl": "https://www.dogstrust.org.uk/dog-advice/training/tips-tricks/tidying-up",
+      "title": "Teach your dog to tidy up their toys — Dogs Trust",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["D.leave_it_drop", "B.luring_shaping_capturing_chaining"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only. A get-it, drop and box chain. Not used as the missing give step of a retrieve.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_014",
+      "qualityTier": "high_practical",
+      "issues": []
+    },
+    {
+      "id": "src-dt-introduce-new-dog",
+      "canonicalUrl": "https://www.dogstrust.org.uk/dog-advice/life-with-your-dog/at-home/introducing-new-puppy",
+      "title": "Introducing your new dog or puppy to your current dog — Dogs Trust",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["J.multi_dog_households", "E.safe_introductions"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only. Management for a first meeting. Not a rehabilitation plan.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_014",
+      "qualityTier": "high_practical",
+      "issues": []
+    },
+    {
+      "id": "src-dt-resource-guarding",
+      "canonicalUrl": "https://www.dogstrust.org.uk/dog-advice/training/unwanted-behaviours/resource-guarding-food-and-toys",
+      "title": "Resource guarding food and toys — Dogs Trust",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["G.resource_guarding_chasing", "J.multi_dog_households"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only. Between-dog management was used. The page's taking-items and hand-feeding advice was not turned into an owner protocol.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_014",
+      "qualityTier": "high_practical",
+      "issues": []
+    },
+    {
+      "id": "src-pdsa-road-safety",
+      "canonicalUrl": "https://www.pdsa.org.uk/what-we-do/blog/6-road-safety-tips-for-dog-owners",
+      "title": "6 road safety tips for dog owners — PDSA",
+      "publisher": "PDSA",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["D.wait_stay_settle", "K.uk_law_professional"],
+      "contentClass": "professional_guidance",
+      "publishedDate": "2021-11-04",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only. The emergency 'stop' section has no body position, marker timing or distance steps, so it does not feed an owner lesson.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_014",
+      "qualityTier": "high_practical",
+      "issues": [
+        "Emergency stop advice is a short cue description, not a training sequence."
+      ]
+    },
+    {
+      "id": "src-dt-top-ten-tips",
+      "canonicalUrl": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+      "title": "Top 10 dog training tips — Dogs Trust",
+      "publisher": "Dogs Trust",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["C.session_planning"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only. Used for the five-to-ten-minute session range.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_014",
+      "qualityTier": "high_practical",
+      "issues": []
+    },
+    {
+      "id": "src-pdsa-clicker-training",
+      "canonicalUrl": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/clicker-training",
+      "title": "How to clicker train your dog — PDSA",
+      "publisher": "PDSA",
+      "sourceType": "welfare_charity_guidance",
+      "topics": ["C.session_planning", "B.clicker_training"],
+      "contentClass": "professional_guidance",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only. Session-length sentences were used. The lie-down line that mentions gentle pressure on the back was not extracted and is not taught.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_014",
+      "qualityTier": "high_practical",
+      "issues": [
+        "Lie-down example mentions gentle pressure on the back; that sentence was excluded."
+      ]
+    },
+    {
+      "id": "src-hansard-aws-debate-2026-01-21",
+      "canonicalUrl": "https://hansard.parliament.uk/commons/2026-01-21/debates/EC63BF37-555F-4ADB-94BD-266E8208D610/AnimalWelfareStrategyForEngland",
+      "title": "Animal Welfare Strategy for England — Commons debate 21 January 2026",
+      "publisher": "UK Parliament (Hansard), UK Government",
+      "sourceType": "parliamentary_debate",
+      "topics": ["K.uk_law_professional", "K.training_equipment_welfare"],
+      "contentClass": "professional_guidance",
+      "publishedDate": "2026-01-21",
+      "retrievedDate": "2026-10-10",
+      "licence": "unknown_web_content",
+      "displayEligibility": "paraphrase_ok",
+      "reuseNotes": "Paraphrase only. The Minister for Food Security and Rural Affairs spoke. A later sentence from Samantha Niblett MP is not treated as the minister's statement.",
+      "accessRestrictions": "public_web",
+      "extractionStatus": "extracted_batch_014",
+      "qualityTier": "high_professional",
+      "issues": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-bc-play-001-hold-and-return",
+      "statement": "Blue Cross teaches a retrieve by rewarding a nose touch and then teeth on the toy until the dog holds it, rewarding a pickup from the floor, rewarding the dog for bringing the toy back, running backwards so the dog follows, and throwing the toy only once the dog brings it back confidently and only after the toy has come to rest, with the dog sitting while it is thrown.",
+      "topic": "D.leave_it_drop",
+      "supportingSourceId": "src-bc-play-with-dog",
+      "locator": "Chase and retrieve",
+      "excerptOrParaphrase": "Hold, pick up, bring back for a treat, then throw only after the toy rests.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full. The retrieve steps do not say the dog must release the toy into the hand.",
+      "contradictingClaimIds": [],
+      "limitations": [
+        "A release word ('out' or 'off') is described in the tug section, not in the retrieve steps.",
+        "The page also says not to throw a toy upward, to prefer a ball on a rope, and not to overdo fetch."
+      ],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-tidy-001-get-drop-box",
+      "statement": "Dogs Trust teaches tidying toys as a chain: mark interest and a mouth on the toy, add 'get it', practise with the toy on the floor and with different toys, mark the moment the dog lets go, add 'drop', mark approaches to a box or basket and add a word for it, then ask for get it, box and drop together.",
+      "topic": "D.leave_it_drop",
+      "supportingSourceId": "src-dt-tidy-toys",
+      "locator": "How to train your dog to tidy up",
+      "excerptOrParaphrase": "Get it, drop, target a box, then chain the three cues.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full.",
+      "contradictingClaimIds": [],
+      "limitations": [
+        "This is a tidy-up chain, not a distance retrieve with a give into the hand."
+      ],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-intro-001-two-dog-steps",
+      "statement": "Dogs Trust advises getting behaviour help before adding a dog, checking vaccinations, swapping scent on a blanket or toy, meeting first outside with one person per dog on a loose lead at a distance and rewarding calm, greeting only if both dogs are relaxed and then keeping moving, using house lines in a neutral area at home, packing toys and food bowls away for the first meeting, giving each dog separate bowls and beds, supervising and separating the dogs when unsupervised, giving space for low-level discomfort without punishing a growl, and separating immediately if a dog barks, lunges or snaps, seeing a vet if anyone is injured, and asking an accredited trainer or behaviourist before trying again.",
+      "topic": "J.multi_dog_households",
+      "supportingSourceId": "src-dt-introduce-new-dog",
+      "locator": "Introducing your new dog to your current dog; What to do if tensions arise",
+      "excerptOrParaphrase": "Scent swap, outdoor distance walk, then separate spaces at home. Stop and get help if there is a lunge or a snap.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full.",
+      "contradictingClaimIds": [],
+      "limitations": [
+        "The separate walking is the first outdoor meeting, not a permanent walk plan.",
+        "Some dogs may never want to live together."
+      ],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-guard-001-separate-resources",
+      "statement": "For guarding between dogs who live together, Dogs Trust suggests putting away items that could be guarded, giving each dog a safe space where they will not be disturbed, separating the dogs before feeding or giving enrichment, supervising so they can be separated if either looks worried, and giving regular breaks during play.",
+      "topic": "G.resource_guarding_chasing",
+      "supportingSourceId": "src-dt-resource-guarding",
+      "locator": "Guarding between dogs",
+      "excerptOrParaphrase": "Items away, a safe space each, separate before food or enrichment, supervise, break up play.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full. Only the between-dog management list was used.",
+      "contradictingClaimIds": [],
+      "limitations": [
+        "The same page's advice on taking items, swapping a chew, or hand-feeding was not used in the owner lesson.",
+        "Dogs Trust points owners to its Behaviour Support Line and a vet if guarding continues."
+      ],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-pdsa-road-001-curb-sit-wait",
+      "statement": "PDSA teaches a curb stop by walking to the edge with the dog close, asking for sit and treating that sit, asking the dog to wait while the owner checks the road, and giving a calm walk cue only when it is safe to cross, using tasty treats so waiting pays better than dashing across.",
+      "topic": "D.wait_stay_settle",
+      "supportingSourceId": "src-pdsa-road-safety",
+      "locator": "2. Teach your dog awareness",
+      "excerptOrParaphrase": "Sit and treat at the curb, wait while you look, then walk across.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full. This is a curb sit and wait, not the assessed stop at distance.",
+      "contradictingClaimIds": [],
+      "limitations": [
+        "The page also says to use a short lead near roads, not an extender lead, and never to be off lead near roads."
+      ],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-pdsa-road-002-stop-cue-thin",
+      "statement": "PDSA says to teach an emergency 'stop' at home or in a quiet place first, then in busier places, to keep the training reward-based, and not to punish mistakes, but the page does not give a body position, a marker, or distance steps.",
+      "topic": "D.wait_stay_settle",
+      "supportingSourceId": "src-pdsa-road-safety",
+      "locator": "3. Make sure your dog can do an 'emergency stop'",
+      "excerptOrParaphrase": "Teach stop at home, then with distractions. No position or distance steps.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full. The section is too thin to teach the assessed emergency stop.",
+      "contradictingClaimIds": [],
+      "limitations": [
+        "Not a substitute for a stop-at-distance exercise."
+      ],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": false
+    },
+    {
+      "id": "claim-rspca-stay-002-duration-then-distance",
+      "statement": "RSPCA's stay guide asks for a down first, waits a few seconds and rewards the dog while they are still down, lengthens that time across short sessions, and only then adds distance, starting with one step back.",
+      "topic": "D.wait_stay_settle",
+      "supportingSourceId": "src-rspca-stay",
+      "locator": "A six-step guide to teaching a dog to stay, steps 3 to 5",
+      "excerptOrParaphrase": "Reward in the down, increase duration, then one step of distance.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full in batch 014. The source was already registered in batch 003.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-dt-tips-001-session-5-to-10",
+      "statement": "Dogs Trust's top training tips say to keep sessions to five to ten minutes, focus on one behaviour, and end with a fun game.",
+      "topic": "C.session_planning",
+      "supportingSourceId": "src-dt-top-ten-tips",
+      "locator": "Tip 7",
+      "excerptOrParaphrase": "Five to ten minutes, one behaviour, end with a game.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-pdsa-clicker-001-session-length",
+      "statement": "PDSA's clicker page says to keep sessions to around 10 to 15 minutes at most and to repeat them, to charge the click in sessions of around two minutes a few times a day, and that young puppies may need even shorter sessions than 10 to 15 minutes.",
+      "topic": "C.session_planning",
+      "supportingSourceId": "src-pdsa-clicker-training",
+      "locator": "Top tips; Step 1; Step 4",
+      "excerptOrParaphrase": "About 10 to 15 minutes at most; about 2 minutes to charge the click; puppies shorter.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Page fetched in full. The lie-down pressure sentence was not included.",
+      "contradictingClaimIds": [],
+      "limitations": [
+        "These ranges are for clicker work, not a single national rule for every skill."
+      ],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-rspca-train-004-end-on-known",
+      "statement": "The RSPCA national dog-training page says to break training into short regular sessions and always end with something the dog already knows so the session finishes positively. It does not give a number of minutes.",
+      "topic": "C.session_planning",
+      "supportingSourceId": "src-rspca-dog-training",
+      "locator": "Top training tips",
+      "excerptOrParaphrase": "Short regular sessions. End on a skill the dog knows. No minute figure.",
+      "evidenceType": "professional_guidance",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Index page fetched in full in batch 014. The source was already registered.",
+      "contradictingClaimIds": [],
+      "limitations": [],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    },
+    {
+      "id": "claim-hansard-aws-001-consult-jan-2026",
+      "statement": "On 21 January 2026 the Minister for Food Security and Rural Affairs told the Commons that the Government will consult on a ban on electric-shock collars because of the possible harm those devices cause, that the consultation is to check nothing significant has changed since the 2018 consultation, and that the Government will act on the results.",
+      "topic": "K.uk_law_professional",
+      "supportingSourceId": "src-hansard-aws-debate-2026-01-21",
+      "locator": "The Minister for Food Security and Rural Affairs, pets paragraph",
+      "excerptOrParaphrase": "Consult on a ban because of possible harm; check against the 2018 consultation; act on the results.",
+      "evidenceType": "government_statement",
+      "evidenceChannel": "practical_professional_guidance",
+      "confidence": "high",
+      "confidenceJustification": "Hansard debate page fetched in full. This is the minister's speech, not a ban in force.",
+      "contradictingClaimIds": [],
+      "limitations": [
+        "England still has no ban in force. The 2023 regulations were an unmade draft.",
+        "Samantha Niblett MP, who is not the minister, said later in the same debate that a consultation would come later in this Parliament, following Wales. That sentence is not this claim."
+      ],
+      "lastReviewed": "2026-10-10",
+      "goodDogRecommendationEligible": true
+    }
+  ],
+  "behaviours": [
+    {
+      "id": "beh-owner-reward-choice",
+      "name": "Owner matches treat value to the place",
+      "observableCriteria": "In a quiet place the owner uses a plainer treat. In a busier place where responding is harder, the owner uses a softer, smellier treat.",
+      "topic": "C.timing_rate_of_reinforcement"
+    },
+    {
+      "id": "beh-bring-toy-back",
+      "name": "Holds a toy and brings it back",
+      "observableCriteria": "The dog holds a toy, picks it up from the floor, and brings it back to the owner for a treat, before any throw.",
+      "topic": "D.leave_it_drop"
+    },
+    {
+      "id": "beh-multi-dog-calm-intro",
+      "name": "Two dogs meet with space and separate resources",
+      "observableCriteria": "The dogs meet at a distance with one person each, and at home each dog has a separate bed and bowl and is separated when unsupervised.",
+      "topic": "J.multi_dog_households"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "proto-outdoor-rewards-dt",
+      "title": "Match the treat to how hard the place is",
+      "intendedOutcome": "Owner uses a plainer treat for easy practice and a softer, smellier treat when a busier place makes responding hard.",
+      "targetBehaviourIds": ["beh-owner-reward-choice"],
+      "methodIds": ["meth-positive-reinforcement"],
+      "suitableProfiles": ["all_pet_dogs_learning"],
+      "prerequisites": [],
+      "inappropriateWhen": [
+        "Dog is too worried to eat; make the place easier and see your vet if worry continues"
+      ],
+      "equipment": [
+        "A plainer everyday treat",
+        "A softer, smellier treat for harder places"
+      ],
+      "environment": "A quiet room first, then a busier place only when the quiet practice is easy.",
+      "baselineAssessment": "You can name one plain treat your dog will work for at home and one softer, smellier treat.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "For easy practice in a quiet place, use a plainer, less exciting treat.",
+          "rewardTiming": "Give the plain treat straight after the behaviour you asked for.",
+          "progressCriteria": "Your dog responds in the quiet place for the plainer treat.",
+          "easierIfStruggling": "Try a few foods and keep the one your dog actually works for.",
+          "failureModes": ["Using a treat your dog does not want"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "When a busier place makes it hard for your dog to respond, switch to a soft, smelly treat.",
+          "rewardTiming": "Give the higher-value treat straight after the response.",
+          "progressCriteria": "Your dog responds again once the treat is more tempting.",
+          "easierIfStruggling": "Go back to the quieter place before you ask again in the busier one.",
+          "failureModes": ["Staying in a place where your dog is ignoring you"]
+        }
+      ],
+      "reinforcementOptions": ["Plain biscuits for easy practice", "Soft, smelly treats for harder places"],
+      "generalisationMaintenance": "Use the same split when recall practice moves from a quiet place to a busier one.",
+      "welfareMonitoring": ["Dog is still willing to eat and look at you"],
+      "stopConditions": ["If your dog will not eat or looks worried, stop and make the place easier."],
+      "safetyPrecautions": [],
+      "referralRequirements": ["Your vet if your dog stops eating or seems unwell or frightened."],
+      "supportingSourceIds": ["src-dt-positive-reinforcement"],
+      "supportingClaimIds": ["claim-dt-pr-005-raise-value-with-distractions"],
+      "evidenceConfidence": "high_professional_guidance",
+      "reviewStatus": "auto_accepted_low_risk",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": null
+    },
+    {
+      "id": "proto-play-retrieve-bc",
+      "title": "Teach your dog to hold a toy and bring it back",
+      "intendedOutcome": "Dog holds a toy, picks it up, and brings it back for a treat. Throwing starts only after that return is easy, and only once the toy has stopped.",
+      "targetBehaviourIds": ["beh-bring-toy-back"],
+      "methodIds": ["meth-positive-reinforcement", "meth-marker-training"],
+      "suitableProfiles": ["all_pet_dogs_learning"],
+      "prerequisites": ["Dog can take a treat and has learnt a fair-trade drop in a quiet room"],
+      "inappropriateWhen": [
+        "Dog guards toys by stiffening, growling or snapping",
+        "Dog has a sore mouth or joints"
+      ],
+      "equipment": [
+        "A toy that is not small enough to swallow; a ball on a rope is safer than a plain ball",
+        "Small tasty treats"
+      ],
+      "environment": "A quiet room, with no throw until the dog brings the toy back.",
+      "baselineAssessment": "Dog will look at a toy and eat a treat beside you.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Show your dog the toy. Mark and treat a look or a nose touch, then mark and treat when their teeth touch the toy. Repeat until they hold it.",
+          "rewardTiming": "Mark the mouth or the hold, then treat.",
+          "progressCriteria": "Dog holds the toy when you show it.",
+          "easierIfStruggling": "Reward the nose touch for longer before you wait for teeth.",
+          "failureModes": ["Waiting for a perfect hold on the first try"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Put the toy on the floor. Mark and treat if your dog picks it up. If they only look at it, mark that and build up to the pickup.",
+          "rewardTiming": "Mark the pickup, or the look if that is all they offer.",
+          "progressCriteria": "Dog picks the toy up from the floor.",
+          "easierIfStruggling": "Go back to holding the toy in your hand.",
+          "failureModes": ["Throwing the toy before the pickup is easy"]
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Ask your dog to bring the toy back with a gentle clap and encouragement. Give a treat when they return with it. You can run backwards so they follow you to get the treat.",
+          "rewardTiming": "Treat when the dog arrives back with the toy.",
+          "progressCriteria": "Dog brings the toy back to you.",
+          "easierIfStruggling": "Take a step or two backwards rather than a long run.",
+          "failureModes": ["Chasing the dog to get the toy"]
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "When your dog brings the toy back confidently, you can throw it, but only after it has come to rest, and have your dog sit while you throw. Do not throw the toy upwards. Keep the game short. Once the return is reliable, you can phase the treats toward another game of fetch.",
+          "rewardTiming": "The next game is the reward once treats are fading. Until then, still treat the return.",
+          "progressCriteria": "Dog waits until the toy has stopped, then brings it back.",
+          "easierIfStruggling": "Stop throwing and go back to a toy placed on the floor.",
+          "failureModes": [
+            "Throwing before the return is reliable",
+            "Long repetitive games of fetch"
+          ]
+        }
+      ],
+      "reinforcementOptions": ["Small tasty treats", "Another short game once the return is reliable"],
+      "generalisationMaintenance": "Practise in another room before you try a garden. A tidy-up chain (get it, take it to a box, drop) is a separate game.",
+      "welfareMonitoring": [
+        "Dog stays sound and keen",
+        "No stiffness or growling around the toy"
+      ],
+      "stopConditions": [
+        "Stop if your dog looks sore, or stiffens, growls or snaps over the toy."
+      ],
+      "safetyPrecautions": ["safe-004-scope-referral", "safe-005-growl-not-punish"],
+      "referralRequirements": [
+        "Your vet if your dog seems sore. A qualified behaviourist if your dog guards the toy."
+      ],
+      "supportingSourceIds": ["src-bc-play-with-dog"],
+      "supportingClaimIds": ["claim-bc-play-001-hold-and-return"],
+      "evidenceConfidence": "high_professional_guidance",
+      "reviewStatus": "auto_accepted_low_risk",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": "Does not include a release into the hand. The crash-course retrieve row stays partial."
+    },
+    {
+      "id": "proto-multi-dog-intro-dt",
+      "title": "Introduce a second dog with space and separate resources",
+      "intendedOutcome": "Two dogs meet at a distance and, at home, each has their own bed, bowl and time apart. Guarding is managed by separation, not by taking items.",
+      "targetBehaviourIds": ["beh-multi-dog-calm-intro"],
+      "methodIds": ["meth-positive-reinforcement", "meth-create-distance"],
+      "suitableProfiles": ["multi_dog_households"],
+      "prerequisites": ["Vaccinations are up to date, checked with a vet or the rehoming centre"],
+      "inappropriateWhen": [
+        "A dog is already barking, lunging or snapping at the other dog",
+        "A dog is injured or you suspect pain"
+      ],
+      "equipment": [
+        "A loose lead or house line for each dog",
+        "Separate bowls and beds",
+        "Treats for calm walking"
+      ],
+      "environment": "First meeting outside the home if you can, then a neutral space such as the garden, not the resident dog's bed or feeding place.",
+      "baselineAssessment": "You have asked a qualified behaviourist or trainer whether another dog fits this household, and both dogs can walk on a loose lead with a person.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Before the dogs meet, swap scent: put a blanket or toy from each dog where the other can sniff it at their own pace. On the day, pack toys and food bowls away for a while.",
+          "rewardTiming": "Not applicable.",
+          "progressCriteria": "Each dog has sniffed the other's scent without being forced to meet.",
+          "easierIfStruggling": "Leave the scented item in the garden and give the dog more time.",
+          "failureModes": ["Bringing the new dog straight into the resident dog's bed or feeding spot"]
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Meet outside if you can, with one person for each dog. Walk them separately on loose leads, far enough apart that neither gets excited or worried, and reward calm attention to the person. Move a little closer only while both stay relaxed. Let them sniff only if both are relaxed, then keep walking. If either looks uncomfortable, move away.",
+          "rewardTiming": "Treat calm walking and looking at the person.",
+          "progressCriteria": "Both dogs can pass at a comfortable distance without barking, lunging or snapping.",
+          "easierIfStruggling": "Keep the distance larger, or split the meeting across more than one day.",
+          "failureModes": ["Letting them greet while one dog is stiff or worried"]
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "At home, use house lines and start in a neutral space such as the garden. After the first hour or two, put each dog's bowl and bed in a separate place so they can eat and rest alone. Supervise the first days and weeks. When you cannot supervise, put them in different rooms. Give them regular breaks apart.",
+          "rewardTiming": "Not applicable.",
+          "progressCriteria": "Each dog eats and rests in their own place, and they are apart whenever you cannot watch them.",
+          "easierIfStruggling": "Keep the breaks apart longer.",
+          "failureModes": ["Leaving them together unsupervised in the first days"]
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If one dog walks away, turns their face away or licks their lips, call that dog away or send each dog to their own bed. Do not punish a growl. If one dog barks, lunges or snaps, separate them straight away. If anyone is hurt, see a vet at once, and ask an accredited trainer or behaviourist before you try another introduction.",
+          "rewardTiming": "After they are apart and calm, offer each dog something pleasant on their own.",
+          "progressCriteria": "You separate the dogs at the first sign of discomfort, before a fight.",
+          "easierIfStruggling": "Keep them in different rooms until you have spoken to a behaviourist.",
+          "failureModes": ["Telling a dog off for growling", "Trying the meeting again the same day after a snap"]
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "While they live together, put away items that could be guarded, give each dog a quiet place they will not be disturbed, and separate them before meals, chews or other enrichment. Supervise, and pause play so they can calm down. Do not take an item out of a dog's mouth as the way to deal with guarding.",
+          "rewardTiming": "Not applicable.",
+          "progressCriteria": "Meals, chews and valued toys happen with the dogs apart.",
+          "easierIfStruggling": "Skip long-lasting chews until a behaviourist has advised you.",
+          "failureModes": ["Sharing one chew or one food bowl"]
+        }
+      ],
+      "reinforcementOptions": ["Treats for calm walking", "Separate enrichment once the dogs are apart"],
+      "generalisationMaintenance": "Keep separate rest and feeding places even after the first weeks if either dog still guards.",
+      "welfareMonitoring": [
+        "Both dogs eat, rest and can move away",
+        "No barking, lunging or snapping"
+      ],
+      "stopConditions": [
+        "Separate the dogs immediately if either barks, lunges or snaps.",
+        "See a vet straight away if one dog is injured or you suspect pain.",
+        "Do not run the introduction again until an accredited trainer or behaviourist has advised you."
+      ],
+      "safetyPrecautions": ["safe-004-scope-referral", "safe-005-growl-not-punish"],
+      "referralRequirements": [
+        "Your vet if a dog is injured or you suspect pain.",
+        "An accredited trainer or behaviourist before you retry an introduction, and Dogs Trust's Behaviour Support Line if you need to talk it through."
+      ],
+      "supportingSourceIds": ["src-dt-introduce-new-dog", "src-dt-resource-guarding"],
+      "supportingClaimIds": [
+        "claim-dt-intro-001-two-dog-steps",
+        "claim-dt-guard-001-separate-resources"
+      ],
+      "evidenceConfidence": "high_professional_guidance",
+      "reviewStatus": "auto_accepted_low_risk",
+      "lastVerified": "2026-10-10",
+      "appProgressionNotes": "Management only. Not a protocol for taking items from a guarding dog."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-outdoor-rewards",
+      "title": "Use a better treat when the place gets harder",
+      "summary": "Use a plainer treat for easy practice in a quiet place, and a softer, smellier treat when a busier place makes it hard for your dog to respond.",
+      "derivedFromProtocolId": "proto-outdoor-rewards-dt",
+      "supportingClaimIds": ["claim-dt-pr-005-raise-value-with-distractions"],
+      "topic": "C.timing_rate_of_reinforcement",
+      "goodDogModule": "foundation_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "educationOnly": true,
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "lesson-play-retrieve",
+      "title": "Hold a toy and bring it back",
+      "summary": "Reward a hold, then a pickup, then a return, and throw the toy only after your dog brings it back and only once the toy has stopped. Letting go into your hand is not this lesson.",
+      "derivedFromProtocolId": "proto-play-retrieve-bc",
+      "supportingClaimIds": ["claim-bc-play-001-hold-and-return"],
+      "topic": "D.leave_it_drop",
+      "goodDogModule": "life_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "educationOnly": false,
+      "lastReviewed": "2026-10-10"
+    },
+    {
+      "id": "lesson-multi-dog-household",
+      "title": "Living with two dogs",
+      "summary": "Meet at a distance with one person per dog, then give each dog their own bed, bowl and time apart. Separate them if either is uncomfortable. This is not a plan for taking guarded items.",
+      "derivedFromProtocolId": "proto-multi-dog-intro-dt",
+      "supportingClaimIds": [
+        "claim-dt-intro-001-two-dog-steps",
+        "claim-dt-guard-001-separate-resources"
+      ],
+      "topic": "J.multi_dog_households",
+      "goodDogModule": "life_skills",
+      "traceabilityStatus": "complete",
+      "publishedToApp": true,
+      "educationOnly": false,
+      "lastReviewed": "2026-10-10"
+    }
+  ],
+  "relationships": [
+    { "type": "supported_by", "from": "lesson-outdoor-rewards", "to": "claim-dt-pr-005-raise-value-with-distractions" },
+    { "type": "derived_from", "from": "lesson-outdoor-rewards", "to": "proto-outdoor-rewards-dt" },
+    { "type": "supported_by", "from": "lesson-play-retrieve", "to": "claim-bc-play-001-hold-and-return" },
+    { "type": "derived_from", "from": "lesson-play-retrieve", "to": "proto-play-retrieve-bc" },
+    { "type": "constrained_by", "from": "proto-play-retrieve-bc", "to": "safe-004-scope-referral" },
+    { "type": "constrained_by", "from": "proto-play-retrieve-bc", "to": "safe-005-growl-not-punish" },
+    { "type": "complements", "from": "claim-dt-tidy-001-get-drop-box", "to": "claim-bc-play-001-hold-and-return" },
+    { "type": "supported_by", "from": "lesson-multi-dog-household", "to": "claim-dt-intro-001-two-dog-steps" },
+    { "type": "supported_by", "from": "lesson-multi-dog-household", "to": "claim-dt-guard-001-separate-resources" },
+    { "type": "derived_from", "from": "lesson-multi-dog-household", "to": "proto-multi-dog-intro-dt" },
+    { "type": "constrained_by", "from": "proto-multi-dog-intro-dt", "to": "safe-004-scope-referral" },
+    { "type": "constrained_by", "from": "proto-multi-dog-intro-dt", "to": "safe-005-growl-not-punish" },
+    { "type": "references", "from": "disc-006-ddd-order-vs-charity-stay-order", "to": "claim-rspca-stay-002-duration-then-distance" },
+    { "type": "complements", "from": "claim-rspca-stay-002-duration-then-distance", "to": "claim-rspca-stay-001-reward-in-position" },
+    { "type": "references", "from": "disc-007-session-length", "to": "claim-dt-tips-001-session-5-to-10" },
+    { "type": "references", "from": "disc-007-session-length", "to": "claim-pdsa-clicker-001-session-length" },
+    { "type": "references", "from": "disc-007-session-length", "to": "claim-rspca-train-004-end-on-known" },
+    { "type": "complements", "from": "claim-hansard-aws-001-consult-jan-2026", "to": "claim-hansard-ecollar-001-consult-2026" },
+    { "type": "complements", "from": "claim-pdsa-road-002-stop-cue-thin", "to": "claim-mcconnell-stop-001-steps" }
+  ]
+}

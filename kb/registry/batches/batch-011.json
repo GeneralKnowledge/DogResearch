@@ -419,13 +419,14 @@
       "claimIdsInTension": [
         "claim-dt-ddd-001-order-charity",
         "claim-dt-stay-002-variable-duration",
-        "claim-dt-target-002-touch-steps"
+        "claim-dt-target-002-touch-steps",
+        "claim-rspca-stay-002-duration-then-distance"
       ],
       "areasOfAgreement": [
         "Change one difficulty dimension at a time and go back a step when the dog struggles.",
         "Add distractions after the skill is reliable in a quiet place."
       ],
-      "disagreementSummary": "The KB's synthesised DDD skeleton (claim-dt-ddd-001) puts distance before duration. Dogs Trust's stay guidance and its target-training page both build duration first (target: one second, two seconds, five seconds, then a slight distraction), and lesson-stay-basics is exported as 'duration before distance'. The synthesised ordering is therefore not supported by the primary charity pages ingested so far.",
+      "disagreementSummary": "The KB's synthesised DDD skeleton (claim-dt-ddd-001) puts distance before duration. Dogs Trust's stay guidance and its target-training page both build duration first (target: one second, two seconds, five seconds, then a slight distraction), and lesson-stay-basics is exported as 'duration before distance'. RSPCA's stay page, re-read in batch 014, also lengthens the down first and only then adds one step of distance (claim-rspca-stay-002-duration-then-distance). The synthesised ordering is therefore not supported by the primary charity pages ingested so far.",
       "likelyCauses": [
         "The DDD claim is a KB synthesis rather than a single explicit charity statement",
         "Different behaviours (stay vs touch vs sit) may suit different orders",

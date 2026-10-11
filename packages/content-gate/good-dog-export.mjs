@@ -523,6 +523,20 @@ const GUIDE_ASK_KEYWORDS = {
     "training diary",
     "progress",
     "how often"
+  ],
+  "lesson-outdoor-rewards": [
+    "outdoor treats",
+    "not food motivated",
+    "high value treats",
+    "distractions",
+    "busier place"
+  ],
+  "lesson-multi-dog-household": [
+    "two dogs",
+    "introducing a dog",
+    "new puppy",
+    "separate bowls",
+    "resource guarding"
   ]
 };
 

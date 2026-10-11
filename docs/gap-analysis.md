@@ -40,10 +40,10 @@
 - Legal sign-off to promote pending_legal sources (ABTC/APBC/IMDT).
 - review-010 puppy and review-013 DDD still open.
 - Hand-target and cooperative vet handling were covered later: Dogs Trust target and handling pages in batch 011, hand touch lesson in batch 013. An RSPCA handling URL is still missing.
-- Multi-dog household (taxonomy J) has no protocol yet.
+- Multi-dog households now have a management lesson (`lesson-multi-dog-household`, batch 014). It is not a taking-items protocol.
 - Trainer auth (Phase 2 full) not implemented.
 - Strict url-check allowlist maintenance.
-- Outdoor reward choice (`oq-train-001`) has no matching lesson.
+- Outdoor reward choice (`oq-train-001`) now points at `lesson-outdoor-rewards` (batch 014).
 
 ## Batch 011 notes
 
@@ -65,3 +65,15 @@
 - Battersea drop-it page is corroboration only (`paraphrase_ok_pending_legal`, review-019).
 - The RSPCA prong-collar page contains dated legal wording that was not used as a claim (review-021).
 - New review items 018 to 023.
+
+## Batch 014 notes
+
+- Gap fill from pages fetched and read in full. Search snippets were not used.
+- Added: outdoor reward choice (`lesson-outdoor-rewards`, from the existing Dogs Trust claim), play retrieve (`lesson-play-retrieve`, hold and return only), and a two-dog management lesson (`lesson-multi-dog-household`) as a week 9 branch.
+- `lesson-settle-mat` is now an optional week 4 lesson. The crash-course mat-target row stays partial because that lesson is a settle on a blanket, not a send to a mat.
+- Not filled: chin rest, middle and send around are still absent from the Dogs Trust, Blue Cross, PDSA and RSPCA indexes that were fetched. Emergency stop stays `research_only`; the PDSA road-safety stop has no body position or distance steps, and the nearest lesson is the stay.
+- Retrieve stays partial. Blue Cross describes hold and bring-back, and a throw only after the toy has stopped. It does not describe a release into the hand.
+- `disc-006` now cites the RSPCA stay page (duration, then one step). `review-013` and the distance-first skeleton are unchanged.
+- `disc-007` now includes Dogs Trust (5 to 10 minutes) and PDSA clicker training (about 10 to 15 minutes, about 2 minutes to charge a click). The course rule stays short sessions that end on a success. The PDSA lie-down line about pressure on the back was not extracted.
+- The 27 May 2026 shock-collar written answer timed out again. A 21 January 2026 Commons debate was read. The equipment lesson wording was not changed (`review-020`). New review item 024 covers wording of the batch 014 protocols.
+- Muzzle training stays held (`review-016`). The loose-lead export hold stays. IMDT sources stay `paraphrase_ok_pending_legal` (`review-017`).
