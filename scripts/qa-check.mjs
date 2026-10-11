@@ -5,7 +5,7 @@
 import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { getLessonBundle, loadCrashCourse } from "@gooddog/kb-core";
+import { getLessonBundle, loadCrashCourse, loadUkLiteCourse } from "@gooddog/kb-core";
 import {
   buildGoodDogGuidesExport,
   isSourceGoodDogDisplayEligible
@@ -276,6 +276,107 @@ for (const lessonId of publishConfig.pilotLessonIds ?? []) {
   if (!stagedLessonIds.has(lessonId)) {
     errors.push(`Pilot lesson ${lessonId} is not placed in any crash-course stage`);
   }
+}
+
+const ukLite = loadUkLiteCourse();
+const ukLitePartIds = new Set((ukLite.parts ?? []).map((part) => part.id));
+const ukLiteWeeks = ukLite.weeks ?? [];
+const ukLiteWeekIds = new Set(ukLiteWeeks.map((week) => week.id));
+const scheduledLessonIds = new Set();
+const seenUkLiteWeek = new Set();
+
+function collectUkLiteLessons(ownerId, ids) {
+  for (const lessonId of ids ?? []) {
+    scheduledLessonIds.add(lessonId);
+    if (!lessonIdSet.has(lessonId)) {
+      errors.push(`UK Lite ${ownerId} unknown lesson ${lessonId}`);
+    }
+  }
+}
+
+for (const week of ukLiteWeeks) {
+  if (seenUkLiteWeek.has(week.id)) errors.push(`Duplicate UK Lite week id: ${week.id}`);
+  seenUkLiteWeek.add(week.id);
+  if (!ukLitePartIds.has(week.part)) {
+    errors.push(`UK Lite week ${week.id} unknown part ${week.part}`);
+  }
+  if (!week.gate?.summary) errors.push(`UK Lite week ${week.id} is missing a gate summary`);
+  if (!week.ifGateFails) errors.push(`UK Lite week ${week.id} is missing ifGateFails`);
+  collectUkLiteLessons(week.id, week.lessonIds);
+  collectUkLiteLessons(week.id, week.optionalLessonIds);
+  collectUkLiteLessons(week.id, week.afterGateLessonIds);
+  for (const metricId of week.gate?.metricIds ?? []) {
+    if (!metricIds.has(metricId)) errors.push(`UK Lite week ${week.id} unknown metric ${metricId}`);
+  }
+  for (const ref of week.opensAfter ?? []) {
+    const known = ukLiteWeekIds.has(ref) || metricIds.has(ref);
+    if (!known) errors.push(`UK Lite week ${week.id} opensAfter unknown reference ${ref}`);
+  }
+}
+
+for (const branch of ukLite.branches ?? []) {
+  if (!ukLiteWeekIds.has(branch.weekId)) {
+    errors.push(`UK Lite branch ${branch.id} unknown week ${branch.weekId}`);
+  }
+  collectUkLiteLessons(branch.id, branch.lessonIds);
+  for (const safetyId of branch.safetyRuleIds ?? []) {
+    if (!safetyIds.has(safetyId)) {
+      errors.push(`UK Lite branch ${branch.id} unknown safety rule ${safetyId}`);
+    }
+  }
+}
+
+const notInCourseLessonIds = new Set();
+for (const entry of ukLite.notInCourse ?? []) {
+  for (const lessonId of entry.lessonIds ?? []) {
+    notInCourseLessonIds.add(lessonId);
+    if (!lessonIdSet.has(lessonId)) {
+      errors.push(`UK Lite not-in-course ${entry.id} unknown lesson ${lessonId}`);
+    }
+    if (scheduledLessonIds.has(lessonId)) {
+      errors.push(`UK Lite lesson ${lessonId} is both scheduled and not in the course`);
+    }
+  }
+}
+
+for (const lessonId of publishConfig.pilotLessonIds ?? []) {
+  if (!scheduledLessonIds.has(lessonId) && !notInCourseLessonIds.has(lessonId)) {
+    errors.push(
+      `Pilot lesson ${lessonId} is not in a UK Lite week, branch, or not-in-course entry`
+    );
+  }
+}
+
+const BLOCKED_EXERCISE_STATUS = new Set(["research_only", "held_for_review", "gap"]);
+const exerciseByName = new Map(
+  (crashCourse.practicalExercises ?? []).map((row) => [row.imdtExercise, row])
+);
+const excludedNames = new Set((ukLite.excludedExercises ?? []).map((row) => row.imdtExercise));
+for (const name of excludedNames) {
+  if (!exerciseByName.has(name)) {
+    errors.push(`UK Lite excluded exercise is not on the crash course: ${name}`);
+  }
+}
+for (const row of crashCourse.practicalExercises ?? []) {
+  if (!BLOCKED_EXERCISE_STATUS.has(row.status)) continue;
+  if (!excludedNames.has(row.imdtExercise)) {
+    errors.push(
+      `UK Lite course does not exclude ${row.status} exercise ${row.imdtExercise}`
+    );
+  }
+  for (const lessonId of row.lessonIds ?? []) {
+    if (scheduledLessonIds.has(lessonId)) {
+      errors.push(
+        `UK Lite course schedules ${lessonId} but ${row.imdtExercise} is ${row.status}`
+      );
+    }
+  }
+}
+for (const sid of ukLite.alignment?.sourceIds ?? []) {
+  if (!sourceIds.has(sid)) errors.push(`UK Lite alignment unknown source ${sid}`);
+}
+for (const cid of ukLite.alignment?.claimIds ?? []) {
+  if (!claimIds.has(cid)) errors.push(`UK Lite alignment unknown claim ${cid}`);
 }
 
 console.log("Good Dog KB QA report");

@@ -1,0 +1,354 @@
+{
+  "courseId": "kindtrail-uk-lite-v1",
+  "title": "Foundation course",
+  "internalName": "UK Lite",
+  "summary": "A ten-week owner course. Each week needs at least five short practice days and an observable check before the next week opens.",
+  "cadence": {
+    "minimumPracticeDays": 5,
+    "sessionLength": "Keep sessions short and end on a success. Blue Cross suggests about 2 to 5 minutes and one RSPCA branch page suggests about 5 to 15 (disc-007). This course does not collapse those into one number.",
+    "onFailedGate": "Repeat the week at an easier version of the same skill.",
+    "maintenance": "Give earlier skills a few repetitions in each later week. Week 10 takes one of them into a mildly new place."
+  },
+  "alignment": {
+    "basis": "Week themes follow the public headings of IMDT's 2-day theory course, 4-day practical course, and assessed exercises, retrieved 2026-10-10. This is a lighter owner timetable, not those courses. Lesson wording is paraphrased from UK welfare-charity sources, not from IMDT course material.",
+    "disclaimer": "Independent guidance. Not affiliated with or endorsed by IMDT Ltd, and not a professional qualification.",
+    "sourceIds": [
+      "src-imdt-how-to-become",
+      "src-imdt-career-course",
+      "src-imdt-practical-instructor-course",
+      "src-imdt-assessment-practical-pdf",
+      "src-imdt-assessment-qa-pdf"
+    ],
+    "claimIds": [
+      "claim-imdt-cur-001-pathway",
+      "claim-imdt-cur-002-two-day-topics",
+      "claim-imdt-cur-003-four-day-topics",
+      "claim-imdt-cur-004-knowledge-areas",
+      "claim-imdt-cur-005-assessment-practical-exercises",
+      "claim-imdt-cur-006-assessment-theory-weighting"
+    ]
+  },
+  "parts": [
+    {
+      "id": "part-understand",
+      "order": 1,
+      "title": "Understand",
+      "imdtAnalogue": "2-day theory course, owner version"
+    },
+    {
+      "id": "part-practise",
+      "order": 2,
+      "title": "Practise",
+      "imdtAnalogue": "4-day practical course, exercises this registry can teach"
+    },
+    {
+      "id": "part-real-life",
+      "order": 3,
+      "title": "Real life",
+      "imdtAnalogue": "Behaviour modification and professional limits, owner version"
+    }
+  ],
+  "weeks": [
+    {
+      "id": "week-01-how-dogs-learn",
+      "part": "part-understand",
+      "order": 1,
+      "title": "How dogs learn",
+      "aim": "Set up kind equipment, learn that behaviour repeats what pays off, and charge a marker before asking for new skills.",
+      "imdtAnalogue": "Science of how dogs learn",
+      "lessonIds": ["lesson-equipment-and-law", "lesson-how-dogs-learn", "lesson-intro-marker"],
+      "optionalLessonIds": [],
+      "afterGateLessonIds": [],
+      "practice": "Pair the marker with a reward on several days. Fit the collar, ID tag, and harness, and check the microchip record.",
+      "gate": {
+        "summary": "The dog looks for a reward when it hears the marker, across two sessions. Collar, ID tag, and harness fit are done.",
+        "metricIds": []
+      },
+      "opensAfter": [],
+      "ifGateFails": "Keep pairing the marker with a reward. Do not add a new skill this week.",
+      "notes": [
+        "Shock-collar status stays the cautious wording already in lesson-equipment-and-law (review-020)."
+      ]
+    },
+    {
+      "id": "week-02-read-your-dog",
+      "part": "part-understand",
+      "order": 2,
+      "title": "Read your dog",
+      "aim": "Get a reliable name response in a quiet place, and notice stress early enough to give space.",
+      "imdtAnalogue": "Body language",
+      "lessonIds": ["lesson-name-attention", "lesson-read-your-dog-stress"],
+      "optionalLessonIds": [],
+      "afterGateLessonIds": [],
+      "practice": "Play the name game in a quiet room on several days. On one boring outing, watch for stress signs and do not add a training ask.",
+      "gate": {
+        "summary": "The dog orients within 2 seconds of its name, said once, at conversational volume, in low distraction. The owner can name stress signs and give space when they appear.",
+        "metricIds": ["metric-name-latency-2s"]
+      },
+      "opensAfter": ["week-01-how-dogs-learn"],
+      "ifGateFails": "Shorten the name game and drop distractions. The recall weeks stay closed until this check is met.",
+      "notes": ["This name check blocks week 6."]
+    },
+    {
+      "id": "week-03-plan-the-work",
+      "part": "part-understand",
+      "order": 3,
+      "title": "Plan the work",
+      "aim": "Pick one goal, keep a diary, and use the same cue across the household.",
+      "imdtAnalogue": "Class planning and a one-to-one consultation, owner version",
+      "lessonIds": ["lesson-plan-and-measure"],
+      "optionalLessonIds": [],
+      "afterGateLessonIds": [],
+      "practice": "Log several short sessions against one written goal. Keep a few marker and name repetitions in each session.",
+      "gate": {
+        "summary": "One written goal exists, and several short sessions are logged against it.",
+        "metricIds": []
+      },
+      "opensAfter": ["week-02-read-your-dog"],
+      "ifGateFails": "Shrink the goal to a single skill in a quiet room and log that.",
+      "notes": []
+    },
+    {
+      "id": "week-04-positions",
+      "part": "part-practise",
+      "order": 4,
+      "title": "Positions",
+      "aim": "Teach sit, then down and a short stay, plus a hand touch. Build stay duration before distance.",
+      "imdtAnalogue": "Down, nose to hand touch, and twist or spin",
+      "lessonIds": ["lesson-first-sit", "lesson-down-basics", "lesson-stay-basics", "lesson-hand-touch"],
+      "optionalLessonIds": ["lesson-spin-trick"],
+      "afterGateLessonIds": [],
+      "practice": "One position at a time, indoors or in a quiet garden. Add the word sit as the dog sits. For the stay, add duration while you are still close (disc-006).",
+      "gate": {
+        "summary": "The dog sits on cue with the lure starting to fade, and holds a short stay close to the handler.",
+        "metricIds": []
+      },
+      "opensAfter": ["week-03-plan-the-work"],
+      "ifGateFails": "Return to the lure sit in a quiet room. Leave down, stay, and hand touch until the sit is easy again.",
+      "notes": ["lesson-spin-trick is optional and does not gate the week."]
+    },
+    {
+      "id": "week-05-manners",
+      "part": "part-practise",
+      "order": 5,
+      "title": "Everyday manners",
+      "aim": "Teach leave-it, then an open-palm leave and a fair-trade drop. Add jumping or steal-and-chase only when that is the live problem.",
+      "imdtAnalogue": "Retrieve, drop and swap half only",
+      "lessonIds": ["lesson-leave-it-basics", "lesson-rspca-leave", "lesson-drop-it-swap"],
+      "optionalLessonIds": ["lesson-jumping-up", "lesson-steal-chase"],
+      "afterGateLessonIds": [],
+      "practice": "Closed fist first, then the open palm, then a toy swapped for something better. Use four-paws-on-the-floor or the steal lesson only if that problem is happening.",
+      "gate": {
+        "summary": "The dog backs off a closed fist before the treat is released, and lets go of a toy in a fair trade.",
+        "metricIds": []
+      },
+      "opensAfter": ["week-04-positions"],
+      "ifGateFails": "Stay on the closed fist. Do not move the food onto an open palm yet.",
+      "notes": ["A full retrieve is not this week. The drop and swap is the part the registry can teach."]
+    },
+    {
+      "id": "week-06-recall-near",
+      "part": "part-practise",
+      "order": 6,
+      "title": "Coming back nearby",
+      "aim": "Add one recall cue in an enclosed space, then practise at 5 metres on a long line.",
+      "imdtAnalogue": "Recall",
+      "lessonIds": ["lesson-recall-basics"],
+      "optionalLessonIds": [],
+      "afterGateLessonIds": [],
+      "practice": "Same recall word for the whole household. Enclosed space first, then a 5 metre long line in low distraction. Reward the return, including a slow one.",
+      "gate": {
+        "summary": "One recall cue. The dog returns to within arm's reach on a 5 metre long line in low distraction.",
+        "metricIds": ["metric-recall-long-line-5m"]
+      },
+      "opensAfter": ["week-05-manners", "metric-name-latency-2s"],
+      "ifGateFails": "Go back to the name game and shorten the distance. Do not repeat the recall cue if the dog is unlikely to come.",
+      "notes": ["Never punish a late return (safe-003)."]
+    },
+    {
+      "id": "week-07-recall-line",
+      "part": "part-practise",
+      "order": 7,
+      "title": "Coming back at a distance",
+      "aim": "Stretch the long-line recall to 10 metres with mild distraction. Add an emergency cue only after that check.",
+      "imdtAnalogue": "Recall",
+      "lessonIds": [],
+      "optionalLessonIds": [],
+      "afterGateLessonIds": ["lesson-emergency-recall"],
+      "practice": "One cue, 10 metres, long line, mild distraction. Stay on the line.",
+      "gate": {
+        "summary": "One recall cue. The dog returns reliably on a 10 metre long line with mild distraction. Emergency recall practice starts only after this check.",
+        "metricIds": ["metric-recall-long-line-10m"]
+      },
+      "opensAfter": ["week-06-recall-near"],
+      "ifGateFails": "Drop back to 5 metres and an easier place. Leave the emergency cue unused.",
+      "notes": [
+        "lesson-emergency-recall opens only after metric-recall-long-line-10m (review-008).",
+        "Public off-lead stays locked for the whole course (safe-002, metric-off-lead-not-unlocked)."
+      ]
+    },
+    {
+      "id": "week-08-loose-lead",
+      "part": "part-practise",
+      "order": 8,
+      "title": "Loose lead",
+      "aim": "Walk ten consecutive steps with a slack lead.",
+      "imdtAnalogue": "Loose lead walking",
+      "lessonIds": ["lesson-loose-lead"],
+      "optionalLessonIds": [],
+      "afterGateLessonIds": [],
+      "practice": "Practise the researched loose-lead lesson for several short outings. Keep a few recall repetitions on the line as well.",
+      "gate": {
+        "summary": "Ten consecutive steps with a slack lead without the owner stopping.",
+        "metricIds": ["metric-loose-lead-10-steps"]
+      },
+      "opensAfter": ["week-07-recall-line"],
+      "ifGateFails": "Practise fewer steps in a quieter place. Do not raise the step count to force the check.",
+      "notes": [
+        "Good Dog must not overwrite ex-lead-loose from this course. goodDogExportStatus stays hold_until_method_review."
+      ]
+    },
+    {
+      "id": "week-09-one-situation",
+      "part": "part-real-life",
+      "order": 9,
+      "title": "One situation",
+      "aim": "Work one real-life branch for the week. Leave the other branches for later.",
+      "imdtAnalogue": "Behaviour modification and rehabilitation, owner version",
+      "lessonIds": [],
+      "optionalLessonIds": [],
+      "afterGateLessonIds": [],
+      "practice": "Choose one branch below. Keep the branch's constraint for the whole week, and keep a few reps of an earlier skill.",
+      "gate": {
+        "summary": "One branch has been practised on at least five days, inside that branch's constraint.",
+        "metricIds": []
+      },
+      "opensAfter": ["week-08-loose-lead"],
+      "ifGateFails": "Stay on the same branch at an easier setup. Do not switch branches to escape a hard day.",
+      "notes": [
+        "Aggression, severe fear, sudden change, and suspected pain stay on the referral path (safe-004)."
+      ]
+    },
+    {
+      "id": "week-10-generalise",
+      "part": "part-real-life",
+      "order": 10,
+      "title": "Generalise and stop",
+      "aim": "Take one earlier skill into a mildly new place, prepare for handling, and name what this course does not cover.",
+      "imdtAnalogue": "Professional limits",
+      "lessonIds": ["lesson-plan-and-measure", "lesson-vet-handling-prep"],
+      "optionalLessonIds": [],
+      "afterGateLessonIds": [],
+      "practice": "Repeat one solid skill somewhere mildly new. Practise predictable touch for a vet visit at the dog's pace. Read back the diary and pick the next skill or place.",
+      "gate": {
+        "summary": "One earlier skill still works in a mildly new place. The owner can name the problems that belong with a vet or a behaviour professional rather than in this course.",
+        "metricIds": []
+      },
+      "opensAfter": ["week-09-one-situation"],
+      "ifGateFails": "Return that skill to the last place where it worked, then try a smaller change of place.",
+      "notes": [
+        "Muzzle training stays in human review (review-016) and is not a week.",
+        "Public off-lead stays locked (safe-002, metric-off-lead-not-unlocked)."
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "branch-puppy",
+      "weekId": "week-09-one-situation",
+      "title": "Puppy",
+      "lessonIds": ["lesson-puppy-socialisation", "lesson-mouthing-redirect"],
+      "constraint": "No public-ground walking before the vet says vaccination cover is enough. Carry the puppy until then.",
+      "safetyRuleIds": []
+    },
+    {
+      "id": "branch-rescue",
+      "weekId": "week-09-one-situation",
+      "title": "Newly rehomed dog",
+      "lessonIds": ["lesson-rescue-settling"],
+      "constraint": "Settling comes before harder skills. Eating and resting in the home is the aim this week.",
+      "safetyRuleIds": ["safe-004-scope-referral"]
+    },
+    {
+      "id": "branch-adolescent",
+      "weekId": "week-09-one-situation",
+      "title": "Adolescent dog",
+      "lessonIds": ["lesson-adolescent-regression"],
+      "constraint": "Shorten the session and return to an easier version of a skill that used to work.",
+      "safetyRuleIds": []
+    },
+    {
+      "id": "branch-walks",
+      "weekId": "week-09-one-situation",
+      "title": "Hard walks",
+      "lessonIds": ["lesson-reactive-management"],
+      "constraint": "Vet check before behaviour-change work. This week is management and a referral, not a rehabilitation plan.",
+      "safetyRuleIds": ["safe-004-scope-referral", "safe-005-growl-not-punish"]
+    },
+    {
+      "id": "branch-noise",
+      "weekId": "week-09-one-situation",
+      "title": "Noise and fireworks",
+      "lessonIds": ["lesson-fireworks-management"],
+      "constraint": "Safe place, notice the signs, comfort and management. Severe panic is a vet and behaviour referral.",
+      "safetyRuleIds": ["safe-004-scope-referral"]
+    },
+    {
+      "id": "branch-alone",
+      "weekId": "week-09-one-situation",
+      "title": "Time alone",
+      "lessonIds": ["lesson-alone-prevention"],
+      "constraint": "Short absences only while the dog is coping. Stop lengthening absences if the dog is distressed (review-006).",
+      "safetyRuleIds": ["safe-004-scope-referral"]
+    }
+  ],
+  "notInCourse": [
+    {
+      "id": "unscheduled-settle-mat",
+      "lessonIds": ["lesson-settle-mat"],
+      "reason": "The mat settle lesson exists. This course uses the stay for duration. Mat target remains partial on the crash-course checklist and is not a week."
+    },
+    {
+      "id": "held-muzzle",
+      "lessonIds": ["lesson-muzzle-training"],
+      "reason": "Held for human review (review-016). Not a week."
+    },
+    {
+      "id": "unscheduled-full-retrieve",
+      "lessonIds": [],
+      "reason": "A full retrieve has no owner lesson. Week 5 teaches the drop and swap only."
+    },
+    {
+      "id": "unscheduled-multi-dog",
+      "lessonIds": [],
+      "reason": "Multi-dog households have no protocol. Point at a reward-based trainer via referrals."
+    },
+    {
+      "id": "unscheduled-outdoor-reward",
+      "lessonIds": [],
+      "reason": "Owner question oq-train-001 has no lesson. Until one exists, raise reward value or use play, and do not invent a protocol."
+    }
+  ],
+  "excludedExercises": [
+    {
+      "imdtExercise": "Emergency stop",
+      "reason": "Research only, one non-UK source."
+    },
+    {
+      "imdtExercise": "Chin rest",
+      "reason": "Research only, one US organisation source."
+    },
+    {
+      "imdtExercise": "Middle",
+      "reason": "Research only, one commercial source."
+    },
+    {
+      "imdtExercise": "Send around",
+      "reason": "No usable source."
+    },
+    {
+      "imdtExercise": "Muzzle training",
+      "reason": "Held for human review (review-016)."
+    }
+  ]
+}
