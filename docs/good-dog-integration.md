@@ -12,6 +12,7 @@
 | `dist/good-dog-safety.json` | Safety rules, assessment metrics with `goodDogInferenceHints` (`exerciseIds`, `learningObjectiveIds`), aversive text patterns, off-lead promotion gate |
 | `dist/good-dog-guides.json` | Management and education lessons whose sources are `paraphrase_ok`: `ownerBodyMarkdown` from protocol steps, provenance, `suggestedAskKeywords` |
 | `dist/good-dog-referrals.json` | KindTrail `publishable.referrals` shape (`title`, `body`, `url`) plus `rationaleClaimIds` |
+| `dist/good-dog-pathways.json` | Goal pathways from [kb/meta/goal-pathways.json](../kb/meta/goal-pathways.json): one owner goal as ordered stages, each with exercises, lessons, an everyday idea and a gate (`metricIds` plus `ownerCheck`, the gate as a plain question with `{dog}` for the name). Read by the native Good Dog app ([ixOS](https://github.com/GeneralKnowledge/ixOS) `examples/good-dog-core/content/pathways.json` takes the `pathways` array) |
 | `dist/good-dog-ask-patterns.json` | `violatesNoAversivePatterns`, `escalateQuestionPatterns` (regex/keywords → `safe-*` ids and guide lesson ids), owner-question taxonomy crosswalk (`goodDogHelpId` or `guideLessonId`) |
 
 Schema version: `exportSchemaVersion` in [kb/meta/schema-version.json](../kb/meta/schema-version.json) (1.1.0), embedded in each export.
@@ -27,6 +28,14 @@ Pilot skill lessons map to Good Dog exercise ids via [kb/meta/good-dog-exercise-
 - KB protocol follows Dogs Trust stop-start (forward motion when slack) — tagged `stop_until_slack_then_forward_motion`.
 - Crosswalk sets `goodDogExportStatus: hold_until_method_review` so **Good Dog must not blind-sync** over `ex-lead-loose` during the P1-1 rewrite.
 - Draft alternative: `proto-loose-lead-force-free-draft` → `ex-kb-loose-lead-check-in-draft` in `draftExercises[]` (reward check-ins, not production sync).
+
+## Goal pathways
+
+[kb/meta/goal-pathways.json](../kb/meta/goal-pathways.json) is the source of truth. Each pathway is the UK Lite course shape (`gate`, `opensAfter`, `ifGateFails`) scoped to one goal, and the format matches ixOS `docs/good-dog-demo.md`, "Pathway format". The app never passes a gate on a count of sessions: it needs good results on different days and then asks the owner the gate's `ownerCheck`. A welfare concern holds a stage.
+
+QA (`npm run qa`) and `npm run test:good-dog-pathways` check every exercise id against the vendored Good Dog list, and every lesson, metric, safety rule, behaviour and owner-question id against the registry. ixOS runs the same exercise and life-stage checks again in Rust.
+
+Gaps: settling and greeting visitors have no assessment metrics yet, so their gates are prose and the owner's answer only. The loose-lead stage uses `ex-lead-loose`, which is on `hold_until_method_review`; the pathway text follows the current stop-start protocol and should be revisited with that review. `safetyRuleIds` are carried but the app does not enforce them until each rule has a machine-readable condition.
 
 ## Consumption (summary)
 

@@ -2,10 +2,12 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import {
   getLessonBundle,
+  loadAssessmentMetrics,
   getRepoRoot,
   loadGoodDogCrosswalk,
   loadGoodDogFieldDefaults,
   loadCrashCourse,
+  loadGoalPathways,
   loadMergedRegistry,
   loadOwnerQuestions,
   loadPublishConfig
@@ -1061,5 +1063,95 @@ export function buildGoodDogCrashCourseExport(guidesExport = buildGoodDogGuidesE
       stageCoverage: tally(stages, "coverage"),
       practicalExerciseStatus: tally(practicalExercises, "status")
     }
+  };
+}
+
+const PATHWAY_LIFE_STAGES = new Set(["young_puppy", "older_puppy", "adolescent", "adult", "senior"]);
+const PATHWAY_STAGE_TEXT = [
+  "title",
+  "whatItMeans",
+  "whyItMatters",
+  "everydayPractice",
+  "ifGateFails",
+  "maintenance"
+];
+
+/**
+ * Everything wrong with the goal pathways, checked against the registry.
+ * `exerciseIds` are Good Dog's exercise ids (the vendored list); pass null to
+ * skip that check.
+ * @param {any[]} pathways
+ * @param {{ exerciseIds: Set<string> | null }} opts
+ * @returns {string[]}
+ */
+export function validateGoalPathways(pathways, { exerciseIds }) {
+  const registry = loadMergedRegistry();
+  const lessonIds = new Set(registry.lessons.map((l) => l.id));
+  const safetyIds = new Set(registry.safetyRules.map((r) => r.id));
+  const behaviourIds = new Set(registry.behaviours.map((b) => b.id));
+  const metricIds = new Set(loadAssessmentMetrics().map((m) => m.id));
+  const questionIds = new Set(loadOwnerQuestions().map((c) => c.id));
+  const errors = [];
+  const seenPathways = new Set();
+  for (const p of pathways) {
+    const at = `Pathway ${p.id}`;
+    if (seenPathways.has(p.id)) errors.push(`${at}: id used twice`);
+    seenPathways.add(p.id);
+    for (const field of ["title", "summary"]) {
+      if (!p[field]?.trim()) errors.push(`${at}: ${field} is empty`);
+    }
+    if (!Number.isInteger(p.contentVersion)) errors.push(`${at}: contentVersion is not a whole number`);
+    if (!p.lifeStages?.length) errors.push(`${at}: no life stages`);
+    for (const l of p.lifeStages ?? []) {
+      if (!PATHWAY_LIFE_STAGES.has(l)) errors.push(`${at}: unknown life stage ${l}`);
+    }
+    if (!p.matchPhrases?.length) errors.push(`${at}: no matchPhrases`);
+    for (const id of p.ownerQuestionCategoryIds ?? []) {
+      if (!questionIds.has(id)) errors.push(`${at}: unknown owner-question category ${id}`);
+    }
+    for (const id of p.behaviourIds ?? []) {
+      if (!behaviourIds.has(id)) errors.push(`${at}: unknown behaviour ${id}`);
+    }
+    if (!p.stages?.length) errors.push(`${at}: no stages`);
+    const earlier = new Set();
+    for (const stage of p.stages ?? []) {
+      const sat = `${at}/${stage.id}`;
+      if (earlier.has(stage.id)) errors.push(`${sat}: stage id used twice`);
+      for (const field of PATHWAY_STAGE_TEXT) {
+        if (!stage[field]?.trim()) errors.push(`${sat}: ${field} is empty`);
+      }
+      if (!stage.gate?.summary?.trim()) errors.push(`${sat}: gate.summary is empty`);
+      if (!stage.gate?.ownerCheck?.trim()) errors.push(`${sat}: gate.ownerCheck is empty`);
+      if (!stage.exerciseIds?.length) errors.push(`${sat}: no exercises`);
+      for (const id of stage.exerciseIds ?? []) {
+        if (exerciseIds && !exerciseIds.has(id)) errors.push(`${sat}: unknown Good Dog exercise ${id}`);
+      }
+      for (const id of stage.lessonIds ?? []) {
+        if (!lessonIds.has(id)) errors.push(`${sat}: unknown lesson ${id}`);
+      }
+      for (const id of stage.gate?.metricIds ?? []) {
+        if (!metricIds.has(id)) errors.push(`${sat}: unknown metric ${id}`);
+      }
+      for (const id of stage.safetyRuleIds ?? []) {
+        if (!safetyIds.has(id)) errors.push(`${sat}: unknown safety rule ${id}`);
+      }
+      for (const id of stage.opensAfter ?? []) {
+        if (!earlier.has(id)) errors.push(`${sat}: opens after ${id}, which is not an earlier stage`);
+      }
+      earlier.add(stage.id);
+    }
+  }
+  return errors;
+}
+
+/** Goal pathways for the Good Dog app, in the format its `pathways.json` reads. */
+export function buildGoodDogPathwaysExport() {
+  const source = loadGoalPathways();
+  const schemaMeta = loadSchemaMeta();
+  return {
+    schemaVersion: schemaMeta.exportSchemaVersion ?? "1.0.0",
+    generatedAt: new Date().toISOString(),
+    reviewStatus: source.reviewStatus,
+    pathways: source.pathways
   };
 }
