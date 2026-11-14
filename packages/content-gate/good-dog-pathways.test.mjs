@@ -40,14 +40,26 @@ for (const stage of recall.stages.slice(1)) {
 const recallMetrics = recall.stages.flatMap((s) => s.gate.metricIds);
 assert.equal(recallMetrics.includes("metric-off-lead-not-unlocked"), false);
 
+// Recall has full lesson plans: every stage teaches, practises and checks.
+for (const stage of recall.stages) {
+  const kinds = stage.lessons.map((l) => l.kind);
+  for (const kind of ["learn", "practise", "everyday", "check"]) {
+    assert.ok(kinds.includes(kind), `${stage.id} has a ${kind} lesson`);
+  }
+  assert.equal(kinds.at(-1), "check", `${stage.id} ends with its check`);
+}
+
 // The checks catch broken pathways.
 const broken = structuredClone(pathways.slice(0, 1));
 broken[0].stages[0].exerciseIds.push("ex-nope");
 broken[0].stages[0].gate.metricIds.push("metric-nope");
 broken[0].stages[1].opensAfter = ["recall-later"];
 broken[0].stages[1].safetyRuleIds.push("safe-999");
+broken[0].stages[0].lessons[1].exerciseId = "ex-recall-foundation";
+broken[0].stages[0].lessons.at(-1).correctIndex = 7;
+broken[0].stages[0].lessons[0].claimIds = ["claim-nope"];
 const problems = validateGoalPathways(broken, { exerciseIds });
-for (const text of ["ex-nope", "metric-nope", "recall-later", "safe-999"]) {
+for (const text of ["ex-nope", "metric-nope", "recall-later", "safe-999", "not one of the stage's", "correctIndex", "claim-nope"]) {
   assert.ok(problems.some((p) => p.includes(text)), `${text}: ${problems.join("; ")}`);
 }
 

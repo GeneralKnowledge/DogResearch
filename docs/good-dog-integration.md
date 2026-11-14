@@ -35,6 +35,8 @@ Pilot skill lessons map to Good Dog exercise ids via [kb/meta/good-dog-exercise-
 
 QA (`npm run qa`) and `npm run test:good-dog-pathways` check every exercise id against the vendored Good Dog list, and every lesson, metric, safety rule, behaviour and owner-question id against the registry. ixOS runs the same exercise and life-stage checks again in Rust.
 
+**Stage lessons** (Reuben, 2026-11-14: lesson plans live inside each goal stage). A stage's `lessons` are short steps in order, unlocked one by one in the app: `learn` (a few sentences of teaching, with the `claimIds` they rest on), `practise` (one of the stage's exercises, with an `aim`), `everyday` (one real-life try), and `check` (a multiple-choice question with `options`, `correctIndex`, an `explanation` and its `claimIds`). `{dog}` stands for the dog's name. QA checks the kinds, the claims, that a practise lesson uses one of the stage's exercises, and that every stage with lessons teaches, practises and checks. Recall is written in full as the sample; the other pathways follow once its shape is agreed.
+
 Gaps: settling and greeting visitors have no assessment metrics yet, so their gates are prose and the owner's answer only. The loose-lead stage uses `ex-lead-loose`, which is on `hold_until_method_review`; the pathway text follows the current stop-start protocol and should be revisited with that review. `safetyRuleIds` are carried but the app does not enforce them until each rule has a machine-readable condition.
 
 ## Consumption (summary)
