@@ -2,10 +2,12 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import {
   getLessonBundle,
+  loadAssessmentMetrics,
   getRepoRoot,
   loadGoodDogCrosswalk,
   loadGoodDogFieldDefaults,
   loadCrashCourse,
+  loadGoalPathways,
   loadMergedRegistry,
   loadOwnerQuestions,
   loadPublishConfig
@@ -1061,5 +1063,148 @@ export function buildGoodDogCrashCourseExport(guidesExport = buildGoodDogGuidesE
       stageCoverage: tally(stages, "coverage"),
       practicalExerciseStatus: tally(practicalExercises, "status")
     }
+  };
+}
+
+const PATHWAY_LIFE_STAGES = new Set(["young_puppy", "older_puppy", "adolescent", "adult", "senior"]);
+const PATHWAY_STAGE_TEXT = [
+  "title",
+  "whatItMeans",
+  "whyItMatters",
+  "everydayPractice",
+  "ifGateFails",
+  "maintenance"
+];
+
+/**
+ * Everything wrong with the goal pathways, checked against the registry.
+ * `exerciseIds` are Good Dog's exercise ids (the vendored list); pass null to
+ * skip that check.
+ * @param {any[]} pathways
+ * @param {{ exerciseIds: Set<string> | null }} opts
+ * @returns {string[]}
+ */
+export function validateGoalPathways(pathways, { exerciseIds }) {
+  const registry = loadMergedRegistry();
+  const lessonIds = new Set(registry.lessons.map((l) => l.id));
+  const safetyIds = new Set(registry.safetyRules.map((r) => r.id));
+  const behaviourIds = new Set(registry.behaviours.map((b) => b.id));
+  const metricIds = new Set(loadAssessmentMetrics().map((m) => m.id));
+  const questionIds = new Set(loadOwnerQuestions().map((c) => c.id));
+  const claimIds = new Set(registry.claims.map((c) => c.id));
+  const errors = [];
+  const seenPathways = new Set();
+  const seenLessons = new Set();
+  for (const p of pathways) {
+    const at = `Pathway ${p.id}`;
+    if (seenPathways.has(p.id)) errors.push(`${at}: id used twice`);
+    seenPathways.add(p.id);
+    for (const field of ["title", "summary"]) {
+      if (!p[field]?.trim()) errors.push(`${at}: ${field} is empty`);
+    }
+    if (!Number.isInteger(p.contentVersion)) errors.push(`${at}: contentVersion is not a whole number`);
+    if (!p.lifeStages?.length) errors.push(`${at}: no life stages`);
+    for (const l of p.lifeStages ?? []) {
+      if (!PATHWAY_LIFE_STAGES.has(l)) errors.push(`${at}: unknown life stage ${l}`);
+    }
+    if (!p.matchPhrases?.length) errors.push(`${at}: no matchPhrases`);
+    for (const id of p.ownerQuestionCategoryIds ?? []) {
+      if (!questionIds.has(id)) errors.push(`${at}: unknown owner-question category ${id}`);
+    }
+    for (const id of p.behaviourIds ?? []) {
+      if (!behaviourIds.has(id)) errors.push(`${at}: unknown behaviour ${id}`);
+    }
+    if (!p.stages?.length) errors.push(`${at}: no stages`);
+    const earlier = new Set();
+    for (const stage of p.stages ?? []) {
+      const sat = `${at}/${stage.id}`;
+      if (earlier.has(stage.id)) errors.push(`${sat}: stage id used twice`);
+      for (const field of PATHWAY_STAGE_TEXT) {
+        if (!stage[field]?.trim()) errors.push(`${sat}: ${field} is empty`);
+      }
+      if (!stage.gate?.summary?.trim()) errors.push(`${sat}: gate.summary is empty`);
+      if (!stage.gate?.ownerCheck?.trim()) errors.push(`${sat}: gate.ownerCheck is empty`);
+      if (!stage.exerciseIds?.length) errors.push(`${sat}: no exercises`);
+      for (const id of stage.exerciseIds ?? []) {
+        if (exerciseIds && !exerciseIds.has(id)) errors.push(`${sat}: unknown Good Dog exercise ${id}`);
+      }
+      for (const id of stage.lessonIds ?? []) {
+        if (!lessonIds.has(id)) errors.push(`${sat}: unknown lesson ${id}`);
+      }
+      for (const id of stage.gate?.metricIds ?? []) {
+        if (!metricIds.has(id)) errors.push(`${sat}: unknown metric ${id}`);
+      }
+      for (const id of stage.safetyRuleIds ?? []) {
+        if (!safetyIds.has(id)) errors.push(`${sat}: unknown safety rule ${id}`);
+      }
+      for (const id of stage.opensAfter ?? []) {
+        if (!earlier.has(id)) errors.push(`${sat}: opens after ${id}, which is not an earlier stage`);
+      }
+      errors.push(...validateStageLessons(stage.lessons ?? [], stage, sat, claimIds, seenLessons));
+      earlier.add(stage.id);
+    }
+  }
+  return errors;
+}
+
+const LESSON_KINDS = new Set(["learn", "practise", "everyday", "check"]);
+
+/**
+ * A stage's lessons, in order: short teaching ("learn"), a guided exercise
+ * ("practise", one of the stage's exercises), a real-life try ("everyday"),
+ * and a multiple-choice question ("check").
+ */
+function validateStageLessons(lessons, stage, at, claimIds, seen) {
+  const errors = [];
+  for (const lesson of lessons) {
+    const lat = `${at}/${lesson.id}`;
+    if (!lesson.id) errors.push(`${at}: a lesson has no id`);
+    if (seen.has(lesson.id)) errors.push(`${lat}: lesson id used twice`);
+    seen.add(lesson.id);
+    if (!LESSON_KINDS.has(lesson.kind)) errors.push(`${lat}: unknown kind ${lesson.kind}`);
+    if (!lesson.title?.trim()) errors.push(`${lat}: title is empty`);
+    for (const id of lesson.claimIds ?? []) {
+      if (!claimIds.has(id)) errors.push(`${lat}: unknown claim ${id}`);
+    }
+    if (lesson.kind === "learn" || lesson.kind === "everyday") {
+      if (!lesson.body?.trim()) errors.push(`${lat}: body is empty`);
+    }
+    if (lesson.kind === "learn" && !(lesson.claimIds ?? []).length) {
+      errors.push(`${lat}: a learn lesson needs the claims it rests on`);
+    }
+    if (lesson.kind === "practise") {
+      if (!(stage.exerciseIds ?? []).includes(lesson.exerciseId)) {
+        errors.push(`${lat}: exercise ${lesson.exerciseId} is not one of the stage's`);
+      }
+      if (!lesson.aim?.trim()) errors.push(`${lat}: aim is empty`);
+    }
+    if (lesson.kind === "check") {
+      const n = lesson.options?.length ?? 0;
+      if (n < 2 || n > 4) errors.push(`${lat}: a check needs 2 to 4 options`);
+      if (!Number.isInteger(lesson.correctIndex) || lesson.correctIndex < 0 || lesson.correctIndex >= n) {
+        errors.push(`${lat}: correctIndex is not one of the options`);
+      }
+      if (!lesson.question?.trim()) errors.push(`${lat}: question is empty`);
+      if (!lesson.explanation?.trim()) errors.push(`${lat}: explanation is empty`);
+      if (!(lesson.claimIds ?? []).length) errors.push(`${lat}: a check needs the claims it rests on`);
+    }
+  }
+  if (lessons.length) {
+    for (const kind of ["learn", "practise", "check"]) {
+      if (!lessons.some((l) => l.kind === kind)) errors.push(`${at}: lessons have no ${kind}`);
+    }
+  }
+  return errors;
+}
+
+/** Goal pathways for the Good Dog app, in the format its `pathways.json` reads. */
+export function buildGoodDogPathwaysExport() {
+  const source = loadGoalPathways();
+  const schemaMeta = loadSchemaMeta();
+  return {
+    schemaVersion: schemaMeta.exportSchemaVersion ?? "1.0.0",
+    generatedAt: new Date().toISOString(),
+    reviewStatus: source.reviewStatus,
+    pathways: source.pathways
   };
 }
