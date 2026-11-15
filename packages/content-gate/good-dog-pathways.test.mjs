@@ -3,7 +3,11 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildGoodDogPathwaysExport, validateGoalPathways } from "./good-dog-export.mjs";
+import {
+  buildGoodDogPathwaysExport,
+  validateAppEnforcement,
+  validateGoalPathways
+} from "./good-dog-export.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const exerciseIds = new Set(
@@ -62,5 +66,21 @@ const problems = validateGoalPathways(broken, { exerciseIds });
 for (const text of ["ex-nope", "metric-nope", "recall-later", "safe-999", "not one of the stage's", "correctIndex", "claim-nope"]) {
   assert.ok(problems.some((p) => p.includes(text)), `${text}: ${problems.join("; ")}`);
 }
+
+// Every safety rule a stage names is exported with how the app applies it.
+const ruleIds = new Set(pathways.flatMap((p) => p.stages.flatMap((s) => s.safetyRuleIds ?? [])));
+assert.deepEqual(new Set(exported.safetyRules.map((r) => r.id)), ruleIds);
+const kindOf = Object.fromEntries(exported.safetyRules.map((r) => [r.id, r.appEnforcement.kind]));
+assert.equal(kindOf["safe-002-recall-management"], "confirm");
+assert.equal(kindOf["safe-004-scope-referral"], "referOnConcern");
+
+// The enforcement checks catch a rule the app couldn't apply.
+const recallNear = recall.stages[1];
+const noShape = { id: "safe-x", title: "x" };
+assert.match(validateAppEnforcement(noShape, recallNear, "x").join(), /no appEnforcement/);
+const emptyConfirm = { id: "safe-x", appEnforcement: { kind: "confirm", why: "w" } };
+assert.match(validateAppEnforcement(emptyConfirm, recallNear, "x").join(), /ownerConfirms is empty/);
+const untaught = { id: "safe-x", rationaleClaimIds: ["claim-nope"], appEnforcement: { kind: "teach" } };
+assert.match(validateAppEnforcement(untaught, recallNear, "x").join(), /no lesson of the stage teaches/);
 
 console.log("good-dog-pathways tests passed");

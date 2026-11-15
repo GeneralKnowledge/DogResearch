@@ -1135,7 +1135,12 @@ export function validateGoalPathways(pathways, { exerciseIds }) {
         if (!metricIds.has(id)) errors.push(`${sat}: unknown metric ${id}`);
       }
       for (const id of stage.safetyRuleIds ?? []) {
-        if (!safetyIds.has(id)) errors.push(`${sat}: unknown safety rule ${id}`);
+        const rule = registry.safetyRules.find((r) => r.id === id);
+        if (!rule) {
+          errors.push(`${sat}: unknown safety rule ${id}`);
+          continue;
+        }
+        errors.push(...validateAppEnforcement(rule, stage, `${sat}/${id}`));
       }
       for (const id of stage.opensAfter ?? []) {
         if (!earlier.has(id)) errors.push(`${sat}: opens after ${id}, which is not an earlier stage`);
@@ -1143,6 +1148,42 @@ export function validateGoalPathways(pathways, { exerciseIds }) {
       errors.push(...validateStageLessons(stage.lessons ?? [], stage, sat, claimIds, seenLessons));
       earlier.add(stage.id);
     }
+  }
+  return errors;
+}
+
+const ENFORCEMENT_KINDS = new Set(["confirm", "referOnConcern", "teach"]);
+
+/**
+ * How the app enforces a safety rule a goal stage names (`appEnforcement`):
+ * - `confirm`: the stage can't move on until the owner confirms
+ *   `ownerConfirms` (with `why`).
+ * - `referOnConcern`: a welfare concern on the stage's exercises holds it,
+ *   showing `heldNote` and who can help (`referral`), until the owner says
+ *   `clearedBy`.
+ * - `teach`: a lesson of the stage cites one of the rule's `rationaleClaimIds`.
+ */
+export function validateAppEnforcement(rule, stage, at) {
+  const errors = [];
+  const app = rule.appEnforcement;
+  if (!app) return [`${at}: the rule has no appEnforcement, so the app can't apply it`];
+  if (!ENFORCEMENT_KINDS.has(app.kind)) return [`${at}: unknown appEnforcement kind ${app.kind}`];
+  const need = (field) => {
+    if (!app[field]?.trim()) errors.push(`${at}: appEnforcement.${field} is empty`);
+  };
+  if (app.kind === "confirm") {
+    need("ownerConfirms");
+    need("why");
+  }
+  if (app.kind === "referOnConcern") {
+    need("heldNote");
+    need("clearedBy");
+    need("referral");
+  }
+  if (app.kind === "teach") {
+    const claims = new Set(rule.rationaleClaimIds ?? []);
+    const taught = (stage.lessons ?? []).some((l) => (l.claimIds ?? []).some((c) => claims.has(c)));
+    if (!taught) errors.push(`${at}: no lesson of the stage teaches this rule (cites its claims)`);
   }
   return errors;
 }
@@ -1197,6 +1238,21 @@ function validateStageLessons(lessons, stage, at, claimIds, seen) {
   return errors;
 }
 
+/** The safety rules goal stages name, with how the app applies them. */
+function pathwaySafetyRules(pathways) {
+  const registry = loadMergedRegistry();
+  const ids = new Set(pathways.flatMap((p) => p.stages.flatMap((s) => s.safetyRuleIds ?? [])));
+  return registry.safetyRules
+    .filter((r) => ids.has(r.id))
+    .map((r) => ({
+      id: r.id,
+      title: r.title,
+      severity: r.severity,
+      referralText: r.referralText ?? null,
+      appEnforcement: r.appEnforcement
+    }));
+}
+
 /** Goal pathways for the Good Dog app, in the format its `pathways.json` reads. */
 export function buildGoodDogPathwaysExport() {
   const source = loadGoalPathways();
@@ -1205,6 +1261,7 @@ export function buildGoodDogPathwaysExport() {
     schemaVersion: schemaMeta.exportSchemaVersion ?? "1.0.0",
     generatedAt: new Date().toISOString(),
     reviewStatus: source.reviewStatus,
-    pathways: source.pathways
+    pathways: source.pathways,
+    safetyRules: pathwaySafetyRules(source.pathways)
   };
 }
