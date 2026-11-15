@@ -4,7 +4,12 @@
       "id": "safe-001-no-aversive-routine",
       "title": "Do not recommend pain, fear or coercion as routine training",
       "rule": "Good Dog must not present pain, intimidation, choke chains, shouting, hitting, or aversive equipment as standard training solutions.",
-      "rationaleClaimIds": ["claim-imdt-001-force-free", "claim-imdt-002-no-pp-nr", "claim-rspca-004-avoid-aversive-classes", "claim-abtc-003-no-aversives"],
+      "rationaleClaimIds": [
+        "claim-imdt-001-force-free",
+        "claim-imdt-002-no-pp-nr",
+        "claim-rspca-004-avoid-aversive-classes",
+        "claim-abtc-003-no-aversives"
+      ],
       "action": "filter_out_or_flag_sources",
       "severity": "critical",
       "referralText": "Direct owner to reward-based professional (ABTC/IMDT-aligned) if current trainer uses aversives.",
@@ -14,31 +19,52 @@
       "id": "safe-002-recall-management",
       "title": "Manage recall failure with lines and secure areas",
       "rule": "Until recall is reliable, keep the dog on a long line or lead; off-lead only in secure areas or when confidence in recall is established.",
-      "rationaleClaimIds": ["claim-dt-recall-004-offlead-criteria", "claim-dt-escape-001-unreliable-recall-management"],
+      "rationaleClaimIds": [
+        "claim-dt-recall-004-offlead-criteria",
+        "claim-dt-escape-001-unreliable-recall-management"
+      ],
       "action": "block_off_lead_progression_in_app",
       "severity": "critical",
       "referralText": "If recall does not improve, refer to qualified trainer or behaviourist.",
-      "lastReviewed": "2026-10-10"
+      "lastReviewed": "2026-10-10",
+      "appEnforcement": {
+        "kind": "confirm",
+        "ownerConfirms": "Outside, {dog} stays on a lead or long line, and is only off the lead somewhere secure.",
+        "why": "Until coming back is reliable, a lead or long line keeps {dog} safe while you practise. Moving on never means off-lead in public."
+      }
     },
     {
       "id": "safe-003-no-punish-return",
       "title": "Never punish a dog for coming back late",
       "rule": "After recall, even if slow, use positive reinforcement; avoid anger, shouting, or ending fun as punishment for late return.",
-      "rationaleClaimIds": ["claim-dt-recall-003-no-punish-late-return"],
+      "rationaleClaimIds": [
+        "claim-dt-recall-003-no-punish-late-return"
+      ],
       "action": "embed_in_recall_lessons",
       "severity": "high",
       "referralText": null,
-      "lastReviewed": "2026-10-10"
+      "lastReviewed": "2026-10-10",
+      "appEnforcement": {
+        "kind": "teach"
+      }
     },
     {
       "id": "safe-004-scope-referral",
       "title": "Refer beyond training education scope",
       "rule": "Aggression, severe fear, sudden unexplained behaviour change, or suspected pain/illness require veterinary and/or clinical behaviour referral—not generic app protocols alone.",
-      "rationaleClaimIds": ["claim-imdt-003-referral"],
+      "rationaleClaimIds": [
+        "claim-imdt-003-referral"
+      ],
       "action": "show_referral_cta",
       "severity": "critical",
       "referralText": "Contact veterinarian for medical causes; seek ABTC-registered Clinical Animal Behaviourist or Veterinary Behaviourist for clinical behaviour treatment.",
-      "lastReviewed": "2026-10-10"
+      "lastReviewed": "2026-10-10",
+      "appEnforcement": {
+        "kind": "referOnConcern",
+        "heldNote": "You noted a worry about {dog} in a recent session. Aggression, strong fear, a sudden change in behaviour or possible pain need your vet or a qualified behaviourist, not just more training.",
+        "clearedBy": "We've talked to our vet or a qualified behaviourist",
+        "referral": "Start with your vet, to rule out pain or illness. For behaviour, look for an ABTC-registered Clinical Animal Behaviourist or a veterinary behaviourist."
+      }
     },
     {
       "id": "safe-005-growl-not-punish",
@@ -55,7 +81,13 @@
       "severity": "critical",
       "referralText": "Qualified behaviourist; veterinary pain assessment.",
       "notes": "Overlaps safe-007; kept for ethics-spec traceability.",
-      "lastReviewed": "2026-10-10"
+      "lastReviewed": "2026-10-10",
+      "appEnforcement": {
+        "kind": "referOnConcern",
+        "heldNote": "If {dog} growled or gave other warnings, don't tell them off: warnings keep everyone safe. Give {dog} space, and get advice before carrying on.",
+        "clearedBy": "We've talked to our vet or a qualified behaviourist",
+        "referral": "Ask your vet to check for pain first, then find an ABTC-registered Clinical Animal Behaviourist to help with what's worrying {dog}."
+      }
     }
   ]
 }
