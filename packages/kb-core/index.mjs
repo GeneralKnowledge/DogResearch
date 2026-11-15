@@ -63,6 +63,11 @@ export function loadCrashCourse() {
   return JSON.parse(readFileSync(join(repoRoot, "kb/meta/crash-course.json"), "utf8"));
 }
 
+/** Goal pathways for the Good Dog app (kb/meta/goal-pathways.json). */
+export function loadGoalPathways() {
+  return JSON.parse(readFileSync(join(repoRoot, "kb/meta/goal-pathways.json"), "utf8"));
+}
+
 /** @returns {Record<string, unknown>} */
 export function loadUkLiteCourse() {
   return JSON.parse(readFileSync(join(repoRoot, "kb/meta/uk-lite-course.json"), "utf8"));

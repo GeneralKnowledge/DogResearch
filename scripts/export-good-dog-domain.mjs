@@ -7,6 +7,7 @@ import {
   buildGoodDogCrashCourseExport,
   buildGoodDogDomainExport,
   buildGoodDogGuidesExport,
+  buildGoodDogPathwaysExport,
   buildGoodDogReferralsExport,
   buildGoodDogSafetyExport,
   validateVariationGraph
@@ -52,6 +53,9 @@ writeFileSync(
   JSON.stringify(crashCourse, null, 2)
 );
 
+const pathways = buildGoodDogPathwaysExport();
+writeFileSync(join(distDir, "good-dog-pathways.json"), JSON.stringify(pathways, null, 2));
+
 console.log(
-  `Exported ${domain.exercises.length} exercises, ${domain.held.length} held, ${domain.draftExercises.length} drafts, ${guides.guides.length} guides, ${Object.keys(referrals.referrals).length} referrals, ${crashCourse.stages.length}-stage crash course to dist/`
+  `Exported ${domain.exercises.length} exercises, ${domain.held.length} held, ${domain.draftExercises.length} drafts, ${guides.guides.length} guides, ${Object.keys(referrals.referrals).length} referrals, ${crashCourse.stages.length}-stage crash course, ${pathways.pathways.length} goal pathways to dist/`
 );

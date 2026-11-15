@@ -65,3 +65,9 @@
 - Battersea drop-it page is corroboration only (`paraphrase_ok_pending_legal`, review-019).
 - The RSPCA prong-collar page contains dated legal wording that was not used as a claim (review-021).
 - New review items 018 to 023.
+
+## Goal pathways (draft)
+
+- Four goal pathways for the native Good Dog app (`kb/meta/goal-pathways.json`): recall, loose lead, settling, greeting visitors. No new claims or sources; they reuse existing lessons, metrics and safety rules.
+- Missing metrics: settling on a mat, settling while home life goes on, four paws on the floor for a greeting, waiting at the door, checking in on walks, and comfort on the lead. Those gates are prose only until metrics are written.
+- The loose-lead stage depends on the `ex-lead-loose` method review (`hold_until_method_review`).

@@ -5,9 +5,10 @@
 import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { getLessonBundle, loadCrashCourse, loadUkLiteCourse } from "@gooddog/kb-core";
+import { getLessonBundle, loadCrashCourse, loadGoalPathways, loadUkLiteCourse } from "@gooddog/kb-core";
 import {
   buildGoodDogGuidesExport,
+  validateGoalPathways,
   isSourceGoodDogDisplayEligible
 } from "@gooddog/content-gate/good-dog-export.mjs";
 import { loadMergedRegistry, loadAssessmentMetrics } from "./load-registry.mjs";
@@ -377,6 +378,20 @@ for (const sid of ukLite.alignment?.sourceIds ?? []) {
 }
 for (const cid of ukLite.alignment?.claimIds ?? []) {
   if (!claimIds.has(cid)) errors.push(`UK Lite alignment unknown claim ${cid}`);
+}
+
+const goodDogExerciseIds = new Set(
+  JSON.parse(
+    readFileSync(
+      join(repoRoot, "packages/content-gate/tests/fixtures/good-dog-exercise-ids.json"),
+      "utf8"
+    )
+  ).exerciseIds
+);
+for (const e of validateGoalPathways(loadGoalPathways().pathways, {
+  exerciseIds: goodDogExerciseIds
+})) {
+  errors.push(e);
 }
 
 console.log("Good Dog KB QA report");
